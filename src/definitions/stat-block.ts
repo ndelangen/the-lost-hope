@@ -586,6 +586,26 @@ const PrintedNumbers = z
   )
 
 /**
+ * A number that grows with the level a creature is summoned or kept at, and with its owner:
+ * `base` + `level` × (the level − `above`) + the owner's `owner` modifier + `pb` × their
+ * proficiency bonus. Fractions round down, as "half this spell's level" does.
+ */
+const ScaledNumber = z.strictObject({
+  base: z.number().int().default(0),
+  level: z.number().positive().optional().describe('Times the level, e.g. `10` per spell level'),
+  above: z.number().int().nonnegative().optional().describe('Count only the levels above this'),
+  owner: AbilityId.optional().describe("Adds the owner's modifier, e.g. an artificer's `int`"),
+  pb: z.number().int().positive().optional().describe("Times the owner's proficiency bonus"),
+  steps: z
+    .array(z.strictObject({ from: z.number().int().min(1).max(20), add: z.number().int() }))
+    .min(1)
+    .optional()
+    .describe('Added once the level reaches `from`, e.g. +2 AC from artificer level 15'),
+})
+
+export type ScaledNumber = z.infer<typeof ScaledNumber>
+
+/**
  * An optional rule the book prints for a creature, such as a demon's Summon Demon action or a
  * slaad's control gem: abilities that join the stat block when the DM picks it.
  */
@@ -607,28 +627,29 @@ const CreatureOption = z.strictObject({
     .describe(
       'Keys of printed abilities this option swaps out, e.g. spellcasting with more spells',
     ),
+  size: z.enum(SIZE_KEYS).optional().describe('The size this form takes, e.g. a Huge object'),
+  type: z.enum(CREATURE_TYPE_KEYS).optional().describe('The creature type this form takes'),
+  damageResistances: z.array(RuleRef).optional().describe('Damage types this form also resists'),
+  damageImmunities: z
+    .array(RuleRef)
+    .optional()
+    .describe('Damage types this form is also immune to'),
+  damageVulnerabilities: z
+    .array(RuleRef)
+    .optional()
+    .describe('Damage types this form is also vulnerable to'),
+  conditionImmunities: z
+    .array(RuleRef)
+    .optional()
+    .describe('Conditions this form is also immune to'),
+  ac: ScaledNumber.optional().describe(
+    'Its armor class in this form, worked out like `scaling.ac`',
+  ),
+  hitPoints: ScaledNumber.optional().describe(
+    'Its hit points in this form, like `scaling.hitPoints`',
+  ),
   abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
 })
-
-/**
- * A number that grows with the level a creature is summoned or kept at, and with its owner:
- * `base` + `level` × (the level − `above`) + the owner's `owner` modifier + `pb` × their
- * proficiency bonus. Fractions round down, as "half this spell's level" does.
- */
-const ScaledNumber = z.strictObject({
-  base: z.number().int().default(0),
-  level: z.number().positive().optional().describe('Times the level, e.g. `10` per spell level'),
-  above: z.number().int().nonnegative().optional().describe('Count only the levels above this'),
-  owner: AbilityId.optional().describe("Adds the owner's modifier, e.g. an artificer's `int`"),
-  pb: z.number().int().positive().optional().describe("Times the owner's proficiency bonus"),
-  steps: z
-    .array(z.strictObject({ from: z.number().int().min(1).max(20), add: z.number().int() }))
-    .min(1)
-    .optional()
-    .describe('Added once the level reaches `from`, e.g. +2 AC from artificer level 15'),
-})
-
-export type ScaledNumber = z.infer<typeof ScaledNumber>
 
 /**
  * A creature a spell summons or a class feature gives a character, whose numbers follow the
@@ -644,7 +665,7 @@ const Scaling = z
     ac: ScaledNumber.optional(),
     hitPoints: ScaledNumber,
     hitDie: z
-      .enum(['d6', 'd8', 'd10', 'd12'])
+      .enum(['d4', 'd6', 'd8', 'd10', 'd12'])
       .optional()
       .describe('One hit die of this size per level, as a companion has'),
     attackBonus: z

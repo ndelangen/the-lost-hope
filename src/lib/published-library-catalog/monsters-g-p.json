@@ -33495,170 +33495,32 @@
       {
         "id": "printing-fc40c56edad1377fcb3f1b42",
         "label": "Eberron: Forge of the Artificer",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Construct",
-              "Size · Tiny",
-              "Alignment · neutral",
-              "Armor class · 13",
-              "Hit points · 5 + 5 per spell level (the homunculus has a number of Hit Dice [d4s] equal to the spell's level)",
-              "Speed · walk 20 ft., fly 30 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 4",
-              "Dexterity · 15",
-              "Constitution · 12",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 7",
-              "Passive Perception · 10"
-            ]
+        "source": "https://5e.tools/bestiary.html#homunculus%20servant_efa",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "homunculus_servant"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny construct. Named abilities include Evasion, Magic Bond, Force Strike."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Homunculus Servant · Homunculus Servant · minimum spell level 2 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["telepathy 1 mile (works only with you)"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["exhaustion, poisoned"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Homunculus Servant"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Evasion · Incapacitated", "Magic Bond"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Force Strike · Melee or ranged attack · 1d6 + summonSpellLevel force damage · reach 5 ft. · range 30 ft."
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Channel Magic · within 120 feet"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Eberron: Forge of the Artificer, p. 21 · https://5e.tools/bestiary.html#homunculus%20servant_efa",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_xphb",
-              "Homunculus Servant (spell) · https://5e.tools/spells.html#homunculus%20servant_efa"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "eberron_forge_of_the_artificer"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#homunculus%20servant_efa"
+        }
       },
       {
         "id": "printing-d1fb97715f43bdb6f3d49808",
         "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Construct",
-              "Size · Tiny",
-              "Armor class · 13 · natural armor",
-              "Hit points · 1 + your Intelligence modifier + your artificer level (the homunculus has a number of Hit Dice [d4s] equal to your artificer level)",
-              "Speed · walk 20 ft., fly 30 ft.",
-              "Proficiency bonus · equals your bonus",
-              "Strength · 4",
-              "Dexterity · 15",
-              "Constitution · 12",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 7",
-              "Passive Perception · 10 + (PB × 2)"
-            ]
+        "source": "https://5e.tools/bestiary.html#homunculus%20servant_tce",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "homunculus_servant"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny construct. Named abilities include Evasion, Force Strike, Channel Magic."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Homunculus Servant · Artificer · --spell-attack, --proficiency, --intelligence, --level"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dexterity +2 plus PB"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +0 plus PB × 2, Stealth +2 plus PB"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["exhaustion, poisoned"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Artificer"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Evasion · Incapacitated"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Force Strike · Ranged attack · 1d4 + PB force damage · range 30 ft."]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Channel Magic · within 120 feet"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Tasha's Cauldron of Everything, p. 22 · https://5e.tools/bestiary.html#homunculus%20servant_tce",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "tasha_s_cauldron_of_everything"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#homunculus%20servant_tce"
+        }
       }
     ],
     "groups": ["Construct"]
@@ -93234,310 +93096,62 @@
       {
         "id": "printing-4216c82044c8d31c071ddb9d",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Celestial / Fey / Fiend",
-              "Size · Large",
-              "Alignment · neutral",
-              "Armor class · 10 + 1 per spell level",
-              "Hit points · 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)",
-              "Speed · walk 60 ft., fly 60 (requires level 4+ spell)",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 18",
-              "Dexterity · 12",
-              "Constitution · 14",
-              "Intelligence · 6",
-              "Wisdom · 12",
-              "Charisma · 8",
-              "Passive Perception · 11"
-            ]
+        "source": "https://5e.tools/bestiary.html#otherworldly%20steed_xphb",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "otherworldly_steed"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large celestial, fey, fiend. Named abilities include Life Bond, Otherworldly Slam, Fell Glare (Fiend Only; Recharges after a Long Rest)."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Otherworldly Steed (Celestial) · Find Steed · minimum spell level 2 · --spell-level, --spell-attack, --proficiency",
-              "Otherworldly Steed (Fey) · Find Steed · minimum spell level 2 · --spell-level, --spell-attack, --proficiency",
-              "Otherworldly Steed (Fiend) · Find Steed · minimum spell level 2 · --spell-level, --spell-attack, --spell-save-dc, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["telepathy 1 mile (works only with you)"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Find Steed"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Life Bond · within 5 feet · Hit Points"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Otherworldly Slam · Melee attack · 1d8 + summonSpellLevel · reach 5 ft."]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": [
-              "Fell Glare (Fiend Only; Recharges after a Long Rest) · Wisdom save · within 60 feet · Frightened",
-              "Fey Step (Fey Only; Recharges after a Long Rest) · up to 60 feet",
-              "Healing Touch (Celestial Only; Recharges after a Long Rest) · 2d8 + summonSpellLevel · within 5 feet · Hit Points"
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Player's Handbook (2024), p. 273 · https://5e.tools/bestiary.html#otherworldly%20steed_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_xphb",
-              "Find Steed (spell) · https://5e.tools/spells.html#find%20steed_xphb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#otherworldly%20steed_xphb"
+        }
       },
       {
         "id": "printing-d8656092ed127b03976f5d16",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Celestial",
-              "Size · Large",
-              "Alignment · neutral",
-              "Armor class · 10 + 1 per spell level",
-              "Hit points · 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)",
-              "Speed · walk 60 ft., fly 60 (requires level 4+ spell)",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 18",
-              "Dexterity · 12",
-              "Constitution · 14",
-              "Intelligence · 6",
-              "Wisdom · 12",
-              "Charisma · 8",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large celestial. Named abilities include Life Bond, Otherworldly Slam, Healing Touch (Recharges after a Long Rest)."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Otherworldly Steed (Celestial) · Find Steed · minimum spell level 2 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["telepathy 1 mile (works only with you)"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Find Steed"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Life Bond · within 5 feet · Hit Points"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Otherworldly Slam · Melee attack · 1d8 + summonSpellLevel radiant damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": [
-              "Healing Touch (Recharges after a Long Rest) · 2d8 + summonSpellLevel · within 5 feet · Hit Points"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Otherworldly Steed"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Player's Handbook (2024), p. 273 · https://5e.tools/bestiary.html#otherworldly%20steed%20(celestial)_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Otherworldly Steed (creature) · https://5e.tools/bestiary.html#otherworldly%20steed_xphb",
-              "Find Steed (spell) · https://5e.tools/spells.html#find%20steed_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
         "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(celestial)_xphb",
-        "variantName": "Celestial"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "otherworldly_steed"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
+          }
+        }
       },
       {
         "id": "printing-b26485a962771432e4428935",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Fey",
-              "Size · Large",
-              "Alignment · neutral",
-              "Armor class · 10 + 1 per spell level",
-              "Hit points · 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)",
-              "Speed · walk 60 ft., fly 60 (requires level 4+ spell)",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 18",
-              "Dexterity · 12",
-              "Constitution · 14",
-              "Intelligence · 6",
-              "Wisdom · 12",
-              "Charisma · 8",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large fey. Named abilities include Life Bond, Otherworldly Slam, Fey Step (Recharges after a Long Rest)."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Otherworldly Steed (Fey) · Find Steed · minimum spell level 2 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["telepathy 1 mile (works only with you)"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Find Steed"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Life Bond · within 5 feet · Hit Points"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Otherworldly Slam · Melee attack · 1d8 + summonSpellLevel psychic damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Fey Step (Recharges after a Long Rest) · up to 60 feet"]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Otherworldly Steed"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Player's Handbook (2024), p. 273 · https://5e.tools/bestiary.html#otherworldly%20steed%20(fey)_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Otherworldly Steed (creature) · https://5e.tools/bestiary.html#otherworldly%20steed_xphb",
-              "Find Steed (spell) · https://5e.tools/spells.html#find%20steed_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
         "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(fey)_xphb",
-        "variantName": "Fey"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "otherworldly_steed"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
+          }
+        }
       },
       {
         "id": "printing-b275bba9e77286c6f8505b75",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Fiend",
-              "Size · Large",
-              "Alignment · neutral",
-              "Armor class · 10 + 1 per spell level",
-              "Hit points · 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)",
-              "Speed · walk 60 ft., fly 60 (requires level 4+ spell)",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 18",
-              "Dexterity · 12",
-              "Constitution · 14",
-              "Intelligence · 6",
-              "Wisdom · 12",
-              "Charisma · 8",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large fiend. Named abilities include Life Bond, Otherworldly Slam, Fell Glare (Recharges after a Long Rest)."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Otherworldly Steed (Fiend) · Find Steed · minimum spell level 2 · --spell-level, --spell-attack, --spell-save-dc, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["telepathy 1 mile (works only with you)"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Find Steed"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Life Bond · within 5 feet · Hit Points"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Otherworldly Slam · Melee attack · 1d8 + summonSpellLevel necrotic damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": [
-              "Fell Glare (Recharges after a Long Rest) · Wisdom save · within 60 feet · Frightened"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Otherworldly Steed"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Player's Handbook (2024), p. 273 · https://5e.tools/bestiary.html#otherworldly%20steed%20(fiend)_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_xphb",
-              "Otherworldly Steed (creature) · https://5e.tools/bestiary.html#otherworldly%20steed_xphb",
-              "Find Steed (spell) · https://5e.tools/spells.html#find%20steed_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
         "source": "https://5e.tools/bestiary.html#otherworldly%20steed%20(fiend)_xphb",
-        "variantName": "Fiend"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "otherworldly_steed"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
+          }
+        }
       }
     ]
   },
@@ -99070,330 +98684,17 @@
       {
         "id": "printing-ee055e74c6de590d41e4f9df",
         "label": "Arcana Unleashed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Plant",
-              "Size · Large",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level + 2 (Tree only)",
-              "Hit points · 50 + 10 for each spell level above 5",
-              "Speed · walk 40 ft., climb 40 (Vine only)",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 14",
-              "Intelligence · 10",
-              "Wisdom · 13",
-              "Charisma · 10",
-              "Passive Perception · 11"
-            ]
+        "source": "https://5e.tools/bestiary.html#plant%20spirit_au",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "plant_spirit"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large plant. Named abilities include Siege Monster (Tree Only), Slam (Tree or Vine Only), Spore Spray (Fungus Only)."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Plant Spirit (Fungus) · Summon Plant · minimum spell level 5 · --spell-level, --spell-attack, --proficiency",
-              "Plant Spirit (Tree) · Summon Plant · minimum spell level 5 · --spell-level, --spell-attack, --proficiency",
-              "Plant Spirit (Vine) · Summon Plant · minimum spell level 5 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["fire (Tree only), slashing (Fungus or Vine only)"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Plant"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Siege Monster (Tree Only)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Slam (Tree or Vine Only) · Melee attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · reach 5 ft.",
-              "Spore Spray (Fungus Only) · Melee or ranged attack · 1d4 + summonSpellLevel poison damage · 3d4 poison damage · reach 5 ft. · range 30 ft. · end of its next turn · Poisoned"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Twist Away (Vine Only) · Dash · Disengage"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Arcana Unleashed, p. 44 · https://5e.tools/bestiary.html#plant%20spirit_au",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_xphb",
-              "Dash (action) · https://5e.tools/actions.html#dash_xphb",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_xphb",
-              "Summon Plant (spell) · https://5e.tools/spells.html#summon%20plant_au"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "arcana_unleashed"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#plant%20spirit_au"
-      }
-    ],
-    "groups": ["Plant"]
-  },
-  {
-    "type": "monsters",
-    "slug": "plant-spirit-fungus",
-    "name": "Plant Spirit (Fungus)",
-    "summary": "",
-    "group": "Plant",
-    "printings": [
-      {
-        "id": "printing-251293a92a7c95d313ee27ea",
-        "label": "Arcana Unleashed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Plant",
-              "Size · Large",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 50 + 10 for each spell level above 5",
-              "Speed · walk 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 14",
-              "Intelligence · 10",
-              "Wisdom · 13",
-              "Charisma · 10",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Large plant. Named abilities include Spore Spray."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Plant Spirit (Fungus) · Summon Plant · minimum spell level 5 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["slashing"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Plant"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Spore Spray · Melee or ranged attack · 1d4 + summonSpellLevel poison damage · 3d4 poison damage · reach 5 ft. · range 30 ft. · end of its next turn · Poisoned"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Plant Spirit"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Arcana Unleashed, p. 44 · https://5e.tools/bestiary.html#plant%20spirit%20(fungus)_au",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_xphb",
-              "Plant Spirit (creature) · https://5e.tools/bestiary.html#plant%20spirit_au",
-              "Summon Plant (spell) · https://5e.tools/spells.html#summon%20plant_au"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#plant%20spirit%20(fungus)_au"
-      }
-    ],
-    "groups": ["Plant"]
-  },
-  {
-    "type": "monsters",
-    "slug": "plant-spirit-tree",
-    "name": "Plant Spirit (Tree)",
-    "summary": "",
-    "group": "Plant",
-    "printings": [
-      {
-        "id": "printing-5eda42311723f61878d093dd",
-        "label": "Arcana Unleashed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Plant",
-              "Size · Large",
-              "Alignment · neutral",
-              "Armor class · 13 + the spell's level",
-              "Hit points · 50 + 10 for each spell level above 5",
-              "Speed · walk 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 14",
-              "Intelligence · 10",
-              "Wisdom · 13",
-              "Charisma · 10",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Large plant. Named abilities include Siege Monster, Slam."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Plant Spirit (Tree) · Summon Plant · minimum spell level 5 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["fire"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Plant"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Siege Monster"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Slam · Melee attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Plant Spirit"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Arcana Unleashed, p. 44 · https://5e.tools/bestiary.html#plant%20spirit%20(tree)_au",
-              "Plant Spirit (creature) · https://5e.tools/bestiary.html#plant%20spirit_au",
-              "Summon Plant (spell) · https://5e.tools/spells.html#summon%20plant_au"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#plant%20spirit%20(tree)_au"
-      }
-    ],
-    "groups": ["Plant"]
-  },
-  {
-    "type": "monsters",
-    "slug": "plant-spirit-vine",
-    "name": "Plant Spirit (Vine)",
-    "summary": "",
-    "group": "Plant",
-    "printings": [
-      {
-        "id": "printing-eb194d8593b859bac0889d0c",
-        "label": "Arcana Unleashed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Plant",
-              "Size · Large",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 50 + 10 for each spell level above 5",
-              "Speed · walk 40 ft., climb 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 14",
-              "Intelligence · 10",
-              "Wisdom · 13",
-              "Charisma · 10",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Large plant. Named abilities include Slam, Twist Away."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Plant Spirit (Vine) · Summon Plant · minimum spell level 5 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["slashing"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Plant"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Slam · Melee attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": ["Twist Away · Dash · Disengage"]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Plant Spirit"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Arcana Unleashed, p. 44 · https://5e.tools/bestiary.html#plant%20spirit%20(vine)_au",
-              "Dash (action) · https://5e.tools/actions.html#dash_xphb",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_xphb",
-              "Plant Spirit (creature) · https://5e.tools/bestiary.html#plant%20spirit_au",
-              "Summon Plant (spell) · https://5e.tools/spells.html#summon%20plant_au"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#plant%20spirit%20(vine)_au"
+        }
       }
     ],
     "groups": ["Plant"]

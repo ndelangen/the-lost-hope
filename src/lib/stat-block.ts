@@ -239,8 +239,35 @@ export function withOptions<T extends PrintedStatBlock | StatBlock>(
 ): T {
   const chosen = (stats.options ?? []).filter(({ key }) => picked.includes(key))
   if (!chosen.length) return stats
+  // A form can set its own size, and the armor class and hit points it scales to.
+  const form = chosen.find((option) => option.form)
   return {
     ...stats,
+    ...(form?.size ? { size: form.size } : {}),
+    ...(form?.type ? { type: form.type } : {}),
+    // Defences a picked option adds to the printed ones.
+    ...Object.fromEntries(
+      (
+        [
+          'damageResistances',
+          'damageImmunities',
+          'damageVulnerabilities',
+          'conditionImmunities',
+        ] as const
+      ).flatMap((field) => {
+        const added = chosen.flatMap((option) => option[field] ?? [])
+        return added.length ? [[field, [...(stats[field] ?? []), ...added]]] : []
+      }),
+    ),
+    ...(stats.scaling && (form?.ac || form?.hitPoints)
+      ? {
+          scaling: {
+            ...stats.scaling,
+            ac: form.ac ?? stats.scaling.ac,
+            hitPoints: form.hitPoints ?? stats.scaling.hitPoints,
+          },
+        }
+      : {}),
     speed: Object.assign({}, stats.speed, ...chosen.map(({ speed }) => speed ?? {})),
     // An option can swap a printed ability for its own, e.g. spellcasting with more spells.
     abilities: [

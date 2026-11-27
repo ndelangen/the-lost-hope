@@ -88,18 +88,14 @@ test('playable species expose traits while NPC hooks stay in the DM view', () =>
   ).toContain('Hook')
 })
 
-test('staged printings retain exact editions and their own portraits', () => {
-  const index = getLibraryEntry('monsters', 'giant-insect-centipede', true)!
-  const srd = getLibraryEntry('monsters', 'giant-insect-centipede', true, 'srd-5-2-1')!
-  const otherId = index.printings.find(({ id }) => id !== 'srd-5-2-1')?.id
-  expect(otherId).toBeDefined()
-  const other = getLibraryEntry('monsters', 'giant-insect-centipede', true, otherId)!
-  expect(srd.selected.label).toBe('SRD 5.2.1')
-  expect(other.selected.label).toBe('Player’s Handbook')
-  expect(srd.art[0]?.file).not.toBe(other.art[0]?.file)
-  expect(getLibraryEntry('monsters', 'giant-insect-centipede', false, otherId)?.sections).toEqual(
-    [],
+test('a summon keeps its printings and its forms’ portraits on one card', () => {
+  const insect = getLibraryEntry('monsters', 'giant-insect', true)!
+  expect(insect.printings.map(({ label }) => label)).toEqual(['SRD 5.2.1', 'Player’s Handbook'])
+  // Its forms are options on the stat block now; their art stays with the creature.
+  expect(insect.art.map(({ file }) => file)).toEqual(
+    expect.arrayContaining([expect.stringContaining('giant-insect-centipede')]),
   )
+  expect(getLibraryEntry('monsters', 'giant-insect-centipede', true)).toBeUndefined()
 })
 
 test('preserves older beast mechanics as DM content under their own publication', () => {

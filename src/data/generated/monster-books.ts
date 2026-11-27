@@ -1028,6 +1028,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   animated_jade_serpent: {
     waterdeep_dungeon_of_the_mad_mage: [],
   },
+  animated_object: {
+    player_s_handbook_2024: [],
+  },
   animated_rug_of_smothering: {
     srd_5_2_1: ['monster_manual_2024'],
   },
@@ -1837,6 +1840,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2014: ['basic_rules_2018', 'srd_5_1'],
     srd_5_2_1: ['monster_manual_2024', 'monster_manual_2025'],
   },
+  battle_familiar: {
+    arcana_unleashed: [],
+  },
   battleforce_angel: {
     guildmasters_guide_to_ravnica: [],
   },
@@ -1862,6 +1868,18 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   beast_of_malar: {
     forgotten_realms_adventures_in_faer_n: [],
+  },
+  beast_of_the_land: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
+  },
+  beast_of_the_sea: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
+  },
+  beast_of_the_sky: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
   },
   bebilith: {
     minsc_and_boo_s_journal_of_villainy: [],
@@ -1972,6 +1990,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   bervis: {
     humblewood_tales: [],
+  },
+  bestial_spirit: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
   },
   beucephalus: {
     curse_of_strahd: [],
@@ -2847,6 +2869,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   celeste: {
     critical_role_call_of_the_netherdeep: [],
   },
+  celestial_spirit: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
+  },
   centaur: {
     monster_manual_2014: ['basic_rules_2018', 'srd_5_1'],
   },
@@ -3355,6 +3381,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   construct_modron: {
     plane_shift_kaladesh: [],
   },
+  construct_spirit: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
+  },
   constructed_commoner: {
     candlekeep_mysteries: [],
   },
@@ -3755,6 +3785,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   dancing_foliage: {
     tome_of_beasts_2: [],
   },
+  dancing_item: {
+    tasha_s_cauldron_of_everything: [],
+  },
   dancing_lady: {
     flee_mortals: [],
   },
@@ -3981,6 +4014,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   decaton_modron: {
     morte_s_planar_parade: [],
     planescape_adventures_in_the_multiverse: [],
+  },
+  deck_defender: {
+    the_book_of_many_things: [],
   },
   deep_crow: {
     acquisitions_incorporated: [],
@@ -4243,6 +4279,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   dinosaur_skeleton: {
     journeys_through_the_radiant_citadel: [],
   },
+  dinosaur_spirit: {
+    arcana_unleashed: [],
+  },
   dinosaur_therizinosaurus: {
     tome_of_beasts_3: [],
   },
@@ -4446,6 +4485,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   draconic_shard: {
     fizban_s_treasury_of_dragons: [],
   },
+  draconic_spirit: {
+    fizban_s_treasury_of_dragons: [],
+    player_s_handbook_2024: [],
+  },
   dracophage_subject: {
     dragonlance_shadow_of_the_dragon_queen: [],
   },
@@ -4541,6 +4584,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   drake_cactus: {
     tome_of_beasts_3: [],
+  },
+  drake_companion: {
+    fizban_s_treasury_of_dragons: [],
   },
   drake_large: {
     plane_shift_kaladesh: ['plane_shift_zendikar'],
@@ -5107,6 +5153,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   elemental_locus: {
     tome_of_beasts: [],
   },
+  elemental_spirit: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
+  },
   elephant: {
     monster_manual_2014: ['basic_rules_2018', 'srd_5_1'],
     monster_manual_2024: [],
@@ -5617,6 +5667,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   fewmaster_gholcag: {
     dragonlance_shadow_of_the_dragon_queen: [],
   },
+  fey_spirit: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
+  },
   feyr: {
     spelljammer_adventures_in_space: [],
   },
@@ -5649,6 +5703,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   fiendish_icon: {
     astarion_s_book_of_hungers: [],
+  },
+  fiendish_spirit: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
   },
   fierna: {
     chains_of_asmodeus: [],
@@ -6574,6 +6632,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   giant_ice_toad: {
     tales_from_the_yawning_portal: [],
+  },
+  giant_insect: {
+    player_s_handbook_2024: [],
+    srd_5_2_1: [],
   },
   giant_leech: {
     tome_of_beasts_2: [],
@@ -8190,6 +8252,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2014: [],
     monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: [],
+  },
+  homunculus_servant: {
+    eberron_forge_of_the_artificer: [],
+    tasha_s_cauldron_of_everything: [],
   },
   hongaek: {
     tome_of_beasts_2: [],
@@ -11840,6 +11906,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   otherworldly_corrupter: {
     the_book_of_many_things: [],
   },
+  otherworldly_steed: {
+    player_s_handbook_2024: [],
+  },
   othokent: {
     ghosts_of_saltmarsh: [],
   },
@@ -12221,6 +12290,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2014: [],
     srd_5_1: [],
     srd_5_2_1: ['monster_manual_2024'],
+  },
+  plant_spirit: {
+    arcana_unleashed: [],
   },
   plasmoid_boss: {
     spelljammer_adventures_in_space: [],
@@ -12757,8 +12829,14 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   reality_cyst: {
     monsters_of_drakkenheim: [],
   },
+  reanimated_companion: {
+    ravenloft_the_horrors_within: [],
+  },
   reaper_of_bhaal: {
     baldur_s_gate_descent_into_avernus: [],
+  },
+  reaper_spirit: {
+    the_book_of_many_things: [],
   },
   reautomata: {
     monsters_of_drakkenheim: [],
@@ -13782,6 +13860,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   shadow_skeleton: {
     creature_codex: [],
   },
+  shadow_spirit: {
+    tasha_s_cauldron_of_everything: [],
+  },
   shadow_variant: {
     the_wild_beyond_the_witchlight: [],
   },
@@ -14726,6 +14807,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     candlekeep_mysteries: [],
   },
   steel_defender: {
+    eberron_forge_of_the_artificer: [],
     tasha_s_cauldron_of_everything: [],
   },
   steel_leaf_kavu: {
@@ -16063,6 +16145,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   undead_soldier: {
     dragonlance_shadow_of_the_dragon_queen: [],
   },
+  undead_spirit: {
+    player_s_handbook_2024: [],
+    tasha_s_cauldron_of_everything: [],
+  },
   undead_tree: {
     baldur_s_gate_descent_into_avernus: [],
   },
@@ -16428,6 +16514,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   vesiculosa: {
     tome_of_beasts: [],
+  },
+  vestige_companion: {
+    arcana_unleashed: [],
   },
   veteran: {
     ddep2_mulmaster_undone_v2: [
@@ -16984,6 +17073,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   wilderness_crone: {
     tome_of_beasts_3: [],
+  },
+  wildfire_spirit: {
+    tasha_s_cauldron_of_everything: [],
   },
   wilfred_godefroy: {
     ravenloft_the_horrors_within: [],

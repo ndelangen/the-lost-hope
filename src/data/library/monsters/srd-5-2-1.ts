@@ -9374,6 +9374,172 @@ export default createPublicationMonsters({
         ],
       },
     },
+    giant_insect: {
+      name: 'Giant Insect',
+      alignment: 'unaligned',
+      languages: ['understands the languages you know'],
+      stats: {
+        scaling: {
+          by: 'spell',
+          of: 'Giant Insect',
+          min: 4,
+          max: 9,
+          ac: {
+            base: 11,
+            level: 1,
+          },
+          hitPoints: {
+            base: 30,
+            level: 10,
+            above: 4,
+          },
+          attackBonus: 'spell-attack',
+          damageBonus: {
+            base: 3,
+            level: 1,
+          },
+          saveDc: 'spell-save-dc',
+          attacks: {
+            level: 0.5,
+          },
+        },
+        options: [
+          {
+            key: 'centipede',
+            name: 'Centipede',
+            form: true,
+            abilities: [
+              {
+                key: 'venomous-spew',
+                name: 'Venomous Spew',
+                timing: 'bonus action',
+                icon: 'gi/GiPoisonGas',
+                save: {
+                  ability: 'con',
+                  dc: 'con',
+                  target: {
+                    creatures: 1,
+                    range: 10,
+                    which: 'the insect can see',
+                  },
+                  onFail: {
+                    conditions: [rules.poisoned],
+                    also: [
+                      "The target has the Poisoned condition until the start of the insect's next turn.",
+                    ],
+                  },
+                },
+                text: [],
+              },
+            ],
+          },
+          {
+            key: 'spider',
+            name: 'Spider',
+            form: true,
+            abilities: [
+              {
+                key: 'web-bolt',
+                name: 'Web Bolt',
+                timing: 'action',
+                icon: 'gi/GiSpiderWeb',
+                intent: 'damage',
+                attack: {
+                  kind: 'ranged',
+                  ability: 'dex',
+                  range: [60, 60],
+                  damage: [
+                    {
+                      dice: '1d10',
+                      type: rules.bludgeoning,
+                      addModifier: true,
+                    },
+                  ],
+                },
+                text: [
+                  "The target's ",
+                  rules.speed,
+                  " is reduced to 0 until the start of the insect's next turn.",
+                ],
+              },
+            ],
+          },
+          {
+            key: 'wasp',
+            name: 'Wasp',
+            form: true,
+            speed: {
+              fly: 40,
+            },
+            abilities: [],
+          },
+        ],
+        size: 'large',
+        type: 'beast',
+        cr: '0',
+        ac: 11,
+        hitDice: '1d10',
+        speed: {
+          walk: 40,
+          climb: 40,
+        },
+        scores: {
+          str: 17,
+          dex: 13,
+          con: 15,
+          int: 4,
+          wis: 14,
+          cha: 3,
+        },
+        senses: {
+          darkvision: 60,
+        },
+        abilities: [
+          {
+            key: 'spider-climb',
+            name: 'Spider Climb',
+            timing: 'trait',
+            icon: 'gi/GiSpiderAlt',
+            text: [
+              'The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiStrikingArrows',
+            text: [
+              "The insect makes a number of attacks equal to half this spell's level (round down).",
+            ],
+          },
+          {
+            key: 'poison-jab',
+            name: 'Poison Jab',
+            timing: 'action',
+            icon: 'gi/GiStinger',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              damage: [
+                {
+                  dice: '1d6',
+                  type: rules.piercing,
+                  addModifier: true,
+                },
+                {
+                  dice: '1d4',
+                  type: rules.poison,
+                },
+              ],
+            },
+            text: [],
+          },
+        ],
+      },
+    },
     giant_owl: {
       name: 'Giant Owl',
       alignment: 'neutral',

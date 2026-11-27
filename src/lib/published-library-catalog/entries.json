@@ -3003,212 +3003,44 @@
       {
         "id": "printing-40fa55cf1dc4e85be482cb61",
         "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Medium",
-              "Alignment · unaligned",
-              "Armor class · 13 + PB (natural armor)",
-              "Hit points · 5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)",
-              "Speed · walk 40 ft., climb 40 ft.",
-              "Proficiency bonus · equals your bonus",
-              "Strength · 14",
-              "Dexterity · 14",
-              "Constitution · 15",
-              "Intelligence · 8",
-              "Wisdom · 14",
-              "Charisma · 11",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Medium beast. Named abilities include Charge, Primal Bond, Maul."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion."
-            ]
-          },
-          {
-            "title": "Primal Companion",
-            "lines": [
-              "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Medium Beast. HP equals 5 + 5 × ranger level, with one d8 Hit Die per ranger level. Walk and climb 40 ft. each. STR 14, DEX 14, CON 15, INT 8, WIS 14, CHA 11."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws. Charge adds 1d6 slashing damage if the beast moves at least 20 ft. straight toward a target and hits it with Maul that turn. A creature hit this way makes a Strength save against the ranger’s spell save DC or falls prone."
-            ]
-          },
-          {
-            "title": "Action",
-            "lines": [
-              "Maul is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d8 + 2 + PB slashing damage."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The ranger selects an appropriate land animal with primal markings. This portrait depicts a marked wolf."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": ["Beast of the Land · Ranger · --spell-attack, --proficiency, --level"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Ranger"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Charge · 1d6 slashing damage · Prone", "Primal Bond"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Maul · Melee attack · 1d8 + 2 + PB slashing damage · reach 5 ft."]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#beast%20of%20the%20land_tce",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/staged/beast-of-the-land-329a28cbf254.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beast_of_the_land"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tasha_s_cauldron_of_everything"
+          }
+        }
       },
       {
         "id": "printing-55b4ff68f2b0e0b56d219be3",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Medium",
-              "Alignment · neutral",
-              "Armor class · 13 plus your Wisdom modifier",
-              "Hit points · 5 plus five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)",
-              "Speed · walk 40 ft., climb 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 14",
-              "Dexterity · 14",
-              "Constitution · 15",
-              "Intelligence · 8",
-              "Wisdom · 14",
-              "Charisma · 11",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Medium beast. Named abilities include Primal Bond, Beast's Strike."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 123. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=124"
-            ]
-          },
-          {
-            "title": "Primal Companion",
-            "lines": [
-              "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 5 + five times the ranger level. The beast has one d8 Hit Die per ranger level."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Medium neutral Beast. Walk and climb 40 ft. Darkvision 60 ft. Str 14, Dex 14, Con 15, Int 8, Wis 14, Cha 11. Base save modifiers in that order are +2, +2, +2, −1, +2 and +0."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Primal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 2 + the ranger’s Wisdom modifier. Choose Bludgeoning, Piercing, or Slashing on summoning. If the beast moved 20 ft. or more in a straight line toward the target before hitting, add 1d6 of that type. A Large or smaller creature hit under that movement condition also falls Prone."
-            ]
-          },
-          {
-            "title": "Higher-level Beast Master features",
-            "lines": [
-              "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a wolf."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Beast of the Land · Ranger · --spell-attack, --wisdom, --level, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Ranger"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Primal Bond"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Beast's Strike · Melee attack · 1d8 + 2 · 1d6 · reach 5 ft. · Prone"]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#beast%20of%20the%20land_xphb",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/staged/beast-of-the-land-329a28cbf254.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beast_of_the_land"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -3223,218 +3055,44 @@
       {
         "id": "printing-6f7ea721b8aa87b77ae567c5",
         "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Medium",
-              "Alignment · unaligned",
-              "Armor class · 13 + PB (natural armor)",
-              "Hit points · 5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)",
-              "Speed · walk 5 ft., swim 60 ft.",
-              "Proficiency bonus · equals your bonus",
-              "Strength · 14",
-              "Dexterity · 14",
-              "Constitution · 15",
-              "Intelligence · 8",
-              "Wisdom · 14",
-              "Charisma · 11",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium beast. Named abilities include Amphibious, Primal Bond, Binding Strike."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion."
-            ]
-          },
-          {
-            "title": "Primal Companion",
-            "lines": [
-              "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Medium Beast. HP equals 5 + 5 × ranger level, with one d8 Hit Die per ranger level. Walk 5 ft., swim 60 ft. STR 14, DEX 14, CON 15, INT 8, WIS 14, CHA 11."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious lets it breathe air and water. Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws."
-            ]
-          },
-          {
-            "title": "Action",
-            "lines": [
-              "Binding Strike is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d6 + 2 + PB as piercing or bludgeoning damage, chosen by the ranger, and grapple the target. The escape DC equals the ranger’s spell save DC. Until the grapple ends, the beast can use Binding Strike only on the current target."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The ranger selects an appropriate aquatic animal with primal markings. This portrait depicts a marked crocodilian."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": ["Beast of the Sea · Ranger · --spell-attack, --proficiency, --level"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Ranger"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Amphibious", "Primal Bond"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Binding Strike · Melee attack · 1d6 + 2 + PB piercing damage · 1d6 + 2 + PB bludgeoning damage · reach 5 ft. · Grappled"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#beast%20of%20the%20sea_tce",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/staged/beast-of-the-sea-549b1e7112dc.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beast_of_the_sea"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tasha_s_cauldron_of_everything"
+          }
+        }
       },
       {
         "id": "printing-5d66322dc1a867187929bca5",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Medium",
-              "Alignment · neutral",
-              "Armor class · 13 plus your Wisdom modifier",
-              "Hit points · 5 plus five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)",
-              "Speed · walk 5 ft., swim 60 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 14",
-              "Dexterity · 14",
-              "Constitution · 15",
-              "Intelligence · 8",
-              "Wisdom · 14",
-              "Charisma · 11",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium beast. Named abilities include Amphibious, Primal Bond, Beast's Strike."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 124. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125"
-            ]
-          },
-          {
-            "title": "Primal Companion",
-            "lines": [
-              "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 5 + five times the ranger level. The beast has one d8 Hit Die per ranger level."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Medium neutral Beast. Walk 5 ft. and swim 60 ft. Darkvision 90 ft. Str 14, Dex 14, Con 15, Int 8, Wis 14, Cha 11. Base save modifiers in that order are +2, +2, +2, −1, +2 and +0."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The beast breathes air and water.\nPrimal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d6 + 2 + the ranger’s Wisdom modifier in Bludgeoning or Piercing damage, chosen on summoning. It gives the target the Grappled condition. Use the ranger’s spell save DC as the escape DC."
-            ]
-          },
-          {
-            "title": "Higher-level Beast Master features",
-            "lines": [
-              "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a crocodile."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Beast of the Sea · Ranger · --spell-attack, --wisdom, --level, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 90 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Ranger"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Amphibious", "Primal Bond"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Beast's Strike · Melee attack · 1d6 + 2 · reach 5 ft. · Grappled"]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#beast%20of%20the%20sea_xphb",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/staged/beast-of-the-sea-549b1e7112dc.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beast_of_the_sea"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -3449,212 +3107,44 @@
       {
         "id": "printing-604e105c24c686a59efa8712",
         "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · neutral",
-              "Armor class · 13 + PB (natural armor)",
-              "Hit points · 4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)",
-              "Speed · walk 10 ft., fly 60 ft.",
-              "Proficiency bonus · equals your bonus",
-              "Strength · 6",
-              "Dexterity · 16",
-              "Constitution · 13",
-              "Intelligence · 8",
-              "Wisdom · 14",
-              "Charisma · 11",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Small beast. Named abilities include Flyby, Primal Bond, Shred."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion."
-            ]
-          },
-          {
-            "title": "Primal Companion",
-            "lines": [
-              "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Small Beast. HP equals 4 + 4 × ranger level, with one d6 Hit Die per ranger level. Walk 10 ft., fly 60 ft. STR 6, DEX 16, CON 13, INT 8, WIS 14, CHA 11."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks. Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws."
-            ]
-          },
-          {
-            "title": "Action",
-            "lines": [
-              "Shred is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d4 + 3 + PB slashing damage."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The ranger selects an appropriate flying animal with primal markings. This portrait depicts a marked hawk."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": ["Beast of the Sky · Ranger · --spell-attack, --proficiency, --level"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Ranger"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Flyby", "Primal Bond"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Shred · Melee attack · 1d4 + 3 + PB slashing damage · reach 5 ft."]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#beast%20of%20the%20sky_tce",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/staged/beast-of-the-sky-a78e800e108a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beast_of_the_sky"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tasha_s_cauldron_of_everything"
+          }
+        }
       },
       {
         "id": "printing-2854e3378f0ddcd73869afd2",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · neutral",
-              "Armor class · 13 plus your Wisdom modifier",
-              "Hit points · 4 plus four times your Ranger level (the beast has a number of Hit Dice [d6s] equal to your Ranger level)",
-              "Speed · walk 10 ft., fly 60 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 6",
-              "Dexterity · 16",
-              "Constitution · 13",
-              "Intelligence · 8",
-              "Wisdom · 14",
-              "Charisma · 11",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Small beast. Named abilities include Flyby, Primal Bond, Beast's Strike."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Ranger, Beast Master, Primal Companion, p. 124. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125"
-            ]
-          },
-          {
-            "title": "Primal Companion",
-            "lines": [
-              "At Ranger level 3, choose a Land, Sea, or Sky form and an animal suited to it. The beast has visible primal markings, is Friendly to you and your allies, and obeys you. It vanishes if you die. It acts on your turn, and it can move and use its reaction independently. It normally takes Dodge. Spend a bonus action to have it take another action, or replace one attack of your Attack action to have it use Beast’s Strike. If you are Incapacitated, the beast chooses its own actions. If it died within the past hour, take a Magic action to touch it and spend a spell slot. It revives after 1 minute with full HP. Finishing a long rest lets you choose a new form and appearance, summoning it into an unoccupied space within 5 ft. and replacing the prior beast."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "AC is 13 + the ranger’s Wisdom modifier. The beast uses the ranger’s proficiency bonus. It has no CR and grants 0 XP. It understands the ranger’s languages. Passive Perception 12. HP is 4 + four times the ranger level. The beast has one d6 Hit Die per ranger level."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Small neutral Beast. Walk 10 ft. and fly 60 ft. Darkvision 60 ft. Str 6, Dex 16, Con 13, Int 8, Wis 14, Cha 11. Base save modifiers in that order are −2, +3, +1, −1, +2 and +0."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the beast.\nPrimal Bond. Add the ranger’s proficiency bonus to all of the beast’s ability checks and saving throws."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beast’s Strike. Melee attack using the ranger’s spell attack modifier with a 5-ft. reach. A hit deals 1d4 + 3 + the ranger’s Wisdom modifier in Slashing damage."
-            ]
-          },
-          {
-            "title": "Higher-level Beast Master features",
-            "lines": [
-              "At Ranger level 7, whenever a bonus action commands the beast to act, you may also have it use its own bonus action for Dash, Disengage, Dodge, or Help. Its attack damage can be Force or its normal type. At level 11, a command to use Beast’s Strike lets it strike twice. The first time each turn it hits a creature affected by your Hunter’s Mark, it deals extra Force damage equal to the mark’s bonus damage. At level 15, when you cast a spell targeting yourself, it can also affect your beast if it is within 30 ft."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a hawk."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Beast of the Sky · Ranger · --spell-attack, --wisdom, --level, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Ranger"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Flyby · Opportunity Attack", "Primal Bond"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Beast's Strike · Melee attack · 1d4 + 3 · reach 5 ft."]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#beast%20of%20the%20sky_xphb",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/staged/beast-of-the-sky-a78e800e108a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beast_of_the_sky"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -3837,974 +3327,60 @@
       {
         "id": "printing-4818c76371c1fcb822e98daa",
         "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · unaligned",
-              "Armor class · 11 + the level of the spell (natural armor)",
-              "Hit points · 20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2nd",
-              "Speed · walk 30 ft., climb 30 (land only), fly 60 (air only), swim 30 (water only)",
-              "Strength · 18",
-              "Dexterity · 11",
-              "Constitution · 16",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 5",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small beast. Named abilities include Water Breathing (Water Only), Flyby (Air Only), Pack Tactics (Land and Water Only)."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit."
-            ]
-          },
-          {
-            "title": "Summon Beast",
-            "lines": [
-              "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. The three modes share a 30-ft. walking speed. See the forms for additional speeds and starting HP. A higher slot counts as the spell level throughout the profile."
-            ]
-          },
-          {
-            "title": "Air",
-            "lines": [
-              "At 2nd level it has 20 HP, increasing by 5 for every slot level above 2nd. It walks 30 ft. and flies 60 ft. Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks."
-            ]
-          },
-          {
-            "title": "Land",
-            "lines": [
-              "At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and climbs 30 ft. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature."
-            ]
-          },
-          {
-            "title": "Water",
-            "lines": [
-              "At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and swims 30 ft. Water Breathing limits it to breathing underwater. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The caster chooses the shape of one native animal when casting. The wolf portrait gives one example. The Air, Land, and Water profiles are choices within the same printed block."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Bestial Spirit (Air) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack",
-              "Bestial Spirit (Land) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack",
-              "Bestial Spirit (Water) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Beast"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Water Breathing (Water Only)",
-              "Flyby (Air Only)",
-              "Pack Tactics (Land and Water Only) · within 5 feet · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Maul · Melee attack · 1d8 + 4 + summonSpellLevel piercing damage · reach 5 ft."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#bestial%20spirit_tce",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/wolf.png",
             "credit": "Original portrait generated with built-in OpenAI ImageGen"
+          },
+          {
+            "file": "/assets/library/beasts/staged/giant-eagle-45aad2129dd6.png",
+            "credit": "OpenAI ImageGen"
+          },
+          {
+            "file": "/assets/library/beasts/staged/bestial-spirit-water-59d89f960b0d.png",
+            "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bestial_spirit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tasha_s_cauldron_of_everything"
+          }
+        }
       },
       {
         "id": "printing-bde6b1acd54556eb190f19fd",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2",
-              "Speed · walk 30 ft., climb 30 (Land only), fly 60 (Air only), swim 30 (Water only)",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 18",
-              "Dexterity · 11",
-              "Constitution · 16",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 5",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small beast. Named abilities include Flyby (Air Only), Pack Tactics (Land and Water Only), Water Breathing (Water Only)."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324"
-            ]
-          },
-          {
-            "title": "Summon Beast",
-            "lines": [
-              "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends."
-            ]
-          },
-          {
-            "title": "Initiative and commands",
-            "lines": [
-              "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "AC is 11 + the spell slot level. Start with 20 for Air, or 30 for Land and Water HP and add 5 HP per slot level above 2."
-            ]
-          },
-          {
-            "title": "Movement",
-            "lines": [
-              "Walk 30 ft. Add climb 30 ft. for Land, fly 60 ft. for Air, or swim 30 ft. for Water."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Air only. Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the spirit.\nLand or Water only. Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition.\nWater only. Water Breathing. The spirit breathes only underwater."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The caster chooses a native animal for the selected environment. The portrait shows a wolf as one Land example."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Bestial Spirit (Air) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack, --proficiency",
-              "Bestial Spirit (Land) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack, --proficiency",
-              "Bestial Spirit (Water) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Beast"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Flyby (Air Only) · Opportunity Attack",
-              "Pack Tactics (Land and Water Only) · within 5 feet · Advantage · Incapacitated",
-              "Water Breathing (Water Only)"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Rend · Melee attack · 1d8 + 4 + summonSpellLevel piercing damage · reach 5 ft."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#bestial%20spirit_xphb",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/wolf.png",
             "credit": "Original portrait generated with built-in OpenAI ImageGen"
-          }
-        ]
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "bestial-spirit-air",
-    "name": "Bestial Spirit (Air)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "printing-b2d922db06c064c73c2880ec",
-        "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · unaligned",
-              "Armor class · 11 + the level of the spell (natural armor)",
-              "Hit points · 20 + 5 for each spell level above 2nd",
-              "Speed · walk 30 ft., fly 60 ft.",
-              "Strength · 18",
-              "Dexterity · 11",
-              "Constitution · 16",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 5",
-              "Passive Perception · 12"
-            ]
           },
-          {
-            "title": "Description",
-            "lines": ["A Small beast. Named abilities include Flyby, Maul."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit."
-            ]
-          },
-          {
-            "title": "Summon Beast",
-            "lines": [
-              "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 20 HP, increasing by 5 for every slot level above 2nd. It walks 30 ft. and flies 60 ft."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The caster selects a flying animal native to the chosen air environment. This portrait depicts an eagle."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Bestial Spirit (Air) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Beast"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Flyby"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Maul · Melee attack · 1d8 + 4 + summonSpellLevel piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Bestial Spirit"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "source": "https://5e.tools/bestiary.html#bestial%20spirit%20(air)_tce",
-        "status": "Scalable profile",
-        "art": [
           {
             "file": "/assets/library/beasts/staged/giant-eagle-45aad2129dd6.png",
             "credit": "OpenAI ImageGen"
-          }
-        ]
-      },
-      {
-        "id": "printing-6a888e54396c685a9051d9d5",
-        "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 20 + 5 for each spell level above 2",
-              "Speed · walk 30 ft., fly 60 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 18",
-              "Dexterity · 11",
-              "Constitution · 16",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 5",
-              "Passive Perception · 12"
-            ]
           },
-          {
-            "title": "Description",
-            "lines": ["A Small beast. Named abilities include Flyby, Rend."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324"
-            ]
-          },
-          {
-            "title": "Summon Beast",
-            "lines": [
-              "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends."
-            ]
-          },
-          {
-            "title": "Initiative and commands",
-            "lines": [
-              "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "AC is 11 + the spell slot level. Start with 20 HP and add 5 HP per slot level above 2."
-            ]
-          },
-          {
-            "title": "Movement",
-            "lines": ["Walk 30 ft. and fly 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. Flying out of a foe’s reach triggers no Opportunity Attack for the spirit."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["The caster chooses a native air animal. The portrait shows an eagle."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Bestial Spirit (Air) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Beast"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Flyby · Opportunity Attack"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Rend · Melee attack · 1d8 + 4 + summonSpellLevel piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Bestial Spirit"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#bestial%20spirit%20(air)_xphb",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/staged/giant-eagle-45aad2129dd6.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ]
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "bestial-spirit-land",
-    "name": "Bestial Spirit (Land)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "printing-5e529b31000718d009497e07",
-        "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · unaligned",
-              "Armor class · 11 + the level of the spell (natural armor)",
-              "Hit points · 30 + 5 for each spell level above 2nd",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Strength · 18",
-              "Dexterity · 11",
-              "Constitution · 16",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 5",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Small beast. Named abilities include Pack Tactics, Maul."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit."
-            ]
-          },
-          {
-            "title": "Summon Beast",
-            "lines": [
-              "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and climbs 30 ft."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The caster selects an animal native to the chosen land environment. This portrait depicts a wolf."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Bestial Spirit (Land) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Beast"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Pack Tactics · within 5 feet · Incapacitated"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Maul · Melee attack · 1d8 + 4 + summonSpellLevel piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Bestial Spirit"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "source": "https://5e.tools/bestiary.html#bestial%20spirit%20(land)_tce",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/wolf.png",
-            "credit": "Original portrait generated with built-in OpenAI ImageGen"
-          }
-        ]
-      },
-      {
-        "id": "printing-054949bdf68ba0777bdad6fc",
-        "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 30 + 5 for each spell level above 2",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 18",
-              "Dexterity · 11",
-              "Constitution · 16",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 5",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Small beast. Named abilities include Pack Tactics, Rend."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324"
-            ]
-          },
-          {
-            "title": "Summon Beast",
-            "lines": [
-              "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends."
-            ]
-          },
-          {
-            "title": "Initiative and commands",
-            "lines": [
-              "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "AC is 11 + the spell slot level. Start with 30 HP and add 5 HP per slot level above 2."
-            ]
-          },
-          {
-            "title": "Movement",
-            "lines": ["Walk 30 ft. and climb 30 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["The caster chooses a native land animal. The portrait shows a wolf."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Bestial Spirit (Land) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Beast"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Pack Tactics · within 5 feet · Advantage · Incapacitated"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Rend · Melee attack · 1d8 + 4 + summonSpellLevel piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Bestial Spirit"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#bestial%20spirit%20(land)_xphb",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/wolf.png",
-            "credit": "Original portrait generated with built-in OpenAI ImageGen"
-          }
-        ]
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "bestial-spirit-water",
-    "name": "Bestial Spirit (Water)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "printing-8308882279249a1a9b8a610e",
-        "label": "Tasha's Cauldron of Everything",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · unaligned",
-              "Armor class · 11 + the level of the spell (natural armor)",
-              "Hit points · 30 + 5 for each spell level above 2nd",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Strength · 18",
-              "Dexterity · 11",
-              "Constitution · 16",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 5",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small beast. Named abilities include Water Breathing (Water Only), Pack Tactics, Maul."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit."
-            ]
-          },
-          {
-            "title": "Summon Beast",
-            "lines": [
-              "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and swims 30 ft."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Water Breathing limits it to breathing underwater. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "The caster selects an animal native to the chosen water environment. This portrait depicts a crocodile. The spell’s Water Breathing trait governs how the spirit breathes."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Bestial Spirit (Water) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you speak"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Beast"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Water Breathing (Water Only)",
-              "Pack Tactics · within 5 feet · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Maul · Melee attack · 1d8 + 4 + summonSpellLevel piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Bestial Spirit"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "source": "https://5e.tools/bestiary.html#bestial%20spirit%20(water)_tce",
-        "status": "Scalable profile",
-        "art": [
           {
             "file": "/assets/library/beasts/staged/bestial-spirit-water-59d89f960b0d.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
-      },
-      {
-        "id": "printing-25f8150b6af6441d56000ac1",
-        "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Small",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 30 + 5 for each spell level above 2",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 18",
-              "Dexterity · 11",
-              "Constitution · 16",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 5",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small beast. Named abilities include Pack Tactics, Water Breathing (Water Only), Rend."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook, September 2024 first printing, Summon Beast and Bestial Spirit, p. 323. https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324"
-            ]
-          },
-          {
-            "title": "Summon Beast",
-            "lines": [
-              "Summon Beast is a level 2 Conjuration spell for druids and rangers. Cast it as an action, at 90-ft. range, with verbal, somatic, and material components. The materials are a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200 GP. Concentration lasts up to 1 hour. Choose Air, Land, or Water and a native animal appearance. The spirit appears in an unoccupied space you can see within range, and it disappears at 0 HP or when the spell ends."
-            ]
-          },
-          {
-            "title": "Initiative and commands",
-            "lines": [
-              "The spirit allies with you and your allies. It takes its turn immediately after yours at the same initiative count and obeys your verbal commands without an action cost. If you give no orders, it takes Dodge and uses its movement to avoid danger."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Small neutral Beast. Str 18, Dex 11, Con 16, Int 4, Wis 14, Cha 5. Base save modifiers in that order are +4, +0, +3, −3, +2 and −3. Darkvision 60 ft. Passive Perception 12. Understands the caster’s languages. No CR, 0 XP, and proficiency bonus equals the caster’s."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make a number of Rend attacks equal to half the slot level, rounded down. Rend. Make a melee attack roll using the caster’s spell attack modifier with a 5-ft. reach. A hit deals 1d8 + 4 + the slot level in Piercing damage."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "AC is 11 + the spell slot level. Start with 30 HP and add 5 HP per slot level above 2."
-            ]
-          },
-          {
-            "title": "Movement",
-            "lines": ["Walk 30 ft. and swim 30 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The spirit rolls attacks against a creature with advantage if at least one spirit ally within 5 ft. of that creature is free of the Incapacitated condition.\nWater Breathing. The spirit breathes only underwater."
-            ]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["The caster chooses a native water animal. The portrait shows a crocodile."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Bestial Spirit (Water) · Summon Beast · minimum spell level 2 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Beast"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Pack Tactics · within 5 feet · Advantage · Incapacitated",
-              "Water Breathing (Water Only)"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Rend · Melee attack · 1d8 + 4 + summonSpellLevel piercing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Bestial Spirit"]
-          }
         ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#bestial%20spirit%20(water)_xphb",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/staged/bestial-spirit-water-59d89f960b0d.png",
-            "credit": "OpenAI ImageGen"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bestial_spirit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
           }
-        ]
+        }
       }
     ],
     "groups": ["Beast"]
@@ -11221,307 +9797,26 @@
       {
         "id": "printing-2859cd150ea2d8c442b7e93e",
         "label": "Arcana Unleashed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Creature tags · dinosaur",
-              "Size · Huge",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level + 2 (Ankylosaur only)",
-              "Hit points · 60 + 10 for each spell level above 6",
-              "Speed · walk 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 21",
-              "Dexterity · 11",
-              "Constitution · 15",
-              "Intelligence · 4",
-              "Wisdom · 12",
-              "Charisma · 9",
-              "Passive Perception · 11"
-            ]
+        "source": "https://5e.tools/bestiary.html#dinosaur%20spirit_au",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dinosaur_spirit"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge beast. Named abilities include Siege Monster (Ankylosaur Only), Tough, Bite (Tyrannosaur Only)."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Dinosaur Spirit (Ankylosaur) · Summon Dinosaur · minimum spell level 6 · --spell-level, --spell-attack, --proficiency",
-              "Dinosaur Spirit (Triceratops) · Summon Dinosaur · minimum spell level 6 · --spell-level, --spell-attack, --proficiency",
-              "Dinosaur Spirit (Tyrannosaur) · Summon Dinosaur · minimum spell level 6 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Dinosaur"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Siege Monster (Ankylosaur Only)", "Tough"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite (Tyrannosaur Only) · Melee attack · 2d10 + 5 + summonSpellLevel piercing damage · reach 10 ft. · Grappled · Restrained",
-              "Gore (Triceratops Only) · Melee attack · 1d10 + 5 + summonSpellLevel piercing damage · 1d10 piercing damage · reach 5 ft. · Prone",
-              "Slam · Melee attack · 1d10 + 5 + summonSpellLevel bludgeoning damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Arcana Unleashed, p. 43 · https://5e.tools/bestiary.html#dinosaur%20spirit_au",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_xphb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_xphb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_xphb",
-              "Summon Dinosaur (spell) · https://5e.tools/spells.html#summon%20dinosaur_au"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "arcana_unleashed"
           }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "source": "https://5e.tools/bestiary.html#dinosaur%20spirit_au"
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "dinosaur-spirit-ankylosaur",
-    "name": "Dinosaur Spirit (Ankylosaur)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "printing-3f9c95569fbe627fe110defd",
-        "label": "Arcana Unleashed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Creature tags · dinosaur",
-              "Size · Huge",
-              "Alignment · neutral",
-              "Armor class · 13 + the spell's level",
-              "Hit points · 60 + 10 for each spell level above 6",
-              "Speed · walk 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 21",
-              "Dexterity · 11",
-              "Constitution · 15",
-              "Intelligence · 4",
-              "Wisdom · 12",
-              "Charisma · 9",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Huge beast. Named abilities include Siege Monster, Tough, Slam."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Dinosaur Spirit (Ankylosaur) · Summon Dinosaur · minimum spell level 6 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Dinosaur"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Siege Monster", "Tough"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Slam · Melee attack · 1d10 + 5 + summonSpellLevel bludgeoning damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Dinosaur Spirit"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#dinosaur%20spirit%20(ankylosaur)_au",
-        "status": "Scalable profile",
+        },
         "art": [
           {
             "file": "/assets/library/beasts/staged/dinosaur-spirit-ankylosaur-d9a6dc2eed0f.png",
             "credit": "OpenAI ImageGen"
-          }
-        ]
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "dinosaur-spirit-triceratops",
-    "name": "Dinosaur Spirit (Triceratops)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "printing-76a992c6dee2721106e89357",
-        "label": "Arcana Unleashed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Creature tags · dinosaur",
-              "Size · Huge",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 60 + 10 for each spell level above 6",
-              "Speed · walk 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 21",
-              "Dexterity · 11",
-              "Constitution · 15",
-              "Intelligence · 4",
-              "Wisdom · 12",
-              "Charisma · 9",
-              "Passive Perception · 11"
-            ]
           },
-          {
-            "title": "Description",
-            "lines": ["A Huge beast. Named abilities include Tough, Gore, Slam."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Dinosaur Spirit (Triceratops) · Summon Dinosaur · minimum spell level 6 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Dinosaur"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Tough"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Gore · Melee attack · 1d10 + 5 + summonSpellLevel piercing damage · 1d10 piercing damage · reach 5 ft. · Prone",
-              "Slam · Melee attack · 1d10 + 5 + summonSpellLevel bludgeoning damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Dinosaur Spirit"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#dinosaur%20spirit%20(triceratops)_au",
-        "status": "Scalable profile",
-        "art": [
           {
             "file": "/assets/library/beasts/staged/dinosaur-spirit-triceratops-046d92d9efd0.png",
             "credit": "OpenAI ImageGen"
-          }
-        ]
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "dinosaur-spirit-tyrannosaur",
-    "name": "Dinosaur Spirit (Tyrannosaur)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "printing-5f07981b7fbb468af647fe12",
-        "label": "Arcana Unleashed",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Creature tags · dinosaur",
-              "Size · Huge",
-              "Alignment · neutral",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 60 + 10 for each spell level above 6",
-              "Speed · walk 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 21",
-              "Dexterity · 11",
-              "Constitution · 15",
-              "Intelligence · 4",
-              "Wisdom · 12",
-              "Charisma · 9",
-              "Passive Perception · 11"
-            ]
           },
-          {
-            "title": "Description",
-            "lines": ["A Huge beast. Named abilities include Tough, Bite, Slam."]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Dinosaur Spirit (Tyrannosaur) · Summon Dinosaur · minimum spell level 6 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Summon Dinosaur"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Tough"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite · Melee attack · 2d10 + 5 + summonSpellLevel piercing damage · reach 10 ft. · Grappled · Restrained",
-              "Slam · Melee attack · 1d10 + 5 + summonSpellLevel bludgeoning damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Dinosaur Spirit"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#dinosaur%20spirit%20(tyrannosaur)_au",
-        "status": "Scalable profile",
-        "art": [
           {
             "file": "/assets/library/beasts/staged/dinosaur-spirit-tyrannosaur-b4e218fb4237.png",
             "credit": "OpenAI ImageGen"
@@ -22088,653 +20383,58 @@
           {
             "file": "/assets/library/beasts/staged/giant-insect-e18bf1055072.png",
             "credit": "OpenAI ImageGen"
+          },
+          {
+            "file": "/assets/library/beasts/staged/giant-insect-centipede-206faa150481.webp",
+            "credit": "OpenAI ImageGen"
+          },
+          {
+            "file": "/assets/library/beasts/staged/giant-insect-spider-7fd7182ff9c8.png",
+            "credit": "OpenAI ImageGen"
+          },
+          {
+            "file": "/assets/library/beasts/staged/giant-insect-wasp-c401c2abb5ee.png",
+            "credit": "OpenAI ImageGen"
           }
         ]
       },
       {
         "id": "printing-e1373db26280f10ee5d38b27",
         "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Large",
-              "Alignment · unaligned",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 30 + 10 for each spell level above 4",
-              "Speed · walk 40 ft., climb 40 ft., fly 40 (Wasp only)",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 15",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 3",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only)."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect"
-            ]
-          },
-          {
-            "title": "Summoning",
-            "lines": [
-              "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends."
-            ]
-          },
-          {
-            "title": "Initiative and commands",
-            "lines": [
-              "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages."
-            ]
-          },
-          {
-            "title": "Movement",
-            "lines": ["Walk 40 ft. and climb 40 ft. The wasp form also flies 40 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.\nWeb Bolt (Spider only). Ranged attack roll using the caster’s spell attack modifier, with 60-ft. range. A hit deals 1d10 + 3 + spell level bludgeoning damage and reduces the target’s Speed to 0 until the start of the insect’s next turn."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Venomous Spew (Centipede only). One creature the centipede can see within 10 ft. makes a Constitution saving throw against the caster’s spell save DC. On a failure it is Poisoned until the start of the insect’s next turn."
-            ]
-          },
-          {
-            "title": "Printing note",
-            "lines": [
-              "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency",
-              "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency",
-              "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Giant Insect"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Spider Climb"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Poison Jab · Melee attack · 1d6 + 3 + summonSpellLevel piercing damage · 1d4 poison damage · reach 10 ft.",
-              "Web Bolt (Spider Only) · Ranged attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · range 60 ft. · Speed becomes 0 · Speed"
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": [
-              "Venomous Spew (Centipede Only) · Constitution save · within 10 feet · Poisoned"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20insect_xphb",
-        "status": "Scalable profile",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-insect-e18bf1055072.png",
             "credit": "OpenAI ImageGen"
+          },
+          {
+            "file": "/assets/library/beasts/giant-centipede.png",
+            "credit": "OpenAI ImageGen"
+          },
+          {
+            "file": "/assets/library/beasts/staged/giant-insect-spider-7fd7182ff9c8.png",
+            "credit": "OpenAI ImageGen"
+          },
+          {
+            "file": "/assets/library/beasts/staged/giant-insect-wasp-c401c2abb5ee.png",
+            "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_insect"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "player_s_handbook_2024"
+          }
+        }
       }
     ],
     "art": [
       {
         "file": "/assets/library/beasts/staged/giant-insect-e18bf1055072.png",
-        "credit": "OpenAI ImageGen"
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "giant-insect-centipede",
-    "name": "Giant Insect (Centipede)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "srd-5-2-1",
-        "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · None", "Type · Beast"]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --spell-save-dc, --proficiency"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/staged/giant-insect-centipede-206faa150481.webp",
-            "credit": "OpenAI ImageGen"
-          }
-        ]
-      },
-      {
-        "id": "printing-6bd43a22348ce8ad35b946c9",
-        "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Large",
-              "Alignment · unaligned",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 30 + 10 for each spell level above 4",
-              "Speed · walk 40 ft., climb 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 15",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 3",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large beast. Named abilities include Spider Climb, Poison Jab, Venomous Spew (Centipede Only)."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect"
-            ]
-          },
-          {
-            "title": "Summoning",
-            "lines": [
-              "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends."
-            ]
-          },
-          {
-            "title": "Initiative and commands",
-            "lines": [
-              "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages."
-            ]
-          },
-          {
-            "title": "Movement",
-            "lines": ["Walk 40 ft. and climb 40 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Venomous Spew (Centipede only). One creature the centipede can see within 10 ft. makes a Constitution saving throw against the caster’s spell save DC. On a failure it is Poisoned until the start of the insect’s next turn."
-            ]
-          },
-          {
-            "title": "Printing note",
-            "lines": [
-              "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Giant Insect"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Spider Climb"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Poison Jab · Melee attack · 1d6 + 3 + summonSpellLevel piercing damage · 1d4 poison damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "Bonus actions reference",
-            "lines": [
-              "Venomous Spew (Centipede Only) · Constitution save · within 10 feet · Poisoned"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Giant Insect"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#giant%20insect%20(centipede)_xphb",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/giant-centipede.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ]
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-insect-centipede-206faa150481.webp",
-        "credit": "OpenAI ImageGen"
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "giant-insect-spider",
-    "name": "Giant Insect (Spider)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "srd-5-2-1",
-        "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · None", "Type · Beast"]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/staged/giant-insect-spider-7fd7182ff9c8.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ]
-      },
-      {
-        "id": "printing-8549c315357e4822f217c739",
-        "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Large",
-              "Alignment · unaligned",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 30 + 10 for each spell level above 4",
-              "Speed · walk 40 ft., climb 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 15",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 3",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect"
-            ]
-          },
-          {
-            "title": "Summoning",
-            "lines": [
-              "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends."
-            ]
-          },
-          {
-            "title": "Initiative and commands",
-            "lines": [
-              "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages."
-            ]
-          },
-          {
-            "title": "Movement",
-            "lines": ["Walk 40 ft. and climb 40 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage.\nWeb Bolt (Spider only). Ranged attack roll using the caster’s spell attack modifier, with 60-ft. range. A hit deals 1d10 + 3 + spell level bludgeoning damage and reduces the target’s Speed to 0 until the start of the insect’s next turn."
-            ]
-          },
-          {
-            "title": "Printing note",
-            "lines": [
-              "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Giant Insect"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Spider Climb"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Poison Jab · Melee attack · 1d6 + 3 + summonSpellLevel piercing damage · 1d4 poison damage · reach 10 ft.",
-              "Web Bolt · Ranged attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · range 60 ft. · Speed becomes 0 · Speed"
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Giant Insect"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#giant%20insect%20(spider)_xphb",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/staged/giant-insect-spider-7fd7182ff9c8.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ]
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-insect-spider-7fd7182ff9c8.png",
-        "credit": "OpenAI ImageGen"
-      }
-    ],
-    "groups": ["Beast"]
-  },
-  {
-    "type": "monsters",
-    "slug": "giant-insect-wasp",
-    "name": "Giant Insect (Wasp)",
-    "group": "Beast",
-    "summary": "",
-    "printings": [
-      {
-        "id": "srd-5-2-1",
-        "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": ["Challenge · None", "Type · Beast"]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/staged/giant-insect-wasp-c401c2abb5ee.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ]
-      },
-      {
-        "id": "printing-4213dc4b94aae55d33ddf0e8",
-        "label": "Player’s Handbook",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Type · Beast",
-              "Size · Large",
-              "Alignment · unaligned",
-              "Armor class · 11 + the spell's level",
-              "Hit points · 30 + 10 for each spell level above 4",
-              "Speed · walk 40 ft., climb 40 ft., fly 40 ft.",
-              "Proficiency bonus · equals your Proficiency Bonus",
-              "Strength · 17",
-              "Dexterity · 13",
-              "Constitution · 15",
-              "Intelligence · 4",
-              "Wisdom · 14",
-              "Charisma · 3",
-              "Passive Perception · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Large beast. Named abilities include Spider Climb, Poison Jab."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Player’s Handbook (2024), first printing, p. 279, with official Giant Insect HP errata. https://www.dndbeyond.com/spells/2618944-giant-insect"
-            ]
-          },
-          {
-            "title": "Summoning",
-            "lines": [
-              "Giant Insect is a level 4 Druid conjuration. It takes an action to cast, requires verbal and somatic components, and lasts up to 10 minutes with concentration. Choose a giant centipede, spider, or wasp at casting. It appears in an unoccupied space the caster can see within 60 ft. and vanishes at 0 HP or when the spell ends."
-            ]
-          },
-          {
-            "title": "Initiative and commands",
-            "lines": [
-              "The summoned creature is allied with the caster and the caster’s allies. It acts on the caster’s initiative count, immediately after the caster. Verbal commands cost the caster no action. Without orders, the insect takes the Dodge action and uses its movement to avoid danger."
-            ]
-          },
-          {
-            "title": "Scaling",
-            "lines": [
-              "Use the slot level for the spell level in these formulas. AC equals 11 + spell level. HP equals 30 + 10 per spell level above 4. Its Proficiency Bonus equals the caster’s. The block gives no CR and 0 XP."
-            ]
-          },
-          {
-            "title": "Statistics",
-            "lines": [
-              "Large Beast, Unaligned. STR 17 (+3), DEX 13 (+1), CON 15 (+2), INT 4 (−3), WIS 14 (+2), CHA 3 (−4). The saving throw modifiers match these six modifiers. Darkvision 60 ft. Passive Perception 12. The insect understands its caster’s languages."
-            ]
-          },
-          {
-            "title": "Movement",
-            "lines": ["Walk 40 ft. and climb 40 ft. The wasp also flies 40 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The insect climbs difficult surfaces and ceilings without an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make half the spell level in attacks, rounded down.\nPoison Jab. Melee attack roll using the caster’s spell attack modifier, with 10-ft. reach. A hit deals 1d6 + 3 + spell level piercing damage and 1d4 poison damage."
-            ]
-          },
-          {
-            "title": "Printing note",
-            "lines": [
-              "The first printing applied the extra 10 HP per spell level. The official correction applies the increase only for levels above 4. This summary uses the corrected formula."
-            ]
-          },
-          {
-            "title": "Scaling inputs",
-            "lines": [
-              "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands the languages you know"]
-          },
-          {
-            "title": "Summoned by",
-            "lines": ["Giant Insect"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Spider Climb"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Poison Jab · Melee attack · 1d6 + 3 + summonSpellLevel piercing damage · 1d4 poison damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "Base profile",
-            "lines": ["Giant Insect"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "source": "https://5e.tools/bestiary.html#giant%20insect%20(wasp)_xphb",
-        "status": "Scalable profile",
-        "art": [
-          {
-            "file": "/assets/library/beasts/staged/giant-insect-wasp-c401c2abb5ee.png",
-            "credit": "OpenAI ImageGen"
-          }
-        ]
-      }
-    ],
-    "art": [
-      {
-        "file": "/assets/library/beasts/staged/giant-insect-wasp-c401c2abb5ee.png",
         "credit": "OpenAI ImageGen"
       }
     ],

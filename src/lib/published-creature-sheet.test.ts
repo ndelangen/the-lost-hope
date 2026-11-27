@@ -1,5 +1,6 @@
 import { expect, test } from 'vitest'
 
+import { monsterPrinting } from './library-monsters'
 import {
   creatureRuleParagraphs,
   explainHitDice,
@@ -116,14 +117,11 @@ test('keeps prose before a saving throw beside the structured save', async () =>
   expect(toss.save).toMatchObject({ ability: 'dex', onSuccess: 'half' })
 })
 
-test('keeps both the structured and prose statistics of a staged scalable printing', () => {
-  const land = getLibraryEntry('monsters', 'beast-of-the-land', true)!
-  const id = land.printings.find(({ label }) => label === 'Player’s Handbook')?.id
-  expect(id).toBeDefined()
-  const profile = getLibraryEntry('monsters', 'beast-of-the-land', true, id)!
-  const sheet = publishedCreatureSheet(profile.sections)
-  expect(sheet.abilities).toContainEqual(['Strength', '14'])
-  expect(
-    sheet.defenses.find(({ title }) => title === 'Additional statistics')?.lines.join(' '),
-  ).toContain('Base save modifiers')
+test('types a scalable companion with the level it scales by', () => {
+  const land = monsterPrinting(
+    { ref: 'monster', key: 'beast_of_the_land' },
+    { ref: 'publication', key: 'player_s_handbook_2024' },
+  )!
+  expect(land.printing.stats.scaling).toMatchObject({ by: 'class', of: 'Ranger' })
+  expect(land.printing.stats.scores.str).toBe(14)
 })
