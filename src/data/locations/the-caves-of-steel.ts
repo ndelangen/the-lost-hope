@@ -15,7 +15,7 @@ export default createLocation({
       '. The only way in is underwater, aboard its subships. An airship cannot follow.',
     ],
     [
-      'It is a huge steel sphere, fully submerged and chained to the ocean floor by five chains of immense size. All of its light is artificial. Everything is ancient but well kept: clean, and repaired many times over. It is damp and humid, and everything smells of fish.',
+      'It is a huge steel sphere, fully submerged and suspended over a deep ocean beside underwater cliffs, held by five chains of immense size. All of its light is artificial. Everything is ancient but well kept: clean, and repaired many times over. It is damp and humid, and everything smells of fish.',
     ],
     [
       'Ships come in from below, up ',
