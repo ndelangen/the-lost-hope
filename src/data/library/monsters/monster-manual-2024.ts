@@ -8480,6 +8480,7 @@ export default createPublicationMonsters({
     },
     bulette: {
       name: 'Bulette',
+      reprintedIn: [refs.publications.srd_5_2_1],
       page: 63,
       alignment: 'unaligned',
       languages: [],

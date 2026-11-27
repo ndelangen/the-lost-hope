@@ -11272,7 +11272,6 @@ export default createPublicationMonsters({
         refs.publications.ddex3_07_herald_of_the_moon,
         refs.publications.princes_of_the_apocalypse_online_supplement,
         refs.publications.srd_5_1,
-        refs.publications.srd_5_2_1,
       ],
       page: 34,
       alignment: 'unaligned',
