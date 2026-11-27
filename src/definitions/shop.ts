@@ -83,9 +83,9 @@ export const StockLine = z.strictObject({
   quantity: z
     .number()
     .int()
-    .positive()
+    .nonnegative()
     .optional()
-    .describe('How many are on the shelf; left out when the shop has plenty'),
+    .describe('How many are on the shelf: 0 when sold out, left out when the shop has plenty'),
   price: Price.optional().describe(
     'What this shop asks, only when it differs from the price derived from the item',
   ),

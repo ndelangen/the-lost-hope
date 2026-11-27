@@ -7,7 +7,7 @@ const stepClass =
 
 /**
  * How many of an item are on the shelf: one tap to sell or restock, or type a count. An empty
- * count means the shop has plenty.
+ * count means the shop has plenty; zero means sold out.
  */
 export function QuantityStepper({
   name,
@@ -24,7 +24,7 @@ export function QuantityStepper({
         type="button"
         aria-label={`One fewer ${name}`}
         className={stepClass}
-        disabled={quantity === undefined || quantity <= 1}
+        disabled={quantity === undefined || quantity === 0}
         onClick={() => onChange(stepQuantity(quantity, -1))}
       >
         <Minus className="size-3.5" aria-hidden />

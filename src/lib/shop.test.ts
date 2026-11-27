@@ -9,6 +9,7 @@ import {
   rollStock,
   searchStockItems,
   seededRandom,
+  isSoldOut,
   stepQuantity,
   stockShelves,
   withQuantity,
@@ -176,16 +177,20 @@ describe('rerollStock', () => {
 })
 
 describe('quantities', () => {
-  it('counts up from plenty and never below one', () => {
+  it('counts up from plenty, and selling the last one leaves it sold out', () => {
     expect(stepQuantity(undefined, 1)).toBe(1)
     expect(stepQuantity(3, -1)).toBe(2)
-    expect(stepQuantity(1, -1)).toBe(1)
+    expect(stepQuantity(1, -1)).toBe(0)
+    expect(stepQuantity(0, -1)).toBe(0)
+    expect(isSoldOut({ quantity: 0 })).toBe(true)
+    expect(isSoldOut({})).toBe(false)
   })
 
-  it('stores a count only when it is a positive whole number', () => {
+  it('stores a whole count, zero for sold out, and plenty otherwise', () => {
     expect(withQuantity(goods('rope'), 4)).toEqual({ ...goods('rope'), quantity: 4 })
     expect(withQuantity(magic('bag'), undefined)).toEqual({ item: magic('bag').item })
-    expect(withQuantity(magic('bag'), 0)).toEqual({ item: magic('bag').item })
+    expect(withQuantity(magic('bag'), 0)).toEqual({ item: magic('bag').item, quantity: 0 })
+    expect(Shop.parse({ type: 'emporium', stock: [{ ...magic('bag'), quantity: 0 }] })).toBeTruthy()
     expect(withQuantity(magic('bag'), Number.NaN)).toEqual({ item: magic('bag').item })
   })
 })

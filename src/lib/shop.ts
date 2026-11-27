@@ -247,7 +247,7 @@ export const orderedShop = ({ type, keeper, stock }: Shop): Shop => ({
   ...(keeper ? { keeper } : {}),
   stock: stock.map(({ item, quantity, price }) => ({
     item,
-    ...(quantity ? { quantity } : {}),
+    ...(quantity !== undefined ? { quantity } : {}),
     ...(price ? { price } : {}),
   })),
 })
@@ -287,15 +287,18 @@ export function rerollStock(
   return [...shelf('goods'), ...shelf('magic')]
 }
 
-/** One more or one fewer on the shelf. Counting starts at one; the last one is never taken away. */
+/** One more or one fewer on the shelf. Counting starts at one; selling the last one leaves it sold out. */
 export function stepQuantity(quantity: number | undefined, delta: 1 | -1): number {
-  return Math.max(1, (quantity ?? 0) + delta)
+  return Math.max(0, (quantity ?? 0) + delta)
 }
 
-/** The line with that many on the shelf, or plenty when the count is not a positive whole number. */
+/** Whether the shop has sold the last one: the line stays, marked sold out. */
+export const isSoldOut = ({ quantity }: Pick<StockLine, 'quantity'>) => quantity === 0
+
+/** The line with that many on the shelf (0 is sold out), or plenty when the count is not a whole number. */
 export function withQuantity(line: StockLine, quantity: number | undefined): StockLine {
   const { quantity: _, ...rest } = line
-  return quantity !== undefined && Number.isInteger(quantity) && quantity > 0
+  return quantity !== undefined && Number.isInteger(quantity) && quantity >= 0
     ? { ...rest, quantity }
     : rest
 }

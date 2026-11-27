@@ -3,6 +3,7 @@ import { Lock, LockOpen, X } from 'lucide-react'
 import { Button } from '#/components/ui/button'
 import type { StockLine } from '#/definitions/shop'
 import {
+  isSoldOut,
   stockLineKey,
   stockShelves,
   withQuantity,
@@ -80,6 +81,7 @@ function StockRow({
 }) {
   const key = stockLineKey(line)
   const locked = editing?.locked.has(key) ?? false
+  const soldOut = isSoldOut(line)
 
   return (
     <li
@@ -88,10 +90,18 @@ function StockRow({
         editing
           ? '@xl:grid-cols-[minmax(0,1fr)_auto_7rem_auto]'
           : 'grid-cols-[minmax(0,1fr)_4.5rem_7rem]',
+        soldOut && 'bg-muted/40',
       )}
     >
-      <div className="min-w-0">
-        <p className="truncate text-sm font-medium">{view.name}</p>
+      <div className={cn('min-w-0', soldOut && 'opacity-60')}>
+        <p className="flex items-center gap-2 text-sm font-medium">
+          <span className={cn('truncate', soldOut && 'line-through')}>{view.name}</span>
+          {soldOut ? (
+            <span className="bg-muted text-muted-foreground shrink-0 rounded-full px-2 py-0.5 text-[0.7rem] font-semibold tracking-wide uppercase no-underline">
+              Sold out
+            </span>
+          ) : null}
+        </p>
         <p className="text-muted-foreground flex items-center gap-2 text-xs">
           {view.rarity ? <RarityChip rarity={view.rarity} /> : null}
           {view.category ? <span className="truncate">{view.category}</span> : null}
@@ -141,7 +151,7 @@ function StockRow({
       ) : (
         <>
           <p className="text-muted-foreground text-right text-sm tabular-nums">
-            {line.quantity ? `× ${line.quantity}` : 'Plenty'}
+            {soldOut ? 'Sold out' : line.quantity ? `× ${line.quantity}` : 'Plenty'}
           </p>
           <PriceCell view={view} ready={ready} />
         </>
