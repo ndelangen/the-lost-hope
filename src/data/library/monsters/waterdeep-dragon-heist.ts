@@ -1283,6 +1283,7 @@ export default createPublicationMonsters({
         ],
         ['Rules origin: Homebrew stat block'],
       ],
+      languages: [],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -2921,6 +2922,7 @@ export default createPublicationMonsters({
         ],
         ['Rules origin: Homebrew stat block'],
       ],
+      languages: [],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -4299,6 +4301,7 @@ export default createPublicationMonsters({
         ],
         ['Rules origin: Homebrew stat block'],
       ],
+      languages: [],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -6198,6 +6201,7 @@ export default createPublicationMonsters({
         ],
         ['Rules origin: Homebrew stat block'],
       ],
+      languages: [],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -6614,6 +6618,7 @@ export default createPublicationMonsters({
         ],
         ['Rules origin: Homebrew stat block'],
       ],
+      languages: [],
       stats: {
         size: 'small',
         type: 'humanoid',

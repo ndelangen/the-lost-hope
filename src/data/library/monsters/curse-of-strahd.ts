@@ -1071,6 +1071,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Curse of Strahd, p. 109'],
       ],
       habitats: ['Ruins'],
+      languages: ["understands all languages it spoke in life but can't speak"],
       stats: {
         size: 'tiny',
         type: 'undead',

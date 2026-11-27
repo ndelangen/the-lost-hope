@@ -507,6 +507,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Humblewood Campaign Setting'],
       ],
       habitats: ['Humblewood'],
+      languages: ['Birdfolk', 'Cervan'],
       stats: {
         size: 'medium',
         type: 'humanoid',

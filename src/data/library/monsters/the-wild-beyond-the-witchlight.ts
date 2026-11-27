@@ -1008,6 +1008,7 @@ export default createPublicationMonsters({
           'Star and the Getaway Gang: Will of the Feywild, an Oni in disguise, keeps Star as a pet. He abandons Star if his curse ends. Showing the kitten Dirlagraun’s mirrored ball excites it. If told about Star’s parent, Will agrees to return the kitten if the party helps free the children in Loomlurch.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -1688,6 +1689,7 @@ export default createPublicationMonsters({
           'Palace encounter: While seated on the throne in P31, Kelek can use a bonus action to speak the coven’s rhyme. Four stained-glass knights leave the windows in the marked turrets and defend him as glasswork golems. Survivors return to their windows after 10 minutes.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -1795,6 +1797,7 @@ export default createPublicationMonsters({
       name: 'Gloam',
       page: 93,
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'undead',
@@ -2034,6 +2037,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'The Wild Beyond the Witchlight'],
       ],
       habitats: ['Forest', 'Ruins'],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'dragon',
@@ -2883,6 +2887,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'The Wild Beyond the Witchlight'],
       ],
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'construct',

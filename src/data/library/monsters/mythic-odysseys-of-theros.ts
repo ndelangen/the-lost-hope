@@ -3638,6 +3638,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Mythic Odysseys of Theros'],
       ],
       habitats: ['Mountain', 'Theros'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -4080,6 +4081,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Mythic Odysseys of Theros'],
       ],
       habitats: ['Nessian Wood', 'Theros'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -5461,6 +5463,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Mythic Odysseys of Theros'],
       ],
       habitats: ['Underworld border'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',

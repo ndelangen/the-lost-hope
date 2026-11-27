@@ -714,6 +714,7 @@ export default createPublicationMonsters({
       appearance: [
         ["Bhaal's huge, spined Beast avatar has a biting maw, claws, and a spiked carapace."],
       ],
+      languages: ['Abyssal', 'Common', 'Primordial', 'Undercommon'],
       stats: {
         size: 'huge',
         type: 'beast',

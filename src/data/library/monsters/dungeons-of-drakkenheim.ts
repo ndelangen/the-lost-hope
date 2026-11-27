@@ -1131,6 +1131,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Dungeons of Drakkenheim'],
       ],
       habitats: ['Drakkenheim', 'Shrine'],
+      languages: ['Druidic', 'Elvish'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1942,6 +1943,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Dungeons of Drakkenheim'],
       ],
       habitats: ['Drakkenheim ruins'],
+      languages: ['Common'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -2781,6 +2783,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Dungeons of Drakkenheim'],
       ],
       habitats: ["Queen's Park Gardens"],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -2997,6 +3000,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Dungeons of Drakkenheim'],
       ],
       habitats: ['Drakkenheim ruins'],
+      languages: ['Abyssal'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3311,6 +3315,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Dungeons of Drakkenheim'],
       ],
       habitats: ['Castle Drakken'],
+      languages: ['Common', 'Draconic'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -3958,6 +3963,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Dungeons of Drakkenheim'],
       ],
       habitats: ['Urban', 'Ruins'],
+      languages: ["Thieves' cant plus any two languages"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4460,6 +4466,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Dungeons of Drakkenheim'],
       ],
       habitats: ['City walls'],
+      languages: ['Terran'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -4666,6 +4673,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Dungeons of Drakkenheim'],
       ],
       habitats: ['Ruins'],
+      languages: ['any languages it knew in life'],
       stats: {
         size: 'medium',
         type: 'undead',

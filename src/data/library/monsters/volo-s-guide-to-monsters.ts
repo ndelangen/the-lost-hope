@@ -2883,6 +2883,7 @@ export default createPublicationMonsters({
       page: 129,
       alignment: 'unaligned',
       habitats: ['swamp'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2984,6 +2985,7 @@ export default createPublicationMonsters({
       page: 130,
       alignment: 'unaligned',
       habitats: ['underdark'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -5105,6 +5107,7 @@ export default createPublicationMonsters({
           'Shell harvesting: An intact shell weighs about 250 lb. and can sell for 5,000 gp. A skilled armorer can make three shields from it. Each shield grants the wielder Antimagic Shell for one month. Once that magic fades, the shield can be used to craft a Spellguard Shield. Ground shell can instead be mixed into dye for a Robe of Scintillating Colors and used in its enchanting ritual.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -5343,6 +5346,7 @@ export default createPublicationMonsters({
           "Swallowing mechanics: The froghemoth holds up to two creatures. Each swallowed creature is blinded and restrained, has total cover against attacks and effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns. If a creature inside deals at least 20 damage to the froghemoth in one turn, the froghemoth must pass a DC 20 Constitution save at that turn's end or regurgitate all swallowed creatures. They fall prone within 10 ft. If the froghemoth dies, the swallowed creatures are no longer restrained and can spend 10 ft. of movement to exit prone.",
         ],
       ],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -8452,6 +8456,7 @@ export default createPublicationMonsters({
           'A heavy-bodied, crested herbivore with a broad beak, a long tapering tail, and muted olive skin.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -12959,6 +12964,7 @@ export default createPublicationMonsters({
           'A low, stocky dinosaur with tall russet back plates, thick legs, and a long tail tipped with spikes.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -13345,6 +13351,7 @@ export default createPublicationMonsters({
           'HP threshold: With its printed maximum of 36 HP, the swarm can cast at 19 HP or more. At 18 HP or less, use the smaller Bites damage.',
         ],
       ],
+      languages: ['telepathy 30 ft.'],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -14490,6 +14497,7 @@ export default createPublicationMonsters({
           'A feathered bipedal raptor with a narrow snout, a long stiff tail, and raised sickle-shaped toe claws.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'beast',

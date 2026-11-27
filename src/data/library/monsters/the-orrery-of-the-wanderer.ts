@@ -610,6 +610,7 @@ export default createPublicationMonsters({
           'Encounter: At the end of each character’s turn, roll on the printed Cat Chase Complications table. A hit against AC 12 makes contact without lasting damage. An attack or effect that would deal at least 10 damage gives Onyx disadvantage on attack rolls through the end of her next turn. Spell-imposed conditions end automatically at the end of her next turn. To end the chase, all living characters must hide. A passive Perception of 15 spots the mouse hole within view of the fireplace. A character looking for a ground-level hiding place can attempt a DC 15 Wisdom (Perception) check with advantage from anywhere in the room.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'beast',

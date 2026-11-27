@@ -7447,6 +7447,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Guildmasters’ Guide to Ravnica'],
       ],
       habitats: ['Sky'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',

@@ -2105,6 +2105,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -2185,6 +2186,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace', 'Moons', 'Asteroids'],
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'elemental',
@@ -2500,6 +2502,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace', 'Astral Plane'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -2809,6 +2812,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace', 'Dungeons'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -3782,6 +3786,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -4094,6 +4099,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace'],
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'plant',
@@ -4217,6 +4223,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'celestial',
@@ -4401,6 +4408,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Desert', 'Underground'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -4871,6 +4879,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace'],
+      languages: [],
       stats: {
         swarmOf: 'tiny',
         size: 'medium',
@@ -7580,6 +7589,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Spelljammer: Adventures in Space'],
       ],
       habitats: ['Wildspace'],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'monstrosity',

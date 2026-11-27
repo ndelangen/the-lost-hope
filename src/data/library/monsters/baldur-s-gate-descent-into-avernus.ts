@@ -2997,6 +2997,7 @@ export default createPublicationMonsters({
           'Encounter: Outer City Denizens result 7 has 1d4 commoners herding 2d8 goats and one peacock. The encounter uses the Vulture statistics unchanged.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',

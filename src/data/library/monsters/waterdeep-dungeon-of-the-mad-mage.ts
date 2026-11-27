@@ -4231,6 +4231,7 @@ export default createPublicationMonsters({
         ],
         ['Actions: No attacks.'],
       ],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'beast',

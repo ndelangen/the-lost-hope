@@ -5449,6 +5449,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       habitats: ['Giant farmsteads'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'fey',
@@ -5599,6 +5600,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -6552,6 +6554,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Bigby Presents: Glory of the Giants'],
       ],
       habitats: ['Jungle'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',

@@ -357,6 +357,7 @@ export default createPublicationMonsters({
           'Zendikar gives no alignment or language override. Neutral good and the Giant Eagle language line are inherited from the suggested base.',
         ],
       ],
+      languages: ['Giant Eagle', "understands Common and Auran but can't speak them"],
       stats: {
         size: 'large',
         type: 'beast',
@@ -476,6 +477,7 @@ export default createPublicationMonsters({
         ['Base creature: Tarrasque'],
         ['Applied templates: Eldrazi'],
       ],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',

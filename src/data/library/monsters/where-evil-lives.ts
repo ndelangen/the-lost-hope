@@ -17,6 +17,7 @@ export default createPublicationMonsters({
         ],
         ['Reality Rend is a melee power attack.'],
       ],
+      languages: ["speaks all languages but doesn't understand any"],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -500,6 +501,7 @@ export default createPublicationMonsters({
           'Also resistant to bludgeoning, piercing and slashing damage from mundane attacks. Also immune to the Dazed condition.',
         ],
       ],
+      languages: ['all', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -942,6 +944,7 @@ export default createPublicationMonsters({
           'Encounter uses: Varrox trains his army in Camp Firefield, a demiplane reached through his pavilion. His line officers give him targets for Advance and Attack and can trigger his recruit summons when wounded.',
         ],
       ],
+      languages: ['Common', 'Goblin', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1611,6 +1614,7 @@ export default createPublicationMonsters({
           'MCDM demon soul rules: Soul count. Use the printed starting total or roll the listed dice. Souls spent on a feature are deducted from the total. A demon can accumulate souls without a maximum.\nSoul Devourer. When the demon drops a creature other than a Construct or Undead to 0 HP, or deals damage to a dying creature, that creature makes a DC 11 Wisdom save. On a failure, the demon consumes its soul, adds 1 to its soul count, and the creature dies. Only Wish can restore it to life.\nLethe. At 0 souls, the demon has advantage on attacks and disadvantage on saving throws, and its Intelligence is 3. On each turn it must use its movement to get as close as possible to the nearest creature it senses with Soulsight. If able, it must then use its action to attack that creature and attempt to kill it. It can pursue no other goal until its soul count rises.\nSoulsight. Within the creature’s listed radius, it perceives creatures other than Constructs and Undead. This counts as seeing them for its features. Physical objects, total cover, and supernatural effects do not block this sense unless a rule says they do.',
         ],
       ],
+      languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -1763,6 +1767,7 @@ export default createPublicationMonsters({
           'Printed as resisting bludgeoning, piercing, and slashing from mundane attacks, and as also immune to the Flanked condition.',
         ],
       ],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -2244,6 +2249,7 @@ export default createPublicationMonsters({
         ],
         ['Role: Controller'],
       ],
+      languages: ['Common', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2423,6 +2429,7 @@ export default createPublicationMonsters({
         ],
         ['Role: Artillery'],
       ],
+      languages: ['Common', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2577,6 +2584,7 @@ export default createPublicationMonsters({
         ],
         ['Role: Soldier'],
       ],
+      languages: ['Common', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -2711,6 +2719,7 @@ export default createPublicationMonsters({
         ],
         ['Role: Skirmisher'],
       ],
+      languages: ['Common', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -3006,6 +3015,7 @@ export default createPublicationMonsters({
           'Dazed (MCDM): On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed.',
         ],
       ],
+      languages: ['Common', 'Orc'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3147,6 +3157,7 @@ export default createPublicationMonsters({
         ],
         ['Also immune to the Dazed condition.'],
       ],
+      languages: ['Common', 'Draconic'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4008,6 +4019,7 @@ export default createPublicationMonsters({
         ],
         ['Also immune to the Dazed condition.'],
       ],
+      languages: ['Common', 'Draconic'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -4155,6 +4167,7 @@ export default createPublicationMonsters({
         ['Role: Skirmisher'],
         ['The reaction is printed as "Begone, Smallfolk!".'],
       ],
+      languages: ['Giant'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4477,6 +4490,7 @@ export default createPublicationMonsters({
         ],
         ['Role: Brute'],
       ],
+      languages: ['Abyssal', 'Gnoll'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -5391,6 +5405,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use it as a flying scout or courier for a hobgoblin camp. In an ambush, have an ally follow up with fire or necrotic damage before the grilp’s next turn.',
         ],
       ],
+      languages: ['Goblin', 'Infernal'],
       stats: {
         size: 'tiny',
         type: 'fiend',
@@ -5934,6 +5949,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a raiding-party commander or a fortification officer. The captain can reposition the squad, call for an attack at the right moment, or help an injured ally withdraw.',
         ],
       ],
+      languages: ['Common', 'Goblin', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6085,6 +6101,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a camp outrider or a skirmisher in broken terrain. On a clear route it can sprint past several opponents, then use gaps or ledges to spread the party out.',
         ],
       ],
+      languages: ['Common', 'Goblin', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6180,6 +6197,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as siege artillery or a lookout guarding a long approach. Fire Mote can force a tightly packed group to spread out.',
         ],
       ],
+      languages: ['Common', 'Goblin', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6294,6 +6312,7 @@ export default createPublicationMonsters({
           'In smoke form, resists bludgeoning, piercing, and slashing damage from mundane attacks and is immune to Grappled and Restrained.',
         ],
       ],
+      languages: ['Common', 'Goblin', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6417,6 +6436,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a shield-line guard or officer’s bodyguard. The hex pressures characters to trade blows with the trooper while its allies reposition.',
         ],
       ],
+      languages: ['Common', 'Goblin', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6506,6 +6526,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a camp mage or siege caster. Infernal Teleport can move enemies into Unhallowed Ground, where allied fire attacks become more dangerous.',
         ],
       ],
+      languages: ['Common', 'Goblin', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -6596,6 +6617,7 @@ export default createPublicationMonsters({
       habitats: ['Underground', 'Psionic lairs', 'Terminal Excrescence'],
       appearance: [['A long-armed psionic brute with an enlarged brain and a lumbering build.']],
       tableNotes: [['Brute. Terminal Excrescence, Where Evil Lives.']],
+      languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -6723,6 +6745,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a tavern enforcer, pit fighter, or gang lieutenant. Grab and Haymaker work together on one turn. Throw gives the brawler a way to clear a doorway or send someone into an obstacle.',
         ],
       ],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7025,6 +7048,7 @@ export default createPublicationMonsters({
         ],
         ['The Bonus Action is printed as "Rise, My Minions!".'],
       ],
+      languages: ['Common plus any one language'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7139,6 +7163,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a bridge toll collector, mercenary sergeant, or gang enforcer. The knave can lead with Shield Bash, follow with Morningstar, then use Stay Down to keep a fallen target from standing.',
         ],
       ],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7280,6 +7305,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a roadside raider or camp outrider. An open path lets it charge. Around a bend or up close, it can use Shield Shove to clear space before retreating.',
         ],
       ],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7378,6 +7404,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a guild thief, smuggler’s lookout, or rooftop ambusher. Opening with the rapier creates a chance to land the follow-up dagger strike with extra damage.',
         ],
       ],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7474,6 +7501,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a harbor mage, rival researcher, or guild defender. Gust of Wind can hold a narrow approach. Allied guards can protect the wizard while it lines up a Lightning Bolt.',
         ],
       ],
+      languages: ['Common plus any two languages'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7585,6 +7613,7 @@ export default createPublicationMonsters({
           'Encounter uses: Use as a rooftop lookout, convoy escort, or smuggler’s guard. Give the trickshot a firing position overlooking a route where targets may bunch up, such as a stair landing or alley mouth.',
         ],
       ],
+      languages: ['Common'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -7793,6 +7822,7 @@ export default createPublicationMonsters({
         ],
         ["The trait is printed as 'Security for Speed'."],
       ],
+      languages: ['Common', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -8017,6 +8047,7 @@ export default createPublicationMonsters({
         ],
         ['Also immune to Flanked (printed in the same list as the condition immunities).'],
       ],
+      languages: ['Common', 'Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'aberration',
@@ -8661,6 +8692,7 @@ export default createPublicationMonsters({
           'Dazed (MCDM): On its turn a Dazed creature can move, take an action, or take a bonus action. It chooses one. Becoming Dazed during its turn ends the turn. Extra actions from effects such as Haste or Action Surge are still available. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed.',
         ],
       ],
+      languages: ['Common', 'Elvish'],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -9139,6 +9171,7 @@ export default createPublicationMonsters({
           "The two choices are printed as 'Memory Transfer, stripped memory' and 'Memory Transfer, command'.",
         ],
       ],
+      languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -9520,6 +9553,7 @@ export default createPublicationMonsters({
         ],
         ['Concealing Strike is a psionic power attack.'],
       ],
+      languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -11448,6 +11482,7 @@ export default createPublicationMonsters({
           'MCDM demon soul rules: Soul count. Use the printed starting total or roll the listed dice. Souls spent on a feature are deducted from the total. A demon can accumulate souls without a maximum.\nSoul Devourer. When the demon drops a creature other than a Construct or Undead to 0 HP, or deals damage to a dying creature, that creature makes a DC 11 Wisdom save. On a failure, the demon consumes its soul, adds 1 to its soul count, and the creature dies. Only Wish can restore it to life.\nLethe. At 0 souls, the demon has advantage on attacks and disadvantage on saving throws, and its Intelligence is 3. On each turn it must use its movement to get as close as possible to the nearest creature it senses with Soulsight. If able, it must then use its action to attack that creature and attempt to kill it. It can pursue no other goal until its soul count rises.\nSoulsight. Within the creature’s listed radius, it perceives creatures other than Constructs and Undead. This counts as seeing them for its features. Physical objects, total cover, and supernatural effects do not block this sense unless a rule says they do.',
         ],
       ],
+      languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -11835,6 +11870,7 @@ export default createPublicationMonsters({
         ['Mundane Attacks (MCDM): A mundane attack is one that uses neither magic nor psionics.'],
         ['Also resistant to bludgeoning, piercing, and slashing from mundane attacks.'],
       ],
+      languages: ['Common', 'Giant', 'Infernal', 'Sylvan'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -12013,6 +12049,7 @@ export default createPublicationMonsters({
         ],
         ['Also immune to Flanked (printed in the same list as the condition immunities).'],
       ],
+      languages: ['Abyssal', 'Goblin', 'Infernal'],
       stats: {
         size: 'huge',
         type: 'fiend',
@@ -12429,6 +12466,7 @@ export default createPublicationMonsters({
         ['Role: Controller'],
         ['Mundane Attacks (MCDM): A mundane attack is one that uses neither magic nor psionics.'],
       ],
+      languages: ['Sylvan', 'any languages the dryad spoke before their binding'],
       stats: {
         size: 'large',
         type: 'fey',
@@ -12978,6 +13016,7 @@ export default createPublicationMonsters({
           'Psionics (MCDM): Powers are supernatural and need no components. Antimagic Field, Counterspell, and Dispel Magic do not affect them. The creature can use a power as a bonus action and still use a power of 2nd order or higher as its action.',
         ],
       ],
+      languages: ['Common', "Kuran'zoi", 'telepathy 60 ft.'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -13121,6 +13160,7 @@ export default createPublicationMonsters({
           'MCDM demon soul rules: Soul count. Use the printed starting total or roll the listed dice. Souls spent on a feature are deducted from the total. A demon can accumulate souls without a maximum.\nSoul Devourer. When the demon drops a creature other than a Construct or Undead to 0 HP, or deals damage to a dying creature, that creature makes a DC 11 Wisdom save. On a failure, the demon consumes its soul, adds 1 to its soul count, and the creature dies. Only Wish can restore it to life.\nLethe. At 0 souls, the demon has advantage on attacks and disadvantage on saving throws, and its Intelligence is 3. On each turn it must use its movement to get as close as possible to the nearest creature it senses with Soulsight. If able, it must then use its action to attack that creature and attempt to kill it. It can pursue no other goal until its soul count rises.\nSoulsight. Within the creature’s listed radius, it perceives creatures other than Constructs and Undead. This counts as seeing them for its features. Physical objects, total cover, and supernatural effects do not block this sense unless a rule says they do.',
         ],
       ],
+      languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -13644,6 +13684,7 @@ export default createPublicationMonsters({
           'Psionics: Its powers work through Antimagic Field and are unaffected by Counterspell and Dispel Magic. It cannot keep more than one active manifestation of the same power.',
         ],
       ],
+      languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -13795,6 +13836,7 @@ export default createPublicationMonsters({
         ],
         ["The bonus action is printed as 'Vanish for One'."],
       ],
+      languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -14197,6 +14239,7 @@ export default createPublicationMonsters({
         ],
         ['The printed bonus action name is "Flee, Mortal (1 soul)"; the comma is removed here.'],
       ],
+      languages: ['Abyssal', 'Common', 'telepathy 120 ft.'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -14794,6 +14837,7 @@ export default createPublicationMonsters({
         ['Printed as also immune to the Flanked condition.'],
         ["The reaction is printed as 'Cower!'."],
       ],
+      languages: ['Common', 'Deep Speech', 'Undercommon'],
       stats: {
         size: 'large',
         type: 'aberration',

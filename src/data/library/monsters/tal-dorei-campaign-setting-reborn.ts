@@ -123,6 +123,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Cliffkeep Mountains'],
+      languages: ['Common', 'Druidic', 'Terran'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -214,6 +215,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Open ocean', 'Vesrah'],
+      languages: ['Aquan', 'Common', 'Druidic'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -676,6 +678,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ["Tal'Dorei", 'Cities'],
+      languages: ['Common', "Thieves' cant"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -776,6 +779,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ["Tal'Dorei", 'Cities'],
+      languages: ['Common', "Thieves' cant"],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -1765,6 +1769,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ["Tal'Dorei"],
+      languages: ['Abyssal', 'Common', 'Infernal', 'Undercommon'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -1955,6 +1960,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Mountain', 'Cliffkeep Mountains'],
+      languages: ['Common', 'Dwarvish'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -2794,6 +2800,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Plains'],
+      languages: ['Abyssal', 'Common', 'one other language'],
       stats: {
         size: 'large',
         type: 'humanoid',
@@ -2941,6 +2948,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Plains'],
+      languages: ['Common', 'one other language'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -3017,6 +3025,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
+      languages: ['Common', 'Infernal'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3139,6 +3148,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Plains'],
+      languages: ['Common', 'Giant'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3291,6 +3301,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Plains'],
+      languages: ['Common', 'Giant'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -3379,6 +3390,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Jungle', 'Swamp', 'Desert'],
+      languages: ['Common', 'Draconic'],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3493,6 +3505,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Ruins'],
+      languages: ['Common', 'Draconic'],
       stats: {
         size: 'large',
         type: 'undead',
@@ -3619,6 +3632,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tal’Dorei Campaign Setting Reborn'],
       ],
       habitats: ['Forest'],
+      languages: ['Common', 'Druidic', 'Elvish', 'Sylvan'],
       stats: {
         size: 'huge',
         type: 'plant',

@@ -1751,6 +1751,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tomb of Annihilation, p. 217', ', ', 'Tomb of Annihilation, p. 197'],
       ],
       habitats: ['Jungle'],
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'elemental',
@@ -1836,6 +1837,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Tomb of Annihilation'],
       ],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -4927,6 +4929,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tomb of Annihilation, p. 227', ', ', 'Tomb of Annihilation, p. 201'],
       ],
       habitats: ['Jungle'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'plant',
@@ -6650,6 +6653,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tomb of Annihilation, p. 232'],
       ],
       habitats: ['Jungle'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -7279,6 +7283,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tomb of Annihilation, p. 234'],
       ],
       habitats: ['Jungle'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -7405,6 +7410,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Monster Manual (2014), p. 315'],
       ],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -8582,6 +8588,7 @@ export default createPublicationMonsters({
         ['Sources: ', 'Tomb of Annihilation, p. 237'],
       ],
       habitats: ['Jungle'],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -9405,6 +9412,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Tomb of Annihilation'],
       ],
+      languages: [],
       stats: {
         size: 'small',
         type: 'monstrosity',

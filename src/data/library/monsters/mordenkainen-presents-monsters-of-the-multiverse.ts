@@ -4564,6 +4564,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -4669,6 +4670,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -10873,6 +10875,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -11250,6 +11253,7 @@ export default createPublicationMonsters({
       page: 231,
       alignment: 'unaligned',
       habitats: ['underdark'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -11676,6 +11680,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -13326,6 +13331,7 @@ export default createPublicationMonsters({
       page: 137,
       alignment: 'unaligned',
       habitats: ['hill', 'mountain', 'underdark'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'elemental',
@@ -13672,6 +13678,7 @@ export default createPublicationMonsters({
       page: 139,
       alignment: 'unaligned',
       habitats: ['forest'],
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -20119,6 +20126,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -23172,6 +23180,7 @@ export default createPublicationMonsters({
           'On a Bite hit, a failed DC 10 Constitution save leaves the target Poisoned for 1 minute. The creature can repeat the save at the end of each turn, ending it on success.',
         ],
       ],
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'aberration',
@@ -23439,6 +23448,7 @@ export default createPublicationMonsters({
       page: 193,
       alignment: 'typically chaotic evil',
       habitats: ['underdark'],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'aberration',
@@ -23571,6 +23581,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -23926,6 +23937,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'ooze',
@@ -24742,6 +24754,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -30368,6 +30381,7 @@ export default createPublicationMonsters({
         'underdark',
         'urban',
       ],
+      languages: [],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -32205,6 +32219,7 @@ export default createPublicationMonsters({
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
       ],
+      languages: [],
       stats: {
         size: 'small',
         type: 'monstrosity',
