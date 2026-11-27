@@ -3,7 +3,6 @@ import { createFileRoute, notFound, redirect, stripSearchParams } from '@tanstac
 import { LibraryBrowse } from '#/components/library/library-browse'
 import {
   isLibraryType,
-  type LibraryIndexLoad,
   librarySearch,
   libraryTypes,
   MERGED_LIBRARY_TYPES,
@@ -19,11 +18,14 @@ export const Route = createFileRoute('/library/$type/')({
     if (!isLibraryType(type) || !libraryBrowseTypes(Boolean(search.dm)).has(type)) throw notFound()
     return { libraryType: type }
   },
-  // Only the type shown loads its index.
-  loader: async ({ context: { libraryType } }): Promise<LibraryIndexLoad> => {
-    const { loadLibraryIndex } = await import('#/lib/published-library-data')
-    await loadLibraryIndex([libraryType])
-    return { libraryIndex: [libraryType] }
+  loaderDeps: ({ search: { dm, q, group, page } }) => ({ dm, q, group, page }),
+  // The page's results are built here, so the browser hydrates without the type's whole index.
+  loader: async ({ context: { libraryType }, deps }) => {
+    const library = await import('#/lib/published-library')
+    await library.loadLibraryIndex([libraryType])
+    const query = { ...deps, dm: Boolean(deps.dm), type: libraryType }
+    const printedText = typeof window !== 'undefined' && library.libraryTextSearchLoaded(query.dm)
+    return { view: library.libraryBrowseView(query, printedText) }
   },
   head: ({ match }) => ({
     meta: [
@@ -40,6 +42,7 @@ export const Route = createFileRoute('/library/$type/')({
 
 function LibraryTypePage() {
   const { libraryType } = Route.useRouteContext()
+  const { view } = Route.useLoaderData()
   const { dm, q, group, page } = Route.useSearch()
   const navigate = Route.useNavigate()
   return (
@@ -49,6 +52,7 @@ function LibraryTypePage() {
       q={q}
       group={group}
       page={page}
+      view={view}
       onSearch={(query, nextGroup) => void navigate({ search: { dm, q: query, group: nextGroup } })}
       onPage={(nextPage) =>
         void navigate({ search: { dm, q, group, page: nextPage === 1 ? undefined : nextPage } })

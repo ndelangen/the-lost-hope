@@ -5,17 +5,16 @@ import { useEffect, useState } from 'react'
 import { LibraryImage } from '#/components/library/library-image'
 import { SearchInput } from '#/components/ui/search-input'
 import {
-  browseLibrary,
   libraryBrowseTypes,
-  libraryGroups,
-  libraryTextSearchLoaded,
+  libraryBrowseView,
+  loadLibraryIndex,
   loadLibrarySearch,
+  type LibraryBrowseView,
 } from '#/lib/published-library'
 import { isLibraryType, libraryTypes, type LibraryType } from '#/lib/published-library-routing'
 
 import { LibraryAttribution } from './library-attribution'
 
-const resultsPerPage = 36
 const control =
   'border-border bg-background hover:bg-muted inline-flex items-center gap-2 rounded-md border px-3 py-2 text-sm'
 const selected = 'border-primary bg-primary/10 text-foreground'
@@ -26,6 +25,7 @@ export function LibraryBrowse({
   type,
   group,
   page,
+  view: loadedView,
   onSearch,
   onPage,
 }: {
@@ -34,33 +34,31 @@ export function LibraryBrowse({
   type?: LibraryType
   group?: string
   page?: number
+  /** The page of results the route's loader built, without printed-text matches. */
+  view: LibraryBrowseView
   onSearch: (query: string | undefined, group: string | undefined) => void
   onPage: (page: number) => void
 }) {
-  // Printed-text search words load after hydration, so the server and the first client render
-  // agree; results then widen to matches inside printed text.
-  const [searchReady, setSearchReady] = useState(
-    () => typeof window !== 'undefined' && libraryTextSearchLoaded(Boolean(dm)),
-  )
+  // The page hydrates from the results its loader built, so it needs no library index first. A
+  // search then widens to matches inside printed text once the index and search words load.
+  const [widened, setWidened] = useState<{ for: LibraryBrowseView; view: LibraryBrowseView }>()
   useEffect(() => {
-    if (q) void loadLibrarySearch(Boolean(dm)).then(() => setSearchReady(true))
-  }, [q, dm])
-  const entries = browseLibrary(Boolean(dm), q, type, group, searchReady)
+    if (!q) return
+    let current = true
+    const query = { dm: Boolean(dm), q, type, group, page }
+    void Promise.all([
+      loadLibraryIndex(type ? [type] : undefined),
+      loadLibrarySearch(Boolean(dm)),
+    ]).then(() => {
+      if (current) setWidened({ for: loadedView, view: libraryBrowseView(query, true) })
+    })
+    return () => {
+      current = false
+    }
+  }, [loadedView, dm, q, type, group, page])
+  const view = q && widened?.for === loadedView ? widened.view : loadedView
+  const { sections, total, pageCount, currentPage, pending, groups } = view
   const availableTypes = libraryBrowseTypes(Boolean(dm))
-  const groups = libraryGroups(Boolean(dm), type)
-  const pageCount = Math.max(1, Math.ceil(entries.length / resultsPerPage))
-  // Until printed-text matches load, the list is partial: keep the requested page and hold the
-  // count back rather than show a number that is about to change.
-  const pending = Boolean(q) && !searchReady
-  const currentPage = pending ? (page ?? 1) : Math.min(page ?? 1, pageCount)
-  const start = (currentPage - 1) * resultsPerPage
-  const results = new Map<string, typeof entries>()
-  for (const entry of entries.slice(start, start + resultsPerPage)) {
-    const label = type ? (group ?? entry.group) : libraryTypes[entry.type]
-    const cards = results.get(label) ?? []
-    cards.push(entry)
-    results.set(label, cards)
-  }
 
   return (
     <div className="grid min-w-0 gap-5">
@@ -186,13 +184,13 @@ export function LibraryBrowse({
           'Searching…'
         ) : (
           <>
-            {entries.length.toLocaleString()} {entries.length === 1 ? 'entry' : 'entries'}
+            {total.toLocaleString()} {total === 1 ? 'entry' : 'entries'}
             {pageCount > 1 && ` · Page ${currentPage} of ${pageCount}`}
           </>
         )}
       </output>
-      {!entries.length && !pending && <p>Try another search or group.</p>}
-      {[...results].map(([label, cards]) => (
+      {!total && !pending && <p>Try another search or group.</p>}
+      {sections.map(({ label, entries: cards }) => (
         <section key={label} className="grid gap-3">
           <h2 className="text-xl font-semibold">{label}</h2>
           <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6">

@@ -1,16 +1,20 @@
 import { createFileRoute, stripSearchParams } from '@tanstack/react-router'
 
 import { LibraryBrowse } from '#/components/library/library-browse'
-import { type LibraryIndexLoad, librarySearch } from '#/lib/published-library-routing'
+import { librarySearch } from '#/lib/published-library-routing'
 
 export const Route = createFileRoute('/library/')({
   validateSearch: librarySearch,
   search: { middlewares: [stripSearchParams(librarySearch({}))] },
-  // The overview browses every type.
-  loader: async (): Promise<LibraryIndexLoad> => {
-    const { libraryCatalogTypes, loadLibraryIndex } = await import('#/lib/published-library-data')
-    await loadLibraryIndex(libraryCatalogTypes)
-    return { libraryIndex: libraryCatalogTypes }
+  loaderDeps: ({ search: { dm, q, page } }) => ({ dm, q, page }),
+  // The overview browses every type. Its results are built here, so the browser hydrates without
+  // the whole library index.
+  loader: async ({ deps }) => {
+    const library = await import('#/lib/published-library')
+    await library.loadLibraryIndex()
+    const query = { ...deps, dm: Boolean(deps.dm) }
+    const printedText = typeof window !== 'undefined' && library.libraryTextSearchLoaded(query.dm)
+    return { view: library.libraryBrowseView(query, printedText) }
   },
   head: ({ match }) => ({
     meta: [
@@ -23,12 +27,14 @@ export const Route = createFileRoute('/library/')({
 
 function LibraryPage() {
   const { dm, q, page } = Route.useSearch()
+  const { view } = Route.useLoaderData()
   const navigate = Route.useNavigate()
   return (
     <LibraryBrowse
       dm={dm}
       q={q}
       page={page}
+      view={view}
       onPage={(nextPage) =>
         void navigate({ search: { dm, q, page: nextPage === 1 ? undefined : nextPage } })
       }

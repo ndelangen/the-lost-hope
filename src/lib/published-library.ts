@@ -9,6 +9,7 @@ import {
   searchWords,
   type LibraryType,
 } from './published-library-data'
+import { libraryTypes } from './published-library-routing'
 import { allAbilities } from './stat-block'
 
 export {
@@ -191,3 +192,51 @@ export function getLibraryEntry(type: LibraryType, slug: string, dm: boolean, ve
     abilityDisplay: dm ? selected.abilityDisplay : undefined,
   }
 }
+
+/** How many entries one page of library results shows. */
+const RESULTS_PER_PAGE = 36
+
+export type LibraryBrowseEntry = ReturnType<typeof browseLibrary>[number]
+
+export type LibraryBrowseQuery = {
+  dm: boolean
+  q?: string
+  type?: LibraryType
+  group?: string
+  page?: number
+}
+
+/**
+ * One page of library results as the browse page shows it, grouped under headings. Load the
+ * types it reads first: `type`, or every type when it is unset. `printedText` widens a search to
+ * printed text once `loadLibrarySearch` has run.
+ */
+export function libraryBrowseView(
+  { dm, q, type, group, page }: LibraryBrowseQuery,
+  printedText: boolean,
+) {
+  const entries = browseLibrary(dm, q, type, group, printedText)
+  const pageCount = Math.max(1, Math.ceil(entries.length / RESULTS_PER_PAGE))
+  // Until printed-text matches load, the list is partial: keep the requested page and hold the
+  // count back rather than show a number that is about to change.
+  const pending = Boolean(q) && !printedText
+  const currentPage = pending ? (page ?? 1) : Math.min(page ?? 1, pageCount)
+  const start = (currentPage - 1) * RESULTS_PER_PAGE
+  const sections: { label: string; entries: LibraryBrowseEntry[] }[] = []
+  for (const entry of entries.slice(start, start + RESULTS_PER_PAGE)) {
+    const label = type ? (group ?? entry.group) : libraryTypes[entry.type]
+    const section = sections.find((candidate) => candidate.label === label)
+    if (section) section.entries.push(entry)
+    else sections.push({ label, entries: [entry] })
+  }
+  return {
+    sections,
+    total: entries.length,
+    pageCount,
+    currentPage,
+    pending,
+    groups: libraryGroups(dm, type),
+  }
+}
+
+export type LibraryBrowseView = ReturnType<typeof libraryBrowseView>
