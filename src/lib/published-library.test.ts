@@ -1,11 +1,17 @@
 import { expect, test } from 'vitest'
 
 import imageSources from '../../scripts/library-image-sources.json'
-import { browseLibrary, getLibraryEntry, librarySearch } from './published-library'
+import {
+  browseLibrary,
+  getLibraryEntry,
+  librarySearch,
+  loadLibrarySearch,
+} from './published-library'
 import { loadAllLibraryDetails, publishedLibrary } from './published-library-data'
 
 // These tests read printed text across the whole catalog.
 await loadAllLibraryDetails()
+await loadLibrarySearch(true)
 
 test('player browse, search, and direct entry share the same visibility rules', () => {
   expect(browseLibrary(false).map(({ type }) => type)).not.toContain('ideas')

@@ -1,5 +1,11 @@
-import { monsterPrinting } from './library-monsters'
-import { publishedLibrary, searchWords, type LibraryType } from './published-library-data'
+import type { monsterPrinting as MonsterPrinting } from './library-monsters'
+import {
+  libraryTextSearchLoaded as printedTextLoaded,
+  loadLibrarySearch as loadPrintedText,
+  publishedLibrary,
+  searchWords,
+  type LibraryType,
+} from './published-library-data'
 import { allAbilities } from './stat-block'
 
 export {
@@ -8,12 +14,30 @@ export {
   libraryTypes,
   type LibraryType,
 } from './published-library-routing'
-export {
-  libraryTextSearchLoaded,
-  loadLibraryDetail,
-  loadLibrarySearch,
-  type SrdVersion,
-} from './published-library-data'
+export { loadLibraryDetail, type SrdVersion } from './published-library-data'
+
+/** Every creature's stat blocks, which a DM search also matches by ability name, once loaded. */
+let typedMonsterPrinting: typeof MonsterPrinting | undefined
+
+/** Whether `loadLibrarySearch` has run for this kind of search. */
+export function libraryTextSearchLoaded(dm: boolean) {
+  return printedTextLoaded() && (!dm || typedMonsterPrinting !== undefined)
+}
+
+/**
+ * Load what search matches in printed text, and for a DM search the creatures whose ability names
+ * it matches; browsing without a query needs neither.
+ */
+export async function loadLibrarySearch(dm: boolean) {
+  await Promise.all([
+    loadPrintedText(),
+    dm && !typedMonsterPrinting
+      ? import('./library-monsters').then(({ monsterPrinting }) => {
+          typedMonsterPrinting = monsterPrinting
+        })
+      : undefined,
+  ])
+}
 
 const entriesByPath = new Map(
   publishedLibrary.map((entry) => [entry.type + '/' + entry.slug, entry]),
@@ -73,7 +97,7 @@ export function browseLibrary(
           dm &&
           printing.typed &&
           'monster' in printing.typed &&
-          monsterPrinting(printing.typed.monster, printing.typed.publication)
+          typedMonsterPrinting?.(printing.typed.monster, printing.typed.publication)
         if (typed) searchable.push(...allAbilities(typed.printing.stats).map(({ name }) => name))
       }
       const text = normalize(searchable.join(' '))

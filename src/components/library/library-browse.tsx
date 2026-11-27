@@ -40,11 +40,11 @@ export function LibraryBrowse({
   // Printed-text search words load after hydration, so the server and the first client render
   // agree; results then widen to matches inside printed text.
   const [searchReady, setSearchReady] = useState(
-    () => typeof window !== 'undefined' && libraryTextSearchLoaded(),
+    () => typeof window !== 'undefined' && libraryTextSearchLoaded(Boolean(dm)),
   )
   useEffect(() => {
-    if (q) void loadLibrarySearch().then(() => setSearchReady(true))
-  }, [q])
+    if (q) void loadLibrarySearch(Boolean(dm)).then(() => setSearchReady(true))
+  }, [q, dm])
   const entries = browseLibrary(Boolean(dm), q, type, group, searchReady)
   const availableTypes = libraryBrowseTypes(Boolean(dm))
   const groups = libraryGroups(Boolean(dm), type)

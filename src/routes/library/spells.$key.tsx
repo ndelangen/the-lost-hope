@@ -2,23 +2,25 @@ import { createFileRoute, Link, notFound } from '@tanstack/react-router'
 import { ArrowLeft } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
-import { publicationOf } from '#/lib/library-monsters'
-import { spellLevelLabel, spells } from '#/lib/library-spells'
+import { publicationOf } from '#/lib/library-publications'
+import { spellLevelLabel } from '#/lib/spell-level-label'
 
 export const Route = createFileRoute('/library/spells/$key')({
-  beforeLoad: ({ params }) => {
-    const spell = Object.hasOwn(spells, params.key) ? spells[params.key] : undefined
+  // Loads only this spell's book, so the route tree that every page carries holds no spell text.
+  loader: async ({ params }) => {
+    const { loadSpell } = await import('#/lib/load-spell')
+    const spell = await loadSpell({ ref: 'spell', key: params.key })
     if (!spell) throw notFound()
     return { spell }
   },
-  head: ({ match }) => ({
-    meta: [{ title: (match.context.spell?.name ?? 'Spell') + ' | The Lost Hope Library' }],
+  head: ({ loaderData }) => ({
+    meta: [{ title: (loaderData?.spell.name ?? 'Spell') + ' | The Lost Hope Library' }],
   }),
   component: SpellPage,
 })
 
 function SpellPage() {
-  const { spell } = Route.useRouteContext()
+  const { spell } = Route.useLoaderData()
   const publication = publicationOf(spell.publication)
   const facts = [
     ['Casting time', spell.castingTime],

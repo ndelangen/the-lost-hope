@@ -3,7 +3,7 @@ import { ArrowLeft, Sparkles } from 'lucide-react'
 
 import { SearchInput } from '#/components/ui/search-input'
 import { SPELL_SCHOOLS } from '#/definitions/library'
-import { publicationOf } from '#/lib/library-monsters'
+import { publicationOf } from '#/lib/library-publications'
 import { browseSpells, spellFacets, spellLevelLabel, type SpellFilters } from '#/lib/library-spells'
 
 const resultsPerPage = 60

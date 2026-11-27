@@ -1,8 +1,8 @@
 import books from '#/data/library/monsters/_index'
-import publications from '#/data/library/publications'
 import type { EntityRef } from '#/definitions/kind'
-import type { MonsterPrinting, Publication } from '#/definitions/library'
+import type { MonsterPrinting } from '#/definitions/library'
 
+import { publicationOf } from './library-publications'
 import { deriveStatBlock } from './stat-block'
 
 /** Every printing of each monster, keyed by the publication that holds the stat block. */
@@ -14,12 +14,6 @@ for (const { publication, monsters } of books)
     printings.set(publication.key, printing)
     printingsByMonster.set(key, printings)
   }
-
-export function publicationOf(ref: EntityRef<'publication'>): Publication {
-  const publication = publications[ref.key]
-  if (!publication) throw new Error(`Unknown publication: ${ref.key}`)
-  return publication
-}
 
 /**
  * The typed printing a publication gives a monster: its own stat block, or the one it reprints
