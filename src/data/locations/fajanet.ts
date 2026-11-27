@@ -15,5 +15,6 @@ export default createLocation({
       '.',
     ],
   ],
+  illustration: '/assets/locations/fajanet-illustration.png',
   map: { url: '/assets/locations/fajanet.png', width: 1200, height: 800 },
 })

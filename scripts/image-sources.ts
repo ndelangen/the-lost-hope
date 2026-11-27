@@ -1206,6 +1206,12 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/content/locations/fajanet-guildhall-illustration.png',
   },
   {
+    id: 'location-illustration-fajanet',
+    role: 'illustration',
+    logicalSource: '/assets/locations/fajanet-illustration.png',
+    repositoryPath: 'assets/images/content/locations/fajanet-illustration.png',
+  },
+  {
     id: 'location-illustration-giggles-and-gadgets',
     role: 'illustration',
     logicalSource: '/assets/locations/giggles-and-gadgets-illustration.png',
@@ -2986,6 +2992,12 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     role: 'illustration',
     logicalSource: '/assets/scenes/down-through-the-rubble.png',
     repositoryPath: 'assets/images/content/scenes/down-through-the-rubble.png',
+  },
+  {
+    id: 'scenes-light-walks-auren-through-fajanet',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/light-walks-auren-through-fajanet.png',
+    repositoryPath: 'assets/images/content/scenes/light-walks-auren-through-fajanet.png',
   },
   {
     id: 'scenes-light-walks-auren-through-fajanet-night',
