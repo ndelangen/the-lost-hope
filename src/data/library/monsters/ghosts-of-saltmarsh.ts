@@ -613,8 +613,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'spear-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'spear-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -849,7 +858,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con', printed: 12 },
-              ' Constitution saving throw or contract bluerot (see the "Bluerot" in notes).',
+              ' Constitution saving throw or contract ',
+              { effect: 'bluerot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bluerot',
+                name: 'Bluerot',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 12 },
+                text: ['bluerot (see the "Bluerot" in notes)'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -937,7 +957,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'str', save: 'con' },
-              ' Constitution saving throw or contract bluerot (see the "Bluerot" in notes).',
+              ' Constitution saving throw or contract ',
+              { effect: 'crossbow-bluerot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crossbow-bluerot',
+                name: 'Bluerot',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ['bluerot (see the "Bluerot" in notes)'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -958,7 +989,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'str', save: 'con' },
-              ' Constitution saving throw or contract bluerot (see the "Bluerot" in notes).',
+              ' Constitution saving throw or contract ',
+              { effect: 'dagger-bluerot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dagger-bluerot',
+                name: 'Bluerot',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ['bluerot (see the "Bluerot" in notes)'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -970,8 +1012,17 @@ export default createPublicationMonsters({
               "The drowned assassin removes its mask, revealing its rotting face. Each creature of the assassin's choice within 30 feet of it that can see the assassin must succeed on a ",
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' until the end of its next turn.',
+              { effect: 'reveal-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'reveal-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -1045,7 +1096,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con', printed: 12 },
-              ' Constitution saving throw or contract bluerot (see the "Bluerot" in notes).',
+              ' Constitution saving throw or contract ',
+              { effect: 'bluerot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bluerot',
+                name: 'Bluerot',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 12 },
+                text: ['bluerot (see the "Bluerot" in notes)'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1130,7 +1192,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con', printed: 12 },
-              ' Constitution saving throw or contract bluerot (see the "Bluerot" in notes).',
+              ' Constitution saving throw or contract ',
+              { effect: 'bluerot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bluerot',
+                name: 'Bluerot',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 12 },
+                text: ['bluerot (see the "Bluerot" in notes)'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1148,7 +1221,29 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to 0. This reduction lasts until the target finishes a long rest. On a failed save, the target also contracts bluerot (see the "Bluerot" in notes).',
+              ' Constitution saving throw or have its ',
+              { effect: 'tentacle-max' },
+              '. On a failed save, the target also contracts ',
+              { effect: 'tentacle-bluerot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-max',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'hit point maximum reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to 0. This reduction lasts until the target finishes a long rest.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
+              {
+                key: 'tentacle-bluerot',
+                name: 'Bluerot',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['bluerot (see the "Bluerot" in notes)'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1168,8 +1263,26 @@ export default createPublicationMonsters({
             },
             text: [
               'The drowned master discharges foul ink in front of itself in a 30-foot cone. A creature that fails this saving throw is ',
-              rules.blinded,
-              ' until the end of its next turn and contracts bluerot (see the "Bluerot" in notes).',
+              { effect: 'ink-blinded' },
+              ' and contracts ',
+              { effect: 'ink-bluerot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ink-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'ink-bluerot',
+                name: 'Bluerot',
+                lands: { on: 'failed-save' },
+                text: ['bluerot (see the "Bluerot" in notes)'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1549,18 +1662,30 @@ export default createPublicationMonsters({
               'The matriarch sings a magical melody. Every humanoid and giant within 300 feet of the matriarch that can hear the song must succeed on a ',
               { dc: 'dex', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' until the song ends. The matriarch must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the matriarch is ',
+              { effect: 'song-charmed' },
+              '. The matriarch must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the matriarch is ',
               rules.incapacitated,
-              '. While ',
-              rules.charmed,
-              ' by the matriarch, a target is ',
-              rules.incapacitated,
-              ' and ignores the songs of other harpies. If the ',
-              rules.charmed,
-              " target is more than 5 feet away from the matriarch, the target must move on its turn toward the matriarch by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the matriarch, the target can repeat the saving throw. A ",
-              rules.charmed,
-              " target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it. A target that successfully saves is immune to this matriarch's song for the next 24 hours.",
+              '. ',
+              "A target that successfully saves is immune to this matriarch's song for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'song-charmed',
+                name: 'Charmed by the song',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.charmed, rules.incapacitated],
+                text: [
+                  'While ',
+                  rules.charmed,
+                  ' by the matriarch, a target is ',
+                  rules.incapacitated,
+                  ' and ignores the songs of other harpies. If the ',
+                  rules.charmed,
+                  " target is more than 5 feet away from the matriarch, the target must move on its turn toward the matriarch by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the matriarch, the target can repeat the saving throw.",
+                ],
+                lasts: { kind: 'until', text: ['the song ends'] },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1572,8 +1697,17 @@ export default createPublicationMonsters({
               "The matriarch projects a vision into the minds of creatures within 30 feet of it that aren't constructs or undead, showing each creature achieving whatever it most desires. An affected creature must succeed on a ",
               { dc: 'dex', save: 'wis' },
               ' Wisdom saving throw or drop whatever it is holding and become ',
-              rules.paralyzed,
-              ' until the end of its next turn.',
+              { effect: 'visage-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'visage-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -1688,6 +1822,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'trident',
@@ -1744,6 +1879,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1779,10 +1915,18 @@ export default createPublicationMonsters({
               range: [10, 30],
               damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'The target is ',
-              rules.restrained,
-              '. A creature can use its action to make a DC 12 Strength check to free itself or another creature in a hooked net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 12) frees the target without harming it and destroys the net.',
+            text: ['The target is ', { effect: 'net-restrained' }, '.'],
+            effects: [
+              {
+                key: 'net-restrained',
+                name: 'Restrained by a hooked net',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                text: [
+                  'A creature can use its action to make a DC 12 Strength check to free itself or another creature in a hooked net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 12) frees the target without harming it and destroys the net.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1801,6 +1945,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -2028,6 +2173,7 @@ export default createPublicationMonsters({
               ' to hit with spell attacks). He can cast the following spell, requiring only verbal components: 1/day: ',
               refs.spells.fog_cloud_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2134,7 +2280,16 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
             },
-            text: ['The target is knocked ', rules.prone, '.'],
+            text: ['The target is knocked ', { effect: 'hammer-prone' }, '.'],
+            effects: [
+              {
+                key: 'hammer-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'whirl',
@@ -2157,6 +2312,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2274,8 +2430,17 @@ export default createPublicationMonsters({
               'The render makes a claw attack against each creature of its choice within 10 feet of it. A creature hit by this attack must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'rend-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rend-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2399,6 +2564,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ', or put to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'limited-amphibiousness',
@@ -2492,8 +2658,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'dex', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' until the end of its next turn.',
+              { effect: 'crossbow-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crossbow-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -2898,6 +3073,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'light-hammer',
@@ -2925,7 +3101,17 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
             },
-            text: ['The target is ', rules.grappled, ' (escape DC 13).'],
+            text: ['The target is ', { effect: 'hooked' }, '.'],
+            effects: [
+              {
+                key: 'hooked',
+                name: 'Hooked',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
+            ],
           },
         ],
       },
@@ -2974,6 +3160,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.misty_step_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'sea-legs',
@@ -2985,6 +3172,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -3028,6 +3216,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3054,6 +3243,7 @@ export default createPublicationMonsters({
               { dc: 'str', printed: 14 },
               ' Strength saving throw or drop one item it is holding on the ground.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3172,6 +3362,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.sleet_storm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -3604,12 +3795,24 @@ export default createPublicationMonsters({
               'The deep diver pulses magical light from its lure. Any creature within 30 feet of the deep diver that can see the light must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' until the end of its next turn. A creature ',
-              rules.charmed,
-              ' in this way is ',
-              rules.incapacitated,
-              ' as it stares at the light.',
+              { effect: 'light-charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'light-charmed',
+                name: 'Charmed by the light',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                text: [
+                  'A creature ',
+                  rules.charmed,
+                  ' in this way is ',
+                  rules.incapacitated,
+                  ' as it stares at the light.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -3758,6 +3961,7 @@ export default createPublicationMonsters({
               '; 4th level (1 slot): ',
               refs.spells.banishment_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'blood-frenzy',
@@ -3881,6 +4085,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scorching_ray_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -4291,8 +4496,17 @@ export default createPublicationMonsters({
             },
             text: [
               'The juggernaut collapses into a large heap before quickly reforming. A creature that fails this saving throw is also knocked ',
-              rules.prone,
+              { effect: 'knocked-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4336,6 +4550,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Creatures are ', rules.deafened, " while in the swarm's space."],
+            effects: [],
           },
           {
             key: 'swarm',
@@ -4390,6 +4605,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['The skum is permanently ', rules.charmed, ' by its aboleth master.'],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -4410,6 +4626,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' conditions unless they are from effects created by an aboleth.',
             ],
+            effects: [],
           },
           {
             key: 'water-dependency',
@@ -4620,8 +4837,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -4826,6 +5052,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mass_cure_wounds_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -4845,6 +5072,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',

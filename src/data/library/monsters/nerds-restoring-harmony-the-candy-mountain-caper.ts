@@ -82,7 +82,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wererat lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wererat-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-lycanthropy',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wererat lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

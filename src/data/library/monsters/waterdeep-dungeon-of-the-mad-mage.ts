@@ -46,6 +46,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -136,7 +137,21 @@ export default createPublicationMonsters({
             text: [
               'The statue targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, a target ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -178,8 +193,17 @@ export default createPublicationMonsters({
               'Any creature other than a troglodyte that starts its turn within 5 feet of the troglodyte must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.",
+              { effect: 'stench-poison' },
+              '. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'stench-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -340,8 +364,18 @@ export default createPublicationMonsters({
               "Each creature of Ashtyrranthor's choice that is within 120 feet of Ashtyrranthor and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Ashtyrranthor's Frightful Presence for the next 24 hours.",
+              { effect: 'dread-fright' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Ashtyrranthor's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'dread-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -362,6 +396,7 @@ export default createPublicationMonsters({
             text: ['Ashtyrranthor exhales fire in a 60-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -391,11 +426,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'Ashtyrranthor beats its wings. Ashtyrranthor can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -824,6 +869,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -1034,12 +1080,18 @@ export default createPublicationMonsters({
               "A creature hit by a bullywug's Spear attack must succeed on a ",
               { dc: 'con', printed: 13 },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. A creature ',
-              rules.poisoned,
-              ' in this way is also ',
-              rules.paralyzed,
-              '. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'spear-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spear-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 13 },
+                conditions: [rules.poisoned, rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -1137,6 +1189,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -1314,6 +1367,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -1407,8 +1461,17 @@ export default createPublicationMonsters({
               'Any creature that starts its turn within 10 feet of the illuminated golem and can see the golem must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.blinded,
-              " until the start of the creature's next turn. A creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the golem until the start of its next turn, when it can avert its eyes again. If the creature looks at the golem in the meantime, it must immediately make the save.",
+              { effect: 'golem-blind' },
+              ". A creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the golem until the start of its next turn, when it can avert its eyes again. If the creature looks at the golem in the meantime, it must immediately make the save.",
+            ],
+            effects: [
+              {
+                key: 'golem-blind',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -1439,7 +1502,21 @@ export default createPublicationMonsters({
             text: [
               'The golem targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, a target ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1798,6 +1875,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.insect_plague_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -1957,6 +2035,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -2277,11 +2356,24 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'dex' },
               " Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. On a failed save, the cube enters the creature's space, and the creature takes ",
               { roll: '3d6' },
-              " acid damage and is engulfed. The engulfed creature can't breathe, is ",
-              rules.restrained,
-              ', and takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the cube's turns. When the cube moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.",
+              ' acid damage and is ',
+              { effect: 'engulfed' },
+              '. An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.',
+            ],
+            effects: [
+              {
+                key: 'engulfed',
+                name: 'Engulfed',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.restrained],
+                text: [
+                  "can't breathe, ",
+                  'and takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the cube's turns. When the cube moves, the engulfed creature moves with it.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2563,8 +2655,18 @@ export default createPublicationMonsters({
               "Each creature of Glyster's choice that is within 120 feet of Glyster and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Glyster's Frightful Presence for the next 24 hours.",
+              { effect: 'dread-fright' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Glyster's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'dread-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2592,6 +2694,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Glyster exhales lightning in a 90-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -2603,6 +2706,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 60 feet away from Glyster.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -2643,10 +2747,20 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: ['Glyster beats its wings. Glyster can then fly up to half its flying speed.'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -2721,6 +2835,7 @@ export default createPublicationMonsters({
               '; 6th level (1 slot): ',
               refs.spells.harm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2769,9 +2884,23 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by ",
-              { roll: '3d6' },
-              " for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.",
+              ' Constitution saving throw or be ',
+              { effect: 'mummy-rot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mummy-rot',
+                name: 'Mummy rot',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by ",
+                  { roll: '3d6' },
+                  " for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['the remove curse spell or other magic'] },
+              },
             ],
           },
           {
@@ -2783,10 +2912,19 @@ export default createPublicationMonsters({
               'The mummy lord targets one creature it can see within 60 feet of it. If the target can see the mummy lord, it must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or become ',
-              rules.frightened,
-              " until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also ",
+              { effect: 'glare-fright' },
+              '. If the target fails the saving throw by 5 or more, it is also ',
               rules.paralyzed,
               ' for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'glare-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -2812,6 +2950,7 @@ export default createPublicationMonsters({
               rules.invisible,
               " with it. The stalagmite in the northwest alcove is hollow and serves as Gorka Tharn's sarcophagus. The mummy lord is lodged inside the stalagmite's funnel-shaped interior. When it awakens, the mummy lord uses a stone shape spell to create an opening large enough for it to emerge. It destroys any intruders in its lair, then returns to its sarcophagus and its slumber. At the bottom of the stalagmite's hollow cavity, four 1-foot-tall clay urns contain Gorka Tharn's preserved internal organs, including the mummy lord's shriveled heart. Only by destroying the heart can the characters prevent the mummy lord from rejuvenating. The heart is a Tiny object with AC 5, 25 hit points, and immunity to all damage except fire.",
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -2835,8 +2974,17 @@ export default createPublicationMonsters({
                 'Blinding dust and sand swirls magically around the mummy lord. Each creature within 5 feet of the mummy lord must succeed on a ',
                 { dc: 'con' },
                 ' Constitution saving throw or be ',
-                rules.blinded,
-                " until the end of the creature's next turn.",
+                { effect: 'dust-blind' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'dust-blind',
+                  name: 'Blinded',
+                  lands: { on: 'save', save: 'con', dc: 'con' },
+                  conditions: [rules.blinded],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -2848,8 +2996,17 @@ export default createPublicationMonsters({
                 'The mummy lord utters a blasphemous word. Each non-undead creature within 10 feet of the mummy lord that can hear the magical utterance must succeed on a ',
                 { dc: 'con' },
                 ' Constitution saving throw or be ',
-                rules.stunned,
-                " until the end of the mummy lord's next turn.",
+                { effect: 'word-stun' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'word-stun',
+                  name: 'Stunned',
+                  lands: { on: 'save', save: 'con', dc: 'con' },
+                  conditions: [rules.stunned],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
             {
@@ -2879,6 +3036,7 @@ export default createPublicationMonsters({
                 rules.stunned,
                 '. Equipment worn or carried by the mummy lord remain in its possession.',
               ],
+              effects: [],
             },
           ],
         },
@@ -3092,8 +3250,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'mallet-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mallet-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3104,7 +3271,21 @@ export default createPublicationMonsters({
             text: [
               'The golem targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, a target ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -3443,6 +3624,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shield_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amorphous',
@@ -3564,6 +3746,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -3653,6 +3836,7 @@ export default createPublicationMonsters({
               refs.spells.antilife_shell_srd_5_1,
               ', destructive wave',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -3686,6 +3870,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -3726,6 +3911,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -3785,10 +3971,27 @@ export default createPublicationMonsters({
               'Keresta targets one humanoid it can see within 30 feet of it. If the target can see Keresta, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              ' by Keresta. The ',
-              rules.charmed,
-              " target regards Keresta as a trusted friend to be heeded and protected. Although the target isn't under Keresta's control, it takes Keresta's requests or actions in the most favorable way it can, and it is a willing target for Keresta's bite attack. Each time Keresta or Keresta's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Keresta is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'charm',
+                name: 'Keresta’s charm',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Keresta as a trusted friend to be heeded and protected. Although the target isn't under Keresta's control, it takes Keresta's requests or actions in the most favorable way it can, and it is a willing target for Keresta's bite attack. Each time Keresta or Keresta's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Keresta is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -3865,8 +4068,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also ',
-              rules.grappled,
-              ' by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.',
+              { effect: 'adhered' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'adhered',
+                name: 'Adhered',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['Ability checks made to escape this grapple have disadvantage.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -3888,6 +4102,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -3953,6 +4168,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['The unseen servant is ', rules.invisible, '.'],
+            effects: [],
           },
           {
             key: 'slam',
@@ -4056,7 +4272,21 @@ export default createPublicationMonsters({
             text: [
               'The golem targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, a target ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4143,6 +4373,7 @@ export default createPublicationMonsters({
               '; 7th level (1 slot): ',
               refs.spells.finger_of_death_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4195,6 +4426,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
         legendary: {
@@ -4259,6 +4491,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.faerie_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -4277,6 +4510,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the drow to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -4357,8 +4591,17 @@ export default createPublicationMonsters({
               'Any creature other than a troglodyte that starts its turn within 5 feet of the troglodyte must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.",
+              { effect: 'stench-poison' },
+              '. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'stench-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -4436,6 +4679,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'the-colors-of-age',
@@ -4458,6 +4702,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -4498,9 +4743,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
-              { dc: 'wis' },
-              ' Wisdom saving throw, ending the effect on itself on a success.',
+              ' Wisdom saving throw, or ',
+              { effect: 'euphoria' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  "the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
+                  { dc: 'wis' },
+                  ' Wisdom saving throw, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4609,6 +4867,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['The weird is ', rules.invisible, ' while fully immersed in toxic brew.'],
+            effects: [],
           },
           {
             key: 'brew-bound',
@@ -4631,6 +4890,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by a poison weird.',
             ],
+            effects: [],
           },
           {
             key: 'constrict',
@@ -4646,10 +4906,21 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 13) and pulled 5 feet toward the poison weird. Until this grapple ends, the target is ',
-              rules.restrained,
-              ", the poison weird tries to drown it, and the poison weird can't constrict another target.",
+              { effect: 'constricted' },
+              ' and pulled 5 feet toward the poison weird.',
+            ],
+            effects: [
+              {
+                key: 'constricted',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "the poison weird tries to drown it, and the poison weird can't constrict another target.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
         ],
@@ -4699,6 +4970,7 @@ export default createPublicationMonsters({
               { dc: 'wis', printed: 15 },
               ' Wisdom saving throw. A calm emotions spell also ends her despair, as does any spell or other magical effect that removes a curse.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4805,6 +5077,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -4829,8 +5102,18 @@ export default createPublicationMonsters({
               'As a bonus action or a reaction, Preeta can shoot one of the following eye rays at one target she can see within 120 feet of her: Fear Ray. The target must succeed on a ',
               { dc: 'wis', printed: 15 },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'fear-ray' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fear-ray',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 15 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -4842,8 +5125,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', printed: 15 },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'ray-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ray-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -4888,6 +5181,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -4961,8 +5255,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also ',
-              rules.grappled,
-              ' by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.',
+              { effect: 'adhered' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'adhered',
+                name: 'Adhered',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['Ability checks made to escape this grapple have disadvantage.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -4984,6 +5289,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -5080,8 +5386,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 15). The scaladar has two claws, each of which can grapple one target.',
+              { effect: 'clawed' },
+              '. The scaladar has two claws, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'clawed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -5226,6 +5542,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'spider-features',
@@ -5246,6 +5563,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Shunn to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -5295,12 +5613,21 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target is also ',
+              { effect: 'crossbow-poison' },
+              '. If the saving throw fails by 5 or more, the target is also ',
               rules.unconscious,
               ' while ',
               rules.poisoned,
               ' in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.',
+            ],
+            effects: [
+              {
+                key: 'crossbow-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -5502,8 +5829,18 @@ export default createPublicationMonsters({
               "Each creature of Stalagma's choice that is within 120 feet of Stalagma and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Stalagma's Frightful Presence for the next 24 hours.",
+              { effect: 'dread-fright' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Stalagma's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'dread-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5531,6 +5868,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The dragon exhales acid in a 60-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -5541,8 +5879,18 @@ export default createPublicationMonsters({
               'The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'breath-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'breath-paralysis',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -5584,12 +5932,22 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
                 printedDc: 22,
               },
               text: [
                 'Stalagma beats its wings. Stalagma can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -5796,7 +6154,21 @@ export default createPublicationMonsters({
             text: [
               'The statue targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, a target ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -5811,6 +6183,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'cha' },
               ' Charisma saving throw, or all magic items in its possession are teleported to the bottom of the pit in 15.',
             ],
+            effects: [],
           },
         ],
       },
@@ -5901,7 +6274,21 @@ export default createPublicationMonsters({
             text: [
               'The stonecloak targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, a target ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -6037,6 +6424,7 @@ export default createPublicationMonsters({
               '; 3rd level (1 slot): ',
               refs.spells.lightning_bolt_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'illumination',
@@ -6175,6 +6563,7 @@ export default createPublicationMonsters({
               '; 9th level (1 slot): ',
               refs.spells.power_word_kill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fire-absorption',
@@ -6262,6 +6651,7 @@ export default createPublicationMonsters({
             text: ['Trobriand exhales poisonous gas in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -6504,6 +6894,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -6578,6 +6969,7 @@ export default createPublicationMonsters({
               rules.deafened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -6628,7 +7020,18 @@ export default createPublicationMonsters({
             text: [
               'The werebat gains temporary hit points equal to the damage dealt. If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with werebat lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'werebat-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'werebat-curse',
+                name: 'Werebat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with werebat lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6723,8 +7126,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'rock-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -6737,6 +7149,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw, catch the missile and take no bludgeoning damage from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -6780,6 +7193,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -6863,6 +7277,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'battle-command',
@@ -6883,6 +7298,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Zress to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -6950,12 +7366,21 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target is also ',
+              { effect: 'crossbow-poison' },
+              '. If the saving throw fails by 5 or more, the target is also ',
               rules.unconscious,
               ' while ',
               rules.poisoned,
               ' in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it.',
+            ],
+            effects: [
+              {
+                key: 'crossbow-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {

@@ -43,6 +43,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hypnotic_pattern_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -67,7 +68,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha' },
-              ' Charisma saving throw or have disadvantage on the next attack roll it makes until the end of its next turn.',
+              ' Charisma saving throw or have ',
+              { effect: 'attack-disadvantage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'attack-disadvantage',
+                name: 'Disadvantage on next attack',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['disadvantage on the next attack roll it makes'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -79,12 +91,21 @@ export default createPublicationMonsters({
               'Each creature within 30 feet of Aza must make a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw. On a failed save, the creature has the ',
-              rules.charmed,
-              " condition for 1 minute. On a successful save, the creature becomes immune to any muse's Enchanting Presence for 24 hours. Whenever Aza deals damage to the ",
+              { effect: 'charmed' },
+              ". On a successful save, the creature becomes immune to any muse's Enchanting Presence for 24 hours. Whenever Aza deals damage to the ",
               rules.charmed,
               ' creature, the ',
               rules.charmed,
               ' creature can repeat the saving throw, ending the effect on itself on a success.',
+            ],
+            effects: [
+              {
+                key: 'charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -241,6 +262,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Farrow doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -305,6 +327,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -367,6 +390,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'electrified-mancatcher',
@@ -385,14 +409,23 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13). Until the ',
-              rules.grappled,
-              ' condition ends, the target has the ',
-              rules.restrained,
-              " condition and can't teleport, Josbert can't make Electrified Mancatcher attacks, and the target takes ",
-              { roll: '1d10', mod: 'str' },
-              ' lightning damage at the start of each of its turns.',
+              { effect: 'mancatcher-grab' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mancatcher-grab',
+                name: 'Caught in the mancatcher',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "can't teleport, Josbert can't make Electrified Mancatcher attacks, and the target takes ",
+                  { roll: '1d10', mod: 'str' },
+                  ' lightning damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
         ],
@@ -442,12 +475,21 @@ export default createPublicationMonsters({
                 { dice: '2d8', type: rules.fire },
               ],
             },
-            text: [
-              'If the target is a creature, magical flames cling to it, causing it to take ',
-              { roll: '1d6' },
-              ' fire damage at the start of each of its turns. Immediately after taking this damage on its turn, the target can make a ',
-              { dc: 'str', save: 'dex' },
-              ' Dexterity saving throw, ending the effect on itself on a successful save.',
+            text: ['If the target is a creature, ', { effect: 'clinging-flames' }, '.'],
+            effects: [
+              {
+                key: 'clinging-flames',
+                name: 'Clinging flames',
+                lands: { on: 'hit' },
+                text: [
+                  'magical flames cling to it, causing it to take ',
+                  { roll: '1d6' },
+                  ' fire damage at the start of each of its turns. Immediately after taking this damage on its turn, the target can make a ',
+                  { dc: 'str', save: 'dex' },
+                  ' Dexterity saving throw, ending the effect on itself on a successful save.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -463,11 +505,24 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d12', type: rules.fire }],
             },
             text: [
-              'If the target is a creature, magical flames cling to it, causing it to take ',
-              { roll: '1d6' },
-              ' fire damage at the start of each of its turns. Immediately after taking this damage on its turn, the target can make a ',
-              { dc: 'str', save: 'dex' },
-              ' Dexterity saving throw, ending the effect on itself on a successful save. After Kal throws the flask, roll a d6; on a 3 or lower, Kal has no more flasks to throw.',
+              'If the target is a creature, ',
+              { effect: 'clinging-flames-flask' },
+              '. After Kal throws the flask, roll a d6; on a 3 or lower, Kal has no more flasks to throw.',
+            ],
+            effects: [
+              {
+                key: 'clinging-flames-flask',
+                name: 'Clinging flames',
+                lands: { on: 'hit' },
+                text: [
+                  'magical flames cling to it, causing it to take ',
+                  { roll: '1d6' },
+                  ' fire damage at the start of each of its turns. Immediately after taking this damage on its turn, the target can make a ',
+                  { dc: 'str', save: 'dex' },
+                  ' Dexterity saving throw, ending the effect on itself on a successful save.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -579,15 +634,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '8d12', type: rules.necrotic }],
-                also: [
-                  'The creature has the ',
-                  rules.blinded,
-                  " condition until the end of the incarnate's next turn.",
-                ],
+
+                also: ['The creature has the ', { effect: 'blinded' }, '.'],
               },
             },
             text: [
               'The incarnate exhales concentrated energy native to its plane in a 60-foot cone. On a successful save, a creature takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -609,6 +670,7 @@ export default createPublicationMonsters({
             text: [
               'In response to being hit by an attack roll, the incarnate turns its magical gaze toward one creature it can see within 120 feet of itself and commands it to combust.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -1049,6 +1111,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -1111,7 +1174,21 @@ export default createPublicationMonsters({
             text: [
               'Zaythir touches one creature it can see within 5 feet of itself. The target must succeed on a ',
               { dc: 'wis', save: 'int' },
-              " Intelligence saving throw, or Zaythir chooses an action for that target: Attack, Cast a Spell, or Dash. The affected target can't take that action for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a successful save. A target that succeeds on the saving throw becomes immune to this githzerai's Pacifying Touch for 24 hours.",
+              ' Intelligence saving throw, or ',
+              { effect: 'pacified' },
+              ". A target that succeeds on the saving throw becomes immune to this githzerai's Pacifying Touch for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'pacified',
+                name: 'Pacified',
+                lands: { on: 'save', save: 'int', dc: 'wis' },
+                text: [
+                  "Zaythir chooses an action for that target: Attack, Cast a Spell, or Dash. The affected target can't take that action",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],

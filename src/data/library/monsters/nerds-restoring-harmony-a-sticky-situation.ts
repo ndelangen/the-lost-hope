@@ -32,6 +32,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', intimidated, or persuaded.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar',

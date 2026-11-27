@@ -67,7 +67,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with werewolf lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'werewolf-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'werewolf-curse',
+                name: 'Werewolf lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with werewolf lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -191,6 +202,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -231,7 +243,16 @@ export default createPublicationMonsters({
               range: [30, 120],
               damage: [{ dice: '3d6', type: rules.piercing, addModifier: true }],
             },
-            text: ['The target has the ', rules.prone, ' condition.'],
+            text: ['The target is ', { effect: 'javelin-prone' }, '.'],
+            effects: [
+              {
+                key: 'javelin-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'command-ally',
@@ -256,6 +277,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'parry',
@@ -341,9 +363,18 @@ export default createPublicationMonsters({
             text: [
               'The blazebear targets two creatures it can see within 120 feet of itself. Each target must succeed on a ',
               { dc: 'dex', save: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.stunned,
-              " condition until the start of the blazebear's next turn.",
+              ' Wisdom saving throw or have ',
+              { effect: 'gaze-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gaze-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -365,6 +396,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'int' },
               ' Intelligence saving throw or the spell fails and has no effect.',
             ],
+            effects: [],
           },
         ],
       },
@@ -473,6 +505,7 @@ export default createPublicationMonsters({
             text: [
               "Camlash explodes when reduced to 0 hit points, and The explosion ignites flammable objects in that area that aren't being worn or carried.",
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -493,9 +526,18 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' poison damage and must succeed on a ',
               { dc: 'con', printed: 21 },
-              ' Constitution saving throw or have the ',
-              rules.paralyzed,
-              " condition until the start of Camlash's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'spider-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spider-paralysis',
+                name: 'Spider paralysis',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 21 },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -531,6 +573,7 @@ export default createPublicationMonsters({
               { dc: 'str', printed: 21 },
               ' Strength saving throw or be pulled up to 25 feet toward Camlash.',
             ],
+            effects: [],
           },
           {
             key: 'lightning-blade',
@@ -598,6 +641,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spike_growth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'bramble-walk',
@@ -658,9 +702,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.poisoned,
-              " condition until the start of the dryad's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'thorn-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'thorn-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -682,6 +735,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' condition. All vines immediately wither and disappear when the dryad is reduced to 0 hit points.',
             ],
+            effects: [],
           },
         ],
       },
@@ -734,6 +788,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -844,8 +899,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              '. The poison lasts until it is removed by the lesser restoration spell or similar magic.',
+              { effect: 'longbow-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'longbow-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['the lesser restoration spell or similar magic'] },
+              },
             ],
           },
           {
@@ -1134,6 +1199,7 @@ export default createPublicationMonsters({
             text: ['The hazvongel launches a spray of blood in a 90-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1184,9 +1250,18 @@ export default createPublicationMonsters({
             text: [
               'If the hertilod takes lightning damage, its speed is halved until the end of its next turn, and it must succeed on a ',
               { dc: 'con', printed: 15 },
-              ' Constitution saving throw or immediately regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has the ',
-              rules.prone,
-              ' condition.',
+              ' Constitution saving throw or immediately regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has ',
+              { effect: 'regurgitated-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'regurgitated-prone',
+                name: 'Regurgitated',
+                lands: { on: 'use' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1229,13 +1304,9 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or be swallowed by the hertilod. A swallowed creature has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              " conditions, and it has 3 against attacks and other effects outside the hertilod. At the start of each of the hertilod's turns, each swallowed creature takes ",
-              { roll: '2d12' },
-              " poison damage from the poisonous secretion in the hertilod's gullet. The hertilod's gullet can hold up to two creatures at a time. If the hertilod takes 40 damage or more on a single turn from a swallowed creature, the hertilod must succeed on a ",
+              ' Strength saving throw or be swallowed by the hertilod. A swallowed creature has ',
+              { effect: 'swallowed' },
+              ". The hertilod's gullet can hold up to two creatures at a time. If the hertilod takes 40 damage or more on a single turn from a swallowed creature, the hertilod must succeed on a ",
               { dc: 'con', printed: 15 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which lands in a space within 10 feet of the hertilod and has the ',
               rules.prone,
@@ -1244,6 +1315,20 @@ export default createPublicationMonsters({
               ' and can escape from the corpse by using 10 feet of movement, exiting with the ',
               rules.prone,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  "it has 3 against attacks and other effects outside the hertilod. At the start of each of the hertilod's turns, each swallowed creature takes ",
+                  { roll: '2d12' },
+                  " poison damage from the poisonous secretion in the hertilod's gullet.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1356,6 +1441,7 @@ export default createPublicationMonsters({
               '; 1/day each: ',
               refs.spells.circle_of_death_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1456,6 +1542,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -1496,6 +1583,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -1555,10 +1643,27 @@ export default createPublicationMonsters({
               'Kaylan targets one humanoid it can see within 30 feet of it. If the target can see Kaylan, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              ' by Kaylan. The ',
-              rules.charmed,
-              " target regards Kaylan as a trusted friend to be heeded and protected. Although the target isn't under Kaylan's control, it takes Kaylan's requests or actions in the most favorable way it can, and it is a willing target for Kaylan's bite attack. Each time Kaylan or Kaylan's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Kaylan is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'kaylan-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'kaylan-charm',
+                name: 'Kaylan’s charm',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Kaylan as a trusted friend to be heeded and protected. Although the target isn't under Kaylan's control, it takes Kaylan's requests or actions in the most favorable way it can, and it is a willing target for Kaylan's bite attack. Each time Kaylan or Kaylan's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Kaylan is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1695,8 +1800,19 @@ export default createPublicationMonsters({
               "Each creature of Khai's choice that is within 120 feet and aware of Khai must succeed on a ",
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " of it for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Khai's Frightful Presence for the next 24 hours.",
+              { effect: 'khai-fright' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Khai's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'khai-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                text: ['of it'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1709,6 +1825,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'power-of-the-dragon-queen',
@@ -1719,10 +1836,22 @@ export default createPublicationMonsters({
               'Khai targets one Dragon it can see within 120 feet of it. The Dragon must make a ',
               { dc: 'cha' },
               " Charisma saving throw. A chromatic dragon makes this save with disadvantage. On a successful save, the target is immune to Khai's Power of the Dragon Queen for 1 hour. On a failed save, the target is ",
-              rules.charmed,
-              ' by Khai for 1 hour. While ',
-              rules.charmed,
-              ' in this way, the target regards Khai as a trusted friend to be heeded and protected. This effect ends if Khai or its companions deal damage to the target.',
+              { effect: 'dragon-queen-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dragon-queen-charm',
+                name: 'Charmed by Khai',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'While ',
+                  rules.charmed,
+                  ' in this way, the target regards Khai as a trusted friend to be heeded and protected. This effect ends if Khai or its companions deal damage to the target.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -1782,6 +1911,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Laysa doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1812,6 +1942,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -1835,6 +1966,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -1893,6 +2025,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Malaina doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1923,6 +2056,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -1946,6 +2080,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -2039,15 +2174,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '8d6', type: rules.psychic }],
-                also: [
-                  'Has the ',
-                  rules.frightened,
-                  " condition until the start of the mirror shade's next turn.",
-                ],
+
+                also: ['Has ', { effect: 'reflected-fear' }, '.'],
               },
             },
             text: [
               "The mirror shade targets one creature it can see within 60 feet of itself and projects an illusion of that creature's greatest fear. On a successful save, the target takes half as much damage only.",
+            ],
+            effects: [
+              {
+                key: 'reflected-fear',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -2125,6 +2266,7 @@ export default createPublicationMonsters({
               '; 5th level (2 slots): ',
               refs.spells.cloudkill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -2144,6 +2286,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2155,6 +2298,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Naxa to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2240,6 +2384,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_force_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -2424,7 +2569,18 @@ export default createPublicationMonsters({
               },
             },
             text: [
-              "Orinix exhales a blast of frost in a 60-foot cone. , and its speed is reduced to 0 until the end of its next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.",
+              'Orinix exhales a blast of frost in a 60-foot cone. , and ',
+              { effect: 'frost-slowed' },
+              ". On a successful save, the creature takes half as much damage, and its speed isn't reduced.",
+            ],
+            effects: [
+              {
+                key: 'frost-slowed',
+                name: 'Slowed by frost',
+                lands: { on: 'failed-save' },
+                text: ['its speed is reduced to 0'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2548,10 +2704,15 @@ export default createPublicationMonsters({
                 { dice: '2d8', type: rules.poison },
               ],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              " condition until the start of the phisarazu's next turn.",
+            text: ['The target has ', { effect: 'spyder-poison' }, '.'],
+            effects: [
+              {
+                key: 'spyder-poison',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -2577,11 +2738,19 @@ export default createPublicationMonsters({
               rules.invisible,
               ' condition. Additionally, creatures in that area must succeed on a ',
               { dc: 'con', save: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.stunned,
-              ' condition for 1 minute. A ',
-              rules.stunned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Wisdom saving throw or have ',
+              { effect: 'spray-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spray-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2678,13 +2847,24 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition for 1 minute. While ',
-              rules.poisoned,
-              " in this way, a creature can't regain hit points. A ",
-              rules.poisoned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Constitution saving throw or have ',
+              { effect: 'quavilithku-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'quavilithku-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  " in this way, a creature can't regain hit points.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2709,6 +2889,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'assess-weakness',
@@ -2769,6 +2950,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2837,15 +3019,26 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha', save: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition for 1 minute. While ',
-              rules.poisoned,
-              ' in this way, a creature has the ',
-              rules.incapacitated,
-              " condition and can't regain hit points. A ",
-              rules.poisoned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Constitution saving throw or have ',
+              { effect: 'raklupis-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'raklupis-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned, rules.incapacitated],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  ' in this way, a creature has the ',
+                  rules.incapacitated,
+                  " condition and can't regain hit points.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2889,6 +3082,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions on itself and on any number of allies within 60 feet of itself.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3071,6 +3265,7 @@ export default createPublicationMonsters({
             text: ["Twisted, spectral spikes shoot out from the impaler's body."],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -3157,6 +3352,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mass_suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -3209,12 +3405,16 @@ export default createPublicationMonsters({
                 damage: [{ dice: '3d10', type: rules.poison }],
               },
             },
-            text: [
-              'If the target is a creature, and become ',
-              rules.poisoned,
-              ' for 1 minute. The ',
-              rules.poisoned,
-              ' target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            text: ['If the target is a creature, and become ', { effect: 'claw-poison' }, '.'],
+            effects: [
+              {
+                key: 'claw-poison',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -3280,7 +3480,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with werewolf lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'werewolf-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'werewolf-curse',
+                name: 'Werewolf lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with werewolf lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3367,6 +3578,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -3407,6 +3619,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -3466,10 +3679,27 @@ export default createPublicationMonsters({
               'Sangora targets one humanoid it can see within 30 feet of it. If the target can see Sangora, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              ' by Sangora. The ',
-              rules.charmed,
-              " target regards Sangora as a trusted friend to be heeded and protected. Although the target isn't under Sangora's control, it takes Sangora's requests or actions in the most favorable way it can, and it is a willing target for Sangora's bite attack. Each time Sangora or Sangora's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Sangora is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'sangora-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sangora-charm',
+                name: 'Sangora’s charm',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Sangora as a trusted friend to be heeded and protected. Although the target isn't under Sangora's control, it takes Sangora's requests or actions in the most favorable way it can, and it is a willing target for Sangora's bite attack. Each time Sangora or Sangora's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Sangora is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -3599,6 +3829,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3655,15 +3886,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '6d8', type: rules.force, addModifier: true }],
+
                 also: [
                   'Be knocked ',
-                  rules.prone,
+                  { effect: 'imploded-prone' },
                   " and moved to the unoccupied space closest to the sphere's center.",
                 ],
               },
             },
             text: [
               "Large and smaller objects that aren't being worn or carried in the sphere automatically take the damage and are similarly moved.",
+            ],
+            effects: [
+              {
+                key: 'imploded-prone',
+                name: 'Knocked prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -3742,17 +3983,25 @@ export default createPublicationMonsters({
             text: [
               "The star angler's lure flares with enchanting starlight, targeting one creature the star angler can see within 120 feet of itself. The target must succeed on a ",
               { dc: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.charmed,
-              " condition until the start of the star angler's next turn. While ",
-              rules.charmed,
-              ' in this way, the target has the ',
-              rules.incapacitated,
-              ' condition and must use its movement on its turn to move directly toward the star angler; a ',
-              rules.charmed,
-              " target doesn't avoid opportunity attacks, but it does avoid damaging terrain. A target can be ",
+              ' Wisdom saving throw or have ',
+              { effect: 'lure-charm' },
+              '. A target can be ',
               rules.charmed,
               ' by only one star angler at a time.',
+            ],
+            effects: [
+              {
+                key: 'lure-charm',
+                name: 'Lured',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed, rules.incapacitated],
+                text: [
+                  'must use its movement on its turn to move directly toward the star angler; a ',
+                  rules.charmed,
+                  " target doesn't avoid opportunity attacks, but it does avoid damaging terrain.",
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
         ],
@@ -3855,6 +4104,7 @@ export default createPublicationMonsters({
               '; 5th level (2 slots): ',
               refs.spells.cloudkill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -3874,6 +4124,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -3885,6 +4136,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Vaeve to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -3983,7 +4235,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with werewolf lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'werewolf-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'werewolf-curse',
+                name: 'Werewolf lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with werewolf lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4092,9 +4355,18 @@ export default createPublicationMonsters({
               damage: [{ dice: '4d8', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, it has ',
+              { effect: 'gored-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gored-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4253,6 +4525,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or be pulled into an unoccupied space within 5 feet of the chandelier.',
             ],
+            effects: [],
           },
           {
             key: 'lamp',
@@ -4282,16 +4555,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 20 } },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.fire }],
-                also: [
-                  'Have the ',
-                  rules.blinded,
-                  " condition until the start of the chandelier's next turn.",
-                ],
+
+                also: ['Have ', { effect: 'vortex-blind' }, '.'],
               },
               printedDc: 14,
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'vortex-blind',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -4349,6 +4628,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dazzling-visage',
@@ -4360,6 +4640,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition or has a speed of 0.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -4422,15 +4703,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.psychic }],
-                also: [
-                  'Has the ',
-                  rules.frightened,
-                  " condition until the start of Windfall's next turn.",
-                ],
+
+                also: ['Has ', { effect: 'fury-fright' }, '.'],
               },
             },
             text: [
               'Windfall targets one creature she can see within 60 feet of herself and unleashes a burst of magical ire. On a successful save, the target takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'fury-fright',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -4441,9 +4728,18 @@ export default createPublicationMonsters({
             text: [
               'Windfall emits an overwhelming array of colors from her coat. Each creature within 30 feet of Windfall that can see her must succeed on a ',
               { dc: 'cha', save: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.stunned,
-              " condition until the start of Windfall's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'scintillation-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'scintillation-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -4469,6 +4765,7 @@ export default createPublicationMonsters({
                 { roll: '4d12' },
                 ' damage of a type chosen by Windfall: acid, cold, fire, lightning, or poison. On a successful save, the target takes half as much damage.',
               ],
+              effects: [],
             },
             {
               key: 'cast-a-spell',

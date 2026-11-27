@@ -84,6 +84,7 @@ export default createPublicationMonsters({
               '; 6th level (1 slot): ',
               refs.spells.conjure_fey_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'hearth-of-moonlight-and-shadow',
@@ -95,6 +96,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ", 30-foot-radius sphere of magic appears, centered on that point. 3 blocks the sphere. While within the sphere, Amble and their allies gain a +5 bonus to Dexterity (Stealth) and Wisdom (Perception) checks, and any light from open flames in the sphere isn't visible outside it. The sphere vanishes at the end of the rest or when Amble leaves the sphere.",
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -135,6 +137,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'claws',
@@ -211,6 +214,7 @@ export default createPublicationMonsters({
               ", Evard's ",
               refs.spells.black_tentacles_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -314,6 +318,7 @@ export default createPublicationMonsters({
               ", Evard's ",
               refs.spells.black_tentacles_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -353,6 +358,7 @@ export default createPublicationMonsters({
             text: [
               "While underwater, Whymsee can expel an ink cloud in a 20-foot radius. The cloud spreads around corners, and that area is 2 to creatures other than kraken priests or a kraken. A strong current disperses the cloud, which otherwise disappears at the end of Whymsee's next turn.",
             ],
+            effects: [],
           },
           {
             key: 'shell-defense',
@@ -364,6 +370,7 @@ export default createPublicationMonsters({
               rules.prone,
               ", her speed is 0 and can't increase, she has disadvantage on Dexterity saving throws, it can't take reactions, and the only action she can take is a bonus action to emerge.",
             ],
+            effects: [],
           },
         ],
       },

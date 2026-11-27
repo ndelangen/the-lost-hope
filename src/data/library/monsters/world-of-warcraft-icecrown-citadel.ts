@@ -41,6 +41,7 @@ export default createPublicationMonsters({
               '; 2/day: ',
               refs.spells.dispel_magic,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -102,12 +103,22 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120, which: 'Saurfang can see' },
               onFail: {
                 damage: [{ dice: '10d12', type: rules.necrotic }],
-                also: ['The target gains 1 Exhaustion level.'],
+
+                also: [{ effect: 'exhausted' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'exhausted',
+                name: 'Exhaustion',
+                lands: { on: 'failed-save' },
+                text: ['The target gains 1 ', rules.exhaustion, ' level.'],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'mark-of-the-fallen-champion',
@@ -117,11 +128,24 @@ export default createPublicationMonsters({
             text: [
               'Wisdom Saving Throw: ',
               { dc: 'cha' },
-              ', one creature Saurfang can see within 120 feet. Failure: The target is cursed for 24 hours or until Saurfang dies. While cursed, the target takes ',
-              { roll: '2d12' },
-              ' Necrotic damage whenever Saurfang hits a creature with an attack roll. If the target is reduced to 0 Hit Points while cursed, Saurfang regains ',
-              { roll: '2d12' },
-              ' Hit Points.',
+              ', one creature Saurfang can see within 120 feet. Failure: The target is cursed ',
+              { effect: 'fallen-champion-mark' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fallen-champion-mark',
+                name: 'Mark of the Fallen Champion',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                text: [
+                  'While cursed, the target takes ',
+                  { roll: '2d12' },
+                  ' Necrotic damage whenever Saurfang hits a creature with an attack roll. If the target is reduced to 0 Hit Points while cursed, Saurfang regains ',
+                  { roll: '2d12' },
+                  ' Hit Points.',
+                ],
+                lasts: { kind: 'until', text: ['24 hours or until Saurfang dies'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -159,6 +183,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: Saurfang can't take this action again until the start of his next turn.",
               ],
+              effects: [],
             },
             {
               key: 'frenzied-strike-usable-only-while-bloodied',
@@ -215,6 +240,7 @@ export default createPublicationMonsters({
               { roll: '2d10' },
               ' Psychic damage. The Emanation is Dim Light.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -367,14 +393,24 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '6d12', type: rules.cold }],
-                also: [
-                  "Until the end of the target's next turn, the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both.",
-                ],
+
+                also: [{ effect: 'frost-slow' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'frost-slow',
+                name: 'Slowed by frost',
+                lands: { on: 'failed-save' },
+                text: [
+                  "the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
         legendary: {
@@ -403,15 +439,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '2d10', type: rules.psychic }],
-                  also: [
-                    'The target has the ',
-                    rules.frightened,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: ['The target has ', { effect: 'roar-fright' }, '.'],
                 },
               },
               text: [
                 "Failure or Success: The wyrm can't take this action again until the start of its next turn",
+              ],
+              effects: [
+                {
+                  key: 'roar-fright',
+                  name: 'Frightened',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -496,7 +538,16 @@ export default createPublicationMonsters({
                 { dice: '1d12', type: rules.cold },
               ],
             },
-            text: ['The target has the ', rules.prone, ' condition.'],
+            text: ['The target has ', { effect: 'axe-prone' }, '.'],
+            effects: [
+              {
+                key: 'axe-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'bone-slice',
@@ -523,10 +574,11 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.piercing }],
+
                 also: [
-                  'The target has the ',
-                  rules.restrained,
-                  ' condition as it is trapped inside a bone spike.',
+                  'The target has ',
+                  { effect: 'spiked' },
+                  ' as it is trapped inside a bone spike.',
                 ],
               },
               onSuccess: 'half',
@@ -535,6 +587,15 @@ export default createPublicationMonsters({
               'A ',
               rules.restrained,
               ' creature can be freed by destroying the bone spike, which is a Large object with AC 17; HP 25; and Immunity to Cold, Necrotic, Poison, and Psychic damage.',
+            ],
+            effects: [
+              {
+                key: 'spiked',
+                name: 'Trapped in a bone spike',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -560,6 +621,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: Marrowgar can't take this action again until the start of its next turn.",
               ],
+              effects: [],
             },
             {
               key: 'strike',
@@ -701,6 +763,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               "). The vampire can't take this action again until the start of its next turn.",
             ],
+            effects: [],
           },
           {
             key: 'invocation-of-blood',
@@ -788,14 +851,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '7d8', type: rules.fire }],
-                also: [
-                  "The target's Speed is reduced by 10 feet until the end of Taldaram's next turn.",
-                ],
+
+                also: [{ effect: 'sparks-slow' }, '.'],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'sparks-slow',
+                name: 'Slowed by sparks',
+                lands: { on: 'failed-save' },
+                text: ["The target's Speed is reduced by 10 feet"],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'sanguine-drain',
@@ -813,11 +884,21 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.necrotic }],
-                also: [
-                  "The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount.",
-                ],
+
+                also: [{ effect: 'drained' }],
               },
             },
+            effects: [
+              {
+                key: 'drained',
+                name: 'Hit Point maximum drained',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
         legendary: {
@@ -872,6 +953,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               "). The vampire can't take this action again until the start of its next turn.",
             ],
+            effects: [],
           },
           {
             key: 'invocation-of-blood',
@@ -942,9 +1024,18 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d10', type: rules.lightning, addModifier: true }],
             },
             text: [
-              'The target is pushed 5 feet straight away from Valanar and has the ',
-              rules.prone,
-              ' condition.',
+              'The target is pushed 5 feet straight away from Valanar and has ',
+              { effect: 'vortex-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'vortex-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -959,16 +1050,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 60 } },
               onFail: {
                 damage: [{ dice: '12d6', type: rules.force }],
+
                 also: [
-                  'The target is pushed 10 feet straight away from the bomb and has the ',
-                  rules.prone,
-                  ' condition.',
+                  'The target is pushed 10 feet straight away from the bomb and has ',
+                  { effect: 'bomb-prone' },
+                  '.',
                 ],
               },
               onSuccess: 'half',
             },
             text: [
               "Valanar creates a kinetic bomb—a Small object with AC 13 and Immunity to all damage—in an unoccupied space he can see within 120 feet of himself, 20 feet above the ground. Each round at the start of Valanar's turn, the bomb drifts 10 feet toward the ground. If it is hit by an attack roll, it rises 5 feet. If it reaches the ground, it explodes, creating the following effect.    The bomb vanishes when all three vampires drop to 0 Hit Points.",
+            ],
+            effects: [
+              {
+                key: 'bomb-prone',
+                name: 'Knocked prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -989,11 +1090,21 @@ export default createPublicationMonsters({
               },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.necrotic }],
-                also: [
-                  "The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount.",
-                ],
+
+                also: [{ effect: 'drained' }],
               },
             },
+            effects: [
+              {
+                key: 'drained',
+                name: 'Hit Point maximum drained',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
         legendary: {
@@ -1107,9 +1218,22 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: [
-              "Putricide creates a volatile ooze—a Small object with AC 9; HP 90; and Resistance to Acid, Cold, and Fire damage—in an unoccupied space he can see within 15 feet of himself. The ooze targets a random enemy within 60 feet of itself; the target is cursed until the ooze is destroyed. A cursed creature's Speed becomes 0. At the end of Putricide's turn, the cursed creature takes ",
-              { roll: '10d6' },
-              ' Acid damage, and the ooze moves 10 feet straight toward it. When the ooze enters a space within 5 feet of the cursed creature, it releases a spray of acid, creating the following effect.    Failure or Success: The ooze curses a new random enemy within 60 feet of itself and repeats this process until it is destroyed.',
+              'Putricide creates a volatile ooze—a Small object with AC 9; HP 90; and Resistance to Acid, Cold, and Fire damage—in an unoccupied space he can see within 15 feet of himself. The ooze targets a random enemy within 60 feet of itself; the target is cursed ',
+              { effect: 'ooze-curse' },
+              '. When the ooze enters a space within 5 feet of the cursed creature, it releases a spray of acid, creating the following effect.    Failure or Success: The ooze curses a new random enemy within 60 feet of itself and repeats this process until it is destroyed.',
+            ],
+            effects: [
+              {
+                key: 'ooze-curse',
+                name: 'Volatile ooze curse',
+                lands: { on: 'use' },
+                text: [
+                  "A cursed creature's Speed becomes 0. At the end of Putricide's turn, the cursed creature takes ",
+                  { roll: '10d6' },
+                  ' Acid damage, and the ooze moves 10 feet straight toward it.',
+                ],
+                lasts: { kind: 'until', text: ['the ooze is destroyed'] },
+              },
             ],
           },
           {
@@ -1118,15 +1242,28 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiBull',
             text: [
-              "Putricide creates a gas cloud—a Small object with AC 9, HP 45, and Resistance to all damage—in an unoccupied space within 15 feet of himself. The cloud targets a random enemy within 60 feet of itself; the target is cursed until the cloud is destroyed. At the end of Putricide's turn, the cursed creature takes ",
-              { roll: '16d6' },
-              ' Poison damage, and the cloud moves 10 feet straight toward it. This Poison damage is reduced by ',
-              { roll: '2d6' },
-              ' each round after the first, to a minimum of ',
-              { roll: '2d6' },
+              'Putricide creates a gas cloud—a Small object with AC 9, HP 45, and Resistance to all damage—in an unoccupied space within 15 feet of himself. The cloud targets a random enemy within 60 feet of itself; the target is cursed ',
+              { effect: 'gas-curse' },
               '. When the cloud enters a space within 5 feet of the cursed creature, it releases a toxic spray, creating the following effect. Dexterity Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 120-foot Emanation originating from the cloud. Failure: 10 Poison damage for each d6 of damage the cursed creature took this round. Success: Half damage. Failure or Success: The cloud curses a new random enemy within 60 feet of itself and repeats this process until it is destroyed.',
+            ],
+            effects: [
+              {
+                key: 'gas-curse',
+                name: 'Gas cloud curse',
+                lands: { on: 'use' },
+                text: [
+                  "At the end of Putricide's turn, the cursed creature takes ",
+                  { roll: '16d6' },
+                  ' Poison damage, and the cloud moves 10 feet straight toward it. This Poison damage is reduced by ',
+                  { roll: '2d6' },
+                  ' each round after the first, to a minimum of ',
+                  { roll: '2d6' },
+                  '.',
+                ],
+                lasts: { kind: 'until', text: ['the cloud is destroyed'] },
+              },
             ],
           },
           {
@@ -1148,6 +1285,7 @@ export default createPublicationMonsters({
               { roll: '8d10' },
               " Poison damage. Success: Half damage only. A creature makes this save only once per turn. The pool lasts for 10 minutes, and at the start of Putricide's turn, the pool expands, increasing its radius by 5 feet (to a maximum of 30 feet).",
             ],
+            effects: [],
           },
         ],
       },
@@ -1184,6 +1322,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The horror explodes when it dies.'],
+            effects: [],
           },
           {
             key: 'pestilent-pustules',
@@ -1234,13 +1373,19 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30, which: 'the horror can see' },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.poison }],
-                also: [
-                  'The target has the ',
-                  rules.poisoned,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: ['The target has ', { effect: 'plague-poison' }, '.'],
               },
             },
+            effects: [
+              {
+                key: 'plague-poison',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },
@@ -1330,12 +1475,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.acid }],
-                also: [
-                  'The creature takes the damage again at the start of each of its turns until the slime is scraped off (requiring an action).',
-                ],
+
+                also: [{ effect: 'slimed' }, '.'],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'slimed',
+                name: 'Slimed',
+                lands: { on: 'failed-save' },
+                text: ['The creature takes the damage again at the start of each of its turns'],
+                lasts: { kind: 'until', text: ['the slime is scraped off (requiring an action)'] },
+              },
+            ],
           },
           {
             key: 'mutated-infection',
@@ -1345,15 +1498,28 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ', one creature Rotface can see within 60 feet. Failure: The target has the ',
-              rules.poisoned,
-              ' condition. While ',
-              rules.poisoned,
-              ", the target can't regain Hit Points and takes ",
-              { roll: '6d6' },
-              ' Acid damage at the start of each of its turns, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. When the ',
+              ', one creature Rotface can see within 60 feet. Failure: The target has ',
+              { effect: 'mutated-infection' },
+              '. After 1 minute, it succeeds automatically. When the ',
               rules.poisoned,
               ' condition on the target ends, a Plagueworks Ooze is created in an unoccupied space within 5 feet of the creature. The ooze takes its turn immediately after Rotface on the same Initiative count. The ooze fights until destroyed.',
+            ],
+            effects: [
+              {
+                key: 'mutated-infection',
+                name: 'Mutated infection',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  ", the target can't regain Hit Points and takes ",
+                  { roll: '6d6' },
+                  ' Acid damage at the start of each of its turns',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1450,6 +1616,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -1504,6 +1671,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['The Damned explodes when it dies.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1629,6 +1797,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -1661,6 +1830,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'pack-tactics',
@@ -1672,6 +1842,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'claw',
@@ -1690,9 +1861,18 @@ export default createPublicationMonsters({
               { ability: 'leap' },
               ' immediately before this attack, it deals an extra ',
               { roll: '4d6' },
-              ' Slashing damage, and the target has the ',
-              rules.prone,
-              ' condition.',
+              ' Slashing damage, and the target has ',
+              { effect: 'claw-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claw-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

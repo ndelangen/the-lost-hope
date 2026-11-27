@@ -61,6 +61,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Andras doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'keen-hearing-and-sight',
@@ -91,7 +92,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'str', save: 'con' },
-              ' Constitution saving throw or be cursed with wererat lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wererat-curse-sword' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-curse-sword',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ['Cursed with wererat lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -109,7 +121,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'str', save: 'con' },
-              ' Constitution saving throw or be cursed with wererat lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wererat-curse-bow' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-curse-bow',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                text: ['Cursed with wererat lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -153,6 +176,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.entangle_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'charge',
@@ -165,8 +189,17 @@ export default createPublicationMonsters({
               ' piercing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -305,6 +338,7 @@ export default createPublicationMonsters({
               '). The medusa can innately cast the following spells, requiring no material components: Cantrips (at will): ',
               refs.spells.light_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'petrifying-gaze',
@@ -319,12 +353,35 @@ export default createPublicationMonsters({
               ' and can see the creature. If the saving throw fails by 5 or more, the creature is instantly ',
               rules.petrified,
               ". Otherwise, a creature that fails the save begins to turn to metal, wood, or porcelain (the medusa's choice) and is ",
-              rules.restrained,
-              '. The ',
-              rules.restrained,
-              ' creature must repeat the saving throw at the end of its next turn, becoming ',
-              rules.petrified,
-              " on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save. If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze.",
+              { effect: 'gaze-restrained' },
+              ". Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save. If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze.",
+            ],
+            effects: [
+              {
+                key: 'gaze-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                text: [
+                  'The ',
+                  rules.restrained,
+                  ' creature must repeat the saving throw at the end of its next turn, becoming ',
+                  rules.petrified,
+                  ' on a failure or ending the effect on a success.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'gaze-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  text: [
+                    'The petrification lasts until the creature is freed by the greater restoration spell or other magic.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -472,8 +529,18 @@ export default createPublicationMonsters({
               'Grandfather Oak ejects spores at one creature it can see within 5 feet of it. The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'spores-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spores-stunned',
+                name: 'Stunned by spores',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 3,
             recharge: 'Long rest',
@@ -683,6 +750,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'brute',
@@ -744,8 +812,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bash-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bash-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -978,6 +1055,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',
@@ -1063,6 +1141,7 @@ export default createPublicationMonsters({
             text: [
               "When Tarnhem dies, it explodes, and The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys Tarnhem's weapons.",
             ],
+            effects: [],
           },
           {
             key: 'fire-aura',
@@ -1155,6 +1234,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be pulled up to 25 feet toward Tarnhem.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -1204,6 +1284,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',
@@ -1265,6 +1346,7 @@ export default createPublicationMonsters({
             text: ["The ettin's right head exhales fire in a 30-foot cone."],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'cold-breath',
@@ -1284,6 +1366,7 @@ export default createPublicationMonsters({
             text: ["The ettin's left head exhales an icy blast in a 30-foot cone."],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'gaze',
@@ -1296,8 +1379,22 @@ export default createPublicationMonsters({
               ' Wisdom saving throw. Unless the target is ',
               rules.incapacitated,
               ", it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see the ettin until the start of the ettin's next turn. If the target looks at the ettin in the meantime, it must immediately make the save. If the target fails the save, it suffers one of the following effects of the ettin's choice or at random: Beguiling Gaze. The target is ",
-              rules.stunned,
-              " until the start of the ettin's next turn or until the ettin is no longer within line of sight.",
+              { effect: 'beguiling-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'beguiling-stunned',
+                name: 'Stunned by beguiling gaze',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the start of the ettin's next turn or until the ettin is no longer within line of sight",
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1305,12 +1402,20 @@ export default createPublicationMonsters({
             name: 'Hypnotic Gaze',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: [
-              'The target is ',
-              rules.charmed,
-              " by the ettin until the start of the ettin's next turn. The ettin chooses how the ",
-              rules.charmed,
-              ' target uses its actions, reactions, and movement.',
+            text: ['The target is ', { effect: 'hypnotic-charmed' }, ' by the ettin.'],
+            effects: [
+              {
+                key: 'hypnotic-charmed',
+                name: 'Charmed by hypnotic gaze',
+                lands: { on: 'use' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ettin chooses how the ',
+                  rules.charmed,
+                  ' target uses its actions, reactions, and movement.',
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1396,6 +1501,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cloudkill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -1453,7 +1559,20 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'wis', save: 'con' },
-              ' Constitution saving throw. On a failed save, the target is affected as if by the polymorph spell, transforming into a random type=beast or a creature it has seen within the last 24 hours (as chosen by the DM). This effect lasts until the target finishes a long rest.',
+              ' Constitution saving throw. On a failed save, ',
+              { effect: 'dagger-polymorph' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dagger-polymorph',
+                name: 'Polymorphed by the dagger',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                text: [
+                  'The target is affected as if by the polymorph spell, transforming into a random type=beast or a creature it has seen within the last 24 hours (as chosen by the DM).',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
         ],
@@ -1510,6 +1629,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1541,12 +1661,8 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature ',
               rules.grappled,
               ' by the thessalkraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the thessalkraken, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the thessalkraken's turns. If the thessalkraken takes 35 damage or more on a single turn from a creature inside it, it must succeed on a ",
+              { effect: 'swallowed' },
+              '. If the thessalkraken takes 35 damage or more on a single turn from a creature inside it, it must succeed on a ',
               { dc: 'con', printed: 23 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -1555,6 +1671,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 10 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the thessalkraken, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the thessalkraken's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1571,10 +1701,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 16). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'tentacle-grab' },
               '. The thessalkraken has ten tentacles, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -1586,14 +1724,30 @@ export default createPublicationMonsters({
               'One Medium or smaller object held or creature ',
               rules.grappled,
               ' by the thessalkraken is thrown up to 40 feet in a random direction and knocked ',
-              rules.prone,
+              { effect: 'flung-prone' },
               '. If a thrown target strikes a solid surface, the target takes ',
               { roll: '1d6' },
               ' bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a ',
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw or take the same damage and be knocked ',
-              rules.prone,
+              { effect: 'struck-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'flung-prone',
+                name: 'Flung prone',
+                lands: { on: 'use' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'struck-prone',
+                name: 'Knocked prone by a flung creature',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1616,6 +1770,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1651,6 +1806,7 @@ export default createPublicationMonsters({
               text: [
                 "While underwater, the thessalkraken expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is 2 to creatures other than the thessalkraken. A strong current disperses the cloud, which otherwise disappears at the end of the thessalkraken's next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -1842,6 +1998,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'wakeful',

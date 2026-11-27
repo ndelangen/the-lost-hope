@@ -209,6 +209,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'antimagic-susceptibility',
@@ -222,6 +223,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -264,8 +266,17 @@ export default createPublicationMonsters({
               ' piercing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 10 feet away and knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

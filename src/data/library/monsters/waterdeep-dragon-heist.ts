@@ -32,6 +32,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Ahmaergo has advantage on saving throws against being ', rules.poisoned, '.'],
+            effects: [],
           },
           {
             key: 'indomitable',
@@ -153,6 +154,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.hold_monster_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -270,8 +272,18 @@ export default createPublicationMonsters({
               "Each creature of Aurinax's choice that is within 120 feet of Aurinax and aware of it must succeed on a ",
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Aurinax's Frightful Presence for the next 24 hours.",
+              { effect: 'dread-fright' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Aurinax's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'dread-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -299,6 +311,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Aurinax exhales fire in a 60-foot cone.'],
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -308,7 +321,21 @@ export default createPublicationMonsters({
             text: [
               'Aurinax exhales gas in a 60-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con', save: 'str' },
-              ' Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Strength saving throw or have ',
+              { effect: 'weakened-strength' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'weakened-strength',
+                name: 'Weakened Strength',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                text: [
+                  'disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -350,10 +377,20 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: ['Aurinax beats its wings. Aurinax can then fly up to half its flying speed.'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -408,6 +445,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'control-water',
@@ -551,6 +589,7 @@ export default createPublicationMonsters({
               ", Otiluke's ",
               refs.spells.resilient_sphere_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -798,6 +837,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -809,6 +849,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the drow to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'gunslinger',
@@ -1280,6 +1321,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1291,6 +1333,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Fel'rekt to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'gunslinger',
@@ -1418,6 +1461,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -1627,6 +1671,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1936,6 +1981,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -2095,6 +2141,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hold_monster_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dwarven-resilience',
@@ -2102,6 +2149,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Istrid has advantage on saving throws against being ', rules.poisoned, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2244,6 +2292,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2325,6 +2374,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'art-imitates-life',
@@ -2338,6 +2388,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'taunt',
@@ -2347,7 +2398,18 @@ export default createPublicationMonsters({
             text: [
               'Kalain can use a bonus action on her turn to target one creature within 30 feet of it. If the target can hear Kalain, the target must succeed on a ',
               { dc: 'cha' },
-              " Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Kalain's next turn.",
+              ' Charisma saving throw or have ',
+              { effect: 'taunted' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'taunted',
+                name: 'Taunted',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['disadvantage on ability checks, attack rolls, and saving throws'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -2417,6 +2479,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2428,6 +2491,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Krebbyg to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'gunslinger',
@@ -2576,6 +2640,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'rapier',
@@ -2649,6 +2714,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shatter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'song-of-rest',
@@ -2667,7 +2733,18 @@ export default createPublicationMonsters({
             text: [
               'Mattrim can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear Mattrim, the target must succeed on a ',
               { dc: 'cha' },
-              " Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Mattrim's next turn.",
+              ' Charisma saving throw or have ',
+              { effect: 'taunted' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'taunted',
+                name: 'Taunted',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['disadvantage on ability checks, attack rolls, and saving throws'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -2792,6 +2869,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -3003,6 +3081,7 @@ export default createPublicationMonsters({
               '; 5th level (2 slots): ',
               refs.spells.cloudkill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -3022,6 +3101,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -3033,6 +3113,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Nar'l to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -3052,12 +3133,18 @@ export default createPublicationMonsters({
               "Nar'l carries a vial containing three doses of eyescratch, a contact poison. A creature that comes into contact with the poison must succeed on a ",
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 hour and ',
-              rules.blinded,
-              ' while ',
-              rules.poisoned,
-              ' in this way. A lesser restoration spell or similar magic ends the effect.',
+              { effect: 'eyescratch' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'eyescratch',
+                name: 'Eyescratch poison',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned, rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+                ends: { cure: ['a lesser restoration spell or similar magic'] },
+              },
             ],
           },
           {
@@ -3155,6 +3242,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dwarven-resilience',
@@ -3258,6 +3346,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -3448,12 +3537,23 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              " (escape DC 14) if Osvaldo isn't already grappling a creature. Until this grapple ends, the target is ",
-              rules.restrained,
-              ' and takes ',
-              { roll: '2d6' },
-              ' piercing damage at the start of each of its turns.',
+              { effect: 'chained' },
+              " if Osvaldo isn't already grappling a creature.",
+            ],
+            effects: [
+              {
+                key: 'chained',
+                name: 'Chained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'takes ',
+                  { roll: '2d6' },
+                  ' piercing damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -3466,6 +3566,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or dies.',
             ],
+            effects: [],
           },
           {
             key: 'unnerving-mask',
@@ -3476,8 +3577,17 @@ export default createPublicationMonsters({
               "When a creature Osvaldo can see starts its turn within 30 feet of Osvaldo, Osvaldo can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see Osvaldo, it must succeed on a ",
               { dc: 'wis', printed: 14 },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' until the end of its turn.',
+              { effect: 'unnerved' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'unnerved',
+                name: 'Unnerved',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 14 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -3522,6 +3632,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -3616,6 +3727,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -3634,6 +3746,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'arcane-ward',
@@ -4199,6 +4312,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack-humanoid-or-hybrid-form-only',
@@ -4222,7 +4336,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wererat lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wererat-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-curse',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wererat lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4299,6 +4424,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Soluun to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'gunslinger',
@@ -4633,6 +4759,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -4675,6 +4802,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -4902,6 +5030,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Urstul doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -4932,6 +5061,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -4955,6 +5085,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -5025,6 +5156,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'dex' },
               ' Dexterity saving throw, taking 2d6 lightning damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'mace',
@@ -5144,6 +5276,7 @@ export default createPublicationMonsters({
               '; 8th level (1 slot): ',
               refs.spells.earthquake_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -5164,6 +5297,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'rod-of-rulership',
@@ -5174,12 +5308,24 @@ export default createPublicationMonsters({
               'Victoro can use an action to present the rod and command obedience from each creature of his choice that he can see within 120 feet of him. Each target must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' for 8 hours by Victoro. While ',
-              rules.charmed,
-              ' in this way, the creature regards Victoro as its trusted leader. If harmed by Victoro or his companions, or commanded to do something contrary to its nature, a target ceases to be ',
-              rules.charmed,
-              " in this way. The rod can't be used again until the next dawn.",
+              { effect: 'ruled' },
+              ". The rod can't be used again until the next dawn.",
+            ],
+            effects: [
+              {
+                key: 'ruled',
+                name: 'Rod of rulership',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                text: [
+                  'While ',
+                  rules.charmed,
+                  ' in this way, the creature regards Victoro as its trusted leader. If harmed by Victoro or his companions, or commanded to do something contrary to its nature, a target ceases to be ',
+                  rules.charmed,
+                  ' in this way.',
+                ],
+                lasts: { kind: 'time', amount: '8', unit: 'hour' },
+              },
             ],
           },
           {
@@ -5214,6 +5360,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'summon-devil-recharges-after-9-days',
@@ -5342,6 +5489,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'savage-attacks',
@@ -5457,6 +5605,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'relentless-endurance',
@@ -5666,10 +5815,20 @@ export default createPublicationMonsters({
               'Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute of Ziraj. If a ',
+              { effect: 'dreadful-fright' },
+              '. If a ',
               rules.frightened,
               ' enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success.',
+            ],
+            effects: [
+              {
+                key: 'dreadful-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: ['of Ziraj'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],

@@ -67,6 +67,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.lightning_bolt_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'bite',

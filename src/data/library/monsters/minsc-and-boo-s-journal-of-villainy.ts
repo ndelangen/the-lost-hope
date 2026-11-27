@@ -89,10 +89,23 @@ export default createPublicationMonsters({
               ' poison damage and must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. While ',
-              rules.poisoned,
-              ' the target is confused as if from a confusion spell. At the end of its turns, the affected target can repeat the Constitution saving throw. If it succeeds the confusion ends. Achaierai are immune to the effects of this cloud.',
+              { effect: 'cloud-poisoned' },
+              '. Achaierai are immune to the effects of this cloud.',
+            ],
+            effects: [
+              {
+                key: 'cloud-poisoned',
+                name: 'Poisoned and confused',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  ' the target is confused as if from a confusion spell. At the end of its turns, the affected target can repeat the Constitution saving throw. If it succeeds the confusion ends.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -139,6 +152,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shield_of_faith_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'infernal-tracker',
@@ -304,6 +318,7 @@ export default createPublicationMonsters({
               { ability: 'foreleg' },
               ' attacks.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -353,16 +368,28 @@ export default createPublicationMonsters({
             },
             text: [
               'The target has the ',
-              rules.restrained,
-              ' condition until free of the web. While ',
-              rules.restrained,
-              ', the target takes ',
-              { roll: '2d8' },
-              ' poison damage at the start of each of its turns. The target may use an action to make a DC 17 Strength check and if successful they are freed from the webbing. The webbing can also be attacked and destroyed (AC 12; 10 hit points; immunity to bludgeoning, fire, poison, and psychic damage). If an attack or spell doing fire damage is used on the webbing, the webbing ignites (but is otherwise unharmed). Any creature ',
+              { effect: 'web-restrained' },
+              '. The target may use an action to make a DC 17 Strength check and if successful they are freed from the webbing. The webbing can also be attacked and destroyed (AC 12; 10 hit points; immunity to bludgeoning, fire, poison, and psychic damage). If an attack or spell doing fire damage is used on the webbing, the webbing ignites (but is otherwise unharmed). Any creature ',
               rules.restrained,
               ' by the webbing suffers an additional ',
               { roll: '2d6' },
               ' fire damage at the start of each of its turn.',
+            ],
+            effects: [
+              {
+                key: 'web-restrained',
+                name: 'Stuck in the web',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                text: [
+                  'While ',
+                  rules.restrained,
+                  ', the target takes ',
+                  { roll: '2d8' },
+                  ' poison damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until', text: ['free of the web'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -740,7 +767,23 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the greater restoration spell or other magic.',
+              ' Constitution saving throw or have ',
+              { effect: 'claw-drained' },
+              '. The target dies if this attack reduces its hit point maximum to 0.',
+            ],
+            effects: [
+              {
+                key: 'claw-drained',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['its hit point maximum reduced by an amount equal to the damage taken.'],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'The reduction lasts until removed by the greater restoration spell or other magic',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -843,6 +886,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' in this manner, if a creature within 60 feet says her name 9 times, Bodhi is permanently destroyed.',
             ],
+            effects: [],
           },
           {
             key: 'sneak-attack-1-turn',
@@ -856,6 +900,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Bodhi doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -898,6 +943,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -974,10 +1020,27 @@ export default createPublicationMonsters({
               'Bodhi targets one Humanoid she can see within 30 feet of her. If the target can see Bodhi, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by Bodhi. The ',
-              rules.charmed,
-              " target regards Bodhi as a trusted friend to be heeded and protected. Although the target isn't under Bodhi's control, it takes Bodhi's requests or actions in the most favorable way it can. Each time Bodhi or her allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Bodhi is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'bodhi-charm' },
+              ' by Bodhi.',
+            ],
+            effects: [
+              {
+                key: 'bodhi-charm',
+                name: "Bodhi's charm",
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Bodhi as a trusted friend to be heeded and protected. Although the target isn't under Bodhi's control, it takes Bodhi's requests or actions in the most favorable way it can. Each time Bodhi or her allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Bodhi is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -1058,6 +1121,7 @@ export default createPublicationMonsters({
               { roll: '13d6' },
               ' damage)',
             ],
+            effects: [],
           },
           {
             key: 'cold-aura',
@@ -1137,10 +1201,20 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              " condition (escape DC 20). Cryonax can grapple up to two targets but any tentacle that is grappling can't be used to make a Slam or ",
+              { effect: 'slam-grapple' },
+              ". Cryonax can grapple up to two targets but any tentacle that is grappling can't be used to make a Slam or ",
               { ability: 'ice-spear' },
               ' attack.',
+            ],
+            effects: [
+              {
+                key: 'slam-grapple',
+                name: 'Grabbed by a tentacle',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -1182,6 +1256,7 @@ export default createPublicationMonsters({
                 { roll: '3d8' },
                 ' bludgeoning damage to it.',
               ],
+              effects: [],
             },
             {
               key: 'tentacle-freeze',
@@ -1193,8 +1268,21 @@ export default createPublicationMonsters({
                 ' target. If the target fails a ',
                 { dc: 'con', printed: 22 },
                 ' Constitution saving throw they are ',
-                rules.paralyzed,
-                ' and Cryonax releases them from its tentacle. They remain frozen indefinitely but can attempt the Constitution saving throw at the end of each of their turns. Success means they are no longer frozen.',
+                { effect: 'tentacle-frozen' },
+                ' and Cryonax releases them from its tentacle.',
+              ],
+              effects: [
+                {
+                  key: 'tentacle-frozen',
+                  name: 'Frozen',
+                  lands: { on: 'save', save: 'con', dc: 'con', printed: 22 },
+                  conditions: [rules.paralyzed],
+                  text: [
+                    'They remain frozen indefinitely but can attempt the Constitution saving throw at the end of each of their turns. Success means they are no longer frozen.',
+                  ],
+                  lasts: { kind: 'until-removed' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
             {
@@ -1205,11 +1293,29 @@ export default createPublicationMonsters({
               text: [
                 'With a gesture Cryonax targets a frozen creature (see ',
                 { ability: 'tentacle-freeze' },
-                ') that is within 30 feet of him. The target is encased instantly in a hard shell of crushing ice. The target receives no saving throw and takes ',
-                { roll: '5d8' },
-                ' cold damage immediately and at the start of each of their turns. The target is considered ',
-                rules.stunned,
-                ' but is partly protected by the shroud and resistant to all damage. The shroud disappears if Cryonax removes it, Cryonax dies, the shroud takes 100 hit points of damage or another character uses their action and succeeds on a DC 22 Strength check to remove the trapped ally.',
+                ') that is within 30 feet of him. ',
+                { effect: 'ice-shrouded' },
+              ],
+              effects: [
+                {
+                  key: 'ice-shrouded',
+                  name: 'Encased in ice',
+                  lands: { on: 'use' },
+                  conditions: [rules.stunned],
+                  text: [
+                    'The target is encased instantly in a hard shell of crushing ice. The target receives no saving throw and takes ',
+                    { roll: '5d8' },
+                    ' cold damage immediately and at the start of each of their turns. The target is considered ',
+                    rules.stunned,
+                    ' but is partly protected by the shroud and resistant to all damage.',
+                  ],
+                  lasts: {
+                    kind: 'until',
+                    text: [
+                      'The shroud disappears if Cryonax removes it, Cryonax dies, the shroud takes 100 hit points of damage or another character uses their action and succeeds on a DC 22 Strength check to remove the trapped ally',
+                    ],
+                  },
+                },
               ],
             },
           ],
@@ -1266,6 +1372,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.seeming_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'draconic-transformation',
@@ -1283,6 +1390,7 @@ export default createPublicationMonsters({
               rules.stunned,
               '. Dagryn remains in his dragon form for 24 hours whereupon he reverts to this stat block.',
             ],
+            effects: [],
           },
           {
             key: 'dwarven-resilience',
@@ -1296,6 +1404,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -1335,6 +1444,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with him.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1485,6 +1595,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' or to make weapons become attached to it. It is able to end the adhesion with a bonus action, causing all items and creatures secured to it to be released. The adhesion also ends after the farastu dies.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -1565,8 +1676,18 @@ export default createPublicationMonsters({
             },
             text: [
               "The target is held fast by the farastu's adhesive slime (",
-              rules.grappled,
-              " condition, escape DC 15) if the farastu isn't already grappling a creature.",
+              { effect: 'slime-grapple' },
+              ") if the farastu isn't already grappling a creature.",
+            ],
+            effects: [
+              {
+                key: 'slime-grapple',
+                name: 'Held fast by slime',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -1579,6 +1700,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'dex' },
               " Dexterity saving throw. On a failure, the weapon becomes attached to the farastu's adhesive hide until the farastu dies or releases the weapon. A creature can also use an action to make a DC 15 Strength check, prying the weapon free from the farastu, if successful.",
             ],
+            effects: [],
           },
         ],
       },
@@ -1628,6 +1750,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Imoen doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -1749,6 +1872,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.fog_cloud_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -1771,6 +1895,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '. It is also able to move underwater with no movement or attack penalties.',
             ],
+            effects: [],
           },
           {
             key: 'keen-smell',
@@ -1816,6 +1941,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the kelubar doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'stench',
@@ -1826,8 +1952,17 @@ export default createPublicationMonsters({
               'Any creature that is not a demodand and starts its turn within 30 feet of the kelubar must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or or have the ',
-              rules.poisoned,
-              ' condition for 1 minute. On a successful saving throw, the creature is immune to the stench of this kelubar for 1 hour.',
+              { effect: 'stench-poisoned' },
+              '. On a successful saving throw, the creature is immune to the stench of this kelubar for 1 hour.',
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Stench poison',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -1960,6 +2095,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Montaron doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2004,6 +2140,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -2079,6 +2216,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mass_heal_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'mace',
@@ -2114,8 +2252,17 @@ export default createPublicationMonsters({
               'Naes dispels any magical darkness within 30 feet of him. Additionally, each hostile creature within 30 feet of Naes that does not have 3 must make a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw, taking 60 radiant damage on a failed saving throw, half as much damage on a successful one. A creature that fails the saving throw has the ',
-              rules.blinded,
-              ' condition for 1 minute.',
+              { effect: 'radiant-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'radiant-blinded',
+                name: 'Blinded by radiant beauty',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -2198,6 +2345,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.reverse_gravity_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'arcane-sight',
@@ -2294,10 +2442,23 @@ export default createPublicationMonsters({
               'If the target fails a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw, they have the ',
-              rules.paralyzed,
-              " condition for 1 minute. The phaerimm's poison forces the ",
-              rules.paralyzed,
-              " target to float 5 feet above the ground. The target may repeat the saving throw at the end of each of it's turns.",
+              { effect: 'stinger-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stinger-paralysis',
+                name: 'Phaerimm paralysis',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.paralyzed],
+                text: [
+                  "The phaerimm's poison forces the ",
+                  rules.paralyzed,
+                  ' target to float 5 feet above the ground.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2310,7 +2471,20 @@ export default createPublicationMonsters({
               { ability: 'stinger' },
               ' attack against a ',
               rules.paralyzed,
-              ' target. If the stinger hits, an egg is implanted in the target. This egg can only be removed by spells that cure disease, such as lesser restoration. If the egg is not removed within 90 days, the larva emerges, and the host is killed. A phaerimm has a single egg so may only use this ability once.',
+              ' target. If the stinger hits, ',
+              { effect: 'phaerimm-egg' },
+              ' A phaerimm has a single egg so may only use this ability once.',
+            ],
+            effects: [
+              {
+                key: 'phaerimm-egg',
+                name: 'Implanted egg',
+                lands: { on: 'use' },
+                text: [
+                  'An egg is implanted in the target. This egg can only be removed by spells that cure disease, such as lesser restoration. If the egg is not removed within 90 days, the larva emerges, and the host is killed.',
+                ],
+                lasts: { kind: 'time', amount: '90', unit: 'day' },
+              },
             ],
           },
         ],
@@ -2367,6 +2541,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.silence_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2418,7 +2593,20 @@ export default createPublicationMonsters({
               { roll: '1d10', mod: 'str' },
               ' if wielded in two hands. If the target is a creature, it must succeed on a ',
               { dc: 'wis', save: 'con' },
-              " Constitution saving throw or be cursed by Bhaal. The cursed target can't regain hit points. The curse lasts until removed by the remove curse spell or other magic.",
+              ' Constitution saving throw or be cursed by Bhaal. ',
+              { effect: 'bhaal-curse' },
+            ],
+            effects: [
+              {
+                key: 'bhaal-curse',
+                name: 'Curse of Bhaal',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                text: ["The cursed target can't regain hit points."],
+                lasts: {
+                  kind: 'until',
+                  text: ['removed by the remove curse spell or other magic'],
+                },
+              },
             ],
           },
           {
@@ -2434,8 +2622,17 @@ export default createPublicationMonsters({
               ' poison damage. If the target is a creature, it must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition for 10 minutes.',
+              { effect: 'assassin-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'assassin-poisoned',
+                name: 'Assassin poison',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -2494,6 +2691,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2629,6 +2827,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.power_word_stun_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-madness',
@@ -2640,6 +2839,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'cha' },
               " Charisma saving throw or be inflicted with a random short-term madness. If a creature succeeds against any madness ability of Ssendam's, they are immune to Ssendam's madness for 1 hour.",
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2708,6 +2908,7 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'cha' },
               ' Charisma saving throw is inflicted with a random short-term madness. If it is already mad, the existing madness is replaced with a random long-term madness.',
             ],
+            effects: [],
           },
           {
             key: 'chaos-staff',
@@ -2728,8 +2929,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.stunned,
-              ' condition for 1 minute. The target may repeat the saving throw at the end of each of their turns, ending the effect on a success.',
+              { effect: 'chaos-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'chaos-stunned',
+                name: 'Stunned by chaos staff',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2839,6 +3050,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shield_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'young-bronze-dragon',
@@ -2882,6 +3094,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'mounted',
@@ -2893,6 +3106,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", Suldil can't be surprised, and both her and her mount gain advantage on Dexterity saving throws.",
             ],
+            effects: [],
           },
         ],
       },
@@ -3073,8 +3287,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition for 1 hour.',
+              { effect: 'blowgun-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'blowgun-poisoned',
+                name: 'Blowgun poison',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -3120,6 +3343,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3176,6 +3400,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
         ],
       },

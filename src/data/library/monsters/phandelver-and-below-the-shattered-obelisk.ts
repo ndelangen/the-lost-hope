@@ -317,10 +317,22 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition for 1 minute. While ',
-              rules.poisoned,
-              " in this way, a creature can't regain hit points.",
+              { effect: 'corpse-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'corpse-poisoned',
+                name: 'Corpse poison',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  " in this way, a creature can't regain hit points.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -357,14 +369,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 60 } },
               onFail: {
                 damage: [{ dice: '5d6', type: rules.psychic }],
-                also: [
-                  'Have the ',
-                  rules.frightened,
-                  " condition until the end of the mutate's next turn.",
-                ],
+
+                also: [{ effect: 'moan-frightened' }],
               },
             },
             text: ['The mutate lets out a moan charged with psychic energy.'],
+            effects: [
+              {
+                key: 'moan-frightened',
+                name: 'Frightened by psychic moan',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until', text: ["the end of the mutate's next turn"] },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 6',
           },
@@ -399,6 +417,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'battleaxe',
@@ -482,8 +501,17 @@ export default createPublicationMonsters({
               'If the target is a creature, the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition. If this attack reduces the target to 0 hit points, the target immediately dies and is consumed by the cluster.',
+              { effect: 'slam-prone' },
+              '. If this attack reduces the target to 0 hit points, the target immediately dies and is consumed by the cluster.',
+            ],
+            effects: [
+              {
+                key: 'slam-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -624,8 +652,17 @@ export default createPublicationMonsters({
               ' piercing damage, and if the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'drill-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'drill-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -648,6 +685,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -689,15 +727,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 5 } },
               onFail: {
                 damage: [{ dice: '1d6', type: rules.necrotic }],
-                also: [
-                  'Have the ',
-                  rules.poisoned,
-                  " condition until the start of the flesh meld's next turn.",
-                ],
+
+                also: [{ effect: 'aura-poisoned' }],
               },
               printedDc: 15,
             },
             text: ["At the start of each of the flesh meld's turns,"],
+            effects: [
+              {
+                key: 'aura-poisoned',
+                name: 'Aura of death',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until', text: ["the start of the flesh meld's next turn"] },
+              },
+            ],
           },
           {
             key: 'magic-resistance',
@@ -738,8 +782,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 15) and is pulled up to 15 feet toward the flesh meld.',
+              { effect: 'meld-grappled' },
+              ' and is pulled up to 15 feet toward the flesh meld.',
+            ],
+            effects: [
+              {
+                key: 'meld-grappled',
+                name: 'Grappled by flesh meld',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -752,13 +806,9 @@ export default createPublicationMonsters({
               { dc: 'dex', printed: 15 },
               ' Dexterity saving throw or be swallowed by the flesh meld. The flesh meld can have one creature swallowed at a time. A swallowed creature no longer has the ',
               rules.grappled,
-              ' condition. While swallowed, it has the ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' conditions, has 3 against attacks and other effects outside the flesh meld, and takes ',
-              { roll: '3d6' },
-              " necrotic damage at the start of each of the flesh meld's turns. If this damage reduces a swallowed creature to 0 hit points, the creature dies, and the flesh meld consumes its body. If the flesh meld takes 30 damage or more on a single turn from the swallowed creature, the flesh meld must succeed on a ",
+              ' condition. While swallowed, ',
+              { effect: 'swallowed' },
+              '. If this damage reduces a swallowed creature to 0 hit points, the creature dies, and the flesh meld consumes its body. If the flesh meld takes 30 damage or more on a single turn from the swallowed creature, the flesh meld must succeed on a ',
               { dc: 'con', printed: 15 },
               ' Constitution saving throw at the end of that turn or regurgitate the creature, which falls with the ',
               rules.prone,
@@ -767,6 +817,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 10 feet of movement, exiting with the ',
               rules.prone,
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed by the flesh meld',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 15 },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has 3 against attacks and other effects outside the flesh meld, and takes ',
+                  { roll: '3d6' },
+                  " necrotic damage at the start of each of the flesh meld's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -890,6 +954,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['When the goblin dies, its pent-up mental energy explodes in a psychic blast.'],
+            effects: [],
           },
           {
             key: 'mental-fortitude',
@@ -903,6 +968,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -943,8 +1009,17 @@ export default createPublicationMonsters({
               'The goblin targets one creature it can see within 30 feet of itself with a thrust of telekinetic force. The target must succeed on a ',
               { dc: 'dex', save: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'shove-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'shove-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -994,6 +1069,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '. Whenever Grandlejaw takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, Grandlejaw dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. Grandlejaw regains 10 hit points for each head regrown in this way.',
             ],
+            effects: [],
           },
           {
             key: 'reactive-heads',
@@ -1072,6 +1148,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.fear_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1115,14 +1192,35 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition for 1 minute. While the target is ',
-              rules.poisoned,
-              ', it also has the ',
-              rules.paralyzed,
-              ' condition. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The target also has the ',
-              rules.grappled,
-              " condition (escape DC 16). While grappling the target, the grell can't make Tentacle attacks against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.",
+              { effect: 'tentacle-poisoned' },
+              '. The target also has the ',
+              { effect: 'tentacle-grappled' },
+              ". While grappling the target, the grell can't make Tentacle attacks against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it.",
+            ],
+            effects: [
+              {
+                key: 'tentacle-poisoned',
+                name: 'Tentacle poison',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                text: [
+                  'While the target is ',
+                  rules.poisoned,
+                  ', it also has the ',
+                  rules.paralyzed,
+                  ' condition.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'tentacle-grappled',
+                name: 'Grappled by tentacle',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
         ],
@@ -1291,12 +1389,29 @@ export default createPublicationMonsters({
               ' and can see the creature. If the saving throw fails by 5 or more, the creature is instantly ',
               rules.petrified,
               '. Otherwise, a creature that fails the save begins to turn to stone and is ',
-              rules.restrained,
+              { effect: 'honna-restrained' },
               '. The ',
               rules.restrained,
               ' creature must repeat the saving throw at the end of its next turn, becoming ',
-              rules.petrified,
+              { effect: 'honna-petrified' },
               " on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Honna until the start of its next turn, when it can avert its eyes again. If the creature looks at Honna in the meantime, it must immediately make the save. If Honna sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, Honna is, due to its curse, affected by its own gaze.",
+            ],
+            effects: [
+              {
+                key: 'honna-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'honna-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
           },
           {
@@ -1425,8 +1540,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.frightened,
-              " condition until the start of the mutate's next turn.",
+              { effect: 'blast-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'blast-frightened',
+                name: 'Frightened by nightmare blast',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until', text: ["the start of the mutate's next turn"] },
+              },
             ],
           },
           {
@@ -1476,6 +1600,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.magic_missile_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -1560,6 +1685,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.magic_missile_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -1686,6 +1812,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['Kellikilli is ', rules.invisible, ' while fully immersed in water.'],
+            effects: [],
           },
           {
             key: 'water-bound',
@@ -1710,10 +1837,20 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 13) and pulled 5 feet toward Kellikilli. Until this grapple ends, the target is ',
+              { effect: 'constrict-grappled' },
+              ' and pulled 5 feet toward Kellikilli. Until this grapple ends, the target is ',
               rules.restrained,
               ", Kellikilli tries to drown it, and Kellikilli can't constrict another target.",
+            ],
+            effects: [
+              {
+                key: 'constrict-grappled',
+                name: 'Constricted by Kellikilli',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
         ],
@@ -1761,6 +1898,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -1823,11 +1961,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.force }],
-                also: ["Its speed becomes 0 until the start of the dragon's next turn."],
+
+                also: [{ effect: 'singularity-slowed' }],
               },
             },
             text: [
               'Lowarnizel creates a shining bead of gravitational force, then releases the energy in a 30-foot cone. On a successful save, a creature takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'singularity-slowed',
+                name: 'Singularity breath',
+                lands: { on: 'failed-save' },
+                text: ['Its speed becomes 0.'],
+                lasts: { kind: 'until', text: ["the start of the dragon's next turn"] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1913,8 +2061,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.frightened,
-              " condition until the start of Malinia's next turn.",
+              { effect: 'malinia-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'malinia-frightened',
+                name: 'Frightened by nightmare blast',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until', text: ["the start of Malinia's next turn"] },
+              },
             ],
           },
           {
@@ -1993,7 +2150,18 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'life-drain' },
+              '. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+            ],
+            effects: [
+              {
+                key: 'life-drain',
+                name: 'Life drain',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['its hit point maximum is reduced by an amount equal to the damage taken.'],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -2056,6 +2224,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2074,6 +2243,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " condition on himself, and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2196,6 +2366,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2207,6 +2378,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Nythalyn to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2256,12 +2428,21 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target is also ',
+              { effect: 'nythalyn-poisoned' },
+              '. If the saving throw fails by 5 or more, the target is also ',
               rules.unconscious,
               ' while ',
               rules.poisoned,
               ' in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.',
+            ],
+            effects: [
+              {
+                key: 'nythalyn-poisoned',
+                name: 'Crossbow poison',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -2345,8 +2526,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.frightened,
-              " condition until the start of Ontharyx's next turn.",
+              { effect: 'ontharyx-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ontharyx-frightened',
+                name: 'Frightened by nightmare blast',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until', text: ["the start of Ontharyx's next turn"] },
+              },
             ],
           },
           {
@@ -2427,6 +2617,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'stone-camouflage',
@@ -2475,8 +2666,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success',
+              { effect: 'dart-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dart-poisoned',
+                name: 'Poisoned dart',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -2522,6 +2723,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2558,15 +2760,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.psychic }],
-                also: [
-                  'Have the ',
-                  rules.stunned,
-                  " condition until the start of Ruxithid's next turn.",
-                ],
+
+                also: [{ effect: 'tendrils-stunned' }],
               },
             },
             text: [
               'Ruxithid unleashes a flurry of crystalline psychic tendrils from his brain, targeting one creature that he can see within 30 feet of himself.',
+            ],
+            effects: [
+              {
+                key: 'tendrils-stunned',
+                name: 'Stunned by brain tendrils',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ["the start of Ruxithid's next turn"] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2683,6 +2891,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2694,6 +2903,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Yanthdel to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2743,12 +2953,21 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target is also ',
+              { effect: 'yanthdel-poisoned' },
+              '. If the saving throw fails by 5 or more, the target is also ',
               rules.unconscious,
               ' while ',
               rules.poisoned,
               ' in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.',
+            ],
+            effects: [
+              {
+                key: 'yanthdel-poisoned',
+                name: 'Crossbow poison',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -2822,10 +3041,16 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d4', type: rules.poison }],
               },
             },
-            text: [
-              'Become ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            text: ['Become ', { effect: 'zeond-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'zeond-poisoned',
+                name: 'Zeond poison',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2837,8 +3062,19 @@ export default createPublicationMonsters({
               "One creature of Zeond's choice within 20 feet of it must succeed on a ",
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if Zeond is within line of sight, ending the effect on itself on a success.',
+              { effect: 'scare-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'scare-frightened',
+                name: 'Frightened by scare',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if Zeond is within line of sight'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -2857,6 +3093,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },

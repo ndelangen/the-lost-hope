@@ -111,6 +111,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -146,6 +147,7 @@ export default createPublicationMonsters({
             text: ['Tooth-N-Claw exhales an icy blast in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

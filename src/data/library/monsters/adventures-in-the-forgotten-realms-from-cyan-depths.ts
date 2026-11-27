@@ -38,6 +38,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' while within 5 feet of at least one ally.',
             ],
+            effects: [],
           },
           {
             key: 'martial-advantage',
@@ -51,6 +52,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

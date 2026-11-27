@@ -2215,6 +2215,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -2584,7 +2585,17 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with werewolf lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Werewolf lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with werewolf lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

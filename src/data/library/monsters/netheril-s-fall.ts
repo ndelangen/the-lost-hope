@@ -82,8 +82,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14) from one of two fists.',
+              { effect: 'fist-grappled' },
+              ' from one of two fists.',
+            ],
+            effects: [
+              {
+                key: 'fist-grappled',
+                name: 'Grappled by fist',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -189,10 +199,20 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 5 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.force }],
-                also: ['The target has the ', rules.prone, ' condition.'],
+
+                also: [{ effect: 'overload-prone' }],
               },
             },
             text: ['Trigger: The eddy takes damage. Response:'],
+            effects: [
+              {
+                key: 'overload-prone',
+                name: 'Knocked prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -233,6 +253,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.clairvoyance,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -284,10 +305,15 @@ export default createPublicationMonsters({
               range: [120, 120],
               damage: [{ dice: '1d6', type: rules.psychic, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.charmed,
-              " condition until the start of the phaerimm's next turn.",
+            text: ['The target has the ', { effect: 'mindwarp-charmed' }, '.'],
+            effects: [
+              {
+                key: 'mindwarp-charmed',
+                name: 'Charmed by mindwarp ray',
+                lands: { on: 'hit' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'until', text: ["the start of the phaerimm's next turn"] },
+              },
             ],
           },
           {
@@ -351,6 +377,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.stone_shape,
             ],
+            effects: [],
           },
           {
             key: 'disintegration',
@@ -459,6 +486,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.major_image,
             ],
+            effects: [],
           },
           {
             key: 'disintegration',

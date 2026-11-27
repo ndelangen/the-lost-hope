@@ -78,6 +78,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. The two don’t even need to be on the same plane of existence.',
             ],
+            effects: [],
           },
         ],
       },

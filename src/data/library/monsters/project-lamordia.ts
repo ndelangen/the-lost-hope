@@ -100,9 +100,8 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 }, range: 10 },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.fire }],
-                also: [
-                  "Until the end of the target's next turn, the target's Speed is halved; the target can't take Reactions; and the target can take either an action or Bonus Action on its turn, not both.",
-                ],
+
+                also: [{ effect: 'malfunction-slowed' }],
               },
             },
             text: [
@@ -115,6 +114,17 @@ export default createPublicationMonsters({
               ' attacks and goes berserk. It rolls for the ',
               { ability: 'berserk' },
               ' trait each round, whether or not it is Bloodied, for 1 minute.',
+            ],
+            effects: [
+              {
+                key: 'malfunction-slowed',
+                name: 'Malfunction',
+                lands: { on: 'failed-save' },
+                text: [
+                  "the target's Speed is halved; the target can't take Reactions; and the target can take either an action or Bonus Action on its turn, not both.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -241,6 +251,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'camouflage-generator',
@@ -308,12 +319,22 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5 },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.poison }],
-                also: [
-                  "Until the end of the target's next turn, the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both.",
-                ],
+
+                also: [{ effect: 'numbed' }],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'numbed',
+                name: 'Numbed',
+                lands: { on: 'failed-save' },
+                text: [
+                  "the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'parry',
@@ -369,6 +390,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -383,9 +405,18 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Large or smaller creature, it has ',
+              { effect: 'bitten-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bitten-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -398,6 +429,7 @@ export default createPublicationMonsters({
               rules.blinded,
               ' condition.',
             ],
+            effects: [],
           },
         ],
       },

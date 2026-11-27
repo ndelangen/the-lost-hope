@@ -127,6 +127,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.misty_step_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -228,10 +229,20 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
+              { effect: 'pincer-grapple' },
               '. As an action, the target can escape the grapple by succeeding on a ',
               { dc: 'str' },
               " Strength (Athletics) or Dexterity (Acrobatics) check (its choice). Until this grapple ends, the thessalhydra can't use its tail pincer.",
+            ],
+            effects: [
+              {
+                key: 'pincer-grapple',
+                name: 'Gripped by the tail pincer',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str' } },
+              },
             ],
           },
           {
@@ -254,6 +265,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {

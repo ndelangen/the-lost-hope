@@ -116,6 +116,7 @@ export default createPublicationMonsters({
               '; 2nd level (3 slots): cloud of daggers, ',
               refs.spells.invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -127,6 +128,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'taunt',
@@ -136,7 +138,18 @@ export default createPublicationMonsters({
             text: [
               'Brahma can use a bonus action to target one creature she can see within 30 feet of her. If the target can hear Brahma, it must succeed on a ',
               { dc: 'cha' },
-              " Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Brahma's next turn.",
+              ' Charisma saving throw or have ',
+              { effect: 'taunt' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'taunt',
+                name: 'Taunt',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['disadvantage on ability checks, attack rolls, and saving throws'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -163,10 +176,20 @@ export default createPublicationMonsters({
               'Brahma targets one creature that can see or hear her, which must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by her for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success. It has disadvantage on these saves if being ',
+              { effect: 'domination' },
+              '. It has disadvantage on these saves if being ',
               rules.charmed,
               ' by Brahma is something the target openly or secretly desires. For 1 hour after the charm effect ends, the target has disadvantage on Intelligence, Wisdom, or Charisma checks made as part of a contest with Brahma.',
+            ],
+            effects: [
+              {
+                key: 'domination',
+                name: 'Charmed by her',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 3,
             recharge: 'Long rest',
@@ -220,10 +243,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.grappled,
-              ' (escape DC 14). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'grabbed' },
               '. The chaos quadrapod can grapple no more than two targets at a time.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -235,8 +266,17 @@ export default createPublicationMonsters({
               'The chaos quadrapod shoots forth a knot of roiling ethereal light that explodes at a point it can see within 60 feet of it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a ',
               { dc: 'str', save: 'cha' },
               ' Charisma saving throw or be ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'stunned-light' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stunned-light',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'cha', dc: 'str' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -309,6 +349,7 @@ export default createPublicationMonsters({
             text: ['The clockwork dragon exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -380,10 +421,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 17). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'grabbed' },
               ", and the deep crow can't use its mandibles on another target.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -450,6 +499,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'champion-challenge-recharges-after-a-short-or-long-rest',
@@ -459,9 +509,25 @@ export default createPublicationMonsters({
             text: [
               'As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a ',
               { dc: 'cha', save: 'wis' },
-              " Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is ",
-              rules.incapacitated,
-              ' or dies, or if the creature is moved more than 30 feet away from him.',
+              ' Wisdom saving throw. On a failure, a creature ',
+              { effect: 'challenged' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'challenged',
+                name: 'Champion challenge',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                text: ["can't willingly move more than 30 feet away from Donaar"],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'Donaar is ',
+                    rules.incapacitated,
+                    ' or dies, or if the creature is moved more than 30 feet away from him',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -516,6 +582,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Donaar regurgitates acid in a 30-foot line that is 5 feet wide.'],
+            effects: [],
           },
         ],
       },
@@ -573,6 +640,7 @@ export default createPublicationMonsters({
               refs.spells.cone_of_cold_srd_5_1,
               ' *New spell introduced in chapter 3',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -649,6 +717,7 @@ export default createPublicationMonsters({
               refs.spells.mislead_srd_5_1,
               ' *New spell introduced in chapter 3',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -762,10 +831,19 @@ export default createPublicationMonsters({
               'The keg robot spews an unnaturally potent beer in a 15-foot cone or in a 30-foot line that is 5 feet wide. Each creature in the area must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              '. While ',
-              rules.poisoned,
-              ' in this way, a creature has its speed halved by exposure to the potent brew. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Additionally, the beer shower extinguishes any fires or open flames in its area.',
+              { effect: 'beer-poisoned' },
+              '. Additionally, the beer shower extinguishes any fires or open flames in its area.',
+            ],
+            effects: [
+              {
+                key: 'beer-poisoned',
+                name: 'Poisoned (affected by the beer)',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.poisoned],
+                text: ['a creature has its speed halved by exposure to the potent brew'],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -780,9 +858,9 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.line, size: 30, width: 5 } },
               onFail: {
                 damage: [{ dice: '1d8', type: rules.fire, addModifier: true }],
+
                 also: [
-                  'Falls ',
-                  rules.prone,
+                  { effect: 'oil-prone' },
                   ". On a successful save, a creature takes half as much damage and doesn't fall ",
                   rules.prone,
                   '.',
@@ -796,6 +874,15 @@ export default createPublicationMonsters({
               ' fire damage, and the oil burns away. If the oil that remains in the area of the spray is lit, it burns for 1d4 rounds and deals ',
               { roll: '1d6' },
               ' fire damage to any creature that enters the area for the first time on a turn or ends its turn there.',
+            ],
+            effects: [
+              {
+                key: 'oil-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -851,6 +938,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.conjure_animals_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -872,6 +960,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -940,6 +1029,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'keen-hearing-and-sight',
@@ -1045,6 +1135,7 @@ export default createPublicationMonsters({
               ', cloud of daggers, ',
               refs.spells.scorching_ray_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'echo-spell',
@@ -1123,6 +1214,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spiritual_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-display',
@@ -1133,8 +1225,18 @@ export default createPublicationMonsters({
               'As a bonus action, Phoenix causes his shield to flare with divine light. Each creature of his choice within 30 feet of him must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.blinded,
-              ' for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself with a success.',
+              { effect: 'dazzled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dazzled',
+                name: 'Blinded by divine light',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -1163,6 +1265,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               ' Strength saving throw or be pushed 5 feet.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1197,6 +1300,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Portentia doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1278,6 +1382,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -1300,6 +1405,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'maul',
@@ -1345,6 +1451,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', attack rolls against him are made with disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'nimble-escape',
@@ -1367,6 +1474,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1397,8 +1505,17 @@ export default createPublicationMonsters({
               'Splugoth remembers and repeats aloud a few words from a place he entered while walking back from the next world to this one. Each creature of his choice within 30 feet of him that can hear him must succeed on a ',
               { dc: 'dex', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'word-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'word-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -1476,6 +1593,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.freedom_of_movement_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1487,6 +1605,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'mask-of-the-wild',
@@ -1507,6 +1626,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ", drops to 0 hit points, or dies. While transformed, Walnut's game statistics are replaced by the statistics of the dire wolf, except she retains her alignment, personality, and Intelligence, Wisdom, and Charisma scores. Her attacks in beast form are magical. While in beast form, Walnut can use a bonus action to expend one spell slot and regain 1d8 hit points per level of the spell slot expended.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

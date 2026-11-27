@@ -50,6 +50,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.slow_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -83,6 +84,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -138,6 +140,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.sleet_storm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -245,6 +248,7 @@ export default createPublicationMonsters({
               '; 3rd level: ',
               refs.spells.vampiric_touch_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -272,6 +276,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'olhydra-s-armor-human-form-only',
@@ -296,12 +301,17 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 12). Until the grapple ends, the target is ',
-              rules.restrained,
-              ', and the fathomer can’t constrict another target.',
+            text: ['If the target is Medium or smaller, it is ', { effect: 'constricted' }, '.'],
+            effects: [
+              {
+                key: 'constricted',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ['The fathomer can’t constrict another target.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -358,6 +368,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.feather_fall_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -489,6 +500,7 @@ export default createPublicationMonsters({
               '; 2nd level (2 slots): ',
               refs.spells.gust_of_wind_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'unarmored-defense',
@@ -589,6 +601,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.vampiric_touch_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'grim-harvest',
@@ -677,6 +690,7 @@ export default createPublicationMonsters({
               refs.spells.misty_step_srd_5_1,
               '; 3rd level (2 slots): tidal wave*',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -691,6 +705,7 @@ export default createPublicationMonsters({
               ' to hit with spell attacks). He can innately cast the following spells (an asterisked spell appears in this appendix): At will: shape water*; 1/day: ',
               refs.spells.create_or_destroy_water_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',

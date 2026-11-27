@@ -108,6 +108,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.stoneskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -126,6 +127,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.speak_with_animals_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -209,8 +211,18 @@ export default createPublicationMonsters({
               "Each creature of Lhammaruntosz's choice that is within 120 feet of her and aware of her must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Lhammaruntosz's Frightful Presence for the next 24 hours.",
+              { effect: 'presence-frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Lhammaruntosz's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'presence-frightened',
+                name: 'Frightful presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -238,6 +250,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Lhammaruntosz exhales lightning in a 90-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -249,6 +262,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -289,11 +303,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'Lhammaruntosz beats its wings. Lhammaruntosz can then fly up to half her flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],

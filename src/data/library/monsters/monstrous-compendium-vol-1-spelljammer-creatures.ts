@@ -51,6 +51,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute or until it takes any damage.',
             ],
+            effects: [],
           },
           {
             key: 'unusual-nature',
@@ -175,6 +176,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'far-realm-parasite',
@@ -234,10 +236,27 @@ export default createPublicationMonsters({
               ' necrotic damage. The target must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              '. The ',
-              rules.poisoned,
-              " target can repeat the save at the end of each of its turns, ending the effect on itself on a success. The third time the target fails the save, the target dies and dissolves into a gibbering mouther that obeys the lich and uses the target's initiative.",
+              { effect: 'parasitic-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'parasitic-poisoned',
+                name: 'Parasitic poison',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 3,
+                  key: 'parasitic-dissolved',
+                  name: 'Dissolved into a gibbering mouther',
+                  text: [
+                    "The third time the target fails the save, the target dies and dissolves into a gibbering mouther that obeys the lich and uses the target's initiative.",
+                  ],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
           },
           {
@@ -252,14 +271,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120 },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.psychic, addModifier: true }],
+
                 also: [
                   'Be ',
-                  rules.stunned,
-                  " until the end of the lich's next turn as incomprehensible whispers fill the target's mind.",
+                  { effect: 'whisper-stunned' },
+                  " as incomprehensible whispers fill the target's mind.",
                 ],
               },
             },
             text: ['The lich targets one creature it can see within 120 feet of itself.'],
+            effects: [
+              {
+                key: 'whisper-stunned',
+                name: 'Stunned by psychic whisper',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'far-realm-step',
@@ -299,10 +328,18 @@ export default createPublicationMonsters({
               'The goon balloon bursts when it drops to 0 hit points, releasing noxious gas in a 10-foot-radius sphere centered on itself. Creatures in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. A ',
-              rules.poisoned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'burst-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'burst-poisoned',
+                name: 'Noxious gas',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -350,6 +387,7 @@ export default createPublicationMonsters({
             text: [
               "Magical, kaleidoscopic light emanates from one of the goon balloon's eyes as the goon balloon targets one creature it can see within 30 feet of itself.",
             ],
+            effects: [],
           },
           {
             key: 'float',
@@ -361,6 +399,7 @@ export default createPublicationMonsters({
               rules.prone,
               ' while airborne.',
             ],
+            effects: [],
           },
         ],
       },
@@ -431,6 +470,7 @@ export default createPublicationMonsters({
               { dc: 'int' },
               ').',
             ],
+            effects: [],
           },
         ],
       },
@@ -504,6 +544,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -590,8 +631,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.grappled,
-              ' (escape DC 15). The yggdrasti has four roots, each of which can grapple one target.',
+              { effect: 'root-grappled' },
+              '. The yggdrasti has four roots, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'root-grappled',
+                name: 'Grappled by root',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -612,6 +663,7 @@ export default createPublicationMonsters({
             text: ['The yggdrasti shoots lightning at one creature within 120 feet of itself.'],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },

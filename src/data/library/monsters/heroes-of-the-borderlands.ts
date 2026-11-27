@@ -491,10 +491,15 @@ export default createPublicationMonsters({
               range: [40, 160],
               damage: [{ dice: '1', type: rules.piercing }],
             },
-            text: [
-              'The target has the ',
-              rules.charmed,
-              " condition until the start of the sprite's next turn.",
+            text: ['The target has the ', { effect: 'bow-charmed' }, ' condition.'],
+            effects: [
+              {
+                key: 'bow-charmed',
+                name: 'Charmed by the bow',
+                lands: { on: 'hit' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -507,6 +512,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               ", one creature within 5 feet the sprite can see (Celestials, Fiends, Undead automatically fail the save). Failure: The sprite knows the target's emotions.",
             ],
+            effects: [],
           },
           {
             key: 'invisibility',
@@ -520,6 +526,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
         ],
       },
@@ -678,6 +685,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

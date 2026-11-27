@@ -41,7 +41,19 @@ export default createPublicationMonsters({
             text: [
               'The first time the zombie takes damage, any living creature within 5 feet of the zombie must succeed on a ',
               { dc: 'con', printed: 10 },
-              ' Constitution saving throw or gain disadvantage on attack rolls, saving throws, and ability checks for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on it early with a successful save.',
+              ' Constitution saving throw or gain ',
+              { effect: 'ash-puff-disadvantage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ash-puff-disadvantage',
+                name: 'Choked by ash',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 10 },
+                text: ['Disadvantage on attack rolls, saving throws, and ability checks.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -101,6 +113,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.misty_step_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -229,7 +242,23 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. If this attack reduces the target's hit point maximum to 0, the target dies. This reduction to the target's hit point maximum lasts until the target finishes a long rest.",
+              ' Constitution saving throw or ',
+              { effect: 'life-drained' },
+              ". If this attack reduces the target's hit point maximum to 0, the target dies.",
+            ],
+            effects: [
+              {
+                key: 'life-drained',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Its hit point maximum is reduced by an amount equal to the damage taken.'],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "This reduction to the target's hit point maximum lasts until the target finishes a long rest",
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -279,6 +308,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -296,6 +326,7 @@ export default createPublicationMonsters({
               { dc: 'wis' },
               ')',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -314,6 +345,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -576,6 +608,7 @@ export default createPublicationMonsters({
             text: ['Venomfang exhales poisonous gas in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

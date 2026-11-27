@@ -43,6 +43,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -83,6 +84,7 @@ export default createPublicationMonsters({
             text: [
               'Acid falls in a 10-foot-radius, 20-foot-high cylinder centered on a point Ervan can see within 120 feet of himself.',
             ],
+            effects: [],
           },
         ],
       },

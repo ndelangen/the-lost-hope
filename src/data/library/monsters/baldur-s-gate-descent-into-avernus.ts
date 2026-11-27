@@ -197,6 +197,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.meteor_swarm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fear-aura',
@@ -209,8 +210,17 @@ export default createPublicationMonsters({
               ' Wisdom saving throw, unless Bel is ',
               rules.incapacitated,
               '. Unless the save succeeds, the creature is ',
-              rules.frightened,
-              " until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Bel's Fear Aura for the next 24 hours.",
+              { effect: 'aura-fear' },
+              ". If a creature's saving throw is successful, the creature is immune to Bel's Fear Aura for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'aura-fear',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -280,8 +290,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'tail-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tail-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -393,11 +412,29 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature other than an undead or a construct, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or lose ',
-              { roll: '3d6' },
-              ' hit points at the start of each of its turns due to an infernal wound. Each time Bitter Breath hits the wounded target with this attack, the damage dealt by the wound increases by ',
-              { roll: '3d6' },
-              '. Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+              ' Constitution saving throw or ',
+              { effect: 'infernal-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'infernal-wound',
+                name: 'Infernal wound',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'lose ',
+                  { roll: '3d6' },
+                  ' hit points at the start of each of its turns due to an infernal wound. Each time Bitter Breath hits the wounded target with this attack, the damage dealt by the wound increases by ',
+                  { roll: '3d6' },
+                  '.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -472,6 +509,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-terror',
@@ -483,6 +521,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition are immune to this trait.',
             ],
+            effects: [],
           },
           {
             key: 'tactical-discipline',
@@ -557,8 +596,18 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The bone whelk can cause Medium or smaller objects to adhere to it. A Medium or smaller creature that touches the bone whelk is ',
-              rules.grappled,
-              ' by it (escape DC 10).',
+              { effect: 'stuck' },
+              ' by it.',
+            ],
+            effects: [
+              {
+                key: 'stuck',
+                name: 'Stuck',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 10 } },
+              },
             ],
           },
           {
@@ -702,8 +751,18 @@ export default createPublicationMonsters({
               "Each creature of Burney's choice that is within 120 feet of Burney and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Burney's Frightful Presence for the next 24 hours.",
+              { effect: 'dread' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Burney's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'dread',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -731,6 +790,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Burney exhales acid in a 90-foot line that is 10 feet wide.'],
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -740,7 +800,21 @@ export default createPublicationMonsters({
             text: [
               'Burney exhales gas in a 90-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
+              ' Constitution saving throw. On a failed save, the creature ',
+              { effect: 'slowed' },
+              '. These effects last for 1 minute.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowing breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -782,10 +856,20 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: [{ effect: 'wing-prone' }],
                 },
               },
               text: ['Burney beats its wings. Burney can then fly up to half its flying speed.'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -963,6 +1047,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1008,8 +1093,17 @@ export default createPublicationMonsters({
               "The death's head targets one creature it can see within 30 feet of it. The target must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.stunned,
-              ' until the end of its next turn.',
+              { effect: 'gaze-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'gaze-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -1084,6 +1178,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1221,6 +1316,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Gideon targets one creature he can see within 60 feet of him.'],
+            effects: [],
           },
         ],
       },
@@ -1322,12 +1418,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. While ',
-              rules.poisoned,
-              ' in this way, the target is also ',
-              rules.paralyzed,
-              '. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'venom' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'venom',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1524,6 +1626,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wind_walk_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1759,10 +1862,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.grappled,
-              ' (escape DC 17). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'grabbed' },
               ", and the centipede can't bite another target.",
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -1772,12 +1883,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               "The centipede makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is ",
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the centipede, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the centipede's turns. If the centipede takes 30 damage or more on a single turn from a creature inside it, the centipede must succeed on a ",
+              { effect: 'swallowed' },
+              '. If the centipede takes 30 damage or more on a single turn from a creature inside it, the centipede must succeed on a ',
               { dc: 'con', printed: 15 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -1786,6 +1893,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the centipede, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the centipede's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1816,6 +1937,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -2031,12 +2153,23 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              " (escape DC 14) if Kovik isn't already grappling a creature. Until this grapple ends, the target is ",
-              rules.restrained,
-              ' and takes ',
-              { roll: '2d6' },
-              ' piercing damage at the start of each of its turns.',
+              { effect: 'chained' },
+              " if Kovik isn't already grappling a creature.",
+            ],
+            effects: [
+              {
+                key: 'chained',
+                name: 'Chained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'takes ',
+                  { roll: '2d6' },
+                  ' piercing damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -2049,6 +2182,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or dies.',
             ],
+            effects: [],
           },
           {
             key: 'unnerving-mask',
@@ -2059,8 +2193,17 @@ export default createPublicationMonsters({
               "When a creature Kovik can see starts its turn within 30 feet of Kovik, Kovik can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see Kovik, it must succeed on a ",
               { dc: 'wis', printed: 14 },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' until the end of its turn.',
+              { effect: 'unnerved' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'unnerved',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 14 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -2102,6 +2245,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-murder',
@@ -2113,6 +2257,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', hostile creatures within 5 feet of it gain vulnerability to piercing damage unless they have resistance or immunity to such damage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2149,6 +2294,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' until the start of its next turn. This invisibility ends if the reaper makes an attack roll, makes a damage roll, or casts a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2350,6 +2496,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.misty_step_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2393,8 +2540,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the end of the skull lasher's next turn. If the skull lasher casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+              { effect: 'sickened' },
+              '. If the skull lasher casts this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.',
+            ],
+            effects: [
+              {
+                key: 'sickened',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],
@@ -2635,6 +2791,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dark-devotion',
@@ -2648,6 +2805,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sacred-flame-cantrip',
@@ -2666,6 +2824,7 @@ export default createPublicationMonsters({
             text: [
               'Flame-like radiance descends on one creature Thurstwell can see within 60 feet of him. , gaining no benefit from cover.',
             ],
+            effects: [],
           },
         ],
       },

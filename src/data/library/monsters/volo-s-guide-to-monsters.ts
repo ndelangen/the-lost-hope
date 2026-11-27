@@ -15163,6 +15163,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scorching_ray_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -15196,6 +15197,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'raxivort-s-tongue',

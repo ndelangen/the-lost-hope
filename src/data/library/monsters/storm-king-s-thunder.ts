@@ -141,6 +141,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.true_seeing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -220,8 +221,18 @@ export default createPublicationMonsters({
               "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+              { effect: 'presence-frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'presence-frightened',
+                name: 'Frightful presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -242,6 +253,7 @@ export default createPublicationMonsters({
             text: ['The dragon exhales poisonous gas in a 90-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -271,11 +283,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: [
                 'The dragon beats its wings. The dragon can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -390,6 +412,7 @@ export default createPublicationMonsters({
               ', grasping vine; 5th level (1 slot): ',
               refs.spells.conjure_elemental_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -518,6 +541,7 @@ export default createPublicationMonsters({
               ", Mordenkainen's sword, ",
               refs.spells.wall_of_force_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -621,10 +645,19 @@ export default createPublicationMonsters({
               'If the cat moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'pounced-prone' },
               '. If the target is ',
               rules.prone,
               ', the cat can make one bite attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounced-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -797,6 +830,7 @@ export default createPublicationMonsters({
               rules.petrified,
               ' and gains tremorsense out to a range of 30 feet, as well as a measure of innate spellcasting ability for the next 24 hours.',
             ],
+            effects: [],
           },
           {
             key: 'stone-camouflage',
@@ -843,8 +877,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'rock-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -857,6 +900,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw, catch the missile and take no bludgeoning damage from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1013,12 +1057,30 @@ export default createPublicationMonsters({
               'One humanoid or giant that the ghost can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+              { effect: 'ghost-possession' },
+              ". The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
               rules.charmed,
               ' and ',
               rules.frightened,
-              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends. If a creature possessed by the ghost is forcibly removed from the Eye of Annam, the ghost is expelled from its host and re-forms in the middle of this room.",
+              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+              " When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends. If a creature possessed by the ghost is forcibly removed from the Eye of Annam, the ghost is expelled from its host and re-forms in the middle of this room.",
+            ],
+            effects: [
+              {
+                key: 'ghost-possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+                text: [
+                  "loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness.",
+                ],
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1174,8 +1236,18 @@ export default createPublicationMonsters({
               "Each creature of Felgolos's choice that is within 120 feet of Felgolos and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Felgolos's Frightful Presence for the next 24 hours.",
+              { effect: 'presence-frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Felgolos's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'presence-frightened',
+                name: 'Frightful presence',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1203,6 +1275,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Felgolos exhales lightning in a 90-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -1214,6 +1287,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 60 feet away from Felgolos.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -1254,11 +1328,21 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 10 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'knocked-prone' }, '.'],
                 },
               },
               text: [
                 'Felgolos beats its wings. Felgolos can then fly up to half its flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'knocked-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -1427,7 +1511,21 @@ export default createPublicationMonsters({
             text: [
               'The golem targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, a target ',
+              { effect: 'slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1520,6 +1618,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Hydia has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'brute',
@@ -1568,8 +1667,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bashed-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bashed-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1745,6 +1853,7 @@ export default createPublicationMonsters({
               refs.spells.stone_shape_srd_5_1,
               " spell, Iymrith can shape the targeted stone into a living gargoyle instead of altering the stone as described in the spell's description. This transformation is permanent and can't be reversed or dispelled.",
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1817,8 +1926,18 @@ export default createPublicationMonsters({
               "Each creature of Iymrith's choice that is within 120 feet of Iymrith and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Iymrith's Frightful Presence for the next 24 hours.",
+              { effect: 'frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Iymrith's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1839,6 +1958,7 @@ export default createPublicationMonsters({
             text: ['Iymrith exhales lightning in a 120-foot line that is 10 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -1879,10 +1999,20 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'knocked-prone' }, '.'],
                 },
               },
               text: ['Iymrith beats her wings. Iymrith can then fly up to half her flying speed.'],
+              effects: [
+                {
+                  key: 'knocked-prone',
+                  name: 'Prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -1963,6 +2093,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Kella doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2120,6 +2251,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ") at will, requiring no material components. Maegera's innate spellcasting ability is Charisma.",
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2177,6 +2309,7 @@ export default createPublicationMonsters({
                 rules.blinded,
                 " and can't be seen.",
               ],
+              effects: [],
             },
             {
               key: 'create-fire-elemental',
@@ -2237,6 +2370,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2298,6 +2432,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2391,6 +2526,7 @@ export default createPublicationMonsters({
               ' (cast as 1 action), ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'roleplaying-information',
@@ -2454,6 +2590,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2546,6 +2683,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2607,6 +2745,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2725,6 +2864,7 @@ export default createPublicationMonsters({
               ' (cast as 1 action), ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'roleplaying-information',
@@ -2788,6 +2928,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2827,6 +2968,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -2917,6 +3059,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2969,6 +3112,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the sea elf to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -3037,6 +3181,7 @@ export default createPublicationMonsters({
               ' (cast as 1 action), ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'roleplaying-information',
@@ -3100,6 +3245,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -3148,6 +3294,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spiritual_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dark-devotion',
@@ -3161,6 +3308,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3303,6 +3451,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3332,6 +3481,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -3368,12 +3518,8 @@ export default createPublicationMonsters({
               'If the target is a Large or smaller creature ',
               rules.grappled,
               ' by Slarkrethel, that creature is swallowed, and the grapple ends. While swallowed, the creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside Slarkrethel, and it takes ',
-              { roll: '12d6' },
-              " acid damage at the start of each of Slarkrethel's turns. If Slarkrethel takes 50 damage or more on a single turn from a creature inside it, Slarkrethel must succeed on a ",
+              { effect: 'swallowed' },
+              '. If Slarkrethel takes 50 damage or more on a single turn from a creature inside it, Slarkrethel must succeed on a ',
               { dc: 'con', printed: 25 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -3382,6 +3528,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'swallowed',
+                name: 'Swallowed',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside Slarkrethel, and it takes ',
+                  { roll: '12d6' },
+                  " acid damage at the start of each of Slarkrethel's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3399,10 +3559,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 18). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'tentacle-grab' },
               '. Slarkrethel has ten tentacles, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -3414,14 +3582,30 @@ export default createPublicationMonsters({
               'One Large or smaller object held or creature ',
               rules.grappled,
               ' by Slarkrethel is thrown up to 60 feet in a random direction and knocked ',
-              rules.prone,
+              { effect: 'flung-prone' },
               '. If a thrown target strikes a solid surface, the target takes ',
               { roll: '1d6' },
               ' bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a ',
               { dc: 'dex', printed: 18 },
               ' Dexterity saving throw or take the same damage and be knocked ',
-              rules.prone,
+              { effect: 'struck-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'flung-prone',
+                name: 'Prone',
+                lands: { on: 'use' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'struck-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 18 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3442,6 +3626,7 @@ export default createPublicationMonsters({
             text: [
               'Slarkrethel magically creates three bolts of lightning, each of which can strike a target Slarkrethel can see within 120 feet of it.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -3472,6 +3657,7 @@ export default createPublicationMonsters({
               text: [
                 "While underwater, Slarkrethel expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is 2 to creatures other than Slarkrethel. A strong current disperses the cloud, which otherwise disappears at the end of Slarkrethel's next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -3627,6 +3813,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spiritual_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dark-devotion',
@@ -3640,6 +3827,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3885,6 +4073,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -4040,6 +4229,7 @@ export default createPublicationMonsters({
               ' (cast as 1 action), ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'roleplaying-information',
@@ -4103,6 +4293,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4437,6 +4628,7 @@ export default createPublicationMonsters({
               '; 4th level (1 slot): ',
               refs.spells.banishment_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'possession-recharges-after-a-short-or-long-rest',
@@ -4447,10 +4639,27 @@ export default createPublicationMonsters({
               'The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest, or the attempt fails. At the end of the rest, the target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be possessed by the yakfolk, which disappears with everything it is carrying and wearing. Until the possession ends, the target is ',
-              rules.incapacitated,
-              ", loses control of its body, and is unaware of its surroundings. The yakfolk now controls the body and can't be targeted by any attack, spell, or other effect, and it retains its alignment; its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies. The possession lasts until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as the dispel evil and good spell. When the possession ends, the yakfolk reappears in an unoccupied space within 5 feet of the body and is ",
+              { effect: 'possessed' },
+              '. When the possession ends, the yakfolk reappears in an unoccupied space within 5 feet of the body and is ',
               rules.stunned,
               " until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well, and its body doesn't reappear.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                text: [
+                  "loses control of its body, and is unaware of its surroundings. The yakfolk now controls the body and can't be targeted by any attack, spell, or other effect, and it retains its alignment; its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -4511,10 +4720,27 @@ export default createPublicationMonsters({
               'The yakfolk attempts to magically possess a humanoid or giant. The yakfolk must touch the target throughout a short rest, or the attempt fails. At the end of the rest, the target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be possessed by the yakfolk, which disappears with everything it is carrying and wearing. Until the possession ends, the target is ',
-              rules.incapacitated,
-              ", loses control of its body, and is unaware of its surroundings. The yakfolk now controls the body and can't be targeted by any attack, spell, or other effect, and it retains its alignment; its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies. The possession lasts until either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as the dispel evil and good spell. When the possession ends, the yakfolk reappears in an unoccupied space within 5 feet of the body and is ",
+              { effect: 'possessed' },
+              '. When the possession ends, the yakfolk reappears in an unoccupied space within 5 feet of the body and is ',
               rules.stunned,
               " until the end of its next turn. If the host body dies while it is possessed by the yakfolk, the yakfolk dies as well, and its body doesn't reappear.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                text: [
+                  "loses control of its body, and is unaware of its surroundings. The yakfolk now controls the body and can't be targeted by any attack, spell, or other effect, and it retains its alignment; its Intelligence, Wisdom, and Charisma scores; and its proficiencies. It otherwise uses the target's statistics, except the target's knowledge, class features, feats, and proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'either the body drops to 0 hit points, the yakfolk ends the possession as an action, or the yakfolk is forced out of the body by an effect such as the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
           },
           {

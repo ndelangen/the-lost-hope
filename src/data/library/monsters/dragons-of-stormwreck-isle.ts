@@ -45,6 +45,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -88,6 +89,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -175,6 +177,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -218,6 +221,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -303,8 +307,19 @@ export default createPublicationMonsters({
               "Each creature of Runara's choice that is within 120 feet of Runara and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Runara's Frightful Presence for the next 24 hours.",
+              { effect: 'presence-frightened' },
+              '. ',
+              "If a creature's saving throw is successful or the effect ends for it, the creature is immune to Runara's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'presence-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -332,6 +347,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Runara exhales lightning in a 90-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -343,6 +359,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 60 feet away from Runara.',
             ],
+            effects: [],
           },
           {
             key: 'change-shape',

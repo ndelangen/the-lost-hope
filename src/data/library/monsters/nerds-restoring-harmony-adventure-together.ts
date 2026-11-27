@@ -66,10 +66,19 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'wis', printed: 14 },
               ' Wisdom saving throw or fall ',
-              rules.prone,
-              ' with laughter, becoming ',
-              rules.incapacitated,
-              ' and unable to stand up for 1 minute or until Emo harms the creature. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 2.',
+              { effect: 'happiness-laughing' },
+              '. 2.',
+            ],
+            effects: [
+              {
+                key: 'happiness-laughing',
+                name: 'Helpless with laughter',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 14 },
+                conditions: [rules.prone, rules.incapacitated],
+                text: ['with laughter, becoming ', rules.incapacitated, ' and unable to stand up'],
+                lasts: { kind: 'until', text: ['1 minute or until Emo harms the creature'] },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -80,7 +89,20 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'dex', save: 'int' },
-              " Intelligence saving throw. On a failed save, the target is overcome by sorrow and takes 3d6 psychic damage, and it can't take a reaction until the end of its next turn. On its next turn, it can use either an action or a bonus action, not both. On a successful save, the target takes half as much damage and suffers none of the other effects. 3.",
+              ' Intelligence saving throw. On a failed save, the target is overcome by sorrow and takes 3d6 psychic damage, and ',
+              { effect: 'sadness-sorrow' },
+              '. On a successful save, the target takes half as much damage and suffers none of the other effects. 3.',
+            ],
+            effects: [
+              {
+                key: 'sadness-sorrow',
+                name: 'Overcome by sorrow',
+                lands: { on: 'save', save: 'int', dc: 'dex' },
+                text: [
+                  "it can't take a reaction until the end of its next turn. On its next turn, it can use either an action or a bonus action, not both.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -91,7 +113,20 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'wis', printed: 14 },
-              ' Wisdom saving throw or be compelled to duel with Emo for 1 minute. The target has disadvantage on attack rolls against creatures other than Emo and must make a Wisdom saving throw each time it attempts to move more than 30 feet away from Emo. 4.',
+              ' Wisdom saving throw or be compelled to duel with Emo for 1 minute. ',
+              { effect: 'anger-duel' },
+              ' 4.',
+            ],
+            effects: [
+              {
+                key: 'anger-duel',
+                name: 'Compelled to duel',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 14 },
+                text: [
+                  'The target has disadvantage on attack rolls against creatures other than Emo and must make a Wisdom saving throw each time it attempts to move more than 30 feet away from Emo.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -102,7 +137,21 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'dex', save: 'int' },
-              " Intelligence saving throw or lose the ability to distinguish friend from foe, regarding all creatures it can see as enemies for 1 minute. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success. Whenever the affected creature targets another creature with an attack, spell, or other ability, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to. 5.",
+              ' Intelligence saving throw or lose the ability to distinguish friend from foe, regarding all creatures it can see as enemies for 1 minute. ',
+              { effect: 'anxiety-foes' },
+              ' 5.',
+            ],
+            effects: [
+              {
+                key: 'anxiety-foes',
+                name: 'Anxiety',
+                lands: { on: 'save', save: 'int', dc: 'dex' },
+                text: [
+                  "Whenever the affected creature targets another creature with an attack, spell, or other ability, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['damaged'] },
+              },
             ],
           },
           {
@@ -114,8 +163,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'wis', printed: 14 },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 6.',
+              { effect: 'fear-frightened' },
+              '. 6.',
+            ],
+            effects: [
+              {
+                key: 'fear-frightened',
+                name: 'Frightened by fear ray',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 14 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -126,9 +185,23 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'int', printed: 14 },
-              " Intelligence saving throw. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage and perceives itself to be confined within an illusory stone cell for 1 minute. The target can't see or hear anything beyond the cell and is ",
-              rules.restrained,
+              ' Intelligence saving throw. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage and perceives itself to be confined within an illusory stone cell ',
+              { effect: 'desolation-restrained' },
               '. 7.',
+            ],
+            effects: [
+              {
+                key: 'desolation-restrained',
+                name: 'Confined in an illusory cell',
+                lands: { on: 'save', save: 'int', dc: 'int', printed: 14 },
+                conditions: [rules.restrained],
+                text: [
+                  "The target can't see or hear anything beyond the cell and is ",
+                  rules.restrained,
+                  '.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -140,10 +213,23 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'wis', printed: 14 },
               ' Wisdom saving throw or become ',
-              rules.charmed,
-              ' for 1 minute. While the target is ',
-              rules.charmed,
-              ' in this way, it must use its action before moving on each of its turns to make a melee attack against a creature that Emo chooses. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 8.',
+              { effect: 'jealousy-charmed' },
+              '. 8.',
+            ],
+            effects: [
+              {
+                key: 'jealousy-charmed',
+                name: 'Charmed by jealousy ray',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 14 },
+                conditions: [rules.charmed],
+                text: [
+                  'While the target is ',
+                  rules.charmed,
+                  ' in this way, it must use its action before moving on each of its turns to make a melee attack against a creature that Emo chooses.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -156,6 +242,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'con' },
               ' Constitution saving throw against poison. On a failed save, the target is enveloped in sphere of yellow, nauseating gas and spends its action on its next turn retching and reeling. 9.',
             ],
+            effects: [],
           },
           {
             key: 'surprise-ray',
@@ -166,8 +253,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'dex' },
               ' Dexterity saving throw or be ',
-              rules.blinded,
-              ' by a spray of color until the end of its next turn. 10.',
+              { effect: 'surprise-blinded' },
+              '. 10.',
+            ],
+            effects: [
+              {
+                key: 'surprise-blinded',
+                name: 'Blinded by spray of color',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.blinded],
+                text: ['by a spray of color'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -179,8 +276,17 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by Emo for 1 hour or until Emo harms the creature.',
+              { effect: 'trust-charmed' },
+              ' by Emo.',
+            ],
+            effects: [
+              {
+                key: 'trust-charmed',
+                name: 'Charmed by trust ray',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'until', text: ['1 hour or until Emo harms the creature'] },
+              },
             ],
           },
         ],
@@ -230,6 +336,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'brute',

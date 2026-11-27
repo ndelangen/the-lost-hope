@@ -73,12 +73,22 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d10', type: rules.force }],
-                also: ['Has the ', rules.prone, ' condition only.'],
+
+                also: [{ effect: 'tail-thump-prone' }, ' only.'],
               },
               onSuccess: 'half',
             },
             text: [
               'Coral slams her tail down, unleashing a burst of magical force toward one creature she can see within 60 feet of her. If this damage reduces the target to 0 hit points, the target dies, and its body is reduced to fine dust.',
+            ],
+            effects: [
+              {
+                key: 'tail-thump-prone',
+                name: 'Knocked prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -92,8 +102,17 @@ export default createPublicationMonsters({
               ' temporary hit points if it immediately uses its reaction to eat one of the cookies. Any leftover cookies are delicious but confer no benefits. 3-4: Sparkle Burst. The bubbles transform into glitter that swirls around the target before bursting outward. Each creature within 5 feet of the target must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.blinded,
-              " condition until the start of Coral's next turn. 5-6: Stink Bomb Shield. The bubbles transform into a foul-smelling cloud of gas that surrounds and shields the target. The target has 3 until the gas disappears at the start of Coral's next turn.",
+              { effect: 'sparkle-blinded' },
+              ". 5-6: Stink Bomb Shield. The bubbles transform into a foul-smelling cloud of gas that surrounds and shields the target. The target has 3 until the gas disappears at the start of Coral's next turn.",
+            ],
+            effects: [
+              {
+                key: 'sparkle-blinded',
+                name: 'Blinded by sparkle burst',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -149,6 +168,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.goodberry_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -169,6 +189,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -212,12 +233,21 @@ export default createPublicationMonsters({
               'If the dandylion moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition. If the target has the ',
+              { effect: 'claws-prone' },
+              '. If the target has the ',
               rules.prone,
               ' condition, the dandylion can make one ',
               { ability: 'bite' },
               ' attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'claws-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -238,6 +268,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'roar-of-pride',
@@ -248,8 +279,17 @@ export default createPublicationMonsters({
               'When a creature within 60 feet of the dandylion hits it with an attack roll, the dandylion can unleash a furious roar. The creature that triggered this reaction must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.frightened,
-              " condition until the end of the dandylion's next turn.",
+              { effect: 'roar-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'roar-frightened',
+                name: 'Frightened by roar',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],
@@ -333,6 +373,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'healing-rainbows',
@@ -438,6 +479,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' in this way at a time.',
             ],
+            effects: [],
           },
           {
             key: 'eye-beam',
@@ -459,6 +501,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -495,6 +538,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['Seth has the ', rules.invisible, ' condition while fully immersed in water.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -550,15 +594,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.cold }],
-                also: [
-                  'Has the ',
-                  rules.incapacitated,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: [{ effect: 'riptide-incapacitated' }],
               },
             },
             text: [
               'Seth exhales a torrent of frigid water in a 30-foot cone. On a successful save, the creature takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'riptide-incapacitated',
+                name: 'Incapacitated by riptide',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

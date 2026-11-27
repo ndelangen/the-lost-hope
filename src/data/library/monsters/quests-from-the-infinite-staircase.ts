@@ -87,12 +87,19 @@ export default createPublicationMonsters({
               'Each non-undead creature within 60 feet of Amun that can see it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. If the save fails by 5 or more, the target also ages 1d4 × 10 years. A ',
-              rules.frightened,
-              ' target can repeat the saving throw at the end of each of its turns, ending the ',
-              rules.frightened,
-              " condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+              { effect: 'visage-frightened' },
+              '. If the save fails by 5 or more, the target also ages 1d4 × 10 years.',
+              " If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+            ],
+            effects: [
+              {
+                key: 'visage-frightened',
+                name: 'Horrifying visage',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -104,12 +111,30 @@ export default createPublicationMonsters({
               'One humanoid that Amun can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or be possessed by Amun; Amun then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. Amun now controls the body but doesn't deprive the target of awareness. Amun can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+              { effect: 'possessed' },
+              ". Amun can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
               rules.charmed,
               ' and ',
               rules.frightened,
-              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, Amun ends it as a bonus action, or Amun is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, Amun reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+              " When the possession ends, Amun reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  "loses control of its body. Amun now controls the body but doesn't deprive the target of awareness.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, Amun ends it as a bonus action, or Amun is turned or forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -173,6 +198,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ' condition until the start of its next turn.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -197,9 +223,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              ' Strength saving throw or have ',
+              { effect: 'force-struck-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'force-struck-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -279,9 +314,18 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              "The barkburr attaches to the target. While the barkburr is attached, it can't make Poison Barb attacks, and the target has the ",
-              rules.restrained,
-              ' condition as its body begins to transform into wood. An attached barkburr can detach itself by spending 5 feet of its movement on its turn. A creature that can reach the barkburr, including the target, can use its action to detach the barkburr by making a successful DC 13 Strength (Athletics) check.',
+              "The barkburr attaches to the target. While the barkburr is attached, it can't make Poison Barb attacks, and the target has ",
+              { effect: 'barkburr-attached' },
+              ' as its body begins to transform into wood. An attached barkburr can detach itself by spending 5 feet of its movement on its turn. A creature that can reach the barkburr, including the target, can use its action to detach the barkburr by making a successful DC 13 Strength (Athletics) check.',
+            ],
+            effects: [
+              {
+                key: 'barkburr-attached',
+                name: 'Barkburr attached',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -292,9 +336,22 @@ export default createPublicationMonsters({
             text: [
               'The barkburr targets the creature it is attached to, and the target must make a ',
               { dc: 'con' },
-              ' Constitution saving throw. On a failed save, the target has the ',
-              rules.petrified,
-              " condition until freed by the Greater Restoration spell or another effect, except it turns into a tree instead of stone. Any equipment the target is wearing or carrying is absorbed into the tree's bark.",
+              ' Constitution saving throw. On a failed save, the target has ',
+              { effect: 'lignified' },
+              " Any equipment the target is wearing or carrying is absorbed into the tree's bark.",
+            ],
+            effects: [
+              {
+                key: 'lignified',
+                name: 'Lignified',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.petrified],
+                lasts: {
+                  kind: 'until',
+                  text: ['freed by the Greater Restoration spell or another effect'],
+                },
+                text: ['except it turns into a tree instead of stone.'],
+              },
             ],
           },
         ],
@@ -326,6 +383,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -382,6 +440,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -435,6 +494,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'parry',
@@ -488,6 +548,7 @@ export default createPublicationMonsters({
               '; 1/day each: Crown of Madness, ',
               refs.spells.shatter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -530,6 +591,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -566,6 +628,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ' condition until the start of its next turn.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -593,13 +656,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d10', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 16). While ',
-              rules.grappled,
-              ', the target also has the ',
-              rules.restrained,
-              ' condition. The robot has two tentacles, each of which can grapple one target.',
+              'If the target is a Medium or smaller creature, it has ',
+              { effect: 'tentacle-grab' },
+              '. The robot has two tentacles, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grab',
+                name: 'Tentacle grab',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -636,6 +705,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'sleep-grenade',
@@ -645,9 +715,21 @@ export default createPublicationMonsters({
             text: [
               'Each creature in the sphere must succeed on a ',
               { dc: 'con', printed: 15 },
-              ' Constitution saving throw or have the ',
-              rules.unconscious,
-              ' condition for 1 hour. The condition ends on a creature early if the creature takes damage or if another creature uses an action to shake it awake.',
+              ' Constitution saving throw or have ',
+              { effect: 'sleep-grenade-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sleep-grenade-unconscious',
+                name: 'Sleep grenade',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+                text: [
+                  'The condition ends on a creature early if the creature takes damage or if another creature uses an action to shake it awake.',
+                ],
+              },
             ],
           },
           {
@@ -707,9 +789,18 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, the derro can choose to deal no damage, and instead the target has the ',
-              rules.prone,
-              ' condition.',
+              'If the target is a Medium or smaller creature, the derro can choose to deal no damage, and instead the target has ',
+              { effect: 'hooked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'hooked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -773,6 +864,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.barkskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'tree-shape',
@@ -786,6 +878,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -844,6 +937,7 @@ export default createPublicationMonsters({
               rules.deafened,
               ' condition has disadvantage on Constitution saving throws to maintain concentration on spells and similar effects.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -934,6 +1028,7 @@ export default createPublicationMonsters({
             text: ['Grisdelfawr exhales fire in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -963,6 +1058,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'lightning-mace',
@@ -1165,6 +1261,7 @@ export default createPublicationMonsters({
               ' (as an action), ',
               refs.spells.mislead_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'industrious',
@@ -1191,6 +1288,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' condition ends if the creature or any of its allies damage the leprechaun, force the leprechaun to make a saving throw, or steal from the leprechaun.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1293,6 +1391,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.silent_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'arcane-burst',
@@ -1355,6 +1454,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.silence_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1416,9 +1516,25 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by ",
-              { roll: '3d6' },
-              " for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the Remove Curse spell or other magic.",
+              ' Constitution saving throw or be cursed with ',
+              { effect: 'mummy-rot' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mummy-rot',
+                name: 'Mummy rot',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "The cursed target can't regain hit points, and its hit point maximum decreases by ",
+                  { roll: '3d6' },
+                  " for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: ['removed by the Remove Curse spell or other magic'],
+                },
+              },
             ],
           },
           {
@@ -1445,9 +1561,18 @@ export default createPublicationMonsters({
             text: [
               'Nafik targets one creature he can see within 60 feet of himself. The target must succeed on a ',
               { dc: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.frightened,
-              " condition until the end of Nafik's next turn. A target that succeeds on the saving throw is immune to Nafik's Dreadful Glare for the next 24 hours.",
+              ' Wisdom saving throw or have ',
+              { effect: 'glare-frightened' },
+              ". A target that succeeds on the saving throw is immune to Nafik's Dreadful Glare for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'glare-frightened',
+                name: 'Dreadful glare',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],
@@ -1490,6 +1615,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.greater_restoration_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1517,9 +1643,18 @@ export default createPublicationMonsters({
               { ability: 'fortified-pickaxe' },
               ' attacks. If it hits a Large or smaller creature with both attacks, the target must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              ' Strength saving throw or have ',
+              { effect: 'pecked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pecked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1611,7 +1746,22 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain by this attack rises 24 hours later as a zombie under Queen Zanobis's control, unless the humanoid is restored to life or its body is destroyed. Queen Zanobis can have no more than twelve zombies under its control at one time.",
+              ' Constitution saving throw or ',
+              { effect: 'life-drained' },
+              ". A humanoid slain by this attack rises 24 hours later as a zombie under Queen Zanobis's control, unless the humanoid is restored to life or its body is destroyed. Queen Zanobis can have no more than twelve zombies under its control at one time.",
+            ],
+            effects: [
+              {
+                key: 'life-drained',
+                name: 'Life drain',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its hit point maximum is reduced by an amount equal to the damage taken.',
+                  ' This reduction lasts until the target finishes a long rest.',
+                  ' The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -1682,6 +1832,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.entangle_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'charge',
@@ -1694,8 +1845,17 @@ export default createPublicationMonsters({
               ' piercing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'charged-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charged-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1837,6 +1997,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.silence_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1908,9 +2069,22 @@ export default createPublicationMonsters({
             text: [
               'Sion targets a creature within 60 feet of himself that he can see. That target must make a ',
               { dc: 'cha' },
-              ' Charisma saving throw. On a failed save, the target has the ',
-              rules.grappled,
-              ' condition (escape DC 13) as its shadow wraps around it. Once the target escapes the grapple, its shadow returns to normal.',
+              ' Charisma saving throw. On a failed save, the target has ',
+              { effect: 'shadow-affixed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'shadow-affixed',
+                name: 'Shadow affixed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                text: [
+                  'as its shadow wraps around it. Once the target escapes the grapple, its shadow returns to normal.',
+                ],
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -1989,7 +2163,22 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'life-drained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'life-drained',
+                name: 'Life drain',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its hit point maximum is reduced by an amount equal to the damage taken.',
+                  ' This reduction lasts until the target finishes a long rest.',
+                  ' The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -2042,6 +2231,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.entangle_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'charge',
@@ -2054,8 +2244,17 @@ export default createPublicationMonsters({
               ' piercing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'charged-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charged-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2206,6 +2405,7 @@ export default createPublicationMonsters({
               rules.deafened,
               ' condition has disadvantage on Constitution saving throws to maintain concentration on spells and similar effects.',
             ],
+            effects: [],
           },
           {
             key: 'swarm',
@@ -2295,6 +2495,7 @@ export default createPublicationMonsters({
               ' (as an action), ',
               refs.spells.teleport_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-rebirth',
@@ -2350,13 +2551,23 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'If the target is a Large or smaller creature, the vine wraps around the target, and the target has the ',
-              rules.grappled,
-              ' condition (escape DC 17). The vine vanishes when the target is no longer ',
+              'If the target is a Large or smaller creature, the vine wraps around the target, and the target has ',
+              { effect: 'vine-grab' },
+              '. The vine vanishes when the target is no longer ',
               rules.grappled,
               ', or when the Gardener wills it to (no action required). A creature reduced to 0 hit points by the vine has the ',
               rules.unconscious,
               ' condition but is stable instead of dying.',
+            ],
+            effects: [
+              {
+                key: 'vine-grab',
+                name: 'Vine grab',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -2367,19 +2578,33 @@ export default createPublicationMonsters({
             text: [
               'The Gardener exhales soporific vapor in a 30-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.poisoned,
-              ' condition. A ',
-              rules.poisoned,
-              ' creature must repeat the saving throw at the end of its next turn. On a failed save, it has the ',
-              rules.unconscious,
-              ' condition, and on a successful save, the effect ends on it. An ',
-              rules.unconscious,
-              ' creature is no longer ',
-              rules.poisoned,
-              ' and remains ',
-              rules.unconscious,
-              ' for 1 hour, until it takes damage, or until a creature uses an action to shake it awake.',
+              ' Constitution saving throw or have ',
+              { effect: 'tranquil-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tranquil-poison',
+                name: 'Poisoned by vapor',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'tranquil-sleep',
+                  name: 'Asleep',
+                  conditions: [rules.unconscious],
+                  text: [
+                    'is no longer ',
+                    rules.poisoned,
+                    ' and remains ',
+                    rules.unconscious,
+                    ' for 1 hour, until it takes damage, or until a creature uses an action to shake it awake.',
+                  ],
+                  lasts: { kind: 'time', amount: '1', unit: 'hour' },
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2396,6 +2621,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' condition and is stable instead of dying.',
             ],
+            effects: [],
           },
           {
             key: 'spell-refuge',
@@ -2527,6 +2753,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2563,9 +2790,18 @@ export default createPublicationMonsters({
             text: [
               "Dazzling light bursts from the tower sage's fingertips in a 15-foot cone. Each creature in that area must succeed on a ",
               { dc: 'int', save: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.blinded,
-              " condition until the end of the tower sage's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'starry-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'starry-blinded',
+                name: 'Blinded by starlight',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2729,17 +2965,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.poison }],
-                also: [
-                  'Has the ',
-                  rules.blinded,
-                  ' and ',
-                  rules.deafened,
-                  ' conditions for 1 minute as it becomes covered in a thick layer of mold.',
-                ],
+
+                also: [{ effect: 'mold-covered' }],
               },
             },
             text: [
-              'The vegepygmy targets a creature it can see within 60 feet of itself. On a successful save, the target takes half as much damage only. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              'The vegepygmy targets a creature it can see within 60 feet of itself. On a successful save, the target takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'mold-covered',
+                name: 'Covered in mold',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded, rules.deafened],
+                text: ['as it becomes covered in a thick layer of mold.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -2845,6 +3087,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'plant-camouflage',
@@ -2890,9 +3133,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              ' Strength saving throw or have ',
+              { effect: 'bitten-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bitten-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2982,6 +3234,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['Vuuthramis exhales lightning in a 60-foot line that is 5 feet wide.'],
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -2993,6 +3246,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw. On a failed save, the creature is pushed 40 feet away from Vuuthramis.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3107,13 +3361,22 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 16). While ',
-              rules.grappled,
-              ' in this way, the target has the ',
-              rules.restrained,
-              " condition, and at the start of each of the wolf-in-sheep's-clothing's turns, the wolf-in-sheep's-clothing can pull the target up to 10 feet toward itself (no action required). The wolf-in-sheep's-clothing has four root tentacles, each of which can grapple one target.",
+              'If the target is a Medium or smaller creature, it has ',
+              { effect: 'root-grab' },
+              ". The wolf-in-sheep's-clothing has four root tentacles, each of which can grapple one target.",
+            ],
+            effects: [
+              {
+                key: 'root-grab',
+                name: 'Root grab',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "At the start of each of the wolf-in-sheep's-clothing's turns, the wolf-in-sheep's-clothing can pull the target up to 10 feet toward itself (no action required).",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -3126,6 +3389,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' filament-like tendrils.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3161,6 +3425,7 @@ export default createPublicationMonsters({
               rules.stunned,
               ' condition until the start of its next turn.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3182,9 +3447,19 @@ export default createPublicationMonsters({
               damage: [{ dice: '1d8', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 15). The robot has two cargo tentacles, each of which can grapple one target.',
+              'If the target is a Medium or smaller creature, it has ',
+              { effect: 'cargo-grab' },
+              '. The robot has two cargo tentacles, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'cargo-grab',
+                name: 'Cargo grab',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -3199,6 +3474,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition or objects. It requires no spell components and uses Wisdom as the spellcasting ability.',
             ],
+            effects: [],
           },
         ],
       },

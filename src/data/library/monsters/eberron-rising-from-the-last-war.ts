@@ -48,6 +48,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.magic_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'commander-of-bones',
@@ -57,7 +58,21 @@ export default createPublicationMonsters({
             text: [
               'As a bonus action, the knight can target one skeleton or zombie it can see within 30 feet of it. The target must make a ',
               { dc: 'cha', save: 'wis' },
-              " Wisdom saving throw. On a failed save, the target must obey the knight's commands until the knight dies or until the knight releases it as a bonus action. The knight can command up to twelve undead at a time this way.",
+              ' Wisdom saving throw. On a failed save, the target ',
+              { effect: 'bones-commanded' },
+              '. The knight can command up to twelve undead at a time this way.',
+            ],
+            effects: [
+              {
+                key: 'bones-commanded',
+                name: 'Commanded',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                text: ["must obey the knight's commands"],
+                lasts: {
+                  kind: 'until',
+                  text: ['the knight dies or until the knight releases it as a bonus action'],
+                },
+              },
             ],
           },
           {
@@ -348,6 +363,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -584,6 +600,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dual-mind',
@@ -629,13 +646,23 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '1d4', type: rules.psychic }],
-                also: [
-                  'Have disadvantage on the next attack roll it makes before the end of its next turn.',
-                ],
+
+                also: [{ effect: 'mockery-disadvantage' }],
               },
             },
             text: [
               'The Inspired unleashes a string of insults laced with subtle enchantments at one creature it can see within 60 feet of it. If the target can hear the Inspired,',
+            ],
+            effects: [
+              {
+                key: 'mockery-disadvantage',
+                name: 'Vicious mockery',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Have disadvantage on the next attack roll it makes before the end of its next turn',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -1010,6 +1037,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'undead-fortitude',
@@ -1179,6 +1207,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.time_stop_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1242,8 +1271,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'claw-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claw-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1258,15 +1297,29 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '10d6', type: rules.poison }],
-                also: ['Is ', rules.poisoned, ' for 1 minute.'],
+
+                also: [{ effect: 'breath-poisoned' }],
               },
             },
             text: [
-              'Illmarrow exhales poisonous gas in a 30-foot cone. While ',
-              rules.poisoned,
-              " in this way, the creature can't regain hit points. On a successful save, the creature takes half as much damage and isn't ",
+              'Illmarrow exhales poisonous gas in a 30-foot cone. ',
+              "On a successful save, the creature takes half as much damage and isn't ",
               rules.poisoned,
               ". A humanoid reduced to 0 hit points by this damage dies and rises at the start of Illmarrow's next turn as a zombie. The zombie acts immediately after Illmarrow in the initiative count and is permanently under her command, following her verbal orders.",
+            ],
+            effects: [
+              {
+                key: 'breath-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  " in this way, the creature can't regain hit points.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1296,10 +1349,19 @@ export default createPublicationMonsters({
                 'Illmarrow targets up to three creatures she can see within 30 feet of her. Each target must succeed on a ',
                 { dc: 'wis' },
                 ' Wisdom saving throw or be ',
-                rules.frightened,
-                ' for 1 minute. A ',
-                rules.frightened,
-                " target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Illmarrow's Frightening Presence for the next 24 hours.",
+                { effect: 'presence-frightened' },
+                '. ',
+                "If a target's saving throw is successful or the effect ends for it, the target is immune to Illmarrow's Frightening Presence for the next 24 hours.",
+              ],
+              effects: [
+                {
+                  key: 'presence-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'wis' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
             {
@@ -1343,6 +1405,7 @@ export default createPublicationMonsters({
               '; Rituals: ',
               refs.spells.knock_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1405,6 +1468,7 @@ export default createPublicationMonsters({
               refs.spells.spirit_guardians_srd_5_1,
               '; 1/day each: banishing smite, blinding smite, staggering smite',
             ],
+            effects: [],
           },
           {
             key: 'deadly-critical',
@@ -1515,6 +1579,7 @@ export default createPublicationMonsters({
                 { dc: 'cha', save: 'wis' },
                 ' Wisdom saving throw or use its reaction to make a melee weapon attack against a random creature within reach. If no creatures are within reach, it makes a ranged weapon attack against a random creature within range, throwing its weapon if necessary. This attack is made with advantage and gains a +4 bonus to the damage roll.',
               ],
+              effects: [],
             },
           ],
         },
@@ -1587,6 +1652,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.fear_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1611,8 +1677,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 14) if it is a Large or smaller creature. The quori has two pincers, each of which can grapple one target.',
+              { effect: 'pincer-grappled' },
+              ' if it is a Large or smaller creature. The quori has two pincers, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'pincer-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -1647,8 +1723,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' of the quori for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'stinger-frightened' },
+              ' of the quori.',
+            ],
+            effects: [
+              {
+                key: 'stinger-frightened',
+                name: 'Frightened of the quori',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1660,12 +1746,30 @@ export default createPublicationMonsters({
               'One humanoid that the quori can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the dispel evil and good spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              { effect: 'quori-possession' },
+              '. ',
+              "When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+            ],
+            effects: [
+              {
+                key: 'quori-possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  "loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1838,8 +1942,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bite-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1953,8 +2066,17 @@ export default createPublicationMonsters({
               'Any enemy outside the colossus that starts its turn within 30 feet of it must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              " until the start of the enemy's next turn. If the enemy's saving throw is successful, it is immune to this colossus's Towering Terror for the next 24 hours.",
+              { effect: 'terror-frightened' },
+              ". If the enemy's saving throw is successful, it is immune to this colossus's Towering Terror for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'terror-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -1995,7 +2117,16 @@ export default createPublicationMonsters({
               printedBonus: 18,
               damage: [{ dice: '4d8', type: rules.force, addModifier: true }],
             },
-            text: ['If the target is a creature, it is knocked ', rules.prone, '.'],
+            text: ['If the target is a creature, it is knocked ', { effect: 'turret-prone' }, '.'],
+            effects: [
+              {
+                key: 'turret-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'stomp',
@@ -2009,17 +2140,38 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '6d10', type: rules.bludgeoning }],
-                also: ['Fall ', rules.prone, '.'],
+
+                also: [{ effect: 'stomp-prone' }],
               },
             },
             text: [
-              'The colossus stomps one of its feet at a point on the ground within 20 feet of it. Until the colossus uses its Stomp again or moves, the creature is ',
-              rules.restrained,
-              '. While ',
-              rules.restrained,
-              ' in this way, the creature (or another creature within 5 feet of it) can use its action to make a DC 26 Strength check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer ',
-              rules.restrained,
-              '. Structures, as well as nonmagical objects that are neither being worn nor carried, take the same amount of damage if they are in the cylinder (no save).',
+              'The colossus stomps one of its feet at a point on the ground within 20 feet of it. ',
+              { effect: 'stomp-restrained' },
+              '. ',
+              'Structures, as well as nonmagical objects that are neither being worn nor carried, take the same amount of damage if they are in the cylinder (no save).',
+            ],
+            effects: [
+              {
+                key: 'stomp-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'stomp-restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                text: [
+                  'While ',
+                  rules.restrained,
+                  ' in this way, the creature (or another creature within 5 feet of it) can use its action to make a DC 26 Strength check. On a success, the creature relocates to an unoccupied space of its choice within 5 feet of the colossus and is no longer ',
+                  rules.restrained,
+                  '.',
+                ],
+                lasts: { kind: 'until', text: ['the colossus uses its Stomp again or moves'] },
+              },
             ],
           },
           {
@@ -2042,6 +2194,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

@@ -54,8 +54,18 @@ export default createPublicationMonsters({
               'If the target is a creature other than an elf or undead, it must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'ghoul-paralysis' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ghoul-paralysis',
+                name: 'Ghoul paralysis',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -104,6 +114,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.slow_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -137,6 +148,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -205,6 +217,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -260,6 +273,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.sleet_storm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -313,6 +327,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and the knight doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -445,6 +460,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'summon-mephits-recharges-after-a-long-rest',
@@ -504,8 +520,17 @@ export default createPublicationMonsters({
               ' piercing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 10 feet away and knocked ',
-              rules.prone,
+              { effect: 'charged-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charged-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -542,6 +567,7 @@ export default createPublicationMonsters({
             text: ['The minotaur exhales a cloud of burning embers in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'greataxe',
@@ -682,6 +708,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.fireball_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -741,6 +768,7 @@ export default createPublicationMonsters({
               '; 3rd level: ',
               refs.spells.vampiric_touch_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -768,6 +796,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'olhydra-s-armor-human-form-only',
@@ -792,12 +821,17 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 12). Until the grapple ends, the target is ',
-              rules.restrained,
-              ', and the fathomer can’t constrict another target.',
+            text: ['If the target is Medium or smaller, it is ', { effect: 'constricted' }, '.'],
+            effects: [
+              {
+                key: 'constricted',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ['The fathomer can’t constrict another target.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -853,6 +887,7 @@ export default createPublicationMonsters({
               refs.spells.expeditious_retreat_srd_5_1,
               ', featherfall',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -945,6 +980,7 @@ export default createPublicationMonsters({
               { ability: 'wreathed-in-flame' },
               ')',
             ],
+            effects: [],
           },
           {
             key: 'wreathed-in-flame',
@@ -1029,6 +1065,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' and Ghald doesn’t have disadvantage on the attack roll.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1075,10 +1112,19 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d4', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'The target is ',
-              rules.grappled,
-              ' (escape DC 15). Until the grapple ends, the target can’t breathe, and Ghald has advantage on attack rolls against it.',
+            text: ['The target is ', { effect: 'garroted' }, '.'],
+            effects: [
+              {
+                key: 'garroted',
+                name: 'Garroted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'the target can’t breathe, and Ghald has advantage on attack rolls against it.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
         ],
@@ -1139,6 +1185,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Grumink doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1169,6 +1216,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -1192,6 +1240,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -1237,8 +1286,17 @@ export default createPublicationMonsters({
               'When Hellenrae hits a target with a melee weapon attack, the target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              ' until the end of Hellenrae’s next turn.',
+              { effect: 'stunning-strike-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stunning-strike-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1332,6 +1390,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.gaseous_form_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -1413,6 +1472,7 @@ export default createPublicationMonsters({
               '; 2nd level (2 slots): ',
               refs.spells.gust_of_wind_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'unarmored-defense',
@@ -1523,6 +1583,7 @@ export default createPublicationMonsters({
               refs.spells.wall_of_fire_srd_5_1,
               '; 5th level (1 slot): immolation',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1598,12 +1659,30 @@ export default createPublicationMonsters({
               ' and can see the creature. If the saving throw fails by 5 or more, the creature is instantly ',
               rules.petrified,
               '. Otherwise, a creature that fails the save begins to turn to stone and is ',
-              rules.restrained,
-              '. The ',
-              rules.restrained,
-              ' creature must repeat the saving throw at the end of its next turn, becoming ',
-              rules.petrified,
-              " on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Marlos until the start of its next turn, when it can decide to avert its eyes again. If the creature looks at Marlos in the meantime, it must immediately make the save. If Marlos sees himself reflected on a polished surface within 30 feet of him and in an area of bright light, Marlos is, due to his curse, affected by his own gaze.",
+              { effect: 'turning-to-stone' },
+              ". Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see Marlos until the start of its next turn, when it can decide to avert its eyes again. If the creature looks at Marlos in the meantime, it must immediately make the save. If Marlos sees himself reflected on a polished surface within 30 feet of him and in an area of bright light, Marlos is, due to his curse, affected by his own gaze.",
+            ],
+            effects: [
+              {
+                key: 'turning-to-stone',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'str' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrified-by-gaze',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  text: [
+                    'becoming ',
+                    rules.petrified,
+                    ' on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1705,6 +1784,7 @@ export default createPublicationMonsters({
               '; 6th level (1 slot): ',
               refs.spells.move_earth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1717,6 +1797,7 @@ export default createPublicationMonsters({
               '). He can innately cast the following spell, requiring no material components: 1/day: ',
               refs.spells.pass_without_trace_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'earth-walk',
@@ -1828,14 +1909,25 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 15). Until the grapple ends, the target is ',
-              rules.restrained,
-              " and has disadvantage on Strength checks and Strength saving throws, and the roper can't use the same tendril on another target. A creature takes ",
+              { effect: 'tendril-grab' },
+              '. A creature takes ',
               { roll: '1d8' },
               ' fire damage each time it ends its turn ',
               rules.grappled,
               ' by the roper.',
+            ],
+            effects: [
+              {
+                key: 'tendril-grab',
+                name: 'Tendril grab',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "has disadvantage on Strength checks and Strength saving throws, and the roper can't use the same tendril on another target.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -1848,6 +1940,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it up to 25 feet straight toward it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1897,6 +1990,7 @@ export default createPublicationMonsters({
               '; 3/day: ',
               refs.spells.ice_storm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'empowered-attacks',
@@ -1955,8 +2049,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 19). Olhydra can grapple up to four targets. When Olhydra moves, all creatures she is grappling move with her.',
+              { effect: 'slammed-grab' },
+              '. Olhydra can grapple up to four targets. When Olhydra moves, all creatures she is grappling move with her.',
+            ],
+            effects: [
+              {
+                key: 'slammed-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
           },
           {
@@ -1973,10 +2077,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is knocked ',
-              rules.prone,
+              { effect: 'jetted-prone' },
               ' if it fails a ',
               { dc: 'str' },
               ' Strength saving throw.',
+            ],
+            effects: [
+              {
+                key: 'jetted-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2027,6 +2140,7 @@ export default createPublicationMonsters({
                 { roll: '4d10' },
                 ' acid damage at the start of its turn.',
               ],
+              effects: [],
             },
           ],
         },
@@ -2075,6 +2189,7 @@ export default createPublicationMonsters({
               '; 3rd level (2 slots): ',
               refs.spells.fear_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'chilling-mist',
@@ -2110,10 +2225,21 @@ export default createPublicationMonsters({
               'The one-eyed shiver casts ',
               refs.spells.ray_of_frost_srd_5_1,
               ' from its missing eye. If it hits, the target is also ',
-              rules.restrained,
-              '. A target ',
-              rules.restrained,
-              ' in this way can end the condition by using an action, succeeding on a DC 13 Strength check.',
+              { effect: 'frost-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'frost-restrained',
+                name: 'Restrained by frost',
+                lands: { on: 'use' },
+                conditions: [rules.restrained],
+                text: [
+                  'can end the condition by using an action, succeeding on a DC 13 Strength check.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
         ],
@@ -2168,6 +2294,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.vampiric_touch_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'grim-harvest',
@@ -2297,6 +2424,7 @@ export default createPublicationMonsters({
               refs.spells.misty_step_srd_5_1,
               '; 3rd level (2 slots): tidal wave*',
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -2311,6 +2439,7 @@ export default createPublicationMonsters({
               ' to hit with spell attacks). He can innately cast the following spells (an asterisked spell is from appendix B): At will: shape water*; 1/day: ',
               refs.spells.create_or_destroy_water_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2381,6 +2510,7 @@ export default createPublicationMonsters({
               '; 4th level (1 slot): ',
               refs.spells.stoneskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'death-burst',
@@ -2401,6 +2531,7 @@ export default createPublicationMonsters({
             text: [
               'When the Stonemelder dies, it turns to stone and explodes in a burst of rock shards, becoming a smoking pile of rubble.',
             ],
+            effects: [],
           },
           {
             key: 'black-earth-rod',
@@ -2474,6 +2605,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spiritual_weapon_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'brave-devotion',
@@ -2487,6 +2619,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2573,6 +2706,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.dimension_door_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2584,6 +2718,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic can’t put him to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2659,6 +2794,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.haste_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'air-form',
@@ -2732,10 +2868,11 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 100 } },
               onFail: {
                 damage: [{ dice: '9d6', type: rules.thunder }],
+
                 also: [
                   'Be ',
-                  rules.deafened,
-                  ' for 1 minute. On a successful save, a creature takes half as much damage and is ',
+                  { effect: 'thundercrack-deafened' },
+                  '. On a successful save, a creature takes half as much damage and is ',
                   rules.deafened,
                   " until the start of Yan-C-Bin's next turn.",
                 ],
@@ -2745,6 +2882,15 @@ export default createPublicationMonsters({
             },
             text: [
               'Yan-C-Bin unleashes a terrible thundercrack in a 100-foot-radius sphere centered on himself.',
+            ],
+            effects: [
+              {
+                key: 'thundercrack-deafened',
+                name: 'Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -2802,6 +2948,7 @@ export default createPublicationMonsters({
                 { dc: 'con' },
                 " Constitution saving throw. On a failed save, the target drops to 0 hit points and is dying. On a successful save, the target can't breathe or speak until the start of its next turn.",
               ],
+              effects: [],
             },
           ],
         },

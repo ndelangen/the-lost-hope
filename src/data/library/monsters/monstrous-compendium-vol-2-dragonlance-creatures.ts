@@ -50,6 +50,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.speak_with_plants_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -141,6 +142,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'misty-escape',
@@ -199,6 +201,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.detect_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'duty-bound',
@@ -345,6 +348,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -388,6 +392,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.phantasmal_force,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -419,12 +424,24 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              " by the veil keeper until the start of the veil keeper's next turn. While ",
-              rules.charmed,
-              ' in this way, a creature is ',
-              rules.incapacitated,
-              ' as it is beset by hypnotic, illusory visions.',
+              { effect: 'mirage-charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mirage-charmed',
+                name: 'Charmed by mirage flare',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed, rules.incapacitated],
+                text: [
+                  'While ',
+                  rules.charmed,
+                  ' in this way, a creature is ',
+                  rules.incapacitated,
+                  ' as it is beset by hypnotic, illusory visions.',
+                ],
+                lasts: { kind: 'until', text: ["the start of the veil keeper's next turn"] },
+              },
             ],
           },
           {
@@ -439,6 +456,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'change-shape',
@@ -516,7 +534,18 @@ export default createPublicationMonsters({
             text: [
               'The creature must succeed on a ',
               { dc: 'int', save: 'dex' },
-              " Dexterity saving throw or have its speed reduced to 0 until the start of the inventor's next turn.",
+              ' Dexterity saving throw or have ',
+              { effect: 'fangtrap-slowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fangtrap-slowed',
+                name: 'Flying fangtrap',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                text: ['Its speed reduced to 0.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -539,6 +568,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'flash-powder',
@@ -549,8 +579,17 @@ export default createPublicationMonsters({
               'If the inventor is damaged by a creature it can see within 15 feet of itself, the inventor retaliates by flinging brilliantly explosive powder at the creature. The creature must succeed on a ',
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw or be ',
-              rules.blinded,
-              ' until the end of its next turn.',
+              { effect: 'flash-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'flash-blinded',
+                name: 'Blinded by flash powder',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -590,6 +629,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

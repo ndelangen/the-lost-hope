@@ -106,6 +106,7 @@ export default createPublicationMonsters({
               { ability: 'arcane-firearm' },
               ' in any combination.',
             ],
+            effects: [],
           },
           {
             key: 'poisoned-blade',
@@ -123,13 +124,22 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'The target has the ',
-              rules.poisoned,
-              " condition until the start of the underboss's next turn. If the target is already ",
+              'The target is ',
+              { effect: 'blade-poisoned' },
+              '. If the target is already ',
               rules.poisoned,
               ', it instead takes an extra ',
               { roll: '2d6' },
               ' Poison damage.',
+            ],
+            effects: [
+              {
+                key: 'blade-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -193,6 +203,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.invisibility,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -221,8 +232,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'mace-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mace-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -303,8 +323,17 @@ export default createPublicationMonsters({
               'Wisdom Saving Throw: ',
               { dc: 'cha' },
               ', one creature the bruiser can see within 30 feet. Failure: The target has the ',
-              rules.frightened,
-              " condition until the start of the bruiser's next turn.",
+              { effect: 'glare-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'glare-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -348,6 +377,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'pummel',
@@ -405,6 +435,7 @@ export default createPublicationMonsters({
               '): 1/day: Synaptic Static; 3/day: ',
               refs.spells.detect_thoughts,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -439,7 +470,20 @@ export default createPublicationMonsters({
               { ability: 'mind-blade' },
               ' attack this turn. Failure: The target takes ',
               { roll: '4d6' },
-              ' Psychic damage and is cursed. While cursed in this way, it has Disadvantage on attack rolls against the infiltrator, and the infiltrator always knows its location while it and the infiltrator are on the same plane of existence. A cursed creature repeats the save whenever it finishes a Short or Long Rest, ending the effect on itself on a success. Success: Half damage only.',
+              ' Psychic damage and is ',
+              { effect: 'mind-curse' },
+              '. Success: Half damage only.',
+            ],
+            effects: [
+              {
+                key: 'mind-curse',
+                name: 'Mind curse',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                text: [
+                  'While cursed in this way, it has Disadvantage on attack rolls against the infiltrator, and the infiltrator always knows its location while it and the infiltrator are on the same plane of existence. A cursed creature repeats the save whenever it finishes a Short or Long Rest, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -472,6 +516,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -618,6 +663,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.unseen_servant,
             ],
+            effects: [],
           },
           {
             key: 'hustle',
@@ -634,6 +680,7 @@ export default createPublicationMonsters({
             timing: 'action',
             icon: 'gi/GiPaw',
             text: ['The troubleshooter makes two ', rules.poisoned, ' Dagger attacks.'],
+            effects: [],
           },
           {
             key: 'poisoned-dagger',
@@ -648,10 +695,15 @@ export default createPublicationMonsters({
               thrown: [20, 60],
               damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              " condition until the start of the troubleshooter's next turn.",
+            text: ['The target is ', { effect: 'dagger-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'dagger-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -697,6 +749,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.see_invisibility,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -725,12 +778,21 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.prone,
-              ' condition. If the target already has the ',
+              { effect: 'staff-prone' },
+              '. If the target already has the ',
               rules.prone,
               ' condition, the attack deals an extra ',
               { roll: '2d6' },
               ' Radiant damage.',
+            ],
+            effects: [
+              {
+                key: 'staff-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -745,14 +807,29 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60, which: 'the inquisitive can see' },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.psychic }],
-                also: [
-                  "The target is marked. The inquisitive has Advantage on attack rolls against a target it has marked. While marked, the target can't become hidden from the inquisitive, and if it has the ",
-                  rules.invisible,
-                  ' condition, it gains no benefit from that condition against the inquisitive. The mark disappears after 1 minute or when the inquisitive uses this action again.',
-                ],
+
+                also: ['The target is marked. ', { effect: 'inquisitive-mark' }],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'inquisitive-mark',
+                name: 'Marked',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The inquisitive has Advantage on attack rolls against a target it has marked. While marked, the target can't become hidden from the inquisitive, and if it has the ",
+                  rules.invisible,
+                  ' condition, it gains no benefit from that condition against the inquisitive.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the mark disappears after 1 minute or when the inquisitive uses this action again',
+                  ],
+                },
+              },
+            ],
           },
           {
             key: 'spontaneous-barrier',
@@ -807,6 +884,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.pass_without_trace,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -843,6 +921,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' condition until the start of its next turn. This invisibility ends early immediately after the agent makes an attack roll.',
             ],
+            effects: [],
           },
         ],
       },
@@ -881,6 +960,7 @@ export default createPublicationMonsters({
               '; 1/day each: ',
               refs.spells.sending,
             ],
+            effects: [],
           },
           {
             key: 'words-of-reason',
@@ -896,6 +976,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -927,10 +1008,22 @@ export default createPublicationMonsters({
               'Constitution Saving Throw: ',
               { dc: 'int' },
               ', each creature in a 20-foot-radius Sphere centered on a point the scribe can see within 60 feet. Failure: The target has the ',
-              rules.incapacitated,
-              " condition until the start of the scribe's next turn. While the target is ",
-              rules.incapacitated,
-              ", its Speed is 0 and can't increase.",
+              { effect: 'stasis-incapacitated' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stasis-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.incapacitated],
+                text: [
+                  'While the target is ',
+                  rules.incapacitated,
+                  ", its Speed is 0 and can't increase.",
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -968,6 +1061,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.disintegrate,
             ],
+            effects: [],
           },
           {
             key: 'evasion',
@@ -979,6 +1073,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1013,8 +1108,17 @@ export default createPublicationMonsters({
               'The marauder teleports to a space it can see within 30 feet, appearing in a dazzling flash. Constitution Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 5-foot Emanation originating from the marauder when it appears. Failure: The target has the ',
-              rules.blinded,
-              " condition until the end of the marauder's next turn.",
+              { effect: 'tear-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tear-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],
@@ -1087,9 +1191,26 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              'The hunter magically marks one creature it can see within 150 feet. The mark lasts for 1 hour, until the target dies, or until the hunter uses this Bonus Action again. While the target is marked in this way, the hunter has Advantage on attack rolls against the target, and the target gains no benefit from the ',
-              rules.invisible,
-              ' condition against the hunter.',
+              'The hunter magically marks one creature it can see within 150 feet. ',
+              { effect: 'tharashk-mark' },
+            ],
+            effects: [
+              {
+                key: 'tharashk-mark',
+                name: 'Marked',
+                lands: { on: 'use' },
+                text: [
+                  'While the target is marked in this way, the hunter has Advantage on attack rolls against the target, and the target gains no benefit from the ',
+                  rules.invisible,
+                  ' condition against the hunter.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '1 hour, until the target dies, or until the hunter uses this Bonus Action again',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -1137,6 +1258,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.minor_illusion,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1193,13 +1315,19 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120, which: 'the shadow walker can see' },
               onFail: {
                 damage: [{ dice: '4d6', type: rules.necrotic }],
-                also: [
-                  'The target has the ',
-                  rules.blinded,
-                  " condition until the start of the shadow walker's next turn.",
-                ],
+
+                also: [{ effect: 'cowl-blinded' }],
               },
             },
+            effects: [
+              {
+                key: 'cowl-blinded',
+                name: 'Blinded by the shadow walker',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -1242,6 +1370,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.animal_messenger,
             ],
+            effects: [],
           },
           {
             key: 'pack-tactics',
@@ -1253,6 +1382,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1295,10 +1425,19 @@ export default createPublicationMonsters({
               range: [60, 60],
               damage: [{ dice: '2d8', type: rules.radiant }],
             },
-            text: [
-              "The target emits Dim Light in a 10-foot radius and can't benefit from the ",
-              rules.invisible,
-              " condition until the end of the heir's next turn.",
+            text: [{ effect: 'wisp-lit' }, '.'],
+            effects: [
+              {
+                key: 'wisp-lit',
+                name: 'Lit by lunar wisp',
+                lands: { on: 'hit' },
+                text: [
+                  "The target emits Dim Light in a 10-foot radius and can't benefit from the ",
+                  rules.invisible,
+                  ' condition',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -1355,6 +1494,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.protection_from_poison,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1375,10 +1515,15 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              " condition until the end of the priest's next turn.",
+            text: ['The target has the ', { effect: 'staff-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'staff-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -1393,6 +1538,7 @@ export default createPublicationMonsters({
               { roll: '1d6' },
               ' Poison damage.',
             ],
+            effects: [],
           },
         ],
       },

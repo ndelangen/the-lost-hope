@@ -40,6 +40,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'standing-leap',
@@ -75,10 +76,24 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '3d6', type: rules.fire }],
             },
-            text: [
-              'The target is magically branded. Agdon is ',
-              rules.invisible,
-              ' to creatures branded in this way. The brand disappears after 24 hours, or it can be removed from a creature or object by any spell that ends a curse.',
+            text: ['The target is ', { effect: 'brand' }, '.'],
+            effects: [
+              {
+                key: 'brand',
+                name: 'Agdon’s brand',
+                lands: { on: 'hit' },
+                text: [
+                  'magically branded. Agdon is ',
+                  rules.invisible,
+                  ' to creatures branded in this way.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'The brand disappears after 24 hours, or it can be removed from a creature or object by any spell that ends a curse',
+                  ],
+                },
+              },
             ],
           },
           {

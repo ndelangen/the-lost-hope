@@ -727,6 +727,7 @@ export default createPublicationMonsters({
               refs.spells.dominate_monster_srd_5_1,
               ' * *To cast this spell, the swarm must have more than half its hit points remaining.',
             ],
+            effects: [],
           },
           {
             key: 'psychic-messenger',
@@ -833,6 +834,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.silence_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1031,6 +1033,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'spider-climb',
@@ -1098,8 +1101,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target has the ',
-              rules.grappled,
-              ' condition (escape DC 15). The shadow web can be attacked and destroyed (AC 16; 20 hit points; vulnerability to radiant damage; immunity to bludgeoning, necrotic, poison, and psychic damage). The darkweaver can grapple up to six creatures at a time using its shadow web.',
+              { effect: 'web-grappled' },
+              '. The shadow web can be attacked and destroyed (AC 16; 20 hit points; vulnerability to radiant damage; immunity to bludgeoning, necrotic, poison, and psychic damage). The darkweaver can grapple up to six creatures at a time using its shadow web.',
+            ],
+            effects: [
+              {
+                key: 'web-grappled',
+                name: 'Grappled by shadow web',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -1112,6 +1125,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' up to 60 feet toward itself.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1160,6 +1174,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.protection_from_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'axiomatic-mind',
@@ -1207,8 +1222,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              " condition (escape DC 14). Until this grapple ends, the decaton can't use this tentacle against other targets. The decaton has ten tentacles, each of which can grapple one target.",
+              { effect: 'tentacle-grappled' },
+              ". Until this grapple ends, the decaton can't use this tentacle against other targets. The decaton has ten tentacles, each of which can grapple one target.",
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Grappled by tentacle',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -1229,6 +1254,7 @@ export default createPublicationMonsters({
             text: ['The decaton unleashes a barrage of lightning bolts from its eyes. ful save.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -1296,6 +1322,7 @@ export default createPublicationMonsters({
             text: [
               'A creature killed by this attack has its body and everything it is wearing or carrying, except for magic items, reduced to ash. Hit or Miss: The rot blade can cause the blade to emit a burst of entropic magic in a 10-foot-radius sphere centered on the weapon. The blade can emit entropic magic in this way only once per turn.',
             ],
+            effects: [],
           },
           {
             key: 'entropic-javelin',
@@ -1481,6 +1508,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' condition from itself.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1526,9 +1554,20 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d10', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 15, with disadvantage). The farastu has two claws, each of which can grapple one creature.',
+              'If the target is a Large or smaller creature, it has ',
+              { effect: 'grabbed' },
+              '. The farastu has two claws, each of which can grapple one creature.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: ['with disadvantage'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -1602,6 +1641,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.ice_storm_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'bladed-edges',
@@ -1615,6 +1655,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by the ferrumach.',
             ],
+            effects: [],
           },
           {
             key: 'skewering-charge',
@@ -1624,11 +1665,21 @@ export default createPublicationMonsters({
             text: [
               'If the ferrumach moves at least 20 feet in a straight line toward a Large or smaller creature and ends within 5 feet of it, that creature must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or have the ',
-              rules.grappled,
-              ' condition (escape DC 18) and take ',
+              ' Strength saving throw or have ',
+              { effect: 'skewered' },
+              ' and take ',
               { roll: '3d6' },
               ' piercing damage.',
+            ],
+            effects: [
+              {
+                key: 'skewered',
+                name: 'Skewered',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -1729,6 +1780,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -1838,6 +1890,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.see_invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -1928,6 +1981,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -1990,7 +2044,21 @@ export default createPublicationMonsters({
             text: [
               'The githzerai touches one creature it can see within 5 feet of itself. The target must succeed on a ',
               { dc: 'wis', save: 'int' },
-              " Intelligence saving throw, or the githzerai chooses an action for that target: Attack, Cast a Spell, or Dash. The affected target can't take that action for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a successful save. A target that succeeds on the saving throw becomes immune to this githzerai's Pacifying Touch for 24 hours.",
+              ' Intelligence saving throw, or ',
+              { effect: 'pacified' },
+              ". A target that succeeds on the saving throw becomes immune to this githzerai's Pacifying Touch for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'pacified',
+                name: 'Pacified',
+                lands: { on: 'save', save: 'int', dc: 'wis' },
+                text: [
+                  "The githzerai chooses an action for that target: Attack, Cast a Spell, or Dash. The affected target can't take that action",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -2034,6 +2102,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2072,9 +2141,22 @@ export default createPublicationMonsters({
             text: [
               'The captain verbally commands up to three creatures it can see within 60 feet of itself. This magical command must be to undertake an action or to refrain from taking actions (for example, "Throw down your weapons"). A target must succeed on a ',
               { dc: 'wis' },
-              ' Wisdom saving throw or have the ',
-              rules.charmed,
-              " condition for 1 minute, during which time it follows the captain's command. The effect ends early if the target takes damage or if it successfully completes the command. A target automatically succeeds on its saving throw if the command is directly harmful to itself, such as commanding it to walk into fire. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.",
+              ' Wisdom saving throw or have ',
+              { effect: 'dictated' },
+              '. A target automatically succeeds on its saving throw if the command is directly harmful to itself, such as commanding it to walk into fire.',
+            ],
+            effects: [
+              {
+                key: 'dictated',
+                name: 'Dictated',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                text: [
+                  "During which time it follows the captain's command. The effect ends early if the target takes damage or if it successfully completes the command.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2114,6 +2196,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'electrified-mancatcher',
@@ -2131,15 +2214,24 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'If the target is a Large or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13). Until the ',
-              rules.grappled,
-              ' condition ends, the target has the ',
-              rules.restrained,
-              " condition and can't teleport, the peacekeeper can't make Electrified Mancatcher attacks, and the target takes ",
-              { roll: '1d10', mod: 'str' },
-              ' lightning damage at the start of each of its turns.',
+              'If the target is a Large or smaller creature, it has ',
+              { effect: 'mancaught' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mancaught',
+                name: 'Mancaught',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "can't teleport, the peacekeeper can't make Electrified Mancatcher attacks, and the target takes ",
+                  { roll: '1d10', mod: 'str' },
+                  ' lightning damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
         ],
@@ -2188,6 +2280,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.web_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2274,9 +2367,18 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " condition, each creature of the archon's choice that starts its turn within 20 feet of the archon must make a ",
               { dc: 'wis' },
-              ' Wisdom saving throw. On a failed save, the creature has the ',
-              rules.frightened,
-              " condition until the start of its next turn. On a successful save, the creature is immune to all archons' Aura of Menace for 24 hours.",
+              ' Wisdom saving throw. On a failed save, the creature has ',
+              { effect: 'menaced' },
+              ". On a successful save, the creature is immune to all archons' Aura of Menace for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'menaced',
+                name: 'Menaced',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -2305,9 +2407,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'str' },
-              ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              ' Strength saving throw or have ',
+              { effect: 'bitten-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bitten-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2440,9 +2551,18 @@ export default createPublicationMonsters({
               { ability: 'unerring-blade' },
               ' attack against each creature it moves past. Whenever it hits a creature with an ',
               { ability: 'unerring-blade' },
-              ' attack during this movement, each spell of 5th level or lower on the creature ends, and the creature has the ',
-              rules.incapacitated,
-              " condition until the end of the kolyarut's next turn.",
+              ' attack during this movement, each spell of 5th level or lower on the creature ends, and the creature has ',
+              { effect: 'edict-incapacitated' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'edict-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'use' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2461,6 +2581,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'parry',
@@ -2879,6 +3000,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.protection_from_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'axiomatic-mind',
@@ -2942,6 +3064,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -3471,6 +3594,7 @@ export default createPublicationMonsters({
               ' (as an action), ',
               refs.spells.mind_blank_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -3532,15 +3656,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120 },
               onFail: {
                 damage: [{ dice: '7d12', type: rules.force }],
-                also: [
-                  'Has the ',
-                  rules.incapacitated,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: [{ effect: 'flux-incapacitated' }],
               },
             },
             text: [
               'Shemeshka causes a surge of arcane energy to burst around one creature she can see within 120 feet of herself. On a successful save, the target takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'flux-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3577,7 +3707,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw, or its speed is halved and it has disadvantage on attack rolls and saving throws until the end of its next turn.',
+              ' Constitution saving throw, or ',
+              { effect: 'razorvine-hobbled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'razorvine-hobbled',
+                name: 'Razorvine hobbling',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its speed is halved and it has disadvantage on attack rolls and saving throws',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3597,9 +3740,18 @@ export default createPublicationMonsters({
             text: [
               'Shemeshka utters a magical word to interrupt a creature she can see that is casting a spell. If the spell is 5th level or lower, it fails and has no effect. If the spell is 6th level or higher, Shemeshka makes an Intelligence check (',
               { dc: 'int', printed: 10 },
-              " + the spell's level). On a success, the spell fails and has no effect. Whatever the spell's level, the caster gains the ",
-              rules.poisoned,
-              ' condition until the end of its next turn.',
+              " + the spell's level). On a success, the spell fails and has no effect. Whatever the spell's level, the caster gains ",
+              { effect: 'counterspell-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'counterspell-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 3,
             recharge: 'Long rest',
@@ -3652,6 +3804,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hypnotic_pattern_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3676,7 +3829,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha' },
-              ' Charisma saving throw or have disadvantage on the next attack roll it makes until the end of its next turn.',
+              ' Charisma saving throw or have ',
+              { effect: 'beguiled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'beguiled',
+                name: 'Beguiled',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: ['disadvantage on the next attack roll it makes'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -3687,13 +3851,22 @@ export default createPublicationMonsters({
             text: [
               'Each creature within 30 feet of the muse must make a ',
               { dc: 'cha', save: 'wis' },
-              ' Wisdom saving throw. On a failed save, the creature has the ',
-              rules.charmed,
-              " condition for 1 minute. On a successful save, the creature becomes immune to any muse's Enchanting Presence for 24 hours. Whenever the muse deals damage to the ",
+              ' Wisdom saving throw. On a failed save, the creature has ',
+              { effect: 'enchanted' },
+              ". On a successful save, the creature becomes immune to any muse's Enchanting Presence for 24 hours. Whenever the muse deals damage to the ",
               rules.charmed,
               ' creature, the ',
               rules.charmed,
               ' creature can repeat the saving throw, ending the effect on itself on a success.',
+            ],
+            effects: [
+              {
+                key: 'enchanted',
+                name: 'Enchanted',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -3962,6 +4135,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -4031,9 +4205,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, the conduit can choose one of the following additional effects (up to once per turn each): Incapacitate. The target must succeed on a ',
               { dc: 'dex', save: 'con' },
-              ' Constitution saving throw or have the ',
-              rules.incapacitated,
-              " condition until the end of the conduit's next turn.",
+              ' Constitution saving throw or have ',
+              { effect: 'conduit-incapacitated' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'conduit-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -4174,6 +4357,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               ' (as an action)',
             ],
+            effects: [],
           },
           {
             key: 'aura-of-menace',
@@ -4185,9 +4369,18 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " condition, each creature of the archon's choice that starts its turn within 20 feet of the archon must make a ",
               { dc: 'wis' },
-              ' Wisdom saving throw. On a failed save, the creature has the ',
-              rules.frightened,
-              " condition until the start of its next turn. On a successful save, the creature is immune to all archons' Aura of Menace for 24 hours.",
+              ' Wisdom saving throw. On a failed save, the creature has ',
+              { effect: 'menaced' },
+              ". On a successful save, the creature is immune to all archons' Aura of Menace for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'menaced',
+                name: 'Menaced',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -4225,11 +4418,21 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
             },
             text: [
-              'If the target is a Medium or smaller creature, the target has the ',
-              rules.grappled,
-              ' condition (escape DC 18). The archon can have only one creature ',
+              'If the target is a Medium or smaller creature, the target has ',
+              { effect: 'clawed' },
+              '. The archon can have only one creature ',
               rules.grappled,
               ' in this way at a time.',
+            ],
+            effects: [
+              {
+                key: 'clawed',
+                name: 'Clawed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -4333,6 +4536,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

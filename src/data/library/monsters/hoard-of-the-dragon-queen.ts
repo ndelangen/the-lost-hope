@@ -845,6 +845,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.longstrider_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'cunning-action',
@@ -1314,6 +1315,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -1354,6 +1356,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -1413,10 +1416,27 @@ export default createPublicationMonsters({
               'Sandesyl targets one humanoid it can see within 30 feet of it. If the target can see Sandesyl, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              ' by Sandesyl. The ',
-              rules.charmed,
-              " target regards Sandesyl as a trusted friend to be heeded and protected. Although the target isn't under Sandesyl's control, it takes Sandesyl's requests or actions in the most favorable way it can, and it is a willing target for Sandesyl's bite attack. Each time Sandesyl or Sandesyl's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Sandesyl is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'morgia-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'morgia-charm',
+                name: "Sandesyl's charm",
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Sandesyl as a trusted friend to be heeded and protected. Although the target isn't under Sandesyl's control, it takes Sandesyl's requests or actions in the most favorable way it can, and it is a willing target for Sandesyl's bite attack. Each time Sandesyl or Sandesyl's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Sandesyl is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {

@@ -88,8 +88,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'hooves-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'hooves-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -131,8 +140,17 @@ export default createPublicationMonsters({
               'Immediately after a creature within 120 feet of the archon forces it to make a saving throw, the archon responds with a burst of light. The creature must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.blinded,
-              " condition until the end of the creature's next turn.",
+              { effect: 'radiance-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'radiance-blinded',
+                name: 'Blinded by haunting radiance',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -177,6 +195,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition, the rider has advantage on melee attack rolls against any unmounted creature smaller than its mount, the rider and its mount have advantage on Dexterity saving throws, and the rider can force an attack targeted at its mount to target the rider instead.',
             ],
+            effects: [],
           },
           {
             key: 'undead-fortitude',
@@ -220,10 +239,19 @@ export default createPublicationMonsters({
               'The rider gazes at a creature within 30 feet of itself. The creature must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.frightened,
-              ' condition for 1 minute. The ',
-              rules.frightened,
-              ' creature can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the rider, ending the condition on itself on a success.',
+              { effect: 'fell-glare-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fell-glare-frightened',
+                name: 'Frightened by fell glare',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if it can see the rider'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -268,6 +296,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.dispel_magic_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -311,6 +340,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'shattered-shards',
@@ -330,6 +360,7 @@ export default createPublicationMonsters({
             text: [
               'The witch targets a point it can see within 30 feet of itself. The air there magically solidifies into a mirrorlike pane, then shatters in a 15-foot cone originating from that point.',
             ],
+            effects: [],
           },
         ],
       },
@@ -361,6 +392,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.silent_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'flyby',
@@ -396,13 +428,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '1d6', type: rules.psychic }],
-                also: [
-                  "Have disadvantage on attack rolls and ability checks until the start of the faerie's next turn.",
-                ],
+
+                also: [{ effect: 'mockery-disadvantage' }],
               },
             },
             text: [
               'The faerie hurls magical taunts at one creature it can see within 60 feet of itself.',
+            ],
+            effects: [
+              {
+                key: 'mockery-disadvantage',
+                name: 'Magic mockery',
+                lands: { on: 'failed-save' },
+                text: ['Have disadvantage on attack rolls and ability checks.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -479,9 +519,22 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha', save: 'dex' },
-              " Dexterity saving throw or be wreathed in light until the end of the faerie's next turn. While a creature is wreathed in light, attack rolls against the creature have advantage, and the creature can't benefit from the ",
-              rules.invisible,
-              ' condition.',
+              ' Dexterity saving throw or be ',
+              { effect: 'wreathed-in-light' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wreathed-in-light',
+                name: 'Wreathed in light',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                text: [
+                  "While a creature is wreathed in light, attack rolls against the creature have advantage, and the creature can't benefit from the ",
+                  rules.invisible,
+                  ' condition.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -496,6 +549,7 @@ export default createPublicationMonsters({
             ],
             uses: 2,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -531,6 +585,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.grease_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'stingblade',
@@ -562,10 +617,18 @@ export default createPublicationMonsters({
               'The faerie unleashes a burst of mind-muddling magic in a 15-foot cone. Each creature in that area must succeed on a ',
               { dc: 'cha', save: 'int' },
               ' Intelligence saving throw or have the ',
-              rules.frightened,
-              ' condition for 1 minute. A ',
-              rules.frightened,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'nerves-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'nerves-frightened',
+                name: 'Frightened by theft of nerves',
+                lands: { on: 'save', save: 'int', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -608,6 +671,7 @@ export default createPublicationMonsters({
               rules.restrained,
               ' condition on itself.',
             ],
+            effects: [],
           },
           {
             key: 'sweet-victory',
@@ -691,6 +755,7 @@ export default createPublicationMonsters({
               refs.spells.enthrall_srd_5_1,
               ", Nystul's magic aura",
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -739,15 +804,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.psychic }],
-                also: [
-                  'Has the ',
-                  rules.frightened,
-                  " condition until the start of the high fae's next turn.",
-                ],
+
+                also: [{ effect: 'prank-frightened' }],
               },
             },
             text: [
               'The high fae targets one creature it can see within 60 feet of itself with a magical trick. On a successful save, the target takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'prank-frightened',
+                name: 'Frightened by vexing prank',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -790,6 +861,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -838,8 +910,17 @@ export default createPublicationMonsters({
               'The high fae targets one Large or smaller creature it can see within 10 feet of itself. The target must succeed on a ',
               { dc: 'dex' },
               ' Dexterity saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'feint-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'feint-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -902,6 +983,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-overwhelming-splendor',
@@ -912,12 +994,17 @@ export default createPublicationMonsters({
               "The high fae radiates dazzling and mollifying magic. Each creature of the high fae's choice that starts its turn within 5 feet of the high fae must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.charmed,
-              ' condition until the start of its next turn. While ',
-              rules.charmed,
-              ', the creature also has the ',
-              rules.incapacitated,
-              ' condition.',
+              { effect: 'splendor-charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'splendor-charmed',
+                name: 'Overwhelming splendor',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed, rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -973,10 +1060,18 @@ export default createPublicationMonsters({
               "The high fae unleashes a string of magical words. Each creature of the high fae's choice within 30 feet of itself must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.stunned,
-              ' condition for 1 minute. A ',
-              rules.stunned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'soliloquy-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'soliloquy-stunned',
+                name: 'Stunned by soliloquy',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -991,6 +1086,7 @@ export default createPublicationMonsters({
               rules.invisible,
               " condition and teleports, along with any equipment it is wearing or carrying, to an unoccupied space it can see within 30 feet of itself. The invisibility lasts until the end of the high fae's next turn.",
             ],
+            effects: [],
           },
           {
             key: 'ridicule',
@@ -1145,6 +1241,7 @@ export default createPublicationMonsters({
               ' (rats only), ',
               refs.spells.stinking_cloud_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'speak-with-rats',
@@ -1250,8 +1347,17 @@ export default createPublicationMonsters({
               'If the werefox moved at least 20 feet straight toward the target immediately before the hit and the target is a Medium or smaller creature, the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'bite-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1283,8 +1389,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity saving throw or have the ',
-              rules.restrained,
-              " condition until the start of the werefox's next turn.",
+              { effect: 'arrow-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'arrow-restrained',
+                name: 'Entangled by arrow',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1350,8 +1465,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or have the ',
-              rules.poisoned,
-              " condition until the start of the sewer king's next turn.",
+              { effect: 'rancid-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'rancid-poisoned',
+                name: 'Rancid bite',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until', text: ["the start of the sewer king's next turn"] },
+              },
             ],
           },
           {
@@ -1461,6 +1585,7 @@ export default createPublicationMonsters({
               rules.prone,
               " condition, its speed is 0 and can't increase, its heads can't die, it has disadvantage on Dexterity saving throws, and it can't take any other actions or reactions.",
             ],
+            effects: [],
           },
         ],
       },
@@ -1537,8 +1662,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'hooves-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'hooves-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1549,7 +1683,23 @@ export default createPublicationMonsters({
             text: [
               'The specter utters a keening wail, calling to those close to death. Each non-Undead creature within 120 feet of the specter must make a ',
               { dc: 'con' },
-              " Constitution saving throw. On a failure, the creature hears the wail and is marked for death. A creature marked for death can't regain hit points, has disadvantage on death saving throws, and all attack rolls against it are made with advantage. This effect lasts for 1 minute or until the creature is targeted by a remove curse spell or similar magic.",
+              ' Constitution saving throw. On a failure, the creature hears the wail and is ',
+              { effect: 'marked-for-death' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'marked-for-death',
+                name: 'Marked for death',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "A creature marked for death can't regain hit points, has disadvantage on death saving throws, and all attack rolls against it are made with advantage.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  cure: ['the creature is targeted by a remove curse spell or similar magic'],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1572,9 +1722,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or gain a level of ',
-              rules.exhaustion,
+              ' Constitution saving throw or ',
+              { effect: 'reaping-exhaustion' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'reaping-exhaustion',
+                name: 'Exhaustion',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['gain a level of ', rules.exhaustion],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1606,10 +1765,18 @@ export default createPublicationMonsters({
               'If the horror takes fire damage, it releases a sweet, mesmerizing scent. Each creature within 30 feet of the horror must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.charmed,
-              ' condition. A ',
-              rules.charmed,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'caramel-charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'caramel-charmed',
+                name: 'Charmed by sweet scent',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1664,8 +1831,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, the horror can choose to deal no damage; instead, the target has the ',
-              rules.prone,
-              ' condition, and the horror can pull the target up to 5 feet toward itself.',
+              { effect: 'candy-prone' },
+              ', and the horror can pull the target up to 5 feet toward itself.',
+            ],
+            effects: [
+              {
+                key: 'candy-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1710,6 +1886,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.speak_with_plants_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'plant-camouflage',
@@ -1756,12 +1933,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 18). While ',
-              rules.grappled,
-              ', the creature also has the ',
-              rules.restrained,
-              ' condition. The treefolk can grapple up to six creatures this way.',
+              { effect: 'vine-grappled' },
+              '. The treefolk can grapple up to six creatures this way.',
+            ],
+            effects: [
+              {
+                key: 'vine-grappled',
+                name: 'Grappled by crushing vine',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -1791,6 +1974,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition, or until the treefolk uses this bonus action again.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1852,8 +2036,17 @@ export default createPublicationMonsters({
               'If the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'bite-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1868,12 +2061,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 30 } },
               onFail: {
                 damage: [{ dice: '7d6', type: rules.psychic }],
-                also: [
-                  'Has disadvantage on Constitution saving throws to maintain concentration on spells until the end of its next turn.',
-                ],
+
+                also: [{ effect: 'howl-concentration' }],
               },
             },
             text: ['On a successful save, a creature takes half as much damage only.'],
+            effects: [
+              {
+                key: 'howl-concentration',
+                name: 'Mind-wracking howl',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Has disadvantage on Constitution saving throws to maintain concentration on spells.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },

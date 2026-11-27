@@ -109,8 +109,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13) from one of two paws.',
+              { effect: 'grabbed' },
+              ' from one of two paws.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -185,8 +195,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13) from one of two paws.',
+              { effect: 'grabbed' },
+              ' from one of two paws.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -252,8 +272,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 13) from one of two paws.',
+              { effect: 'grabbed' },
+              ' from one of two paws.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {

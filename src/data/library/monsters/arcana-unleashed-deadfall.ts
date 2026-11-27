@@ -82,8 +82,18 @@ export default createPublicationMonsters({
               'Wisdom Saving Throw: ',
               { dc: 'con' },
               ', each creature within a 20-foot Emanation originating from the abveku. Failure: The target has the ',
-              rules.paralyzed,
-              ' condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              { effect: 'mesmerized' },
+              '. After 1 minute, it succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'mesmerized',
+                name: 'Paralyzed by the dance',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -150,6 +160,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_force,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -213,12 +224,21 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it has the ',
-              rules.frightened,
-              ' condition. If the target already has the ',
+              { effect: 'fear' },
+              '. If the target already has the ',
               rules.frightened,
               ' condition, it takes an additional ',
               { roll: '3d6' },
               " Psychic damage. Hit or Miss: The fauchard magically returns to the sarrukh's hand immediately after a ranged attack.",
+            ],
+            effects: [
+              {
+                key: 'fear',
+                name: 'Frightened',
+                lands: { on: 'hit' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -245,10 +265,20 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 30, which: 'the sarrukh can see' },
                 onFail: {
                   damage: [{ dice: '4d8', type: rules.psychic }],
-                  also: ['The target has the ', rules.frightened, ' condition.'],
+
+                  also: [{ effect: 'glance-fear' }],
                 },
                 onSuccess: 'half',
               },
+              effects: [
+                {
+                  key: 'glance-fear',
+                  name: 'Frightened',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
             {
               key: 'slither',
@@ -270,8 +300,17 @@ export default createPublicationMonsters({
                 ' to cast ',
                 refs.spells.polymorph,
                 ', and if the target fails its saving throw, the target also has the ',
-                rules.stunned,
-                " condition until the end of its next turn. The sarrukh can't take this action again until the start of its next turn.",
+                { effect: 'twisted-stun' },
+                ". The sarrukh can't take this action again until the start of its next turn.",
+              ],
+              effects: [
+                {
+                  key: 'twisted-stun',
+                  name: 'Stunned',
+                  lands: { on: 'save', save: 'wis', dc: 'int' },
+                  conditions: [rules.stunned],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],

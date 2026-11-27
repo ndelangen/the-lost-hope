@@ -135,6 +135,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.dispel_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'incorruptible-vessel',
@@ -177,17 +178,25 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.psychic }],
-                also: [
-                  'Has the ',
-                  rules.incapacitated,
-                  ' condition for 1 minute, during which time it retches and babbles incoherently in a voice that is not its own.',
-                ],
+
+                also: [{ effect: 'retching' }],
               },
             },
             text: [
-              'The exorcist thins the veil of death for a creature it can see within 60 feet of itself, exposing the target to malevolent entities. On a successful save, the target takes half as much damage only. An ',
-              rules.incapacitated,
-              ' target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              'The exorcist thins the veil of death for a creature it can see within 60 feet of itself, exposing the target to malevolent entities. On a successful save, the target takes half as much damage only.',
+            ],
+            effects: [
+              {
+                key: 'retching',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                text: [
+                  'during which time it retches and babbles incoherently in a voice that is not its own.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

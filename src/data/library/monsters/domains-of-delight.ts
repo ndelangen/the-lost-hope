@@ -49,6 +49,7 @@ export default createPublicationMonsters({
               ' (as an action), ',
               refs.spells.pass_without_trace_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-rebirth',
@@ -133,8 +134,18 @@ export default createPublicationMonsters({
               'Yarnspinner shoots webbing at one creature he can see within 120 feet of himself. The target must succeed on a ',
               { dc: 'wis', save: 'str' },
               ' Strength saving throw or be ',
-              rules.restrained,
-              ' for 1 hour. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'web-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'web-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'wis' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],

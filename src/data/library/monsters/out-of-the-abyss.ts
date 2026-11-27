@@ -29,6 +29,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Aljanor has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -73,6 +74,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -124,6 +126,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -599,6 +602,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.lightning_bolt_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'insanity',
@@ -612,6 +616,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -648,8 +653,17 @@ export default createPublicationMonsters({
               'If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or fall ',
-              rules.prone,
+              { effect: 'shortspear-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'shortspear-prone',
+                name: 'Tripped',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1351,7 +1365,21 @@ export default createPublicationMonsters({
             text: [
               'The statue targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, ',
+              { effect: 'statue-slow' },
+              '. These effects last for 1 minute.',
+            ],
+            effects: [
+              {
+                key: 'statue-slow',
+                name: 'Slowed by statue',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1549,11 +1577,26 @@ export default createPublicationMonsters({
               { dc: 'str', save: 'dex' },
               " Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of Glabbagool. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. On a failed save, Glabbagool enters the creature's space, and the creature takes ",
               { roll: '3d6' },
-              " acid damage and is engulfed. The engulfed creature can't breathe, is ",
-              rules.restrained,
-              ', and takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of Glabbagool's turns. When Glabbagool moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of Glabbagool.",
+              ' acid damage and is ',
+              { effect: 'engulfed' },
+              '. An engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of Glabbagool.',
+            ],
+            effects: [
+              {
+                key: 'engulfed',
+                name: 'Engulfed by Glabbagool',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.restrained],
+                text: [
+                  "The engulfed creature can't breathe, is ",
+                  rules.restrained,
+                  ', and takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of Glabbagool's turns. When Glabbagool moves, the engulfed creature moves with it.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
         ],
@@ -1785,6 +1828,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -1801,6 +1845,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.faerie_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -1812,6 +1857,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Hanne to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -1851,12 +1897,21 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target is also ',
+              { effect: 'crossbow-poisoned' },
+              '. If the saving throw fails by 5 or more, the target is also ',
               rules.unconscious,
               ' while ',
               rules.poisoned,
               ' in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.',
+            ],
+            effects: [
+              {
+                key: 'crossbow-poisoned',
+                name: 'Crossbow poison',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -1918,6 +1973,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ["The hook horror can't use its blindsight while ", rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -2072,6 +2128,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ["The hook horror can't use its blindsight while ", rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -2786,6 +2843,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2823,8 +2881,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'rock-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2837,6 +2904,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw, catch the missile and take no bludgeoning damage from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2886,6 +2954,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Rystia doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2983,6 +3052,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'eye-tattoos',
@@ -2994,6 +3064,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' creatures and objects as if they were visible.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -3668,10 +3739,28 @@ export default createPublicationMonsters({
               " Constitution saving throw if Veldyskar isn't ",
               rules.incapacitated,
               '. On a failed save, the creature magically begins to turn to stone and is ',
-              rules.restrained,
-              '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
-              rules.petrified,
-              " until freed by the greater restoration spell or other magic. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see Veldyskar until the start of its next turn, when it can avert its eyes again. If it looks at Veldyskar in the meantime, it must immediately make the save. If Veldyskar sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.",
+              { effect: 'veldyskar-gaze-restrained' },
+              '. On a failure, the creature is ',
+              { effect: 'veldyskar-gaze-petrified' },
+              ". A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see Veldyskar until the start of its next turn, when it can avert its eyes again. If it looks at Veldyskar in the meantime, it must immediately make the save. If Veldyskar sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.",
+            ],
+            effects: [
+              {
+                key: 'veldyskar-gaze-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'veldyskar-gaze-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  ends: { cure: ['freed by the greater restoration spell or other magic'] },
+                },
+              },
             ],
           },
           {
@@ -3788,10 +3877,28 @@ export default createPublicationMonsters({
               " Constitution saving throw if the basilisk isn't ",
               rules.incapacitated,
               '. On a failed save, the creature magically begins to turn to stone and is ',
-              rules.restrained,
-              '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
-              rules.petrified,
-              " until freed by the greater restoration spell or other magic. A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save. If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.",
+              { effect: 'basilisk-gaze-restrained' },
+              '. On a failure, the creature is ',
+              { effect: 'basilisk-gaze-petrified' },
+              ". A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save. If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.",
+            ],
+            effects: [
+              {
+                key: 'basilisk-gaze-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'basilisk-gaze-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  ends: { cure: ['freed by the greater restoration spell or other magic'] },
+                },
+              },
             ],
           },
           {
@@ -3836,6 +3943,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiEchoRipples',
             text: ["The hook horror can't use its blindsight while ", rules.deafened, '.'],
+            effects: [],
           },
           {
             key: 'keen-hearing',
@@ -3958,6 +4066,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

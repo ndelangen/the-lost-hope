@@ -51,6 +51,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -97,10 +98,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target has the ',
-              rules.stunned,
-              " condition until the start of the empyrean's next turn. The target can choose not to be ",
+              { effect: 'sacred-stun' },
+              '. The target can choose not to be ',
               rules.stunned,
               ', in which case it takes an extra 21 Force damage that bypasses Resistance or Immunity.',
+            ],
+            effects: [
+              {
+                key: 'sacred-stun',
+                name: 'Stunned by sacred weapon',
+                lands: { on: 'hit' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -140,12 +150,22 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 30 } },
                 onFail: {
                   damage: [{ dice: '6d8', type: rules.force }],
-                  also: ['The target has the ', rules.prone, ' condition.'],
+
+                  also: [{ effect: 'shockwave-prone' }],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: The empyrean can't take this action again until the start of its next turn.",
+              ],
+              effects: [
+                {
+                  key: 'shockwave-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
             {

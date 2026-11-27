@@ -104,8 +104,17 @@ export default createPublicationMonsters({
               '. Failure: ',
               { roll: '4d8' },
               " Force damage. If the target is the incarnation's size or smaller, it has the ",
-              rules.prone,
+              { effect: 'stampede-prone' },
               ' condition. Success: Half damage only.',
+            ],
+            effects: [
+              {
+                key: 'stampede-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -193,8 +202,18 @@ export default createPublicationMonsters({
             },
             text: [
               "If the target is the incarnation's size or smaller, it has the ",
-              rules.grappled,
-              ' condition (escape DC 15) from one of two vines.',
+              { effect: 'vine-grapple' },
+              ' from one of two vines.',
+            ],
+            effects: [
+              {
+                key: 'vine-grapple',
+                name: 'Grabbed by a vine',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -209,6 +228,7 @@ export default createPublicationMonsters({
               { roll: '2d8', mod: 'str' },
               ' Radiant damage. Success: Half damage.',
             ],
+            effects: [],
           },
           {
             key: 'shape-shift',
@@ -227,6 +247,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -286,8 +307,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
+              { effect: 'boulder-prone' },
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'boulder-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -302,6 +332,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -338,6 +369,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.minor_illusion,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -425,7 +457,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is wearing armor, it is subjected to the following effect. Dexterity Saving Throw: ',
               { dc: 'str' },
-              '. Failure: The armor takes a -1 penalty to the AC it offers. The target can take an action to remove the penalty from its armor.',
+              '. Failure: ',
+              { effect: 'sabotaged-armor' },
+            ],
+            effects: [
+              {
+                key: 'sabotaged-armor',
+                name: 'Sabotaged armor',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                text: ['The armor takes a -1 penalty to the AC it offers.'],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: ['The target can take an action to remove the penalty from its armor.'],
+                },
+              },
             ],
           },
           {
@@ -567,8 +612,17 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it has the ',
-              rules.prone,
+              { effect: 'boulder-prone' },
               ' condition.',
+            ],
+            effects: [
+              {
+                key: 'boulder-prone',
+                name: 'Knocked prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -585,6 +639,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },

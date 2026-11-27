@@ -80,6 +80,7 @@ export default createPublicationMonsters({
                 rules.grappled,
                 ' condition on itself, then moves up to its speed without provoking opportunity attacks.',
               ],
+              effects: [],
             },
             {
               key: 'stab',
@@ -100,6 +101,7 @@ export default createPublicationMonsters({
                 rules.invisible,
                 " condition. This invisibility lasts until the end of the assassin's next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -143,6 +145,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -181,9 +184,22 @@ export default createPublicationMonsters({
             text: [
               'The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a ',
               { dc: 'con', printed: 15 },
-              " Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the Dispel Magic spell on the orb (",
+              ' Constitution saving throw or be ',
+              { effect: 'encased' },
+              '. A successful casting of the Dispel Magic spell on the orb (',
               { dc: 'con', printed: 15 },
               ') destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside.',
+            ],
+            effects: [
+              {
+                key: 'encased',
+                name: 'Encased in the orb',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                text: [
+                  "encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -220,6 +236,7 @@ export default createPublicationMonsters({
             text: [
               'When the aspirant is reduced to 0 hit points, its body and everything it is wearing or carrying, except for magic items, are sucked into a void and destroyed. On a successful save, a creature takes half as much damage only.',
             ],
+            effects: [],
           },
           {
             key: 'sinister-devotion',
@@ -233,6 +250,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions.',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -305,6 +323,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.revivify_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'guardian-aura',
@@ -316,6 +335,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -382,6 +402,7 @@ export default createPublicationMonsters({
             text: [
               'Asteria causes a burst of magical energy to envelop one creature she can see within 60 feet of herself. Asteria or another creature that she can see within 60 feet of herself then regains 10 hit points.',
             ],
+            effects: [],
           },
           {
             key: 'empowering-aegis',
@@ -389,9 +410,21 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
             text: [
-              "Asteria summons a spectral version of her shield, which orbits and bolsters one creature of Asteria's choice that she can see within 60 feet of herself. The spectral shield lasts until the start of Asteria's next turn. While the shield is orbiting the creature, the creature has 3, is immune to the ",
-              rules.frightened,
-              ' condition, and makes weapon attack rolls with advantage.',
+              "Asteria summons a spectral version of her shield, which orbits and bolsters one creature of Asteria's choice that she can see within 60 feet of herself. ",
+              { effect: 'spectral-shield' },
+            ],
+            effects: [
+              {
+                key: 'spectral-shield',
+                name: 'Spectral shield',
+                lands: { on: 'use' },
+                text: [
+                  'While the shield is orbiting the creature, the creature has 3, is immune to the ',
+                  rules.frightened,
+                  ' condition, and makes weapon attack rolls with advantage.',
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -465,6 +498,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hold_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'heat-regeneration',
@@ -553,6 +587,7 @@ export default createPublicationMonsters({
             text: ['Aurnozci sprays mucus in a 60-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -593,6 +628,7 @@ export default createPublicationMonsters({
                 onSuccess: 'half',
               },
               text: ['Flames momentarily surround Aurnozci.'],
+              effects: [],
             },
           ],
         },
@@ -629,6 +665,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'nimbleness',
@@ -670,7 +707,21 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be cursed with lycanthropy. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the wererat stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends. A Remove Curse spell or similar magic ends this curse.",
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "cursed with lycanthropy. While cursed in this way, the target retains its alignment, languages, and equipment but otherwise uses the wererat stat block, excluding actions that require equipment the target doesn't have. During any night when there's a full moon in the sky, the target becomes an NPC under the DM's control and remains so until the night ends.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['A Remove Curse spell or similar magic ends this curse.'] },
+              },
             ],
           },
           {
@@ -760,6 +811,7 @@ export default createPublicationMonsters({
               refs.spells.command_srd_5_1,
               ', Crown of Madness',
             ],
+            effects: [],
           },
           {
             key: 'demonic-ritual',
@@ -818,8 +870,17 @@ export default createPublicationMonsters({
               ' piercing damage, and if the target is a creature, it must succeed on a ',
               { dc: 'str', printed: 15 },
               ' Strength saving throw or be pushed up to 10 feet from Brusipha and have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 15 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -845,6 +906,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition or uses this ability on a different target.',
             ],
+            effects: [],
           },
           {
             key: 'baphomet-s-blessing',
@@ -905,6 +967,7 @@ export default createPublicationMonsters({
               refs.spells.scrying_srd_5_1,
               ' (as an action)',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -976,7 +1039,18 @@ export default createPublicationMonsters({
               text: [
                 'The hag magically tangles a creature it can see within 60 feet of itself in spectral silver threads. The creature must succeed on a ',
                 { dc: 'wis', save: 'str' },
-                ' Strength saving throw, or its speed is reduced to 0 until the end of its next turn.',
+                ' Strength saving throw, or ',
+                { effect: 'speed-zero' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'speed-zero',
+                  name: 'Speed reduced to 0',
+                  lands: { on: 'save', save: 'str', dc: 'wis' },
+                  text: ['its speed is reduced to 0'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -987,9 +1061,27 @@ export default createPublicationMonsters({
               text: [
                 'The hag magically curses a creature it can see within 60 feet of itself. The creature must make a ',
                 { dc: 'wis' },
-                ' Wisdom saving throw, and the creature has disadvantage on this save if it has damaged the hag within the last minute. On a failed save, the creature has disadvantage on ability checks, attack rolls, and saving throws until the curse ends. Once per turn, when the cursed creature fails one of those d20 rolls, it takes ',
-                { roll: '2d6' },
-                ' force damage. The curse ends after 1 minute; when the creature succeeds on a total of three ability checks, attack rolls, or saving throws in any combination; or when the hag uses this action again.',
+                ' Wisdom saving throw, and the creature has disadvantage on this save if it has damaged the hag within the last minute. On a failed save, the creature ',
+                { effect: 'destiny-curse' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'destiny-curse',
+                  name: 'Destiny curse',
+                  lands: { on: 'save', save: 'wis', dc: 'wis' },
+                  text: [
+                    'has disadvantage on ability checks, attack rolls, and saving throws until the curse ends. Once per turn, when the cursed creature fails one of those d20 rolls, it takes ',
+                    { roll: '2d6' },
+                    ' force damage.',
+                  ],
+                  lasts: {
+                    kind: 'until',
+                    text: [
+                      'The curse ends after 1 minute; when the creature succeeds on a total of three ability checks, attack rolls, or saving throws in any combination; or when the hag uses this action again',
+                    ],
+                  },
+                },
               ],
             },
           ],
@@ -1046,6 +1138,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.contagion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'halo-of-pestilence',
@@ -1056,8 +1149,17 @@ export default createPublicationMonsters({
               'The champion is surrounded by an aura of deadly magic that takes the form of a host of glowing white insects. Each creature that starts its turn within 10 feet of the champion must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or have the ',
-              rules.incapacitated,
-              ' condition until the start of its next turn, as the insects ravage its body.',
+              { effect: 'incapacitated' },
+              ', as the insects ravage its body.',
+            ],
+            effects: [
+              {
+                key: 'incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -1110,10 +1212,15 @@ export default createPublicationMonsters({
               range: [120, 120],
               damage: [{ dice: '4d8', type: rules.poison, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              " condition until the start of the champion's next turn.",
+            text: ['The target has the ', { effect: 'poisoned' }, '.'],
+            effects: [
+              {
+                key: 'poisoned',
+                name: 'Poisoned',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
         ],
@@ -1239,6 +1346,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition.',
             ],
+            effects: [],
           },
           {
             key: 'supernatural-tracker',
@@ -1268,8 +1376,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1362,9 +1479,22 @@ export default createPublicationMonsters({
             text: [
               'The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a ',
               { dc: 'con', printed: 15 },
-              " Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the Dispel Magic spell on the orb (",
+              ' Constitution saving throw or be ',
+              { effect: 'encased' },
+              '. A successful casting of the Dispel Magic spell on the orb (',
               { dc: 'con', printed: 15 },
               ') destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside.',
+            ],
+            effects: [
+              {
+                key: 'encased',
+                name: 'Encased in the orb',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                text: [
+                  "encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1405,6 +1535,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.enthrall_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1495,8 +1626,17 @@ export default createPublicationMonsters({
               ' piercing damage, and if the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 10 feet from the minotaur and have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1547,8 +1687,17 @@ export default createPublicationMonsters({
               ' piercing damage if the minotaur is enlarged. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 10 feet from the minotaur and have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1569,8 +1718,17 @@ export default createPublicationMonsters({
               ' bludgeoning damage while enlarged. If the target is a creature and the minotaur is enlarged, the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'mattock-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mattock-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1592,6 +1750,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition or uses this ability on a different target.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1627,6 +1786,7 @@ export default createPublicationMonsters({
               ", Tasha's ",
               refs.spells.hideous_laughter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fortune-teller',
@@ -1648,10 +1808,20 @@ export default createPublicationMonsters({
               'Any creature that attempts to damage Oddlewin must first succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or have the ',
-              rules.charmed,
-              " condition until the end of the creature's next turn. The creature must use its action praising Oddlewin. Oddlewin can't regain hit points, including through magical healing, except through his ",
+              { effect: 'charmed' },
+              ". Oddlewin can't regain hit points, including through magical healing, except through his ",
               { ability: 'reversal-of-fortune' },
               ' reaction.',
+            ],
+            effects: [
+              {
+                key: 'charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: ['The creature must use its action praising Oddlewin.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -1739,6 +1909,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.revivify_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'guardian-of-the-market',
@@ -1816,8 +1987,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or have the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'knocked-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1829,8 +2009,17 @@ export default createPublicationMonsters({
               'Pazrodine uses one of the following breath weapons: Dream Breath. Pazrodine exhales mist in a 90-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or have the ',
-              rules.unconscious,
-              ' condition for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+              { effect: 'dream-asleep' },
+              '. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+            ],
+            effects: [
+              {
+                key: 'dream-asleep',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1853,6 +2042,7 @@ export default createPublicationMonsters({
             text: [
               'Pazrodine exhales a beam of moonlight in a 120-foot line that is 10 feet wide.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -1950,9 +2140,22 @@ export default createPublicationMonsters({
             text: [
               'The drone launches a tiny orb of magical force at a creature it can see within 30 feet of itself. The creature must succeed on a ',
               { dc: 'con', printed: 15 },
-              " Constitution saving throw or be encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction. A successful casting of the Dispel Magic spell on the orb (",
+              ' Constitution saving throw or be ',
+              { effect: 'encased' },
+              '. A successful casting of the Dispel Magic spell on the orb (',
               { dc: 'con', printed: 15 },
               ') destroys it. The orb otherwise remains intact until the drone spends an action to end the effect or the drone is destroyed. A drone can have only one detention orb active at a time; if the drone creates a detention orb when it already has one active, the first orb disappears, freeing the creature inside.',
+            ],
+            effects: [
+              {
+                key: 'encased',
+                name: 'Encased in the orb',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 15 },
+                text: [
+                  "encased in the orb, which expands to a size just large enough to contain the creature. While encased, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Nothing can pass through the orb, nor can any creature teleport or use planar travel to enter or exit the orb. As a bonus action, the drone can move the orb and its contents up to 30 feet in any direction.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2037,13 +2240,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '5d10', type: rules.force }],
-                also: ['Has the ', rules.restrained, ' condition for 1 minute as cards bind it.'],
+
+                also: ['Has the ', { effect: 'restrained' }, ' as cards bind it.'],
               },
             },
             text: [
-              'The riffler magically unleashes a spray of spectral cards in a 30-foot cone. On a successful save, a creature takes half as much damage only. A ',
-              rules.restrained,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              'The riffler magically unleashes a spray of spectral cards in a 30-foot cone. On a successful save, a creature takes half as much damage only. ',
+            ],
+            effects: [
+              {
+                key: 'restrained',
+                name: 'Restrained',
+                lands: { on: 'failed-save' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -2196,6 +2408,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'cha' },
               ' Charisma saving throw. On a failed save, a random spell effect on the target ends. If the target has no spell effects on it, one random magic item in its possession has its magical properties suppressed for 1 minute. If the item is a potion or scroll, it becomes nonmagical instead.',
             ],
+            effects: [],
           },
           {
             key: 'talon',
@@ -2209,12 +2422,17 @@ export default createPublicationMonsters({
               reach: 10,
               damage: [{ dice: '2d8', type: rules.slashing, addModifier: true }],
             },
-            text: [
-              'The target has the ',
-              rules.grappled,
-              ' condition (escape DC 17). Until the grapple ends, the target has the ',
-              rules.restrained,
-              " condition, and the talon beast can't use Talon on another target.",
+            text: ['The target has the ', { effect: 'talon-grab' }, '.'],
+            effects: [
+              {
+                key: 'talon-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["and the talon beast can't use Talon on another target."],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
         ],
@@ -2291,7 +2509,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature, it must succeed on a ',
               { dc: 'dex', save: 'cha' },
-              ' Charisma saving throw, or on its next turn, it can either move or take an action, but not both.',
+              ' Charisma saving throw, or ',
+              { effect: 'one-or-other' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'one-or-other',
+                name: 'Move or act',
+                lands: { on: 'save', save: 'cha', dc: 'dex' },
+                text: ['on its next turn, it can either move or take an action, but not both'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -2303,8 +2532,17 @@ export default createPublicationMonsters({
               'The veiled presence reveals a glimpse of its otherworldly nature to a creature it can see within 30 feet of itself. The target must succeed on a ',
               { dc: 'dex', save: 'wis' },
               ' Wisdom saving throw or have the ',
-              rules.paralyzed,
-              ' condition until the end of its next turn, after which the target is immune to this Revelation for 24 hours.',
+              { effect: 'paralyzed' },
+              ', after which the target is immune to this Revelation for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -2357,6 +2595,7 @@ export default createPublicationMonsters({
               text: [
                 'The veiled presence magically emanates dazzling light in a 10-foot-radius sphere centered on itself until the end of its next turn, during which time attack rolls against it have disadvantage and it has advantage on attack rolls. The sphere moves with the veiled presence. When another creature starts its turn in the light or enters the light for the first time on its turn,',
               ],
+              effects: [],
             },
           ],
         },
@@ -2413,7 +2652,20 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be cursed until targeted by the Remove Curse spell or a similar effect. If the cursed target drops to 0 hit points, it becomes a werevulture under the DM's control and regains 10 hit points.",
+              ' Constitution saving throw or be ',
+              { effect: 'werevulture-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'werevulture-curse',
+                name: 'Werevulture curse',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "cursed until targeted by the Remove Curse spell or a similar effect. If the cursed target drops to 0 hit points, it becomes a werevulture under the DM's control and regains 10 hit points.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

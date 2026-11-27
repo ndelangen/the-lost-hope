@@ -171,10 +171,19 @@ export default createPublicationMonsters({
               'If the absorber moves at least 20 feet straight toward a creature and then hits its claws attack on the same turn, that target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. If the target is ',
               rules.prone,
               ', the absorber can make one bite attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -244,6 +253,7 @@ export default createPublicationMonsters({
               { dc: 'dex' },
               ' Dexterity saving throw. Unless the save succeeds, the caster takes the other half of the damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -285,6 +295,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.antimagic_field_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'horrid-gnashing',
@@ -300,6 +311,7 @@ export default createPublicationMonsters({
               rules.frightened,
               " until the end of the turn and uses its movement to get as far as possible from the nullifier. 7-8. The creature doesn't move, and it uses its action to make one melee attack against a random creature (other than itself) if one is within reach. It otherwise does nothing Magic Resistance. The nullifier has advantage on saving throws against spells and other magical effects.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -341,8 +353,18 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              " (escape DC 16) if it's a creature. The nullifier has two claws, each of which can grapple one creature.",
+              { effect: 'claws-grappled' },
+              " if it's a creature. The nullifier has two claws, each of which can grapple one creature.",
+            ],
+            effects: [
+              {
+                key: 'claws-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -519,15 +541,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.cold }],
-                also: [
-                  'Then be ',
-                  rules.paralyzed,
-                  ' for 1 minute, unless it is immune to cold damage.',
-                ],
+
+                also: [' Then be ', { effect: 'gaze-paralyzed' }, '.'],
               },
             },
             text: [
-              "The yeti targets one creature it can see within 30 feet of it. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.",
+              'The yeti targets one creature it can see within 30 feet of it. ',
+              "If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.",
+            ],
+            effects: [
+              {
+                key: 'gaze-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.paralyzed],
+                text: ['unless it is immune to cold damage'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -653,7 +684,19 @@ export default createPublicationMonsters({
             text: [
               'As a bonus action, the blood hunter targets one creature it can see within 30 feet of it. The target must succeed on a ',
               { dc: 'wis', save: 'str' },
-              ' Strength saving throw or have its speed reduced to 0 and be unable to take reactions. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Strength saving throw or ',
+              { effect: 'binding-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'binding-curse',
+                name: 'Blood curse of binding',
+                lands: { on: 'save', save: 'str', dc: 'wis' },
+                text: ['have its speed reduced to 0 and be unable to take reactions'],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -757,6 +800,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dark-one-s-blessing',
@@ -834,6 +878,7 @@ export default createPublicationMonsters({
                 { dc: 'cha' },
                 "). The sphere lasts as long as Bol'bara maintains concentration, up to 1 minute (as if concentrating on a spell).",
               ],
+              effects: [],
             },
           ],
         },
@@ -947,6 +992,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -973,8 +1019,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " until the start of the crawler's next turn.",
+              { effect: 'crawler-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crawler-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1063,7 +1118,20 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain by this attack rises 24 hours later as a zombie under Ferol's control, unless the humanoid is restored to life or its body is destroyed. Ferol can have no more than twelve zombies under its control at one time.",
+              ' Constitution saving throw or ',
+              { effect: 'life-drain-max' },
+              ". A humanoid slain by this attack rises 24 hours later as a zombie under Ferol's control, unless the humanoid is restored to life or its body is destroyed. Ferol can have no more than twelve zombies under its control at one time.",
+            ],
+            effects: [
+              {
+                key: 'life-drain-max',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -1124,6 +1192,7 @@ export default createPublicationMonsters({
               { dc: 'con' },
               " Constitution saving throw. Unless the save succeeds, the creature can't make more than one attack, or take a bonus action on that turn.",
             ],
+            effects: [],
           },
           {
             key: 'undead-fortitude',
@@ -1179,10 +1248,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '10d6', type: rules.cold }],
-                also: ['Be ', rules.paralyzed, ' until the end of its next turn.'],
+
+                also: [{ effect: 'stare-paralyzed' }],
               },
             },
             text: ['The zombie targets one creature it can see within 60 feet of it.'],
+            effects: [
+              {
+                key: 'stare-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'failed-save' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },
@@ -1277,7 +1356,16 @@ export default createPublicationMonsters({
               range: [90, 90],
               damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
             },
-            text: ['The target is knocked ', rules.prone, '.'],
+            text: ['The target is knocked ', { effect: 'spear-prone' }, '.'],
+            effects: [
+              {
+                key: 'spear-prone',
+                name: 'Prone',
+                lands: { on: 'hit' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'shrapnel-blast',
@@ -1297,6 +1385,7 @@ export default createPublicationMonsters({
             text: ['The gearkeeper jettisons a spray of jagged metal in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -1410,14 +1499,16 @@ export default createPublicationMonsters({
                 { dice: '2d6', type: rules.necrotic },
               ],
             },
-            text: [
-              'The target is ',
-              rules.grappled,
-              ' (escape DC 17). While ',
-              rules.grappled,
-              ' in this way, the target is ',
-              rules.restrained,
-              '.',
+            text: ['The target is ', { effect: 'snatch-grappled' }, '.'],
+            effects: [
+              {
+                key: 'snatch-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -1429,8 +1520,17 @@ export default createPublicationMonsters({
               'The gloomstalker emits a terrible shriek. Each enemy within 60 feet of the gloomstalker that can hear it must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              " until the end of the enemy's next turn.",
+              { effect: 'shriek-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'shriek-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1472,6 +1572,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1496,8 +1597,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bite-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1557,12 +1667,18 @@ export default createPublicationMonsters({
               '. Any creature under the tortoise when it falls ',
               rules.prone,
               ' is ',
-              rules.grappled,
-              ' (escape DC 18). Until the grapple ends, the creature is ',
-              rules.prone,
-              ' and ',
-              rules.restrained,
+              { effect: 'tortoise-crushed' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tortoise-crushed',
+                name: 'Grappled under the tortoise',
+                lands: { on: 'use' },
+                conditions: [rules.grappled, rules.prone, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -1592,6 +1708,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
         ],
       },
@@ -1883,6 +2000,7 @@ export default createPublicationMonsters({
             text: [
               "The kobold explodes 3 rounds after it dies, or immediately if it was killed by a critical hit. The explosion destroys the kobold's body, leaving its equipment behind.",
             ],
+            effects: [],
           },
           {
             key: 'pack-tactics',
@@ -1894,6 +2012,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -2263,6 +2382,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.revivify_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -2328,6 +2448,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ', hunger of Hadar',
             ],
+            effects: [],
           },
           {
             key: 'blood-frenzy',
@@ -2396,8 +2517,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or begin choking. The choking creature is ',
-              rules.incapacitated,
-              ' until the end of its next turn, when the effect ends on it.',
+              { effect: 'fathoms-choking' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'fathoms-choking',
+                name: 'Choking',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -2607,6 +2737,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.thunderwave_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2665,6 +2796,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or drop to 0 hit points.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -2681,6 +2813,7 @@ export default createPublicationMonsters({
                 rules.restrained,
                 '. It reverts to its true form at the end of this movement.',
               ],
+              effects: [],
             },
             {
               key: 'fearsome-apparition',
@@ -2691,8 +2824,20 @@ export default createPublicationMonsters({
                 'The sea fury conjures an apparition of one of its dead sisters, which appears in an unoccupied space the sea fury can see within 30 feet of it. Enemies of the sea fury that can see the apparition must succeed on a ',
                 { dc: 'cha', save: 'wis' },
                 ' Wisdom saving throw or be ',
-                rules.frightened,
-                " of it until it vanishes at the end of the sea fury's next turn.",
+                { effect: 'apparition-frightened' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'apparition-frightened',
+                  name: 'Frightened of the apparition',
+                  lands: { on: 'save', save: 'wis', dc: 'cha' },
+                  conditions: [rules.frightened],
+                  lasts: {
+                    kind: 'until',
+                    text: ["it vanishes at the end of the sea fury's next turn"],
+                  },
+                },
               ],
             },
             {
@@ -2874,6 +3019,7 @@ export default createPublicationMonsters({
               refs.spells.conjure_animals_srd_5_1,
               ' (reptiles only)',
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -2905,10 +3051,19 @@ export default createPublicationMonsters({
               'Or ',
               { roll: '1d10', mod: 'str' },
               " piercing damage in crocodile form. If Skr'a S'orsk is in crocodile form and the target is a Large or smaller creature, the target is ",
-              rules.grappled,
-              ' (escape DC 12). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and Skr'a S'orsk can't bite another target. If Skr'a S'orsk reverts to its true form, the grapple ends.",
+              { effect: 'croc-grappled' },
+              ". If Skr'a S'orsk reverts to its true form, the grapple ends.",
+            ],
+            effects: [
+              {
+                key: 'croc-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["Skr'a S'orsk can't bite another target"],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -2971,10 +3126,25 @@ export default createPublicationMonsters({
               ' Constitution saving throw if it hits the basilisk with a weapon attack while within 5 feet of it or if it starts its turn ',
               rules.grappled,
               ' by the basilisk. Unless the save succeeds, the creature magically begins to turn to stone and is ',
-              rules.restrained,
-              ', and it must repeat the saving throw at the end of its next turn. On a successful save, the effect ends. On a failure, the creature is ',
-              rules.petrified,
+              { effect: 'secretions-restrained' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'secretions-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'secretions-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                },
+              },
             ],
           },
           {
@@ -3014,8 +3184,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 12).',
+              { effect: 'tail-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'tail-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
         ],
@@ -3052,8 +3232,17 @@ export default createPublicationMonsters({
               ' bludgeoning damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 20 feet away from the udaak and knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3082,12 +3271,17 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d12', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'The target is ',
-              rules.grappled,
-              ' (escape DC 21). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and the udaak can't bite another target.",
+            text: ['The target is ', { effect: 'bite-grappled' }, '.'],
+            effects: [
+              {
+                key: 'bite-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["the udaak can't bite another target"],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 21 } },
+              },
             ],
           },
           {
@@ -3110,12 +3304,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               'The udaak makes one bite attack against a Large or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. A swallowed creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the udaak, and it takes ',
-              { roll: '6d6' },
-              " acid damage at the start of each of the udaak's turns. If the udaak takes 30 damage or more on a single turn from a creature inside it, the udaak must succeed on a ",
+              { effect: 'udaak-swallowed' },
+              '. If the udaak takes 30 damage or more on a single turn from a creature inside it, the udaak must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -3124,6 +3314,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 20 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'udaak-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'it has 3 against attacks and other effects outside the udaak, and it takes ',
+                  { roll: '6d6' },
+                  " acid damage at the start of each of the udaak's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -3326,6 +3530,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put her to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'keen-hearing-and-sight',

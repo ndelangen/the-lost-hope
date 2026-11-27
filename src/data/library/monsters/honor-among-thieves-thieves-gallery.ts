@@ -56,6 +56,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -86,7 +87,16 @@ export default createPublicationMonsters({
                 { dice: '7d6', type: rules.poison },
               ],
             },
-            text: ['The target is ', rules.poisoned, ' until the end of its next turn.'],
+            text: ['The target is ', { effect: 'dagger-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'dagger-poisoned',
+                name: 'Poisoned by the dagger',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
           {
             key: 'heavy-crossbow',

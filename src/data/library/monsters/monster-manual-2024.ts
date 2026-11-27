@@ -691,6 +691,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.vitriolic_sphere,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -756,6 +757,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -773,13 +775,21 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '4d10', type: rules.poison }],
-                  also: [
-                    'The target has Disadvantage on saving throws to maintain Concentration until the end of its next turn.',
-                  ],
+
+                  also: [{ effect: 'insects-concentration' }],
                 },
               },
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn",
+              ],
+              effects: [
+                {
+                  key: 'insects-concentration',
+                  name: 'Cloud of insects',
+                  lands: { on: 'failed-save' },
+                  text: ['The target has Disadvantage on saving throws to maintain Concentration.'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -850,6 +860,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sending,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -908,6 +919,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -997,6 +1009,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.control_weather,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1057,6 +1070,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -1067,10 +1081,29 @@ export default createPublicationMonsters({
               'Constitution Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 60-foot Cone. Failure: The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn, at which point it repeats the save. Failure by 2 or More: The target has the ',
-              rules.unconscious,
-              ' condition for 10 minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.',
+              { effect: 'sleep-incapacitated' },
+              ', at which point it repeats the save. Failure by 2 or More: The target has the ',
+              { effect: 'sleep-unconscious' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sleep-incapacitated',
+                name: 'Incapacitated by sleep breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'sleep-unconscious',
+                name: 'Unconscious by sleep breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                text: [
+                  'This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.',
+                ],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -1111,11 +1144,21 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '6d8', type: rules.fire }],
-                  also: ["The target's Speed is halved until the end of its next turn."],
+
+                  also: [{ effect: 'sands-slowed' }],
                 },
               },
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn",
+              ],
+              effects: [
+                {
+                  key: 'sands-slowed',
+                  name: 'Scorching sands',
+                  lands: { on: 'failed-save' },
+                  text: ["The target's Speed is halved."],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
           ],
@@ -1169,6 +1212,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -1236,6 +1280,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -1246,8 +1291,17 @@ export default createPublicationMonsters({
               'Strength Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 30-foot Cone. Failure: The target is pushed up to 60 feet straight away from the dragon and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'repulsion-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'repulsion-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -1288,14 +1342,20 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 20 }, range: 90 },
                 onFail: {
                   damage: [{ dice: '3d6', type: rules.thunder }],
-                  also: [
-                    'The target has the ',
-                    rules.deafened,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: [{ effect: 'thunderclap-deafened' }],
                 },
                 printedDc: 17,
               },
+              effects: [
+                {
+                  key: 'thunderclap-deafened',
+                  name: 'Deafened by thunderclap',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.deafened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
+              ],
             },
           ],
         },
@@ -1348,6 +1408,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -1415,6 +1476,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -1424,9 +1486,23 @@ export default createPublicationMonsters({
             text: [
               'Strength Saving Throw: ',
               { dc: 'cha' },
-              ", each creature that isn't currently affected by this breath in a 60-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts ",
-              { roll: '1d6' },
-              ' from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              ", each creature that isn't currently affected by this breath in a 60-foot Cone. Failure: The target has ",
+              { effect: 'weakening-breath' },
+              '. After 1 minute, it succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'weakening-breath',
+                name: 'Weakened by breath',
+                lands: { on: 'save', save: 'str', dc: 'cha' },
+                text: [
+                  'The target has Disadvantage on Strength-based D20 Tests and subtracts ',
+                  { roll: '1d6' },
+                  ' from its damage rolls.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -1445,15 +1521,25 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '3d6', type: rules.force }],
+
                   also: [
-                    'The target has the ',
-                    rules.incapacitated,
-                    " condition and is transported to a harmless demiplane until the start of the dragon's next turn, at which point it reappears in an unoccupied space of the dragon's choice within 120 feet of the dragon.",
+                    'The target ',
+                    { effect: 'banished' },
+                    " and is transported to a harmless demiplane until the start of the dragon's next turn, at which point it reappears in an unoccupied space of the dragon's choice within 120 feet of the dragon.",
                   ],
                 },
               },
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn",
+              ],
+              effects: [
+                {
+                  key: 'banished',
+                  name: 'Banished',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.incapacitated],
+                  lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+                },
               ],
             },
             {
@@ -1523,6 +1609,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.fireball,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1581,6 +1668,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1670,6 +1758,7 @@ export default createPublicationMonsters({
               ' (level 5 version), ',
               refs.spells.zone_of_truth,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -1730,6 +1819,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -1740,10 +1830,29 @@ export default createPublicationMonsters({
               'Constitution Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 60-foot Cone. Failure by 1 or More: The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn, when it repeats the save. Failure by 2 or More: The target has the ',
-              rules.paralyzed,
-              ' condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              { effect: 'paralyzing-incapacitated' },
+              '. Failure by 2 or More: The target has the ',
+              { effect: 'paralyzing-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-incapacitated',
+                name: 'Incapacitated by paralyzing breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
+              {
+                key: 'paralyzing-paralyzed',
+                name: 'Paralyzed by paralyzing breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                text: ['After 1 minute, it succeeds automatically.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -1781,6 +1890,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn.",
               ],
+              effects: [],
             },
             {
               key: 'pounce',
@@ -2060,6 +2170,7 @@ export default createPublicationMonsters({
               refs.spells.vitriolic_sphere,
               ' (level 5 version)',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2125,6 +2236,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2142,13 +2254,21 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '6d10', type: rules.poison }],
-                  also: [
-                    'The target has Disadvantage on saving throws to maintain Concentration until the end of its next turn.',
-                  ],
+
+                  also: [{ effect: 'insects-concentration' }],
                 },
               },
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn",
+              ],
+              effects: [
+                {
+                  key: 'insects-concentration',
+                  name: 'Cloud of insects',
+                  lands: { on: 'failed-save' },
+                  text: ['The target has Disadvantage on saving throws to maintain Concentration.'],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -2228,6 +2348,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2295,6 +2416,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'repulsion-breath',
@@ -2305,8 +2427,17 @@ export default createPublicationMonsters({
               'Strength Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 30-foot Cone. Failure: The target is pushed up to 60 feet straight away from the dragon and has the ',
-              rules.prone,
-              ' condition.',
+              { effect: 'repulsion-prone' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'repulsion-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -2347,13 +2478,19 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.sphere, size: 20 }, range: 120 },
                 onFail: {
                   damage: [{ dice: '3d8', type: rules.thunder }],
-                  also: [
-                    'The target has the ',
-                    rules.deafened,
-                    ' condition until the end of its next turn.',
-                  ],
+
+                  also: [{ effect: 'thunderclap-deafened' }],
                 },
               },
+              effects: [
+                {
+                  key: 'thunderclap-deafened',
+                  name: 'Deafened by thunderclap',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.deafened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
+              ],
             },
           ],
         },
@@ -2403,6 +2540,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.project_image,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2463,6 +2601,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'slowing-breath',
@@ -2472,7 +2611,19 @@ export default createPublicationMonsters({
             text: [
               'Constitution Saving Throw: ',
               { dc: 'con' },
-              ", each creature in a 90-foot Cone. Failure: The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.",
+              ', each creature in a 90-foot Cone. Failure: ',
+              { effect: 'slowing-breath' },
+            ],
+            effects: [
+              {
+                key: 'slowing-breath',
+                name: 'Slowed by breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -2491,13 +2642,23 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '9d6', type: rules.psychic }],
-                  also: [
-                    'Until the end of its next turn, the target rolls 1d8 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test.',
-                  ],
+
+                  also: [{ effect: 'giggling-magic' }],
                 },
               },
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn",
+              ],
+              effects: [
+                {
+                  key: 'giggling-magic',
+                  name: 'Giggling magic',
+                  lands: { on: 'failed-save' },
+                  text: [
+                    'The target rolls 1d8 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test.',
+                  ],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                },
               ],
             },
             {
@@ -2575,6 +2736,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2642,6 +2804,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'weakening-breath',
@@ -2651,9 +2814,23 @@ export default createPublicationMonsters({
             text: [
               'Strength Saving Throw: ',
               { dc: 'cha' },
-              ", each creature that isn't currently affected by this breath in a 90-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts ",
-              { roll: '1d10' },
-              ' from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              ", each creature that isn't currently affected by this breath in a 90-foot Cone. Failure: The target has ",
+              { effect: 'weakening-breath' },
+              '. After 1 minute, it succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'weakening-breath',
+                name: 'Weakened by breath',
+                lands: { on: 'save', save: 'str', dc: 'cha' },
+                text: [
+                  'The target has Disadvantage on Strength-based D20 Tests and subtracts ',
+                  { roll: '1d10' },
+                  ' from its damage rolls.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -2672,15 +2849,25 @@ export default createPublicationMonsters({
                 target: { creatures: 1, range: 120, which: 'the dragon can see' },
                 onFail: {
                   damage: [{ dice: '7d6', type: rules.force }],
+
                   also: [
-                    'The target has the ',
-                    rules.incapacitated,
-                    " condition and is transported to a harmless demiplane until the start of the dragon's next turn, at which point it reappears in an unoccupied space of the dragon's choice within 120 feet of the dragon.",
+                    'The target ',
+                    { effect: 'banished' },
+                    " and is transported to a harmless demiplane until the start of the dragon's next turn, at which point it reappears in an unoccupied space of the dragon's choice within 120 feet of the dragon.",
                   ],
                 },
               },
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn",
+              ],
+              effects: [
+                {
+                  key: 'banished',
+                  name: 'Banished',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.incapacitated],
+                  lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+                },
               ],
             },
             {
@@ -2752,6 +2939,7 @@ export default createPublicationMonsters({
               ' (level 6 version), ',
               refs.spells.scrying,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2810,6 +2998,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -2903,6 +3092,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.zone_of_truth,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -2963,6 +3153,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'paralyzing-breath',
@@ -2973,10 +3164,28 @@ export default createPublicationMonsters({
               'Constitution Saving Throw: ',
               { dc: 'con' },
               ', each creature in a 90-foot Cone. Failure by 1 or More: The target has the ',
-              rules.incapacitated,
-              ' condition until the end of its next turn, when it repeats the save. Failure by 2 or More: The target has the ',
-              rules.paralyzed,
-              ' condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.',
+              { effect: 'paralyzing-incapacitated' },
+              ', when it repeats the save. Failure by 2 or More: The target has the ',
+              { effect: 'paralyzing-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-incapacitated',
+                name: 'Incapacitated by paralyzing breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+              {
+                key: 'paralyzing-paralyzed',
+                name: 'Paralyzed by paralyzing breath',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                text: ['After 1 minute, it succeeds automatically.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -3014,6 +3223,7 @@ export default createPublicationMonsters({
               text: [
                 "Failure or Success: The dragon can't take this action again until the start of its next turn.",
               ],
+              effects: [],
             },
             {
               key: 'pounce',
@@ -5575,6 +5785,7 @@ export default createPublicationMonsters({
               ' (included in AC), ',
               refs.spells.major_image,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -5612,16 +5823,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 10 }, range: 120 },
               onFail: {
                 damage: [{ dice: '3d6', type: rules.radiant, addModifier: true }],
-                also: [
-                  'The target has the ',
-                  rules.blinded,
-                  " condition until the start of the bandit's next turn.",
-                ],
+
+                also: [{ effect: 'blinding-flash' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [
+              {
+                key: 'blinding-flash',
+                name: 'Blinded by flash',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -7892,8 +8109,8 @@ export default createPublicationMonsters({
               ' Piercing damage plus ',
               { roll: '3d8' },
               " Fire damage, and the target is pulled into the gorgon's space and has the ",
-              rules.grappled,
-              ' condition (escape DC 14); if the gorgon already has a creature ',
+              { effect: 'smelting-grapple' },
+              '; if the gorgon already has a creature ',
               rules.grappled,
               ', the target has the ',
               rules.prone,
@@ -7902,6 +8119,16 @@ export default createPublicationMonsters({
               ' condition. When the gorgon moves, the ',
               rules.grappled,
               ' target moves with it, costing no extra movement.',
+            ],
+            effects: [
+              {
+                key: 'smelting-grapple',
+                name: 'Grappled by smelting charge',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -29537,6 +29764,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.phantom_steed,
             ],
+            effects: [],
           },
           {
             key: 'aura-of-bravery',
@@ -29550,6 +29778,7 @@ export default createPublicationMonsters({
               rules.frightened,
               ' conditions while there.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

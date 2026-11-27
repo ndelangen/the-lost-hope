@@ -51,6 +51,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'elemental-demise',
@@ -160,6 +161,7 @@ export default createPublicationMonsters({
               refs.spells.conjure_elemental_srd_5_1,
               '* *Conjuration spell of 1st level or higher',
             ],
+            effects: [],
           },
           {
             key: 'benign-transportation-recharges-after-malivar-casts-a-conjuration-spell-of-1st-level-or-higher',

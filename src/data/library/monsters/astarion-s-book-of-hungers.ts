@@ -81,6 +81,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d6', type: rules.fire }],
               },
             },
+            effects: [],
           },
         ],
       },
@@ -185,12 +186,21 @@ export default createPublicationMonsters({
               'Charisma Saving Throw: ',
               { dc: 'cha' },
               ', one creature within 30 feet of the devil. Failure: The target has the ',
-              rules.charmed,
-              ' condition. While it is ',
-              rules.charmed,
-              ', it has the ',
-              rules.stunned,
-              " condition, except the target can speak. If the target agrees to the devil's contract, the effect ends. Otherwise, the target repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+              { effect: 'contract' },
+              '. After 1 minute, it succeeds automatically.',
+            ],
+            effects: [
+              {
+                key: 'contract',
+                name: 'Contract (repeat save whenever damaged)',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.charmed, rules.stunned],
+                text: [
+                  "except the target can speak. If the target agrees to the devil's contract, the effect ends.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['damaged', 'end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -236,6 +246,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.modify_memory,
             ],
+            effects: [],
           },
           {
             key: 'diabolical-restoration',
@@ -287,8 +298,17 @@ export default createPublicationMonsters({
               'Wisdom Saving Throw: ',
               { dc: 'int' },
               ', each creature in a 20-foot Emanation originating from the devil. Failure: The target has the ',
-              rules.stunned,
-              " condition until the end of the devil's next turn.",
+              { effect: 'pain-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pain-stun',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -306,6 +326,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
         ],
       },
@@ -371,6 +392,7 @@ export default createPublicationMonsters({
               '; 2/day: ',
               refs.spells.scrying,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -395,6 +417,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there.',
             ],
+            effects: [],
           },
           {
             key: 'vampire-weakness',
@@ -424,6 +447,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' condition until the weapon is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight',
@@ -458,8 +482,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 17) from one of two claws.',
+              { effect: 'grabbed' },
+              ' from one of two claws.',
+            ],
+            effects: [
+              {
+                key: 'grabbed',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 17 } },
+              },
             ],
           },
           {
@@ -482,12 +516,26 @@ export default createPublicationMonsters({
                   { dice: '1d4', type: rules.piercing, addModifier: true },
                   { dice: '3d10', type: rules.necrotic },
                 ],
+
                 also: [
-                  "The creature loses its highest-level available spell slot (if any). The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control.",
+                  'The creature loses its highest-level available spell slot (if any). ',
+                  { effect: 'drained' },
+                  " A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control.",
                 ],
               },
               printedDc: 18,
             },
+            effects: [
+              {
+                key: 'drained',
+                name: 'Hit Point maximum reduced',
+                lands: { on: 'failed-save' },
+                text: [
+                  "The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'shape-shift',
@@ -522,16 +570,22 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 20 } },
                 onFail: {
                   damage: [{ dice: '2d8', type: rules.psychic }],
-                  also: [
-                    'The target has the ',
-                    rules.frightened,
-                    ' condition until the start of its next turn.',
-                  ],
+
+                  also: [{ effect: 'majesty-fear' }],
                 },
                 onSuccess: 'half',
               },
               text: [
                 "Failure or Success: The vampire can't take this action again until the start of its next turn.",
+              ],
+              effects: [
+                {
+                  key: 'majesty-fear',
+                  name: 'Frightened',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+                },
               ],
             },
             {

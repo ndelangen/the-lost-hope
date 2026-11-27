@@ -55,6 +55,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.thaumaturgy,
             ],
+            effects: [],
           },
           {
             key: 'immunities-and-saves',
@@ -118,16 +119,22 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 20 } },
               onFail: {
                 damage: [{ dice: '2d6', type: rules.psychic }],
-                also: [
-                  'The target has the ',
-                  rules.frightened,
-                  ' condition until the end of its next turn.',
-                ],
+
+                also: [{ effect: 'wail-frightened' }],
               },
               onSuccess: 'half',
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [
+              {
+                key: 'wail-frightened',
+                name: 'Frightened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
+            ],
           },
         ],
       },

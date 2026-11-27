@@ -108,6 +108,7 @@ export default createPublicationMonsters({
             text: ['The dragon head exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'narrow-dodge',
@@ -491,8 +492,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature it is ',
-              rules.grappled,
-              " (escape DC 11). Until this grapple ends, the toad can't bite another target.",
+              { effect: 'toad-grab' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'toad-grab',
+                name: 'Toad grab',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                text: ["The toad can't bite another target."],
+                ends: { escape: { dc: 'str', printed: 11 } },
+              },
             ],
           },
         ],
@@ -534,6 +546,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'spear',

@@ -43,6 +43,7 @@ export default createPublicationMonsters({
               ' (8d6 damage), ',
               refs.spells.revivify_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -104,6 +105,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Don-Jon has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'not-dead-yet-recharges-after-a-long-rest',
@@ -308,6 +310,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -353,6 +356,7 @@ export default createPublicationMonsters({
               ' (see "Actions" below), ',
               refs.spells.shield_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'gnome-cunning',

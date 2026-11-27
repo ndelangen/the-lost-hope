@@ -141,6 +141,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               " Strength saving throw or be pushed up to 20 feet in a horizontal direction of the anhkolox's choice.",
             ],
+            effects: [],
           },
           {
             key: 'entrapping-rend',
@@ -158,10 +159,19 @@ export default createPublicationMonsters({
               'If the target is a Large or smaller creature, the target must succeed on a ',
               { dc: 'str' },
               " Strength saving throw or be trapped in the anhkolox's rib cage and ",
-              rules.grappled,
-              ' (escape DC 18). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and the anhkolox can't use Entrapping Rend on another target.",
+              { effect: 'rend-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'rend-grappled',
+                name: 'Grappled',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["the anhkolox can't use Entrapping Rend on another target"],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
         ],
@@ -192,6 +202,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", it subtracts up to 100 feet from the fall when calculating the fall's damage.",
             ],
+            effects: [],
           },
           {
             key: 'death-throes',
@@ -202,12 +213,26 @@ export default createPublicationMonsters({
               'When the draconian is reduced to 0 hit points, its body turns to stone and releases a petrifying gas. Each creature within 5 feet of the draconian must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.restrained,
-              ' as it begins to turn to stone. The ',
-              rules.restrained,
-              ' creature must repeat the saving throw at the end of its next turn. On a success, the effect ends; otherwise the creature is ',
-              rules.petrified,
-              ' for 1 minute. After 1 minute, the body of the draconian crumbles to dust.',
+              { effect: 'throes-restrained' },
+              ' as it begins to turn to stone. ',
+              'After 1 minute, the body of the draconian crumbles to dust.',
+            ],
+            effects: [
+              {
+                key: 'throes-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'throes-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                },
+              },
             ],
           },
           {
@@ -349,6 +374,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Becklin has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -393,6 +419,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -479,6 +506,7 @@ export default createPublicationMonsters({
             text: ['Belephaion exhales lightning in a 60-foot line that is 5 feet wide.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'alter-shape',
@@ -526,6 +554,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.web_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'death-throes',
@@ -544,6 +573,7 @@ export default createPublicationMonsters({
             text: [
               'When the draconian is reduced to 0 hit points, its scales and flesh immediately shrivel away, and then its bones explode.',
             ],
+            effects: [],
           },
           {
             key: 'glide',
@@ -555,6 +585,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ", it subtracts up to 100 feet from the fall when calculating the fall's damage, and it can move up to 2 feet horizontally for every 1 foot it descends.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -642,6 +673,7 @@ export default createPublicationMonsters({
               { dc: 'cha' },
               ' Charisma saving throw or vanish and reappear in an unoccupied space within the keep.',
             ],
+            effects: [],
           },
           {
             key: 'incorporeal-movement',
@@ -697,14 +729,31 @@ export default createPublicationMonsters({
               'One Humanoid that Caradoc can see within 5 feet of himself must succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or be possessed by him; he then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. Caradoc now controls the body but doesn't deprive the target of awareness. Caradoc can't be targeted by any attack, spell, or other effect, except ones that turn Undead, and he retains his alignment, Intelligence, Wisdom, and Charisma, immunity to being ",
-              rules.charmed,
-              ' and ',
-              rules.frightened,
+              { effect: 'caradoc-possession' },
               ', and his ',
               { ability: 'divisive-whispers' },
-              " bonus action. He otherwise uses the possessed target's statistics but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, Caradoc ends it as a bonus action, or he is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, Caradoc reappears in an unoccupied space within 5 feet of the body. The target is immune to Caradoc's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              " bonus action. He otherwise uses the possessed target's statistics but doesn't gain access to the target's knowledge, class features, or proficiencies. ",
+              "When the possession ends, Caradoc reappears in an unoccupied space within 5 feet of the body. The target is immune to Caradoc's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+            ],
+            effects: [
+              {
+                key: 'caradoc-possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  "loses control of its body. Caradoc now controls the body but doesn't deprive the target of awareness. Caradoc can't be targeted by any attack, spell, or other effect, except ones that turn Undead, and he retains his alignment, Intelligence, Wisdom, and Charisma, immunity to being ",
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, Caradoc ends it as a bonus action, or he is turned or forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -719,6 +768,7 @@ export default createPublicationMonsters({
               { dc: 'dex', save: 'wis' },
               " Wisdom saving throw, or the target must immediately use its reaction to make a melee attack against another creature of Caradoc's choice (wasting its reaction if there are no other creatures within reach).",
             ],
+            effects: [],
           },
         ],
       },
@@ -871,6 +921,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -912,6 +963,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Darrett has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -956,6 +1008,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -1201,6 +1254,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Durstan has advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1245,6 +1299,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -1451,10 +1506,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 19). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and the dragon can't bite a different target.",
+              { effect: 'bite-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["the dragon can't bite a different target"],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
           },
           {
@@ -1490,6 +1554,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1589,6 +1654,7 @@ export default createPublicationMonsters({
             text: ['Ignia exhales fire in a 30-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1762,10 +1828,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 19). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and Karavarix can't bite a different target.",
+              { effect: 'bite-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["Karavarix can't bite a different target"],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
           },
           {
@@ -1801,6 +1876,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -1870,7 +1946,18 @@ export default createPublicationMonsters({
             text: [
               'The kender launches a barrage of insults at a creature it can see within 60 feet of itself. If the target can hear the kender, the target must succeed on a ',
               { dc: 'cha', save: 'wis' },
-              ' Wisdom saving throw or have disadvantage on attack rolls until the end of its next turn.',
+              ' Wisdom saving throw or ',
+              { effect: 'taunt-disadvantage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'taunt-disadvantage',
+                name: 'Taunted',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                text: ['have disadvantage on attack rolls'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -1963,12 +2050,19 @@ export default createPublicationMonsters({
               'Each non-undead creature within 60 feet of Leedara that can see her must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. If the save fails by 5 or more, the target also ages 1d4 × 10 years. A ',
-              rules.frightened,
-              ' target can repeat the saving throw at the end of each of its turns, ending the ',
-              rules.frightened,
-              " condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Leedara's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+              { effect: 'visage-frightened' },
+              '. If the save fails by 5 or more, the target also ages 1d4 × 10 years. ',
+              "If a target's saving throw is successful or the effect ends for it, the target is immune to Leedara's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+            ],
+            effects: [
+              {
+                key: 'visage-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1980,12 +2074,30 @@ export default createPublicationMonsters({
               'One humanoid that the ghost can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
               ' Charisma saving throw or be possessed by Leedara; Leedara then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. Leedara now controls the body but doesn't deprive the target of awareness. Leedara can't be targeted by any attack, spell, or other effect, except ones that turn undead, and she retains her alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              ". She otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, Leedara ends it as a bonus action, or Leedara is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, Leedara reappears in an unoccupied space within 5 feet of the body. The target is immune to Leedara's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              { effect: 'leedara-possession' },
+              '. ',
+              "When the possession ends, Leedara reappears in an unoccupied space within 5 feet of the body. The target is immune to Leedara's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+            ],
+            effects: [
+              {
+                key: 'leedara-possession',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  "loses control of its body. Leedara now controls the body but doesn't deprive the target of awareness. Leedara can't be targeted by any attack, spell, or other effect, except ones that turn undead, and she retains her alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  ". She otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, Leedara ends it as a bonus action, or Leedara is turned or forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -2072,10 +2184,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              ' (escape DC 15). Until this grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'claw-grappled' },
               '. The dragon has two claws, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'claw-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -2098,6 +2218,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2155,6 +2276,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -2195,6 +2317,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -2254,10 +2377,27 @@ export default createPublicationMonsters({
               'Lorry targets one humanoid it can see within 30 feet of it. If the target can see Lorry, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              ' by Lorry. The ',
-              rules.charmed,
-              " target regards Lorry as a trusted friend to be heeded and protected. Although the target isn't under Lorry's control, it takes Lorry's requests or actions in the most favorable way it can, and it is a willing target for Lorry's bite attack. Each time Lorry or Lorry's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Lorry is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'lorry-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lorry-charm',
+                name: 'Charmed by Lorry',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " target regards Lorry as a trusted friend to be heeded and protected. Although the target isn't under Lorry's control, it takes Lorry's requests or actions in the most favorable way it can, and it is a willing target for Lorry's bite attack. Each time Lorry or Lorry's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until Lorry is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -2368,8 +2508,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or fall ',
-              rules.prone,
+              { effect: 'lance-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'lance-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2392,6 +2541,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2501,10 +2651,19 @@ export default createPublicationMonsters({
               'When the draconian is reduced to 0 hit points by a creature that is Large or smaller, the draconian crumbles into dust that then forms a spectral, shrieking image of the creature that killed it. The image lasts for 1 minute. Each creature hostile to the draconian within 10 feet of the image must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' of the spectral image for 1 minute. A ',
-              rules.frightened,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'image-frightened' },
+              ' of the spectral image',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'image-frightened',
+                name: 'Frightened of the image',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2549,8 +2708,17 @@ export default createPublicationMonsters({
               'If the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'tail-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -2769,7 +2937,20 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain by this attack rises 24 hours later as a zombie under the soldier's control, unless the humanoid is restored to life or its body is destroyed. The soldier can have no more than twelve zombies under its control at one time.",
+              ' Constitution saving throw or ',
+              { effect: 'life-drain-max' },
+              ". A humanoid slain by this attack rises 24 hours later as a zombie under the soldier's control, unless the humanoid is restored to life or its body is destroyed. The soldier can have no more than twelve zombies under its control at one time.",
+            ],
+            effects: [
+              {
+                key: 'life-drain-max',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+              },
             ],
           },
           {
@@ -2923,6 +3104,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',

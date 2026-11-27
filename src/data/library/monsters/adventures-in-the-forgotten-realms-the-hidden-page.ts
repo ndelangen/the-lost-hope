@@ -107,8 +107,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              " of the horror until the end of the target's next turn.",
+              { effect: 'frightened-of-horror' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'frightened-of-horror',
+                name: 'Frightened of the horror',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -127,6 +136,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -153,8 +163,17 @@ export default createPublicationMonsters({
                 'The horror targets one enemy it can see within 30 feet of it. If the target can see and hear it, the target must succeed on a ',
                 { dc: 'cha', save: 'wis' },
                 ' Wisdom saving throw or be ',
-                rules.frightened,
-                " until the end of horror's next turn.",
+                { effect: 'frightened-foe' },
+                '.',
+              ],
+              effects: [
+                {
+                  key: 'frightened-foe',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'cha' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+                },
               ],
             },
           ],

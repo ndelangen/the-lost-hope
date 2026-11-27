@@ -52,6 +52,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Amanisha doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -137,6 +138,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -213,6 +215,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -289,6 +292,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -421,10 +425,20 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              " (escape DC 12). Until this grapple ends, the aurumvorax can't use its Claw attack on another target, and when it moves, it can drag the ",
+              { effect: 'claw-grab' },
+              ". Until this grapple ends, the aurumvorax can't use its Claw attack on another target, and when it moves, it can drag the ",
               rules.grappled,
               " creature with it, without the aurumvorax's speed being halved.",
+            ],
+            effects: [
+              {
+                key: 'claw-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
         ],
@@ -458,6 +472,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'tunneler',
@@ -518,10 +533,20 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Large or smaller creature, it is ',
-              rules.grappled,
-              " (escape DC 14). Until this grapple ends, the aurumvorax can't use its Claw attack on another target, and when it moves, it can drag the ",
+              { effect: 'claw-grab-leader' },
+              ". Until this grapple ends, the aurumvorax can't use its Claw attack on another target, and when it moves, it can drag the ",
               rules.grappled,
               " creature with it, without the aurumvorax's speed being halved.",
+            ],
+            effects: [
+              {
+                key: 'claw-grab-leader',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
         ],
@@ -597,6 +622,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -685,10 +711,19 @@ export default createPublicationMonsters({
               'If the skeleton moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a ',
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. If the target is ',
               rules.prone,
               ', the skeleton can make one bite attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -833,6 +868,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Diva Luma doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -917,6 +953,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -981,10 +1018,19 @@ export default createPublicationMonsters({
               'If Dukha moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a ',
               { dc: 'str', printed: 14 },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. If the target is ',
               rules.prone,
               ', Dukha can make one bite attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 14 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1011,7 +1057,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with weretiger lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'weretiger-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'weretiger-curse',
+                name: 'Weretiger lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Cursed with weretiger lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1085,6 +1142,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'scimitar',
@@ -1251,8 +1309,18 @@ export default createPublicationMonsters({
               'The haint targets one creature it can see within 60 feet of itself that is missing any hit points, sharing its own torment with this pained soul. The target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.incapacitated,
-              ". A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the haint's Shared Sorrow for the next 24 hours.",
+              { effect: 'sorrow-incapacitated' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to the haint's Shared Sorrow for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'sorrow-incapacitated',
+                name: 'Overcome by sorrow',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -1335,7 +1403,21 @@ export default createPublicationMonsters({
             text: [
               'The statue targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, ',
+              { effect: 'statue-slowed' },
+              '. These effects last for 1 minute.',
+            ],
+            effects: [
+              {
+                key: 'statue-slowed',
+                name: 'Slowed by the statue',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1399,6 +1481,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mass_suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -1450,12 +1533,18 @@ export default createPublicationMonsters({
               "Jijibisha's eyes sparkle with opalescent light as it targets one creature it can see within 30 feet of it. If the target can see Jijibisha, the target must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              " until the end of Jijibisha's next turn. The ",
-              rules.charmed,
-              ' target is ',
-              rules.stunned,
+              { effect: 'gaze-charmed' },
               ". If the target's saving throw is successful, the target is immune to Jijibisha's gaze for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'gaze-charmed',
+                name: 'Charmed and stunned by the gaze',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed, rules.stunned],
+                text: ['The ', rules.charmed, ' target is ', rules.stunned, '.'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -1525,6 +1614,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.barkskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'quarterstaff',
@@ -1638,6 +1728,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.spirit_guardians_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -2048,6 +2139,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Lu Zhong doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2122,6 +2214,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shillelagh_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2171,12 +2264,24 @@ export default createPublicationMonsters({
               'Lungtian targets one humanoid or beast that she can see within 30 feet of her. If the target can see Lungtian, it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be magically ',
-              rules.charmed,
-              '. The ',
-              rules.charmed,
-              " creature regards Lungtian as a trusted friend to be heeded and protected. Although the target isn't under Lungtian's control, it takes Lungtian's requests or actions in the most favorable way it can. Each time Lungtian or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Lungtian dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to Lungtian's Fey Charm for the next 24 hours. Lungtian can have no more than one humanoid and up to three beasts ",
+              { effect: 'fey-charmed' },
+              ". Each time Lungtian or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Lungtian dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to Lungtian's Fey Charm for the next 24 hours. Lungtian can have no more than one humanoid and up to three beasts ",
               rules.charmed,
               ' at a time.',
+            ],
+            effects: [
+              {
+                key: 'fey-charmed',
+                name: 'Charmed by Lungtian',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'The ',
+                  rules.charmed,
+                  " creature regards Lungtian as a trusted friend to be heeded and protected. Although the target isn't under Lungtian's control, it takes Lungtian's requests or actions in the most favorable way it can.",
+                ],
+                lasts: { kind: 'time', amount: '24', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -2335,6 +2440,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'elemental-demise',
@@ -2527,6 +2633,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -2677,6 +2784,7 @@ export default createPublicationMonsters({
               ' (as an action), ',
               refs.spells.dispel_evil_and_good_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -2729,13 +2837,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '5d10', type: rules.psychic }],
-                also: [
-                  "Have disadvantage on attack rolls until the start of the pari's next turn.",
-                ],
+
+                also: [{ effect: 'futures-disadvantage' }],
               },
             },
             text: [
               'The pari attempts to flood the mind of one creature it can see within 60 feet of itself with visions of the future.',
+            ],
+            effects: [
+              {
+                key: 'futures-disadvantage',
+                name: 'Disoriented by futures',
+                lands: { on: 'failed-save' },
+                text: ['Have disadvantage on attack rolls.'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
         ],
@@ -2893,6 +3009,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.greater_restoration_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -2970,9 +3087,10 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.line, size: 30, width: 5 } },
                 onFail: {
                   damage: [{ dice: '2d10', type: rules.bludgeoning }],
+
                   also: [
                     'Is knocked ',
-                    rules.prone,
+                    { effect: 'deluge-prone' },
                     ". On a successful save, a creature takes half as much damage and isn't knocked ",
                     rules.prone,
                     '.',
@@ -2982,6 +3100,15 @@ export default createPublicationMonsters({
               },
               text: [
                 'The riverine unleashes a torrent of river water in a 30-foot line that is 5 feet wide.',
+              ],
+              effects: [
+                {
+                  key: 'deluge-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -3273,8 +3400,18 @@ export default createPublicationMonsters({
               "Each creature of Sholeh's choice that is within 120 feet of Sholeh and aware of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Sholeh's Frightful Presence for the next 24 hours.",
+              { effect: 'sholeh-frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to Sholeh's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'sholeh-frightened',
+                name: 'Frightened by Sholeh',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -3297,6 +3434,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'sleep-breath',
@@ -3307,8 +3445,17 @@ export default createPublicationMonsters({
               'Sholeh exhales sleep gas in a 90-foot cone. Each creature in that area must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or fall ',
-              rules.unconscious,
-              ' for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+              { effect: 'sleep-unconscious' },
+              '. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+            ],
+            effects: [
+              {
+                key: 'sleep-unconscious',
+                name: 'Put to sleep',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
           },
           {
@@ -3350,10 +3497,20 @@ export default createPublicationMonsters({
                 target: { area: { shape: rules.emanation, size: 15 } },
                 onFail: {
                   damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
-                  also: ['Be knocked ', rules.prone, '.'],
+
+                  also: ['Be knocked ', { effect: 'wing-prone' }, '.'],
                 },
               },
               text: ['Sholeh beats its wings. Sholeh can then fly up to half its flying speed.'],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Knocked prone',
+                  lands: { on: 'failed-save' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
+              ],
             },
           ],
         },
@@ -3489,6 +3646,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -3695,6 +3853,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+            effects: [],
           },
           {
             key: 'trickster-s-flight',

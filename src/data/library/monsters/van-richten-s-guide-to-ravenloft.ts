@@ -69,10 +69,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.grappled,
-              ' (escape DC 15). Until the grapple ends, the target is ',
-              rules.restrained,
+              { effect: 'vine-grab' },
               '. The plant has four vines, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'vine-grab',
+                name: 'Grabbed',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -89,18 +97,40 @@ export default createPublicationMonsters({
             },
             text: [
               "The target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is ",
-              rules.restrained,
-              ', and it has 3 against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a ',
+              { effect: 'enveloped' },
+              '. The enveloped target must also immediately succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.stunned,
-              " by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of ",
-              rules.exhaustion,
-              " for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment. As an action, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful DC 15 Strength check. If the plant dies, the target is no longer ",
+              { effect: 'sapped' },
+              " by the plant's sapping enzymes",
+              '. ',
+              "If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment. As an action, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful DC 15 Strength check. If the plant dies, the target is no longer ",
               rules.restrained,
               ' and can escape from the pod by spending 10 feet of movement, exiting ',
               rules.prone,
               '. The plant has one pod, which can envelop one creature at a time.',
+            ],
+            effects: [
+              {
+                key: 'enveloped',
+                name: 'Enveloped',
+                lands: { on: 'hit' },
+                conditions: [rules.restrained],
+                text: [
+                  'it has 3 against attacks and effects originating outside the pod. ',
+                  "The enveloped target doesn't require air and gains 1 level of ",
+                  rules.exhaustion,
+                  ' for each hour it spends in the pod.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'sapped',
+                name: 'Stunned by enzymes',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'until', text: ['it is removed from the pod or the plant dies'] },
+              },
             ],
           },
         ],
@@ -152,7 +182,20 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'cha' },
-              " Charisma saving throw or become cursed for 1 minute. While cursed in this way, the target's speed is reduced by 10 feet, and it must roll a 1d4 and subtract the number rolled from each ability check or attack roll it makes.",
+              ' Charisma saving throw or become ',
+              { effect: 'silver-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'silver-curse',
+                name: 'Silver needle curse',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                text: [
+                  "cursed for 1 minute. While cursed in this way, the target's speed is reduced by 10 feet, and it must roll a 1d4 and subtract the number rolled from each ability check or attack roll it makes.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -171,6 +214,7 @@ export default createPublicationMonsters({
               { ability: 'silver-needle' },
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -239,7 +283,19 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'int', printed: 10 },
-              " Intelligence saving throw or it can't take a reaction until the end of its next turn. Moreover, on its next turn, the target must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.",
+              ' Intelligence saving throw or it ',
+              { effect: 'dazed' },
+            ],
+            effects: [
+              {
+                key: 'dazed',
+                name: 'Mind-bent',
+                lands: { on: 'save', save: 'int', dc: 'int', printed: 10 },
+                text: [
+                  "can't take a reaction until the end of its next turn. Moreover, on its next turn, the target must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.",
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -258,10 +314,28 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con', printed: 10 },
               ' Constitution saving throw or be ',
-              rules.restrained,
-              ' as it begins to turn to stone. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is ',
-              rules.petrified,
-              ' for 10 minutes.',
+              { effect: 'turning-to-stone' },
+              ' as it begins to turn to stone. ',
+              'On a failure, the target is ',
+              { effect: 'petrified' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'turning-to-stone',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 10 },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'time', amount: '10', unit: 'minute' },
+                },
+              },
             ],
           },
         ],
@@ -391,6 +465,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.modify_memory_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -437,10 +512,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 120 },
               onFail: {
                 damage: [{ dice: '3d8', type: rules.psychic, addModifier: true }],
-                also: ['Be ', rules.stunned, " until the start of the inquisitor's next turn."],
+
+                also: ['Be ', { effect: 'stunned' }, '.'],
               },
             },
             text: ['The inquisitor targets one creature it can see within 120 feet of it.'],
+            effects: [
+              {
+                key: 'stunned',
+                name: 'Stunned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'inquisitor-s-command',
@@ -451,10 +536,22 @@ export default createPublicationMonsters({
               "Each creature of the inquisitor's choice that it can see within 60 feet of it must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              " until the start of the inquisitor's next turn. On the ",
-              rules.charmed,
-              " target's turn, the inquisitor can telepathically control the target's move, action, or both. When controlled in this way, the target can take only the Attack (inquisitor chooses the target) or Dash action.",
+              { effect: 'charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'On the ',
+                  rules.charmed,
+                  " target's turn, the inquisitor can telepathically control the target's move, action, or both. When controlled in this way, the target can take only the Attack (inquisitor chooses the target) or Dash action.",
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -507,6 +604,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.greater_invisibility_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'metabolic-control',
@@ -604,6 +702,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -660,15 +759,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.sphere, size: 20 } },
               onFail: {
                 damage: [{ dice: '6d8', type: rules.force, addModifier: true }],
+
                 also: [
                   'Be knocked ',
-                  rules.prone,
+                  { effect: 'knocked-prone' },
                   " and moved to the unoccupied space closest to the sphere's center.",
                 ],
               },
             },
             text: [
               "Large and smaller objects that aren't being worn or carried in the sphere automatically take the damage and are similarly moved.",
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -759,7 +868,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with loup garou lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Loup garou lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with loup garou lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -778,8 +898,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'knocked-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -924,8 +1053,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              " until the start of the necrichor's next turn.",
+              { effect: 'paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -952,7 +1090,21 @@ export default createPublicationMonsters({
             text: [
               "The necrichor targets a creature it can see within 5 feet of it that is missing any of its hit points. If the target isn't a Construct or an Undead, it must succeed on a ",
               { dc: 'con' },
-              " Constitution saving throw or the necrichor enters the target's space and attaches itself to the target for 1 minute. While attached, the necrichor takes only half damage dealt to it (round down), and the target takes the remaining damage. The necrichor can attach to only one creature at a time. The attached necrichor can telepathically control the target's move, action, or both. When controlled this way, the target can take only the Attack action (necrichor chooses the target) or the Dash action. The attached target can repeat the saving throw at the end of each of its turns, detaching from the necrichor and forcing it to move into the nearest unoccupied space on a success.",
+              " Constitution saving throw or the necrichor enters the target's space and ",
+              { effect: 'attached' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'attached',
+                name: 'Attached necrichor',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "attaches itself to the target for 1 minute. While attached, the necrichor takes only half damage dealt to it (round down), and the target takes the remaining damage. The necrichor can attach to only one creature at a time. The attached necrichor can telepathically control the target's move, action, or both. When controlled this way, the target can take only the Attack action (necrichor chooses the target) or the Dash action. The attached target can repeat the saving throw at the end of each of its turns, detaching from the necrichor and forcing it to move into the nearest unoccupied space on a success.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1075,11 +1227,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 15 } },
               onFail: {
                 damage: [{ dice: '4d8', type: rules.necrotic }],
-                also: ["It can't regain hit points for 1 minute."],
+
+                also: ['It ', { effect: 'no-healing' }, '.'],
               },
             },
             text: [
               'The nosferatu vomits blood in a 15-foot cone. On a successful save, the creature takes half as much damage with no additional effects.',
+            ],
+            effects: [
+              {
+                key: 'no-healing',
+                name: 'Cannot regain hit points',
+                lands: { on: 'failed-save' },
+                text: ["can't regain hit points"],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1179,10 +1341,19 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a creature, it is ',
-              rules.paralyzed,
-              " until the start of the priest's next turn. If this damage reduces a Medium or smaller creature to 0 hit points, the creature dies, and its soul is trapped in the priest's body, manifesting as a shadowy ",
+              { effect: 'paralyzed' },
+              ". If this damage reduces a Medium or smaller creature to 0 hit points, the creature dies, and its soul is trapped in the priest's body, manifesting as a shadowy ",
               { ability: 'soul-tattoo' },
               ' on the priest. The soul is freed if the priest dies.',
+            ],
+            effects: [
+              {
+                key: 'paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'hit' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1298,8 +1469,17 @@ export default createPublicationMonsters({
               'If the target is a Large or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'knocked-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'knocked-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1314,15 +1494,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '5d8', type: rules.bludgeoning }],
-                also: [
-                  'Is ',
-                  rules.incapacitated,
-                  " until the start of the juggernaut's next turn, and the implement vanishes.",
-                ],
+
+                also: ['Is ', { effect: 'shaped-incapacitated' }, ', and the implement vanishes.'],
               },
             },
             text: [
               'The juggernaut magically shapes a feature of its surroundings into a deadly implement.',
+            ],
+            effects: [
+              {
+                key: 'shaped-incapacitated',
+                name: 'Incapacitated',
+                lands: { on: 'failed-save' },
+                conditions: [rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1731,6 +1917,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'amorphous',
@@ -1750,10 +1937,18 @@ export default createPublicationMonsters({
               "If a creature tries to read the Bagman's thoughts, that creature must succeed on a ",
               { dc: 'int', printed: 8 },
               ' Intelligence saving throw or be ',
-              rules.stunned,
-              ' for 1 minute. The ',
-              rules.stunned,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'alien-stun' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'alien-stun',
+                name: 'Alien mind stun',
+                lands: { on: 'save', save: 'int', dc: 'int', printed: 8 },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -1857,7 +2052,18 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wereraven-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wereraven-curse',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wereraven lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1930,8 +2136,18 @@ export default createPublicationMonsters({
               'Any creature that starts its turn within 10 feet of the plague spreader must make a ',
               { dc: 'con' },
               ' Constitution saving throw. On a failed save, the creature is ',
-              rules.poisoned,
-              " and can't regain hit points until the end of its next turn. On a successful save, the creature is immune to this plague spreader's Viral Aura for 24 hours.",
+              { effect: 'plague-poison' },
+              ". On a successful save, the creature is immune to this plague spreader's Viral Aura for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'plague-poison',
+                name: 'Plague poison',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: ["can't regain hit points"],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -1977,6 +2193,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },

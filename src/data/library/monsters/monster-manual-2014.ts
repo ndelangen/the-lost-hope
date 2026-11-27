@@ -6984,6 +6984,7 @@ export default createPublicationMonsters({
               '; 8th level (1 slot): ',
               refs.spells.mind_blank_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -7004,6 +7005,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.magic_missile_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -7042,6 +7044,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'teleport',
@@ -15296,6 +15299,7 @@ export default createPublicationMonsters({
               '; 5th level (2 slots): ',
               refs.spells.cloudkill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -15315,6 +15319,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -15326,6 +15331,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the drow to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -29550,6 +29556,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -29568,6 +29575,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' or on the Ethereal Plane. It can pinpoint such a creature that is moving.',
             ],
+            effects: [],
           },
           {
             key: 'slippery',
@@ -29662,6 +29670,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' or on the Ethereal Plane. It can pinpoint such a creature that is moving.',
             ],
+            effects: [],
           },
           {
             key: 'slippery',
@@ -29778,6 +29787,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shield_of_faith_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -29796,6 +29806,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' or on the Ethereal Plane. It can pinpoint such a creature that is moving.',
             ],
+            effects: [],
           },
           {
             key: 'slippery',
@@ -29851,8 +29862,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the target is a Medium or smaller creature, it is ',
-              rules.grappled,
-              " (escape DC 14). Until this grapple ends, the kuo-toa can't use its pincer staff on another target.",
+              { effect: 'pincer-grappled' },
+              ". Until this grapple ends, the kuo-toa can't use its pincer staff on another target.",
+            ],
+            effects: [
+              {
+                key: 'pincer-grappled',
+                name: 'Grappled by pincer staff',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
         ],

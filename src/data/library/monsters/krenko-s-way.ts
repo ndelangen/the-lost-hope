@@ -175,6 +175,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'unstable',
@@ -188,6 +189,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' with a speed of 0 until a creature activates it with a successful DC 10 Intelligence (Arcana) check made as an action.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',

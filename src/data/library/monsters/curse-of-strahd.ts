@@ -64,6 +64,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -587,7 +588,17 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wereraven lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -683,7 +694,17 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wereraven lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -896,6 +917,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'mimicry',
@@ -1104,7 +1126,17 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wereraven lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1200,7 +1232,17 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'lycanthropy' },
+            ],
+            effects: [
+              {
+                key: 'lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wereraven lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1312,6 +1354,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sanctuary_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'club',
@@ -1386,6 +1429,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -1496,6 +1540,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -1928,6 +1973,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -2039,8 +2085,17 @@ export default createPublicationMonsters({
               'Any creature that starts its turn within 5 feet of the ghast must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the start of its next turn. On a successful saving throw, the creature is immune to the ghast's Stench for 24 hours.",
+              { effect: 'stench-poisoned' },
+              ". On a successful saving throw, the creature is immune to the ghast's Stench for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned by stench',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -2091,8 +2146,18 @@ export default createPublicationMonsters({
               'If the target is a creature other than an undead, it must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'claws-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claws-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -2232,6 +2297,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2243,6 +2309,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put him to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2383,14 +2450,33 @@ export default createPublicationMonsters({
               'The knight targets one creature it can see within 30 feet of it and against which it has sworn vengeance. The target must make a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw. On a failure, the target is ',
-              rules.paralyzed,
-              " until the knight deals damage to it, or until the end of the knight's next turn. When the paralysis ends, the target is ",
-              rules.frightened,
-              ' of the knight for 1 minute. The ',
-              rules.frightened,
-              ' target can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the knight, ending the ',
-              rules.frightened,
-              ' condition on itself on a success.',
+              { effect: 'glare-paralyzed' },
+              '. When the paralysis ends, the target is ',
+              { effect: 'glare-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'glare-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the knight deals damage to it, or until the end of the knight's next turn",
+                  ],
+                },
+              },
+              {
+                key: 'glare-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if it can see the knight'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -2445,6 +2531,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.create_food_and_water_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -2530,6 +2617,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -3156,6 +3244,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'brute',
@@ -3204,8 +3293,17 @@ export default createPublicationMonsters({
               'If the target is a Medium or smaller creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'bash-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bash-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -3830,6 +3928,7 @@ export default createPublicationMonsters({
               refs.spells.dispel_magic_srd_5_1,
               '; 4th level (2 slots): staggering smite',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -3917,14 +4016,33 @@ export default createPublicationMonsters({
               'The knight targets one creature it can see within 30 feet of it and against which it has sworn vengeance. The target must make a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw. On a failure, the target is ',
-              rules.paralyzed,
-              " until the knight deals damage to it, or until the end of the knight's next turn. When the paralysis ends, the target is ",
-              rules.frightened,
-              ' of the knight for 1 minute. The ',
-              rules.frightened,
-              ' target can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the knight, ending the ',
-              rules.frightened,
-              ' condition on itself on a success.',
+              { effect: 'glare-paralyzed' },
+              '. When the paralysis ends, the target is ',
+              { effect: 'glare-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'glare-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the knight deals damage to it, or until the end of the knight's next turn",
+                  ],
+                },
+              },
+              {
+                key: 'glare-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if it can see the knight'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -3995,7 +4113,20 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'life-drain-max' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'life-drain-max',
+                name: 'Hit point maximum reduced',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+                ],
+                lasts: { kind: 'until', text: ['the creature finishes a long rest'] },
+              },
             ],
           },
         ],
@@ -4059,6 +4190,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.dominate_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -4752,6 +4884,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -5024,7 +5157,18 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wereraven-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wereraven-lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['cursed with wereraven lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

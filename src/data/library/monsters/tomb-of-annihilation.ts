@@ -3463,10 +3463,19 @@ export default createPublicationMonsters({
               "Any creature that grapples the grung or otherwise comes into direct contact with the grung's skin must succeed on a ",
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 minute. A ',
+              { effect: 'poisoned' },
+              '. A ',
               rules.poisoned,
               ' creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            ],
+            effects: [
+              {
+                key: 'poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -3499,6 +3508,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d4', type: rules.poison }],
               },
             },
+            effects: [],
           },
           {
             key: 'shortbow',
@@ -3520,6 +3530,7 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d4', type: rules.poison }],
               },
             },
+            effects: [],
           },
           {
             key: 'mesmerizing-chirr',
@@ -3530,8 +3541,17 @@ export default createPublicationMonsters({
               'The grung makes a chirring noise to which grungs are immune. Each humanoid or beast that is within 15 feet of the grung and able to hear it must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.stunned,
-              " until the end of the grung's next turn.",
+              { effect: 'stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -7286,6 +7306,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',

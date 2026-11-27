@@ -621,6 +621,7 @@ export default createPublicationMonsters({
               ' (reptiles only), ',
               refs.spells.plant_growth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -652,10 +653,21 @@ export default createPublicationMonsters({
               'Or ',
               { roll: '1d10', mod: 'str' },
               ' piercing damage in crocodile form. If the lizardfolk is in crocodile form and the target is a Large or smaller creature, the target is ',
-              rules.grappled,
-              ' (escape DC 12). Until this grapple ends, the target is ',
-              rules.restrained,
-              ', and the lizardfolk can’t bite another target. If the lizardfolk reverts to its true form, the grapple ends.',
+              { effect: 'crocodile-grab' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'crocodile-grab',
+                name: 'Crocodile grab',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'The lizardfolk can’t bite another target. If the lizardfolk reverts to its true form, the grapple ends.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -721,6 +733,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',

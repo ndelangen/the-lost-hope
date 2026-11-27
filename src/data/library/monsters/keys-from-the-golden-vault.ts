@@ -34,10 +34,19 @@ export default createPublicationMonsters({
               'If the animatronic allosaurus moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a ',
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. If the target is ',
               rules.prone,
               ', the animatronic allosaurus can make one bite attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -162,6 +171,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -206,6 +216,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -279,6 +290,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.cone_of_cold_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -335,6 +347,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -415,6 +428,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -478,6 +492,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'ashen-creature',
@@ -531,6 +546,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -655,10 +671,19 @@ export default createPublicationMonsters({
               'If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '. If the target is ',
               rules.prone,
               ', the horse can make another attack with its hooves against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -724,6 +749,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.polymorph_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -781,6 +807,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'elemental-rebuke',
@@ -805,6 +832,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' fire damage if the spell fails.',
             ],
+            effects: [],
           },
         ],
       },
@@ -859,12 +887,22 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be ',
-              rules.grappled,
-              ' (escape DC 13). A creature ',
+              { effect: 'bite-grapple' },
+              '. A creature ',
               rules.grappled,
               " by the defender takes the damage again at the start of each of the defender's turns. The defender can have only one creature ",
               rules.grappled,
               " in this way at a time, and the defender can't make Electrified Bite attacks while grappling.",
+            ],
+            effects: [
+              {
+                key: 'bite-grapple',
+                name: 'Gripped by the defender',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -1091,6 +1129,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.shatter_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -1132,7 +1171,18 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with werebear lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'werebear-curse' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'werebear-curse',
+                name: 'Werebear lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Cursed with werebear lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1254,6 +1304,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Enna Galakiir doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1345,6 +1396,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Enna Galakiir doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1375,6 +1427,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -1398,6 +1451,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -1556,6 +1610,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1699,6 +1754,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1743,6 +1799,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -1817,8 +1874,17 @@ export default createPublicationMonsters({
               "Jalynvyr Nir'Thinn exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a ",
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw or be ',
-              rules.blinded,
-              " until the end of Jalynvyr Nir'Thinn's next turn.",
+              { effect: 'ash-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'ash-blinded',
+                name: 'Blinded by ash',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -1873,6 +1939,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'elemental-demise',
@@ -1961,6 +2028,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.disguise_self_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2018,8 +2086,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success',
+              { effect: 'dart-poisoned' },
+            ],
+            effects: [
+              {
+                key: 'dart-poisoned',
+                name: 'Poisoned by the dart',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -2056,6 +2133,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mage_armor_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2089,8 +2167,18 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'blade-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'blade-poisoned',
+                name: 'Poisoned by the blade',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2116,6 +2204,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or it teleports, along with any equipment it is wearing or carrying, exchanging positions with Markos.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2178,6 +2267,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2226,6 +2316,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -2293,6 +2384,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Nixylanna Vidorant doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2323,6 +2415,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -2346,6 +2439,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -2430,12 +2524,19 @@ export default createPublicationMonsters({
               'Each non-undead creature within 60 feet of Rilago that can see it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. If the save fails by 5 or more, the target also ages 1d4 × 10 years. A ',
-              rules.frightened,
-              ' target can repeat the saving throw at the end of each of its turns, ending the ',
-              rules.frightened,
-              " condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+              { effect: 'visage-frightened' },
+              ". If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+            ],
+            effects: [
+              {
+                key: 'visage-frightened',
+                name: 'Frightened by the visage',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                text: ['If the save fails by 5 or more, the target also ages 1d4 × 10 years.'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2446,13 +2547,32 @@ export default createPublicationMonsters({
             text: [
               'One humanoid that Rilago can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
-              ' Charisma saving throw or be possessed by Rilago; Rilago then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. Rilago now controls the body but doesn't deprive the target of awareness. Rilago can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
-              rules.charmed,
-              ' and ',
-              rules.frightened,
-              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, Rilago ends it as a bonus action, or Rilago is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, Rilago reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              ' Charisma saving throw or be possessed by Rilago; Rilago then disappears, ',
+              { effect: 'possessed' },
+              ". When the possession ends, Rilago reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+            ],
+            effects: [
+              {
+                key: 'possessed',
+                name: 'Possessed by Rilago',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  'The target is ',
+                  rules.incapacitated,
+                  " and loses control of its body. Rilago now controls the body but doesn't deprive the target of awareness. Rilago can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+                  rules.charmed,
+                  ' and ',
+                  rules.frightened,
+                  ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, Rilago ends it as a bonus action, or Rilago is turned or forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -2532,6 +2652,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2714,6 +2835,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.blur_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'force-field',
@@ -2729,6 +2851,7 @@ export default createPublicationMonsters({
               rules.stunned,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2790,6 +2913,7 @@ export default createPublicationMonsters({
             text: ['Tockworth emits a jet of piping-hot steam in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -2866,6 +2990,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3026,6 +3151,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and Tosh Starling doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
