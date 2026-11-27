@@ -516,10 +516,19 @@ export default createPublicationMonsters({
               'The giant tries to throw a Small or Medium creature within 10 feet of it. The target must succeed on a Dexterity saving throw (',
               { dc: 'str' },
               ") or be hurled up to 60 feet horizontally in a direction of the giant's choice and land ",
-              rules.prone,
+              { effect: 'fling-prone' },
               ', taking ',
               { roll: '1d8' },
               ' bludgeoning damage for every 10 feet it was thrown.',
+            ],
+            effects: [
+              {
+                key: 'fling-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1427,6 +1436,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.create_food_and_water_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'divine-eminence',
@@ -1775,8 +1785,17 @@ export default createPublicationMonsters({
               "When the giant enters any enemy's space for the first time on a turn, the enemy must succeed on a ",
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'tackle-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tackle-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1970,10 +1989,19 @@ export default createPublicationMonsters({
               'The giant lands ',
               rules.prone,
               " in the target's space, and the target is ",
-              rules.grappled,
-              ' (escape DC 15). Until this grapple ends, the target is ',
-              rules.prone,
-              '. The grapple ends early if the giant stands up.',
+              { effect: 'squash-grappled' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'squash-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.prone],
+                text: ['The grapple ends early if the giant stands up.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
         ],
@@ -4490,8 +4518,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'rock-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'rock-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4506,14 +4543,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 10, which: 'of the giant' },
               onFail: {
                 damage: [{ dice: '1d6', type: rules.bludgeoning }],
+
                 also: [
                   "For every 10 feet it was thrown, and the target is hurled up to 60 feet horizontally in a direction of the giant's choice and lands ",
-                  rules.prone,
+                  { effect: 'fling-prone' },
                   '.',
                 ],
               },
             },
             text: ['The giant tries to throw a Small or Medium creature within 10 feet of it.'],
+            effects: [
+              {
+                key: 'fling-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
           {
             key: 'rolling-rock',
@@ -4527,11 +4574,21 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.line, size: 30, width: 5 } },
               onFail: {
                 damage: [{ dice: '3d10', type: rules.bludgeoning, addModifier: true }],
-                also: ['The creature falls ', rules.prone, '.'],
+
+                also: ['The creature falls ', { effect: 'rolling-prone' }, '.'],
               },
             },
             text: [
               'The giant sends a rock tumbling along the ground in a 30-foot line that is 5 feet wide.',
+            ],
+            effects: [
+              {
+                key: 'rolling-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -4544,6 +4601,7 @@ export default createPublicationMonsters({
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw, catch the missile and take no bludgeoning damage from it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4658,6 +4716,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.water_breathing_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -4719,6 +4778,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
           {
             key: 'thunderous-stomp',
@@ -4732,13 +4792,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.emanation, size: 15 } },
               onFail: {
                 damage: [{ dice: '6d10', type: rules.thunder }],
-                also: ['Be ', rules.deafened, " until the start of the giant's next turn."],
+
+                also: ['Be ', { effect: 'stomp-deafened' }, '.'],
               },
             },
             text: [
               "The storm giant stomps the ground, triggering a thunderclap. On a successful save, a creature takes half as much damage and isn't ",
               rules.deafened,
               '. The thunderclap can be heard out to a range of 1,200 feet.',
+            ],
+            effects: [
+              {
+                key: 'stomp-deafened',
+                name: 'Deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -5425,6 +5495,7 @@ export default createPublicationMonsters({
               ', feign death, ',
               refs.spells.revivify_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -5519,6 +5590,7 @@ export default createPublicationMonsters({
               refs.spells.polymorph_srd_5_1,
               ' (into a raven only)',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -5610,6 +5682,7 @@ export default createPublicationMonsters({
               " (bear's endurance only), ",
               refs.spells.heroism_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -5703,6 +5776,7 @@ export default createPublicationMonsters({
               ' (elk only), ',
               refs.spells.haste_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -5795,6 +5869,7 @@ export default createPublicationMonsters({
               refs.spells.speak_with_animals_srd_5_1,
               ' (wolf or dire wolf only)',
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -5886,6 +5961,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.hypnotic_pattern_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -5977,6 +6053,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.fly_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -6068,6 +6145,7 @@ export default createPublicationMonsters({
               " (cat's grace only), ",
               refs.spells.jump_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -6161,6 +6239,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.lightning_bolt_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -6254,6 +6333,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.stoneskin_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',
@@ -6349,6 +6429,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.speak_with_plants_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'spear',

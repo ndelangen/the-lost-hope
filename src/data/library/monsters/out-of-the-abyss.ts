@@ -352,6 +352,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -388,8 +389,17 @@ export default createPublicationMonsters({
               'If the target is a creature, Buppido can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or fall ',
-              rules.prone,
+              { effect: 'trip-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'trip-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5305,6 +5315,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.lightning_bolt_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -5330,6 +5341,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -5366,8 +5378,17 @@ export default createPublicationMonsters({
               'If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or fall ',
-              rules.prone,
+              { effect: 'trip-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'trip-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -5838,6 +5859,7 @@ export default createPublicationMonsters({
               '; 5th level (2 slots): ',
               refs.spells.cloudkill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -5857,6 +5879,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -5868,6 +5891,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put Zilchyn to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',

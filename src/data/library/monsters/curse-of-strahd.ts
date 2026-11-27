@@ -170,6 +170,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -4262,6 +4263,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiInvisible',
             text: ['The poltergeist is ', rules.invisible, '.'],
+            effects: [],
           },
           {
             key: 'forceful-slam',
@@ -5858,7 +5860,18 @@ export default createPublicationMonsters({
             text: [
               'In hybrid form. If the target is humanoid, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or be cursed with wereraven lycanthropy.',
+              ' Constitution saving throw or be ',
+              { effect: 'wereraven-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wereraven-lycanthropy',
+                name: 'Wereraven lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['Cursed with wereraven lycanthropy.'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

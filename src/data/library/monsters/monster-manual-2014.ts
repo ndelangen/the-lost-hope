@@ -7169,6 +7169,7 @@ export default createPublicationMonsters({
               '; 8th level (1 slot): ',
               refs.spells.mind_blank_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -7189,6 +7190,7 @@ export default createPublicationMonsters({
               ' (self only), ',
               refs.spells.magic_missile_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -7227,6 +7229,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'teleport',
@@ -7991,6 +7994,7 @@ export default createPublicationMonsters({
             text: [
               "When the balor dies, it explodes, and The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the balor's weapons.",
             ],
+            effects: [],
           },
           {
             key: 'fire-aura',
@@ -8067,6 +8071,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be pulled up to 25 feet toward the balor.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -8723,6 +8728,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'reckless',
@@ -9854,6 +9860,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' psychic damage to the slaad.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -9890,9 +9897,22 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be infected with a disease called chaos phage. While infected, the target can't regain hit points, and its hit point maximum is reduced by ",
-              { roll: '3d6' },
-              " every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a red slaad or, if it has the ability to cast spells of 3rd level or higher, a green slaad. Only a wish spell can reverse the transformation.",
+              ' Constitution saving throw or be infected with a disease called ',
+              { effect: 'chaos-phage' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'chaos-phage',
+                name: 'Chaos phage',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "While infected, the target can't regain hit points, and its hit point maximum is reduced by ",
+                  { roll: '3d6' },
+                  " every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a red slaad or, if it has the ability to cast spells of 3rd level or higher, a green slaad. Only a wish spell can reverse the transformation.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -10436,8 +10456,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'sting-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sting-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -12034,8 +12064,17 @@ export default createPublicationMonsters({
               'The chasme produces a horrid droning sound to which demons are immune. Any other creature that starts its turn within 30 feet of the chasme must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or fall ',
-              rules.unconscious,
-              " for 10 minutes. A creature that can't hear the drone automatically succeeds on the save. The effect on the creature ends if it takes damage or if another creature takes an action to splash it with holy water. If a creature's saving throw is successful or the effect ends for it, it is immune to the drone for the next 24 hours.",
+              { effect: 'drone-unconscious' },
+              ". A creature that can't hear the drone automatically succeeds on the save. The effect on the creature ends if it takes damage or if another creature takes an action to splash it with holy water. If a creature's saving throw is successful or the effect ends for it, it is immune to the drone for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'drone-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
           },
           {
@@ -14457,6 +14496,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -14506,6 +14546,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' psychic damage to the slaad.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -17935,10 +17976,18 @@ export default createPublicationMonsters({
               'When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must then succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.blinded,
-              ' for 1 minute. A ',
-              rules.blinded,
-              ' creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.',
+              { effect: 'burst-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'burst-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -17963,8 +18012,18 @@ export default createPublicationMonsters({
               'The mephit exhales a 15-foot cone of blinding dust. Each creature in that area must succeed on a ',
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw or be ',
-              rules.blinded,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'dust-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dust-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -19496,8 +19555,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              '. The poison lasts until it is removed by the lesser restoration spell or similar magic.',
+              { effect: 'arrow-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'arrow-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['the lesser restoration spell or similar magic'] },
+              },
             ],
           },
           {
@@ -26456,6 +26525,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.tongues_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -26505,6 +26575,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' psychic damage to the slaad.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -27030,6 +27101,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -27072,6 +27144,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' psychic damage to the slaad.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -28543,8 +28616,17 @@ export default createPublicationMonsters({
               'Any creature that starts its turn within 10 feet of the hezrou must succeed on a ',
               { dc: 'dex', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours.",
+              { effect: 'stench-poisoned' },
+              ". On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -29523,11 +29605,24 @@ export default createPublicationMonsters({
             text: [
               'If the target is a creature other than an undead or a construct, it must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or lose ',
-              { roll: '3d6' },
-              ' hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by ',
-              { roll: '3d6' },
-              '. Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+              ' Constitution saving throw or ',
+              { effect: 'infernal-wound' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'infernal-wound',
+                name: 'Infernal wound',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'Lose ',
+                  { roll: '3d6' },
+                  ' hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by ',
+                  { roll: '3d6' },
+                  '. Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -30520,6 +30615,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the mephit dies, it explodes in a burst of jagged ice.'],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -30564,6 +30660,7 @@ export default createPublicationMonsters({
             text: ['The mephit exhales cold air in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'summon-mephits',
@@ -30882,6 +30979,7 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
+            effects: [],
           },
           {
             key: 'invisibility',
@@ -30895,6 +30993,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -33846,6 +33945,7 @@ export default createPublicationMonsters({
               '), requiring no material components. Its innate spellcasting ability is Charisma. At will: ',
               refs.spells.heat_metal_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'death-burst',
@@ -33863,6 +33963,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
             },
             text: ['When the mephit dies, it explodes in a burst of lava.'],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -33907,6 +34008,7 @@ export default createPublicationMonsters({
             text: ['The mephit exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'summon-mephits',
@@ -34459,6 +34561,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -34515,8 +34618,17 @@ export default createPublicationMonsters({
             },
             text: [
               'The marid magically shoots water in a 60-foot line that is 5 feet wide. A Huge or smaller creature that fails the save is also pushed up to 20 feet away from the marid and knocked ',
-              rules.prone,
+              { effect: 'water-jet-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'water-jet-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -34583,6 +34695,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -34645,15 +34758,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.line, size: 60, width: 5 } },
               onFail: {
                 damage: [{ dice: '6d6', type: rules.bludgeoning }],
+
                 also: [
                   'A Huge or smaller creature also falls ',
-                  rules.prone,
+                  { effect: 'water-jet-prone' },
                   ' and can be pushed up to 20 ft. straight away from the marid.',
                 ],
               },
               onSuccess: 'half',
             },
             text: ['The creature avoids the other effects.'],
+            effects: [
+              {
+                key: 'water-jet-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
           },
         ],
       },
@@ -34741,12 +34864,19 @@ export default createPublicationMonsters({
               reach: 10,
               damage: [{ dice: '2d10', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'If the target is Medium or smaller, it is ',
-              rules.grappled,
-              ' (escape DC 19). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets.",
+            text: ['If the target is Medium or smaller, it is ', { effect: 'tail-grappled' }],
+            effects: [
+              {
+                key: 'tail-grappled',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
           },
           {
@@ -35442,6 +35572,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.dispel_magic_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -36603,8 +36734,17 @@ export default createPublicationMonsters({
               'When the mephit dies, it explodes in a burst of sticky mud. Each Medium or smaller creature within 5 feet of it must succeed on a ',
               { dc: 'dex' },
               ' Dexterity saving throw or be ',
-              rules.restrained,
-              " until the end of the creature's next turn.",
+              { effect: 'mud-burst-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mud-burst-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -36638,8 +36778,18 @@ export default createPublicationMonsters({
               'The mephit belches viscid mud onto one creature within 5 feet of it. If the target is Medium or smaller, it must succeed on a ',
               { dc: 'dex' },
               ' Dexterity saving throw or be ',
-              rules.restrained,
-              ' for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'mud-restrained' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mud-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -37667,8 +37817,18 @@ export default createPublicationMonsters({
               'The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours.",
+              { effect: 'nimbus-frightened' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'nimbus-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -38285,10 +38445,19 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d4', type: rules.slashing }],
               },
             },
-            text: [
-              'If the target is a creature, at the start of each of its turns due to a fiendish wound. Each time the nycaloth hits the wounded target with this attack, the damage dealt by the wound increases by ',
-              { roll: '2d4' },
-              '. Any creature can take an action to stanch the wound with a successful DC 13 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+            text: ['If the target is a creature, ', { effect: 'fiendish-wound' }],
+            effects: [
+              {
+                key: 'fiendish-wound',
+                name: 'Fiendish wound',
+                lands: { on: 'failed-save' },
+                text: [
+                  'at the start of each of its turns due to a fiendish wound. Each time the nycaloth hits the wounded target with this attack, the damage dealt by the wound increases by ',
+                  { roll: '2d4' },
+                  '. Any creature can take an action to stanch the wound with a successful DC 13 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -40115,6 +40284,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fear-aura',
@@ -40127,8 +40297,17 @@ export default createPublicationMonsters({
               ' Wisdom saving throw, unless the pit fiend is ',
               rules.incapacitated,
               '. On a failed save, the creature is ',
-              rules.frightened,
-              " until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the pit fiend's Fear Aura for the next 24 hours.",
+              { effect: 'fear-aura-frightened' },
+              ". If a creature's saving throw is successful, the creature is immune to the pit fiend's Fear Aura for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fear-aura-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -40172,14 +40351,25 @@ export default createPublicationMonsters({
               'The target must succeed on a Constitution saving throw (',
               { dc: 'cha' },
               ') or become ',
-              rules.poisoned,
-              '. While ',
-              rules.poisoned,
-              " in this way, the target can't regain hit points, and it takes ",
-              { roll: '6d6' },
-              ' poison damage at the start of each of its turns. The ',
-              rules.poisoned,
-              ' target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'bite-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bite-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  " in this way, the target can't regain hit points, and it takes ",
+                  { roll: '6d6' },
+                  ' poison damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -41040,10 +41230,26 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 hour. If the saving throw fails by 5 or more, the target falls ',
-              rules.unconscious,
+              { effect: 'sting-poisoned' },
+              '. If the saving throw fails by 5 or more, the target falls ',
+              { effect: 'sting-unconscious' },
               ' for the same duration, or until it takes damage or another creature uses an action to shake it awake.',
+            ],
+            effects: [
+              {
+                key: 'sting-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
+              {
+                key: 'sting-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -41901,10 +42107,16 @@ export default createPublicationMonsters({
                 damage: [{ dice: '2d4', type: rules.poison }],
               },
             },
-            text: [
-              'Become ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+            text: ['Become ', { effect: 'claw-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'claw-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -41916,8 +42128,21 @@ export default createPublicationMonsters({
               "One creature of the quasit's choice within 20 feet of it must succeed on a ",
               { dc: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.',
+              { effect: 'scare-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'scare-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: [
+                  'The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -41936,6 +42161,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -42497,6 +42723,7 @@ export default createPublicationMonsters({
               { roll: '4d10' },
               ' psychic damage to the slaad.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -42533,7 +42760,19 @@ export default createPublicationMonsters({
             text: [
               'If the target is a humanoid, it must succeed on a ',
               { dc: 'con' },
-              " Constitution saving throw or be infected with a disease—a minuscule slaad egg. A humanoid host can carry only one slaad egg to term at a time. Over three months, the egg moves to the chest cavity, gestates, and forms a slaad tadpole. In the 24-hour period before giving birth, the host starts to feel unwell, its speed is halved, and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process. If the disease is cured before the tadpole's emergence, the unborn slaad is disintegrated.",
+              ' Constitution saving throw or be infected with a disease—a minuscule slaad egg. ',
+              { effect: 'slaad-egg' },
+            ],
+            effects: [
+              {
+                key: 'slaad-egg',
+                name: 'Slaad egg',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  "A humanoid host can carry only one slaad egg to term at a time. Over three months, the egg moves to the chest cavity, gestates, and forms a slaad tadpole. In the 24-hour period before giving birth, the host starts to feel unwell, its speed is halved, and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process. If the disease is cured before the tadpole's emergence, the unborn slaad is disintegrated.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -44070,6 +44309,7 @@ export default createPublicationMonsters({
               rules.charmed,
               " are unaffected. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to these panpipes for the next 24 hours.",
             ],
+            effects: [],
           },
           {
             key: 'charming-melody',
@@ -44078,8 +44318,17 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'The creature is ',
-              rules.charmed,
+              { effect: 'charming-melody' },
               ' by the satyr for 1 minute. If the satyr or any of its companions harms the creature, the effect on it ends immediately.',
+            ],
+            effects: [
+              {
+                key: 'charming-melody',
+                name: 'Charmed',
+                lands: { on: 'use' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -44087,7 +44336,16 @@ export default createPublicationMonsters({
             name: 'Frightening Strain',
             timing: 'action',
             icon: 'gi/GiMagicSwirl',
-            text: ['The creature is ', rules.frightened, ' for 1 minute.'],
+            text: ['The creature is ', { effect: 'frightening-strain' }, '.'],
+            effects: [
+              {
+                key: 'frightening-strain',
+                name: 'Frightened',
+                lands: { on: 'use' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
+            ],
           },
           {
             key: 'gentle-lullaby',
@@ -44096,8 +44354,17 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'The creature falls asleep and is ',
-              rules.unconscious,
-              ' for 1 minute. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake.',
+              { effect: 'gentle-lullaby' },
+              '. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake.',
+            ],
+            effects: [
+              {
+                key: 'gentle-lullaby',
+                name: 'Unconscious',
+                lands: { on: 'use' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -45522,8 +45789,17 @@ export default createPublicationMonsters({
               'The mephit exhales a 15-foot cone of smoldering ash. Each creature in that area must succeed on a ',
               { dc: 'cha', save: 'dex' },
               ' Dexterity saving throw or be ',
-              rules.blinded,
-              " until the end of the mephit's next turn.",
+              { effect: 'cinder-blinded' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'cinder-blinded',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -46528,6 +46804,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['When the mephit dies, it explodes in a cloud of steam.'],
+            effects: [],
           },
           {
             key: 'claws',
@@ -46563,6 +46840,7 @@ export default createPublicationMonsters({
             text: ['The mephit exhales a 15-foot cone of scalding steam.'],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
           {
             key: 'summon-mephits',
@@ -49800,6 +50078,7 @@ export default createPublicationMonsters({
               rules.prone,
               ". If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -50276,6 +50555,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mass_suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -50327,12 +50607,17 @@ export default createPublicationMonsters({
               "The ultroloth's eyes sparkle with opalescent light as it targets one creature it can see within 30 feet of it. If the target can see the ultroloth, the target must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              " until the end of the ultroloth's next turn. The ",
-              rules.charmed,
-              ' target is ',
-              rules.stunned,
+              { effect: 'hypnotic-charmed' },
               ". If the target's saving throw is successful, the target is immune to the ultroloth's gaze for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'hypnotic-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed, rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -54428,6 +54713,7 @@ export default createPublicationMonsters({
               '; 1/day: ',
               refs.spells.dominate_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -54495,12 +54781,17 @@ export default createPublicationMonsters({
               " and can't speak. It has a flying speed of 30 feet, can hover, and can pass through any space that isn't airtight. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to nonmagical damage. While in mist form, the yochlol can enter a creature's space and stop there. Each time that creature starts its turn with the yochlol in its space, the creature must succeed on a ",
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' until the start of its next turn. While ',
-              rules.poisoned,
-              ' in this way, the target is ',
-              rules.incapacitated,
+              { effect: 'mist-poisoned' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'mist-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.poisoned, rules.incapacitated],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
