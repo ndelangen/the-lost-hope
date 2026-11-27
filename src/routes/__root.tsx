@@ -5,6 +5,7 @@ import type { ReactNode } from 'react'
 
 import { CampaignShell } from '#/components/campaign-shell'
 import { DM_MODE_AVAILABLE } from '#/components/dm-mode'
+import { loadEntityIcons } from '#/components/entity-icons'
 import { parseUiPreferences } from '#/lib/ui-preferences'
 
 import '../styles.css'
@@ -14,6 +15,11 @@ const loadUiPreferences = createIsomorphicFn()
   .server(() => parseUiPreferences(getRequestHeader('cookie') ?? '', DM_MODE_AVAILABLE))
   .client(() => parseUiPreferences(document.cookie, DM_MODE_AVAILABLE))
 
+/** The server draws every entity icon in its HTML, so it loads the icon sets before rendering. */
+const loadServerIcons = createIsomorphicFn()
+  .server(() => loadEntityIcons())
+  .client(() => undefined)
+
 export const Route = createRootRoute({
   head: () => ({
     meta: [
@@ -22,7 +28,10 @@ export const Route = createRootRoute({
     ],
     links: [{ rel: 'icon', href: '/favicon.ico' }],
   }),
-  loader: () => loadUiPreferences(),
+  loader: async () => {
+    await loadServerIcons()
+    return loadUiPreferences()
+  },
   component: RootComponent,
   notFoundComponent: NotFoundPage,
 })

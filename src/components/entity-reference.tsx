@@ -1,6 +1,18 @@
 import { CalendarRange } from 'lucide-react'
 import type { CSSProperties, ReactNode } from 'react'
 
+import {
+  CardSuitIcon,
+  EffectIcon,
+  EventMarkIcon,
+  ItemIcon,
+  LocationIcon,
+  LocationTypeIcon,
+  LocationTypeName,
+  OrganizationIcon,
+  QuestIcon,
+  SessionIcon,
+} from '#/components/entity-icons'
 import { Avatar } from '#/components/ui/avatar'
 import { EntityReference as EntityReferenceLink } from '#/components/ui/entity-reference'
 import type { PreviewSide } from '#/components/ui/hover-preview'
@@ -27,16 +39,8 @@ import {
   type EntityKind,
   type EventMarkVisual,
 } from '#/lib/campaign'
-import { CardSuitIcon } from '#/lib/card-icons'
-import { EffectIcon } from '#/lib/effect-icons'
 import { EFFECT_STATUS_LABELS } from '#/lib/effects'
-import { EventMarkIcon } from '#/lib/event-icons'
-import { ItemIcon } from '#/lib/item-icons'
-import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
-import { OrganizationIcon } from '#/lib/organization-icons'
-import { QuestIcon } from '#/lib/quest-icons'
 import { formatSessionDate } from '#/lib/session-date'
-import { SessionIcon } from '#/lib/session-icons'
 
 export type EntityReferenceRenderData = {
   label: string
@@ -172,7 +176,7 @@ function referencePresentation(
           <ReferencePreviewHeader icon={icon} name={name}>
             <Inline as="span" inline gap="xs" className="text-muted-foreground">
               {type ? <LocationTypeIcon type={type} className="size-3.5" /> : null}
-              {type ? locationTypeLabel(type) : 'Location'}
+              {type ? <LocationTypeName type={type} /> : 'Location'}
             </Inline>
             {parent ? <PreviewLocation name={`in ${parent.name}`} icon={parent.icon} /> : null}
           </ReferencePreviewHeader>

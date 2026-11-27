@@ -72,6 +72,11 @@ async function loadFonts(): Promise<Font[]> {
   )
 }
 
+/**
+ * Every file under public/assets that a page may name as an image source. The responsive JPEGs
+ * under generated-images are left out: pages reach them through the responsive-image manifest,
+ * and listing all of them would make every page download about 200 KB of paths.
+ */
 async function listPublicAssets(
   directory = join(ROOT, 'public/assets'),
   publicPrefix = '/assets',
@@ -80,6 +85,7 @@ async function listPublicAssets(
   for (const entry of await readdir(directory, { withFileTypes: true })) {
     const filePath = join(directory, entry.name)
     const publicPath = `${publicPrefix}/${entry.name}`
+    if (publicPath === '/assets/generated-images') continue
     if (entry.isDirectory()) {
       assets.push(...(await listPublicAssets(filePath, publicPath)))
     } else if (entry.isFile()) {
