@@ -6,7 +6,7 @@ import { describe, expect, it } from 'vitest'
 import { refs } from '#/data/generated/library-refs'
 import books from '#/data/library/monsters/_index'
 import publications from '#/data/library/publications'
-import { publishedLibrary } from '#/lib/published-library-data'
+import { libraryRecords, loadLibraryIndex } from '#/lib/published-library-data'
 
 import { monsterPrinting, printingsByMonster } from './library-monsters'
 import { loadMonsterPrinting } from './load-monster'
@@ -46,8 +46,9 @@ describe('library monsters', () => {
     }
   })
 
-  it('resolves every converted printing of the older catalog', () => {
-    const converted = publishedLibrary.flatMap(({ printings }) =>
+  it('resolves every converted printing of the older catalog', async () => {
+    await loadLibraryIndex(['monsters'])
+    const converted = libraryRecords(['monsters']).flatMap(({ printings }) =>
       printings.flatMap(({ typed }) => (typed && 'monster' in typed ? [typed] : [])),
     )
     expect(converted.length).toBeGreaterThan(0)

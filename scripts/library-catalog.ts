@@ -10,6 +10,7 @@ const CATALOG_FILES = ['entries', 'monsters-a-f', 'monsters-g-p', 'monsters-q-z'
 )
 
 const INDEX = 'virtual:library-index'
+const TYPE_INDEX = 'virtual:library-type/'
 const DETAIL = 'virtual:library-detail/'
 const SEARCH = 'virtual:library-search'
 
@@ -104,8 +105,9 @@ function build() {
 
 /**
  * Serves the published library catalog as small modules instead of importing its 35 MB of JSON:
- * an index for browsing, the words search matches (loaded once someone searches), and per-type,
- * per-letter detail modules loaded with the entry page. Neither the dev server nor the browser has to hold the whole catalog.
+ * an index for browsing (the rules, and one module per other type, loaded by the pages that show
+ * that type), the words search matches (loaded once someone searches), and per-type, per-letter
+ * detail modules loaded with the entry page. Neither the dev server nor the browser has to hold the whole catalog.
  */
 export function libraryCatalogPlugin(): Plugin {
   let cache: ReturnType<typeof build> | undefined
@@ -114,16 +116,41 @@ export function libraryCatalogPlugin(): Plugin {
   return {
     name: 'library-catalog',
     resolveId(id) {
-      return id === INDEX || id === SEARCH || id.startsWith(DETAIL) ? '\0' + id : undefined
+      return id === INDEX || id === SEARCH || id.startsWith(DETAIL) || id.startsWith(TYPE_INDEX)
+        ? '\0' + id
+        : undefined
     },
     load(id) {
       if (id === '\0' + INDEX) {
         for (const file of CATALOG_FILES) this.addWatchFile(file)
         const { index, details } = catalog()
+        const types = [...new Set(index.map(({ type }) => type))]
+        const playerTypes = types.filter((type) =>
+          index.some((record) => record.type === type && !(record as { gmOnly?: boolean }).gmOnly),
+        )
         const loaders = [...details.keys()]
           .toSorted()
           .map((bucket) => `  ${JSON.stringify(bucket)}: () => import('${DETAIL}${bucket}'),`)
-        return `export const records = ${JSON.stringify(index)}\nexport const detailLoaders = {\n${loaders.join('\n')}\n}\nexport const loadSearch = () => import('${SEARCH}')\n`
+        const typeLoaders = types
+          .filter((type) => type !== 'rules')
+          .map((type) => `  ${JSON.stringify(type)}: () => import('${TYPE_INDEX}${type}'),`)
+        // Rules stay in this module: rules text links to them from every library page.
+        const rules = index.filter(({ type }) => type === 'rules')
+        return [
+          `export const types = ${JSON.stringify(types)}`,
+          `export const playerTypes = ${JSON.stringify(playerTypes)}`,
+          `export const rules = ${JSON.stringify(rules)}`,
+          `export const indexLoaders = {\n${typeLoaders.join('\n')}\n}`,
+          `export const detailLoaders = {\n${loaders.join('\n')}\n}`,
+          `export const loadSearch = () => import('${SEARCH}')`,
+          '',
+        ].join('\n')
+      }
+      if (id.startsWith('\0' + TYPE_INDEX)) {
+        for (const file of CATALOG_FILES) this.addWatchFile(file)
+        const type = id.slice(TYPE_INDEX.length + 1)
+        const records = catalog().index.filter((record) => record.type === type)
+        return `export default ${JSON.stringify(records)}\n`
       }
       if (id === '\0' + SEARCH) {
         for (const file of CATALOG_FILES) this.addWatchFile(file)

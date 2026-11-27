@@ -4,10 +4,11 @@ import imageSources from '../../scripts/library-image-sources.json'
 import {
   browseLibrary,
   getLibraryEntry,
+  isLibraryType,
   librarySearch,
   loadLibrarySearch,
 } from './published-library'
-import { loadAllLibraryDetails, publishedLibrary } from './published-library-data'
+import { libraryRecords, loadAllLibraryDetails } from './published-library-data'
 
 // These tests read printed text across the whole catalog.
 await loadAllLibraryDetails()
@@ -36,7 +37,7 @@ test('DM search finds hidden text and the selected printing controls the mechani
     getLibraryEntry('monsters', 'wolf', true, 'srd-5-1')?.selected.typed?.publication.key,
   ).toBe('srd_5_1')
   // Beasts are creatures now: one entry, grouped as a beast.
-  expect(getLibraryEntry('beasts', 'wolf', true)).toBeUndefined()
+  expect(isLibraryType('beasts')).toBe(false)
   expect(getLibraryEntry('monsters', 'wolf', true)?.groups).toEqual(['Beast'])
   expect(getLibraryEntry('monsters', 'wolf', true, 'unknown')).toBeUndefined()
 })
@@ -52,12 +53,12 @@ test('name search favors exact matches and stock can be filtered by shop', () =>
 
 test('every published image has a registered original and each entry has a unique printing path', () => {
   const sources = new Set(imageSources.map(({ logicalSource }) => logicalSource))
-  const missingImages = publishedLibrary.flatMap((entry) =>
+  const missingImages = libraryRecords().flatMap((entry) =>
     [...(entry.art ?? []), ...entry.printings.flatMap(({ art }) => art ?? [])].flatMap(({ file }) =>
       sources.has(file) ? [] : [file],
     ),
   )
-  const invalidPrintings = publishedLibrary.filter(
+  const invalidPrintings = libraryRecords().filter(
     ({ printings }) =>
       printings.length === 0 || printings.length !== new Set(printings.map(({ id }) => id)).size,
   )

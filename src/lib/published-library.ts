@@ -1,8 +1,11 @@
 import type { monsterPrinting as MonsterPrinting } from './library-monsters'
 import {
   libraryTextSearchLoaded as printedTextLoaded,
+  libraryCatalogTypes,
+  libraryPlayerTypes,
+  libraryRecord,
+  libraryRecords,
   loadLibrarySearch as loadPrintedText,
-  publishedLibrary,
   searchWords,
   type LibraryType,
 } from './published-library-data'
@@ -14,7 +17,7 @@ export {
   libraryTypes,
   type LibraryType,
 } from './published-library-routing'
-export { loadLibraryDetail, type SrdVersion } from './published-library-data'
+export { loadLibraryDetail, loadLibraryIndex, type SrdVersion } from './published-library-data'
 
 /** Every creature's stat blocks, which a DM search also matches by ability name, once loaded. */
 let typedMonsterPrinting: typeof MonsterPrinting | undefined
@@ -39,22 +42,16 @@ export async function loadLibrarySearch(dm: boolean) {
   ])
 }
 
-const entriesByPath = new Map(
-  publishedLibrary.map((entry) => [entry.type + '/' + entry.slug, entry]),
-)
-if (entriesByPath.size !== publishedLibrary.length)
-  throw new Error('Duplicate published library entry path')
-
 export function libraryBrowseTypes(dm: boolean) {
-  return new Set(publishedLibrary.filter((entry) => dm || !entry.gmOnly).map((entry) => entry.type))
+  return new Set(dm ? libraryCatalogTypes : libraryPlayerTypes)
 }
 
 export function libraryGroups(dm: boolean, type?: LibraryType) {
   if (!type) return []
   return [
     ...new Set(
-      publishedLibrary
-        .filter((entry) => entry.type === type && (dm || !entry.gmOnly))
+      libraryRecords([type])
+        .filter((entry) => dm || !entry.gmOnly)
         .flatMap((entry) => entry.groups ?? [entry.group]),
     ),
   ].toSorted((left, right) => left.localeCompare(right))
@@ -78,8 +75,8 @@ export function browseLibrary(
   const term = normalize(query?.trim() ?? '')
   // Split like the search index does, so "half-orc" finds printed "half-orc".
   const words = term.split(/[^\p{L}\p{N}]+/u).filter(Boolean)
-  const entries = publishedLibrary.flatMap((record) => {
-    if ((!dm && record.gmOnly) || (type && record.type !== type)) return []
+  const entries = libraryRecords(type ? [type] : undefined).flatMap((record) => {
+    if (!dm && record.gmOnly) return []
     const { name, slug, summary, group: mainGroup, groups = [mainGroup], price, art } = record
     if (group && !groups.includes(group)) return []
     if (words.length) {
@@ -135,8 +132,9 @@ export function browseLibrary(
       )
 }
 
-export function getLibraryEntry(type: string, slug: string, dm: boolean, version?: string) {
-  const record = entriesByPath.get(type + '/' + slug)
+/** An entry as its page shows it; load its type with `loadLibraryDetail` first. */
+export function getLibraryEntry(type: LibraryType, slug: string, dm: boolean, version?: string) {
+  const record = libraryRecord(type, slug)
   if (!record || (!dm && record.gmOnly)) return undefined
   const { name, group, groups = [group], summary, printings, art, price, rating } = record
   const selected = version ? printings.find(({ id }) => id === version) : printings[0]

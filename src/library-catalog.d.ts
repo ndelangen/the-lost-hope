@@ -1,7 +1,15 @@
 declare module 'virtual:library-index' {
-  import type { LibraryIndexRecord } from '#/lib/published-library-data'
+  import type { LibraryIndexRecord, LibraryType } from '#/lib/published-library-data'
 
-  export const records: readonly LibraryIndexRecord[]
+  /** Every type the catalog holds, and those with entries a player may see. */
+  export const types: readonly LibraryType[]
+  export const playerTypes: readonly LibraryType[]
+  /** The rules, whole: rules text links to them from every library page. */
+  export const rules: readonly LibraryIndexRecord[]
+  /** Every other type's entries, one module per type. */
+  export const indexLoaders: Readonly<
+    Partial<Record<LibraryType, () => Promise<{ default: readonly LibraryIndexRecord[] }>>>
+  >
   export const detailLoaders: Readonly<
     Record<string, () => Promise<{ default: Readonly<Record<string, unknown>> }>>
   >

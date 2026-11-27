@@ -83,6 +83,9 @@ const config = defineConfig(({ mode }) => {
               {
                 name: (id) => {
                   if (id === '\0virtual:library-index') return 'published-library-index'
+                  const typeIndex = '\0virtual:library-type/'
+                  if (id.startsWith(typeIndex))
+                    return `published-library-index-${id.slice(typeIndex.length)}`
                   if (id === '\0virtual:library-search') return 'published-library-search'
                   const detail = '\0virtual:library-detail/'
                   return id.startsWith(detail)

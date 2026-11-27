@@ -5,11 +5,31 @@ import { ImageViewer } from '#/components/image-viewer'
 import { LibraryImage } from '#/components/library/library-image'
 import artStyles from '#/data/dm/art-styles'
 import type { ArtStyle } from '#/definitions/art-style'
-import { type ArtReference, artStyleReferences } from '#/lib/art-styles'
-import { publishedLibrary } from '#/lib/published-library-data'
+import type { ArtReference } from '#/lib/art-styles'
 import { cn } from '#/lib/utils'
 
 export const Route = createFileRoute('/dm/tools/art-styles')({
+  // Library pictures need the index of the types they come from, which loads with this page.
+  loader: async () => {
+    const [{ artStyleReferences }, { libraryRecords, loadLibraryIndex }] = await Promise.all([
+      import('#/lib/art-styles'),
+      import('#/lib/published-library-data'),
+    ])
+    const types = [
+      ...new Set(
+        Object.values(artStyles).flatMap((style) =>
+          style.shows === 'libraryArt' ? [style.library] : [],
+        ),
+      ),
+    ]
+    await loadLibraryIndex(types)
+    const library = libraryRecords(types)
+    return {
+      pictures: Object.fromEntries(
+        Object.entries(artStyles).map(([key, style]) => [key, artStyleReferences(style, library)]),
+      ),
+    }
+  },
   head: () => ({
     meta: [{ title: 'Art styles | DM' }, { name: 'robots', content: 'noindex, nofollow' }],
   }),
@@ -17,6 +37,7 @@ export const Route = createFileRoute('/dm/tools/art-styles')({
 })
 
 function ArtStylesPage() {
+  const { pictures } = Route.useLoaderData()
   return (
     <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_12rem]">
       <div className="grid min-w-0 grid-cols-1 content-start gap-8">
@@ -40,7 +61,7 @@ function ArtStylesPage() {
           </nav>
         </div>
         {Object.entries(artStyles).map(([key, style]) => (
-          <StyleSection key={key} id={key} style={style} />
+          <StyleSection key={key} id={key} style={style} pictures={pictures[key] ?? []} />
         ))}
       </div>
       <aside className="order-first grid min-w-0 content-start gap-4 xl:sticky xl:top-20 xl:order-none">
@@ -50,9 +71,16 @@ function ArtStylesPage() {
   )
 }
 
-function StyleSection({ id, style }: { id: string; style: ArtStyle }) {
+function StyleSection({
+  id,
+  style,
+  pictures,
+}: {
+  id: string
+  style: ArtStyle
+  pictures: readonly (ArtReference | undefined)[]
+}) {
   const square = style.canvas.width === style.canvas.height
-  const pictures = artStyleReferences(style, publishedLibrary)
   return (
     <section id={id} className="grid scroll-mt-4 gap-3">
       <div className="grid gap-1">

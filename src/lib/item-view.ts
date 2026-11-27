@@ -4,7 +4,7 @@ import type { Price, PriceRange } from '#/definitions/price'
 import { scenes, sceneMentions } from '#/lib/dm-campaign'
 import { loadEquipment } from '#/lib/library-equipment'
 import { loadMagicItem } from '#/lib/library-magic-items'
-import { publishedLibrary } from '#/lib/published-library-data'
+import { libraryRecords, loadLibraryIndex } from '#/lib/published-library-data'
 
 const amount = (price: Price) => price.amount.toLocaleString('en')
 
@@ -63,7 +63,7 @@ export type ItemFacts = {
 
 /** The catalog record whose typed printing is this library entry. */
 function catalogRecordFor(ref: NonNullable<Item['library']>) {
-  for (const record of publishedLibrary) {
+  for (const record of libraryRecords(['items'])) {
     for (const printing of record.printings) {
       const typed = printing.typed
       if (!typed) continue
@@ -83,6 +83,7 @@ function catalogRecordFor(ref: NonNullable<Item['library']>) {
  */
 export async function loadItemFacts(item: Item): Promise<ItemFacts> {
   if (!item.library) return { category: item.category!, price: item.price }
+  await loadLibraryIndex(['items'])
   const found = catalogRecordFor(item.library)
   if (!found)
     throw new Error(`${item.name}: library entry ${item.library.key} is not in the catalog`)

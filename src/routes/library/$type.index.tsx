@@ -3,6 +3,7 @@ import { createFileRoute, notFound, redirect, stripSearchParams } from '@tanstac
 import { LibraryBrowse } from '#/components/library/library-browse'
 import {
   isLibraryType,
+  type LibraryIndexLoad,
   librarySearch,
   libraryTypes,
   MERGED_LIBRARY_TYPES,
@@ -17,6 +18,12 @@ export const Route = createFileRoute('/library/$type/')({
     const { libraryBrowseTypes } = await import('#/lib/published-library')
     if (!isLibraryType(type) || !libraryBrowseTypes(Boolean(search.dm)).has(type)) throw notFound()
     return { libraryType: type }
+  },
+  // Only the type shown loads its index.
+  loader: async ({ context: { libraryType } }): Promise<LibraryIndexLoad> => {
+    const { loadLibraryIndex } = await import('#/lib/published-library-data')
+    await loadLibraryIndex([libraryType])
+    return { libraryIndex: [libraryType] }
   },
   head: ({ match }) => ({
     meta: [

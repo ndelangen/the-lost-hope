@@ -16,6 +16,22 @@ export function isLibraryType(value: unknown): value is LibraryType {
   return typeof value === 'string' && Object.hasOwn(libraryTypes, value)
 }
 
+/** What a loader returns when its page reads the library index: the types it loaded. */
+export type LibraryIndexLoad = { libraryIndex: readonly LibraryType[] }
+
+/**
+ * The library index types a page's loaders loaded. The server sends them with the page, and the
+ * browser loads them before it hydrates, so its first render reads the same entries.
+ */
+export function libraryIndexTypesOf(matches: readonly { loaderData?: unknown }[]): LibraryType[] {
+  const loaded = matches.flatMap(({ loaderData }) =>
+    loaderData && typeof loaderData === 'object' && 'libraryIndex' in loaderData
+      ? (loaderData as LibraryIndexLoad).libraryIndex
+      : [],
+  )
+  return [...new Set(loaded)]
+}
+
 type LibrarySearch = {
   dm?: true
   from?: 'all'

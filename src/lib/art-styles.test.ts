@@ -4,12 +4,14 @@ import artStyles from '#/data/dm/art-styles'
 
 import { ORIGINAL_IMAGE_SOURCES } from '../../scripts/image-sources'
 import { artStyleReferences } from './art-styles'
-import { publishedLibrary } from './published-library-data'
+import { libraryRecords, loadLibraryIndex } from './published-library-data'
+
+await loadLibraryIndex()
 
 const registered = new Map(ORIGINAL_IMAGE_SOURCES.map((source) => [source.logicalSource, source]))
 
 test.each(Object.entries(artStyles))('every %s reference shows registered art', (_key, style) => {
-  const pictures = artStyleReferences(style, publishedLibrary)
+  const pictures = artStyleReferences(style, libraryRecords())
   const unresolved = style.references.filter((_ref, index) => !pictures[index])
   expect(unresolved).toEqual([])
   for (const picture of pictures) {
