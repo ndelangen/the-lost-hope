@@ -119,7 +119,8 @@ function segmentFor(
   }
 
   if ('roll' in token) {
-    const bonus = token.mod ? block.modifier[token.mod] : 0
+    // A modifier the block derives, plus any flat bonus the book prints beyond it.
+    const bonus = (token.mod ? block.modifier[token.mod] : 0) + (token.bonus ?? 0)
     // A roll never comes to less than 1.
     const formula = Math.max(1, averageRoll(token.roll) + bonus)
     const average = token.printed ?? formula
@@ -136,10 +137,15 @@ function segmentFor(
   }
 
   if ('toHit' in token) {
+    const formula = block.modifier[token.toHit] + block.proficiencyBonus
+    const value = token.printed ?? formula
     return {
       kind: 'number',
-      value: signed(block.modifier[token.toHit] + block.proficiencyBonus),
-      note: `Attack roll bonus: ${rules[token.toHit].name} modifier plus proficiency`,
+      value: signed(value),
+      note:
+        token.printed !== undefined && token.printed !== formula
+          ? `Attack roll bonus as printed; ${rules[token.toHit].name} modifier plus proficiency gives ${signed(formula)}`
+          : `Attack roll bonus: ${rules[token.toHit].name} modifier plus proficiency`,
     }
   }
 

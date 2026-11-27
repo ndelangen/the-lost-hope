@@ -90,12 +90,19 @@ def tokens(parts):
   for t in parts:
     if isinstance(t,str): out.append(js(t))
     elif 'spell' in t: out.append('refs.spells.'+t['spell'])
-    elif 'toHit' in t: out.append('{ toHit: '+js(t['toHit'])+' }')
+    elif 'toHit' in t: out.append('{ toHit: '+js(t['toHit'])+(', printed: '+str(t['printed']) if 'printed' in t else '')+' }')
     elif 'dc' in t: out.append('{ dc: '+js(t['dc'])+(', save: '+js(t['save']) if 'save' in t else '')+(', printed: '+str(t['printed']) if 'printed' in t else '')+' }')
     elif 'ability' in t: out.append('{ ability: '+js(t['ability'])+' }')
-    elif 'roll' in t: out.append('{ roll: '+js(t['roll'])+(', mod: '+js(t['mod']) if 'mod' in t else '')+(', printed: '+str(t['printed']) if 'printed' in t else '')+' }')
+    elif 'roll' in t: out.append('{ roll: '+js(t['roll'])+(', mod: '+js(t['mod']) if 'mod' in t else '')+(', bonus: '+str(t['bonus']) if 'bonus' in t else '')+(', printed: '+str(t['printed']) if 'printed' in t else '')+' }')
     else: out.append('rules.'+t['rule'])
   return '['+', '.join(out)+']'
+def damage_ts(d,prefix='refs.rules'):
+  '''One damage roll, with the book's own bonus or average where they break the formula.'''
+  add=', addModifier: true' if d.get('addModifier') else ''
+  pb=f', printedBonus: {d["printedBonus"]}' if 'printedBonus' in d else ''
+  pa=f', printedAverage: {d["printedAverage"]}' if 'printedAverage' in d else ''
+  tp=f', type: {prefix}.{d["type"]}' if d.get('type') else ''
+  return f'{{ dice: {js(d["dice"])}{tp}{add}{pb}{pa} }},'
 def ability_ts(ab,keys,ind):
   i=' '*ind
   key=ab['key']
@@ -113,14 +120,12 @@ def ability_ts(ab,keys,ind):
     else: L.append(f'{i}    range: [{a["range"][0]}, {a["range"][1]}],')
     if 'twoHanded' in a:
       L.append(f'{i}    twoHanded: [')
-      for d in a['twoHanded']: L.append(f'{i}      {{ dice: {js(d["dice"])}, type: rules.{d["type"]}, addModifier: true }},')
+      for d in a['twoHanded']: L.append(f'{i}      '+damage_ts(d,'rules'))
       L.append(f'{i}    ],')
     if 'printedBonus' in a: L.append(f'{i}    printedBonus: {a["printedBonus"]},')
     if 'magic' in a: L.append(f'{i}    magic: {a["magic"]},')
     L.append(f'{i}    damage: [')
-    for d in a['damage']:
-      add=', addModifier: true' if d.get('addModifier') else ''
-      L.append(f'{i}      {{ dice: {js(d["dice"])}, type: refs.rules.{d["type"]}{add} }},')
+    for d in a['damage']: L.append(f'{i}      '+damage_ts(d))
     L.append(f'{i}    ],'); L.append(f'{i}  }},')
   if 'save' in ab:
     sv=ab['save']; t=sv['target']
@@ -134,9 +139,7 @@ def ability_ts(ab,keys,ind):
       L.append(f'{i}    target: {{ creatures: {t["creatures"]}, range: {t["range"]}{wh} }},')
     L.append(f'{i}    onFail: {{')
     L.append(f'{i}      damage: [')
-    for d in sv['onFail']['damage']:
-      add=', addModifier: true' if d.get('addModifier') else ''
-      L.append(f'{i}        {{ dice: {js(d["dice"])}, type: rules.{d["type"]}{add} }},')
+    for d in sv['onFail']['damage']: L.append(f'{i}        '+damage_ts(d,'rules'))
     L.append(f'{i}      ],')
     if 'also' in sv['onFail']: L.append(f'{i}      also: {tokens(cond_tokens(sv["onFail"]["also"][0]))},')
     L.append(f'{i}    }},')
@@ -234,6 +237,13 @@ def main():
       for k in ['size','type','cr','ac']: L.append(f'        {k}: {js(b[k])},')
       if 'armor' in b: L.append(f'        armor: {js(b["armor"])},')
       L.append(f'        hitDice: {js(b["hitDice"])},')
+      if b.get('printed'):
+        pr=b['printed']; parts=[]
+        for k in ['hitPoints','initiative','passivePerception']:
+          if k in pr: parts.append(f'{k}: {pr[k]}')
+        for k in ['saves','skills']:
+          if pr.get(k): parts.append(f'{k}: {{'+', '.join(f'{kk.replace("-","_")}: {v}' for kk,v in pr[k].items())+'}')
+        L.append('        printed: { '+', '.join(parts)+' },')
       L.append('        speed: {'+', '.join(f'{k}: {v}' for k,v in b['speed'].items())+'},')
       L.append('        scores: {'+', '.join(f'{k}: {v}' for k,v in b['scores'].items())+'},')
       if 'initiative' in b: L.append(f'        initiative: {js(b["initiative"])},')

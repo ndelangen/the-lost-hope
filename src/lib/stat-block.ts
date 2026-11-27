@@ -172,10 +172,10 @@ export function deriveAttack(attack: Attack, stats: AnyStatBlock): DerivedAttack
   const magic = attack.magic ?? 0
   const derive = (rolls: Attack['damage']): DerivedDamage[] =>
     rolls.map((roll) => {
-      const extra = roll.addModifier ? mod + magic : 0
+      const extra = roll.printedBonus ?? (roll.addModifier ? mod + magic : 0)
       return {
         kind: 'damage',
-        amount: average(roll.dice, extra),
+        amount: roll.printedAverage ?? average(roll.dice, extra),
         roll: `${roll.dice}${flatBonus(extra)}`,
         type: roll.type,
       }
@@ -208,10 +208,10 @@ const SHORT = {
 export function deriveSaveDamage(save: Save, stats: AnyStatBlock): DerivedDamage[] {
   const mod = modifier(stats.scores[save.dc])
   return (save.onFail.damage ?? []).map((roll) => {
-    const extra = roll.addModifier ? mod : 0
+    const extra = roll.printedBonus ?? (roll.addModifier ? mod : 0)
     return {
       kind: 'damage',
-      amount: average(roll.dice, extra),
+      amount: roll.printedAverage ?? average(roll.dice, extra),
       roll: `${roll.dice}${flatBonus(extra)}`,
       type: roll.type,
     }
@@ -327,13 +327,22 @@ export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
   const modifiers = Object.fromEntries(
     ABILITY_KEYS.map((id) => [id, modifier(stats.scores[id])]),
   ) as Record<AbilityId, number>
-  const skills = SKILL_KEYS.filter((skill) => stats.skills?.[skill]).map((skill) => ({
+  // The book's own numbers, where they break the formula.
+  const printed = 'printed' in stats ? stats.printed : undefined
+  const skills = SKILL_KEYS.filter(
+    (skill) => stats.skills?.[skill] || printed?.skills?.[skill] !== undefined,
+  ).map((skill) => ({
     skill,
     label: rules[skill].name,
-    bonus: modifiers[skillAbility(skill)] + pb * proficiencyMultiplier(stats.skills?.[skill]),
+    bonus:
+      printed?.skills?.[skill] ??
+      modifiers[skillAbility(skill)] + pb * proficiencyMultiplier(stats.skills?.[skill]),
   }))
   const passivePerception =
+    printed?.passivePerception ??
     10 + modifiers.wis + pb * proficiencyMultiplier(stats.skills?.perception)
+  const derivedMaxHp =
+    'cr' in stats ? average(stats.hitDice, dice(stats.hitDice).count * modifiers.con) : stats.maxHp
   return {
     speed: stats.speed,
     abilities: Object.fromEntries(
@@ -363,19 +372,22 @@ export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
     >,
     modifier: modifiers,
     proficiencyBonus: pb,
-    maxHp:
-      'cr' in stats
-        ? average(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
-        : stats.maxHp,
+    maxHp: printed?.hitPoints ?? derivedMaxHp,
+    // A printed total the dice don't produce stands alone: its formula would not add up.
     hitPoints:
       'cr' in stats
-        ? rollText(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
+        ? printed?.hitPoints !== undefined && printed.hitPoints !== derivedMaxHp
+          ? `${printed.hitPoints} (${stats.hitDice})`
+          : rollText(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
         : String(stats.maxHp),
     ac: stats.ac,
-    initiative: modifiers.dex + pb * proficiencyMultiplier(stats.initiative),
+    initiative: printed?.initiative ?? modifiers.dex + pb * proficiencyMultiplier(stats.initiative),
     experience: 'cr' in stats ? experience(stats.cr) : 0,
     saves: Object.fromEntries(
-      ABILITY_KEYS.map((id) => [id, modifiers[id] + pb * proficiencyMultiplier(stats.saves?.[id])]),
+      ABILITY_KEYS.map((id) => [
+        id,
+        printed?.saves?.[id] ?? modifiers[id] + pb * proficiencyMultiplier(stats.saves?.[id]),
+      ]),
     ) as Record<AbilityId, number>,
     skills,
     passivePerception,

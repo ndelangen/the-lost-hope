@@ -150,4 +150,13 @@ describe('rolls in ability text', () => {
   it('keeps a printed average that breaks the formula', () => {
     expect(numbers({ roll: '3d6', printed: 11 })).toEqual(['11 (3d6)'])
   })
+
+  it('adds a printed flat bonus that no modifier explains', () => {
+    expect(numbers({ roll: '2d8', bonus: 2 })).toEqual(['11 (2d8 + 2)'])
+    expect(numbers({ roll: '2d6', mod: 'str', bonus: 2 })).toEqual(['12 (2d6 + 5)'])
+  })
+
+  it('keeps a printed attack bonus that breaks the formula', () => {
+    expect(numbers({ toHit: 'int', printed: 9 })).toEqual(['+9'])
+  })
 })

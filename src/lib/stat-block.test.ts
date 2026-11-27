@@ -357,3 +357,69 @@ describe('initiative', () => {
     expect(deriveStatBlock(dragon).initiative).toBe(12)
   })
 })
+
+describe('numbers the book prints that its statistics do not produce', () => {
+  /** A raging warrior: a damage bonus no modifier explains, and hit points printed at maximum. */
+  const printed = PrintedStatBlock.parse({
+    size: 'medium',
+    type: 'humanoid',
+    cr: '2',
+    ac: 13,
+    hitDice: '8d8',
+    printed: {
+      hitPoints: 64,
+      initiative: 4,
+      passivePerception: 9,
+      saves: { str: 7 },
+      skills: { intimidation: 5 },
+    },
+    speed: { walk: 30 },
+    scores: { str: 16, dex: 12, con: 14, int: 9, wis: 11, cha: 10 },
+    saves: { con: 'proficient' },
+    abilities: [
+      {
+        key: 'greataxe',
+        name: 'Greataxe',
+        timing: 'action',
+        icon: 'gi/GiBattleAxe',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          damage: [
+            {
+              dice: '1d12',
+              type: refs.rules.slashing,
+              addModifier: true,
+              printedBonus: 5,
+              printedAverage: 12,
+            },
+          ],
+        },
+      },
+    ],
+  })
+
+  it('keeps the printed hit points, with the dice but no formula that would not add up', () => {
+    const derived = deriveStatBlock(printed)
+    expect(derived.maxHp).toBe(64)
+    expect(derived.hitPoints).toBe('64 (8d8)')
+  })
+
+  it('keeps printed initiative, passive Perception, saves and skills', () => {
+    const derived = deriveStatBlock(printed)
+    expect(derived.initiative).toBe(4)
+    expect(derived.passivePerception).toBe(9)
+    expect(derived.saves.str).toBe(7)
+    expect(derived.saves.con).toBe(4)
+    expect(derived.skills.map(({ label, bonus }) => [label, bonus])).toEqual([['Intimidation', 5]])
+  })
+
+  it('keeps a damage bonus and average the formula does not give', () => {
+    const derived = deriveStatBlock(printed)
+    expect(plainStatParts(derived.abilities.greataxe!.summary!)).toBe('+5, 12 (1d12 + 5) slashing')
+  })
+
+  it('rejects an empty printed record', () => {
+    expect(() => PrintedStatBlock.parse({ ...printed, printed: {} })).toThrow()
+  })
+})

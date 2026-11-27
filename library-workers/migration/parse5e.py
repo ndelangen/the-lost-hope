@@ -146,7 +146,7 @@ def save_damage(m,scores,save_ab,issues,name):
   if bonus:
     # The save's DC ability supplies this modifier; build_save picks an ability that fits both.
     d['addModifier']=True; d['_bonus']=bonus
-  if avg(dice,bonus)!=int(m.group(1)): issues.append(f'{name}: save damage avg')
+  if max(1,avg(dice,bonus))!=int(m.group(1)): d['printedAverage']=int(m.group(1))  # the book wins
   return d
 CTX={'caster':None}
 # Spell names the library holds (src/data/library/spells.ts), longest first so "Greater
@@ -298,15 +298,20 @@ def extract_save(ab,text,scores,prof,issues):
   return text
 def build_save(a,dc,target,damage,also,success,scores,prof,issues,name):
   order=[a]+([CTX['caster']] if CTX['caster'] else [])+['con','str','dex','wis','int','cha']
-  bonuses={d_.pop('_bonus') for d_ in damage if '_bonus' in d_}
-  if len(bonuses)>1: issues.append(f'{name}: save damage adds two different modifiers')
+  bonus_of=[(d_,d_.pop('_bonus')) for d_ in damage if '_bonus' in d_]
+  bonuses={b_ for _,b_ in bonus_of}
   fits=lambda b: all(mod(scores[b])==x for x in bonuses)
   built=next((b for b in order if 8+prof+mod(scores[b])==dc and fits(b)),None)
   if not built and bonuses:
     # The book's DC breaks the formula: keep it printed, on the ability the damage uses.
     built=next((b for b in order if fits(b)),None)
-    if not built: issues.append(f'{name}: save damage bonus is not a modifier the block has')
-    sv={'ability':a,'dc':built or a,'printedDc':dc,'target':target,'onFail':{'damage':damage}}
+    if built:
+      sv={'ability':a,'dc':built,'printedDc':dc,'target':target,'onFail':{'damage':damage}}
+    else:
+      # A damage bonus no modifier explains: the book's bonus stands, and the DC derives alone.
+      for d_,b_ in bonus_of: d_['printedBonus']=b_
+      built=next((b for b in order if 8+prof+mod(scores[b])==dc),None)
+      sv={'ability':a,'dc':built or a,**({} if built else {'printedDc':dc}),'target':target,'onFail':{'damage':damage}}
   else:
     sv=None
   if sv is None: sv={'ability':a,'dc':built or a,**({} if built else {'printedDc':dc}),'target':target,'onFail':{'damage':damage}}
@@ -344,7 +349,11 @@ def finalize(block,scores,prof,issues):
         if hits:
           if m.group(1): toks.append({'toHit':hits[0]}); toks.append(' to hit with spell attacks')
           else: toks.append(m.group(0).split('+')[0]); toks.append({'toHit':hits[0]})
-        else: issues.append(f"{ab['name']}: spell attack bonus not derivable"); toks.append(m.group(0))
+        else:
+          # The book's bonus stands, on the casting ability.
+          a_=caster or max(('int','wis','cha'),key=lambda x:scores[x])
+          if m.group(1): toks.append({'toHit':a_,'printed':v}); toks.append(' to hit with spell attacks')
+          else: toks.append(m.group(0).split('+')[0]); toks.append({'toHit':a_,'printed':v})
       elif m.group(3) and re.match(r'\s*(?:(?:Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)\s*)?(?:\([A-Za-z ]+\)\s*)?check',text[m.end(3):]):
         # An ability-check DC is a fixed number to beat, not a save the block derives.
         toks.append(m.group(0))
@@ -395,8 +404,9 @@ def roll_tokens(text,scores):
     tok={'roll':m.group(2)}
     if bonus:
       hit=next((a for a in ['str','dex','con','wis','int','cha'] if mod(scores[a])==bonus),None)
-      if not hit: continue
-      tok['mod']=hit
+      # A bonus no modifier explains stands as the book prints it.
+      if hit: tok['mod']=hit
+      else: tok['bonus']=bonus
     # A roll never comes to less than 1, as printed stat blocks show it.
     if max(1,avg(m.group(2),bonus))!=int(m.group(1)): tok['printed']=int(m.group(1))
     if m.start()>pos: out.append(text[pos:m.start()])
@@ -424,8 +434,9 @@ def convert(r,p):
   if not m: raise Fail('hit dice '+hd)
   dice=m.group(1); n=int(dice.split('d')[0])
   bonus=int(m.group(3) or 0)*(-1 if m.group(2) in ('-','−') else 1)
-  if bonus!=n*mod(scores['con']): issues.append(f'hit dice bonus {bonus} != {n}x con mod')
-  if avg(dice,n*mod(scores['con']))!=int(hp): issues.append(f'HP {hp} != derived {avg(dice,n*mod(scores["con"]))}')
+  # The book's own numbers win where they break the formula.
+  book={}
+  if avg(dice,n*mod(scores['con']))!=int(hp): book['hitPoints']=int(hp)
   cls=' '.join(sec(p,'Classification') or [])
   if not cls and g('Size') and g('Type'):
     # Encounter-reference printings keep size, type and alignment as separate statistics.
@@ -453,7 +464,7 @@ def convert(r,p):
       v=int(mm.group(1).replace('−','-')); base=mod(scores[ab])
       if v==base+prof: skills[name.replace(' ','_')]='proficient'
       elif v==base+2*prof: skills[name.replace(' ','_')]='expert'
-      else: issues.append(f'skill {name} {v} not mod+PB')
+      else: book.setdefault('skills',{})[name.replace(' ','_')]=v
   if skills: block['skills']=skills
   senses={}
   for s in ['darkvision','blindsight','tremorsense','truesight']:
@@ -463,25 +474,25 @@ def convert(r,p):
   pp=re.search(r'passive Perception (\d+)',other,re.I)
   if pp:
     want=10+mod(scores['wis'])+{'proficient':prof,'expert':2*prof}.get(skills.get('perception'),0)
-    if int(pp.group(1))!=want: issues.append(f'passive perception {pp.group(1)} != {want}')
+    if int(pp.group(1))!=want: book['passivePerception']=int(pp.group(1))
   ini=g('Initiative') or (re.search(r'Initiative ([+−-]?\d+)',other) or [None,None])[1]
   if ini:
     iv=int(re.match(r'[+−-]?\d+',ini.replace('−','-')).group().replace('+',''))
     if iv==mod(scores['dex'])+prof: block['initiative']='proficient'
     elif iv==mod(scores['dex'])+2*prof: block['initiative']='expert'
-    elif iv!=mod(scores['dex']): issues.append(f'initiative {iv} not derivable')
+    elif iv!=mod(scores['dex']): book['initiative']=iv
   saves={}
   for l in sec(p,'Saving throws') or []:
     for nm,val in re.findall(r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|Str|Dex|Con|Int|Wis|Cha)\b ([+−-]\d+)',l,re.I):
       a=ANAME.get(nm.lower(),nm.lower()[:3]); v=int(val.replace('−','-'))
       if v==mod(scores[a])+prof: saves[a]='proficient'
-      elif v!=mod(scores[a]): issues.append(f'save {a} {v}')
+      elif v!=mod(scores[a]): book.setdefault('saves',{})[a]=v
   sm=re.search(r'Saving Throws ([^.]*?)(?: Skills| Senses| Damage| Condition|\.|$)',other)
   if sm:
     for a,v in re.findall(r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|Str|Dex|Con|Int|Wis|Cha)\b ([+−-]\d+)',sm.group(1),re.I):
       a=ANAME.get(a.lower(),a.lower()[:3]); v=int(v.replace('−','-'))
       if v==mod(scores[a])+prof: saves[a]='proficient'
-      else: issues.append(f'save {a} {v}')
+      else: book.setdefault('saves',{})[a]=v
   if saves: block['saves']=saves
   # Defenses, however the worker phrased them: each clause runs to the next defense keyword.
   KW=r'(?:Damage |Condition )?(?:Resistant to|Resistances?|Resists?|Immunities|Immune to|Vulnerabilit(?:y|ies)|Vulnerable to)'
@@ -580,31 +591,33 @@ def convert(r,p):
         fixed='d' not in am.group(9)
         # Damage adds the attack's modifier, or nothing at all (a fixed amount, most spell attacks).
         plain=fixed or (dmgb==0 and mod(scores[a])!=0)
-        if avg(am.group(9),0 if plain else mod(scores[a])+magic)!=int(am.group(8)): issues.append(f'{name}: damage avg')
-        if not plain and dmgb!=mod(scores[a])+magic: issues.append(f'{name}: damage bonus {dmgb} != {a} mod')
+        # A bonus or average the formula doesn't give: the book's number stands.
+        dmg_printed={}
+        if not plain and dmgb!=mod(scores[a])+magic: dmg_printed['printedBonus']=dmgb
+        if max(1,avg(am.group(9),0 if plain else dmgb))!=int(am.group(8)): dmg_printed['printedAverage']=int(am.group(8))
         if am.group(12).lower() not in DAMAGE: issues.append(f'{name}: damage type {am.group(12)}')
         atk={'kind':kind,'ability':a,**({'printedBonus':printed} if printed is not None else {}),**({'magic':magic} if magic else {})}
         if kind=='melee':
           atk['reach']=int(am.group(3))
           if am.group(4): atk['thrown']=[int(am.group(4)),int(am.group(5))]
         else: atk['range']=[int(am.group(4)),int(am.group(5))]
-        dmg=[{'dice':am.group(9),'type':am.group(12).lower(),'addModifier':not plain}]
+        dmg=[{'dice':am.group(9),'type':am.group(12).lower(),'addModifier':not plain,**dmg_printed}]
         rest=am.group(13).strip()
         em=EXTRA.match(rest)
         if em:
-          if avg(em.group(2))!=int(em.group(1)): issues.append(f'{name}: extra damage avg')
-          dmg.append({'dice':em.group(2),'type':em.group(3).lower()}); rest=rest[em.end():].strip()
+          dmg.append({'dice':em.group(2),'type':em.group(3).lower(),**({'printedAverage':int(em.group(1))} if avg(em.group(2))!=int(em.group(1)) else {})}); rest=rest[em.end():].strip()
         vm=re.match(r'^,?\s*or (\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+) damage,? (?:if used with two hands|when used with two hands|with a two-handed (?:melee )?attack|if wielded with two hands|when wielded with two hands)(?:(?!,? plus \d)[^.])*\.?',rest,re.I)
         if vm and kind=='melee':
           vb=int(vm.group(4) or 0)*(-1 if vm.group(3) in ('-','−','–') else 1)
-          if vb!=mod(scores[a]) or avg(vm.group(2),vb)!=int(vm.group(1)): issues.append(f'{name}: two-handed damage does not derive')
-          atk['twoHanded']=[{'dice':vm.group(2),'type':vm.group(5).lower(),'addModifier':True}]
+          th={'dice':vm.group(2),'type':vm.group(5).lower(),'addModifier':True}
+          if vb!=mod(scores[a])+magic: th['printedBonus']=vb
+          if max(1,avg(vm.group(2),vb))!=int(vm.group(1)): th['printedAverage']=int(vm.group(1))
+          atk['twoHanded']=[th]
           rest=rest[vm.end():].strip()
           # "…if used with two hands, plus 6 (1d12) radiant damage": the extra damage goes with either grip.
           em=EXTRA.match(rest)
           if em:
-            if avg(em.group(2))!=int(em.group(1)): issues.append(f'{name}: extra damage avg')
-            dmg.append({'dice':em.group(2),'type':em.group(3).lower()}); rest=rest[em.end():].strip()
+            dmg.append({'dice':em.group(2),'type':em.group(3).lower(),**({'printedAverage':int(em.group(1))} if avg(em.group(2))!=int(em.group(1)) else {})}); rest=rest[em.end():].strip()
         atk['damage']=dmg; ab['attack']=atk; ab['intent']='damage'
         rest=re.sub(r'^[.,;]?\s*(?:and\s+)?','',rest,flags=re.I).strip()
         if rest: rest=rest[0].upper()+rest[1:]
@@ -677,6 +690,7 @@ def convert(r,p):
     pre,items=split_abilities(lair)
     if not items: issues.append('lair actions are not named')
     block['lairActions']=[{'name':n,'timing':'lair','text':[t]} for n,t in items]
+  if book: block['printed']=book
   finalize(block,scores,prof,issues)
   src_line=' '.join(sec(p,'Printed source') or [])
   pg=re.search(r'\bpp?\. (\d+)',src_line)

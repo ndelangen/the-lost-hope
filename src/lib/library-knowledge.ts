@@ -536,7 +536,7 @@ export function statBlockText(printing: MonsterPrinting): string {
   const derived = deriveStatBlock(stats)
   const list = (label: string, values?: readonly { key: string }[]) =>
     values?.length ? [`${label}: ${values.map(({ key }) => ruleName(key)).join(', ')}`] : []
-  const saves = Object.entries(stats.saves ?? {}).map(
+  const saves = Object.entries({ ...stats.saves, ...stats.printed?.saves }).map(
     ([id]) =>
       `${ABILITY_SHORT[id as keyof typeof ABILITY_SHORT]} ${signed(derived.saves[id as 'str'])}`,
   )

@@ -62,6 +62,11 @@ export const AbilityTextToken = z.union([
         .regex(/^\d+d(4|6|8|10|12|20)$/)
         .describe('Dice, e.g. `1d12`; shown with its average: "6 (1d12)"'),
       mod: AbilityId.optional().describe('Adds this ability modifier, e.g. "12 (2d6 + 5)"'),
+      bonus: z
+        .number()
+        .int()
+        .optional()
+        .describe('A flat bonus the book prints that no ability modifier explains, e.g. "+ 2"'),
       printed: z
         .number()
         .int()
@@ -73,6 +78,11 @@ export const AbilityTextToken = z.union([
     toHit: AbilityId.describe(
       'Attack bonus with this ability: modifier + proficiency, e.g. spell attacks',
     ),
+    printed: z
+      .number()
+      .int()
+      .optional()
+      .describe('The bonus as the book prints it, kept only where it breaks the formula'),
   }),
   z.strictObject({ pb: z.literal(true) }),
   RuleRef,
@@ -95,6 +105,18 @@ const Damage = z.strictObject({
     .boolean()
     .default(false)
     .describe('Add the attack ability modifier, as weapon and natural attacks usually do'),
+  printedBonus: z
+    .number()
+    .int()
+    .optional()
+    .describe(
+      'The flat bonus to this roll as the book prints it, kept only where it breaks the formula (a rage, an unstated magic weapon)',
+    ),
+  printedAverage: z
+    .number()
+    .int()
+    .optional()
+    .describe('The average as the book prints it, kept only where it breaks the formula'),
 })
 
 /** A magic weapon's bonus: added to the attack roll and to each damage roll that adds the modifier. */
@@ -474,10 +496,27 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
   }
 }
 
+/** The book's own numbers where they break the formula; everything else is derived. */
+const PrintedNumbers = z
+  .strictObject({
+    hitPoints: z.number().int().positive().optional(),
+    initiative: z.number().int().optional(),
+    passivePerception: z.number().int().optional(),
+    saves: z.partialRecord(AbilityId, z.number().int()).optional(),
+    skills: z.partialRecord(z.enum(SKILL_KEYS), z.number().int()).optional(),
+  })
+  .refine(
+    (printed) => Object.keys(printed).length > 0,
+    'Leave out `printed` when nothing breaks the formula',
+  )
+
 const creatureShape = {
   ...statCore,
   cr: z.enum(CHALLENGE_RATINGS),
   hitDice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use hit dice like `3d10`'),
+  printed: PrintedNumbers.optional().describe(
+    'Numbers the book prints that its own statistics do not produce: the book wins',
+  ),
   legendary: z
     .strictObject({
       uses: z.number().int().positive().describe('Shared pool, refilled at the start of its turn'),
