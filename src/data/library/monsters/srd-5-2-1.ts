@@ -4887,7 +4887,7 @@ export default createPublicationMonsters({
     },
     bat: {
       name: 'Bat',
-      reprintedIn: [refs.publications.monster_manual_2024],
+      reprintedIn: [refs.publications.monster_manual_2024, refs.publications.monster_manual_2025],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -9610,7 +9610,7 @@ export default createPublicationMonsters({
     },
     giant_fire_beetle: {
       name: 'Giant Fire Beetle',
-      reprintedIn: [refs.publications.monster_manual_2024],
+      reprintedIn: [refs.publications.monster_manual_2024, refs.publications.monster_manual_2025],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -15709,7 +15709,7 @@ export default createPublicationMonsters({
     },
     pteranodon: {
       name: 'Pteranodon',
-      reprintedIn: [refs.publications.monster_manual_2024],
+      reprintedIn: [refs.publications.monster_manual_2024, refs.publications.monster_manual_2025],
       tags: ['Dinosaur'],
       alignment: 'unaligned',
       languages: [],

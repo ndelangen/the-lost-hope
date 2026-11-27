@@ -11917,6 +11917,7 @@ export default createPublicationMonsters({
         refs.publications.ddex3_12_hillsfar_reclaimed,
         refs.publications.ddex3_14_death_on_the_wall,
         refs.publications.srd_5_1,
+        refs.publications.stranger_things_welcome_to_the_hellfire_club,
       ],
       tags: ['any race'],
       page: 345,
@@ -16307,7 +16308,10 @@ export default createPublicationMonsters({
     druid: {
       name: 'Druid',
       reprintedIn: [
+        refs.publications.ddal04_06_the_ghost,
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
         refs.publications.ddex3_02_shackles_of_blood,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
         refs.publications.rise_of_tiamat_online_supplement,
         refs.publications.srd_5_1,
       ],
@@ -49142,7 +49146,10 @@ export default createPublicationMonsters({
     },
     wereboar: {
       name: 'Wereboar',
-      reprintedIn: [refs.publications.ddal04_12_the_raven],
+      reprintedIn: [
+        refs.publications.ddal04_12_the_raven,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['human', 'shapechanger'],
       page: 206,
       alignment: 'neutral evil',
