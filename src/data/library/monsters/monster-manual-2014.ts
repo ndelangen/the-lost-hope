@@ -2606,6 +2606,7 @@ export default createPublicationMonsters({
     },
     adult_red_dragon: {
       name: 'Adult Red Dragon',
+      reprintedIn: [refs.publications.out_of_the_abyss],
       page: 98,
       alignment: 'chaotic evil',
       tableNotes: [
@@ -6229,6 +6230,7 @@ export default createPublicationMonsters({
     assassin: {
       name: 'Assassin',
       reprintedIn: [
+        refs.publications.curse_of_strahd,
         refs.publications.ddal04_14_the_darklord,
         refs.publications.ddep2_mulmaster_undone_v2,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
@@ -6950,7 +6952,7 @@ export default createPublicationMonsters({
     },
     bandit: {
       name: 'Bandit',
-      reprintedIn: [refs.publications.srd_5_1],
+      reprintedIn: [refs.publications.curse_of_strahd, refs.publications.srd_5_1],
       tags: ['any race'],
       page: 343,
       alignment: 'any non-lawful alignment',
@@ -10719,6 +10721,7 @@ export default createPublicationMonsters({
     commoner: {
       name: 'Commoner',
       reprintedIn: [
+        refs.publications.curse_of_strahd,
         refs.publications.ddex1_09_outlaws_of_the_iron_route,
         refs.publications.ddex2_02_embers_of_elmwood,
         refs.publications.ddex2_03_the_drowned_tower,
@@ -14150,6 +14153,7 @@ export default createPublicationMonsters({
     },
     drow: {
       name: 'Drow',
+      reprintedIn: [refs.publications.out_of_the_abyss],
       tags: ['elf'],
       page: 128,
       alignment: 'neutral evil',
@@ -14270,6 +14274,7 @@ export default createPublicationMonsters({
     },
     drow_priestess_of_lolth: {
       name: 'Drow Priestess of Lolth',
+      reprintedIn: [refs.publications.out_of_the_abyss],
       tags: ['elf'],
       page: 129,
       alignment: 'neutral evil',
@@ -22324,6 +22329,7 @@ export default createPublicationMonsters({
       name: 'Gnoll Fang of Yeenoghu',
       reprintedIn: [
         refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.out_of_the_abyss,
         refs.publications.planescape_adventures_in_the_multiverse,
       ],
       tags: ['gnoll'],
@@ -26847,6 +26853,7 @@ export default createPublicationMonsters({
     },
     imp: {
       name: 'Imp',
+      reprintedIn: [refs.publications.curse_of_strahd],
       tags: ['devil', 'shapechanger'],
       page: 67,
       alignment: 'lawful evil',
@@ -27673,6 +27680,7 @@ export default createPublicationMonsters({
     },
     knight: {
       name: 'Knight',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse],
       tags: ['any race'],
       page: 347,
       alignment: 'any alignment',
@@ -28893,12 +28901,15 @@ export default createPublicationMonsters({
       name: 'Mage',
       reprintedIn: [
         refs.publications.basic_rules_2018,
+        refs.publications.curse_of_strahd,
         refs.publications.ddal04_13_the_horseman,
         refs.publications.ddex1_10_tyranny_in_phlan,
         refs.publications.ddex1_14_escape_from_phlan,
         refs.publications.ddex3_04_it_s_all_in_the_blood,
         refs.publications.ddex3_08_the_malady_of_elventree,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.princes_of_the_apocalypse,
+        refs.publications.rise_of_tiamat,
         refs.publications.rise_of_tiamat_online_supplement,
       ],
       tags: ['any race'],
@@ -31730,6 +31741,7 @@ export default createPublicationMonsters({
     },
     myconid_sovereign: {
       name: 'Myconid Sovereign',
+      reprintedIn: [refs.publications.out_of_the_abyss],
       page: 230,
       alignment: 'lawful neutral',
       languages: ['None. Rapport Spores allow telepathic communication.'],
@@ -31872,7 +31884,10 @@ export default createPublicationMonsters({
     },
     myconid_sprout: {
       name: 'Myconid Sprout',
-      reprintedIn: [refs.publications.waterdeep_dungeon_of_the_mad_mage],
+      reprintedIn: [
+        refs.publications.out_of_the_abyss,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 230,
       alignment: 'lawful neutral',
       languages: ['None. Rapport Spores allow telepathic communication.'],
@@ -32302,7 +32317,9 @@ export default createPublicationMonsters({
     noble: {
       name: 'Noble',
       reprintedIn: [
+        refs.publications.curse_of_strahd,
         refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.out_of_the_abyss,
         refs.publications.princes_of_the_apocalypse_online_supplement,
         refs.publications.rise_of_tiamat_online_supplement,
       ],
@@ -33051,6 +33068,7 @@ export default createPublicationMonsters({
     },
     orc: {
       name: 'Orc',
+      reprintedIn: [refs.publications.out_of_the_abyss],
       tags: ['orc'],
       page: 246,
       alignment: 'chaotic evil',
@@ -35465,6 +35483,7 @@ export default createPublicationMonsters({
         refs.publications.ddex3_15_szith_morcane_unbound,
         refs.publications.ddex3_16_assault_on_maerimydra,
         refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.out_of_the_abyss,
         refs.publications.spelljammer_adventures_in_space,
         refs.publications.waterdeep_dungeon_of_the_mad_mage,
       ],
@@ -37726,6 +37745,7 @@ export default createPublicationMonsters({
     scout: {
       name: 'Scout',
       reprintedIn: [
+        refs.publications.curse_of_strahd,
         refs.publications.ddal04_02_the_beast,
         refs.publications.ddep1_corruption_in_kryptgarden,
         refs.publications.ddep2_mulmaster_undone_v2,
@@ -39444,6 +39464,7 @@ export default createPublicationMonsters({
     spy: {
       name: 'Spy',
       reprintedIn: [
+        refs.publications.curse_of_strahd,
         refs.publications.ddep1_corruption_in_kryptgarden,
         refs.publications.ddex1_04_dues_for_the_dead,
         refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
@@ -41764,6 +41785,7 @@ export default createPublicationMonsters({
     },
     thug: {
       name: 'Thug',
+      reprintedIn: [refs.publications.curse_of_strahd],
       tags: ['any race'],
       page: 350,
       alignment: 'any non-good alignment',
@@ -44140,6 +44162,7 @@ export default createPublicationMonsters({
     },
     veteran: {
       name: 'Veteran',
+      reprintedIn: [refs.publications.curse_of_strahd],
       tags: ['any race'],
       page: 350,
       alignment: 'any alignment',
@@ -45727,6 +45750,7 @@ export default createPublicationMonsters({
     },
     werewolf: {
       name: 'Werewolf',
+      reprintedIn: [refs.publications.curse_of_strahd],
       tags: ['human', 'shapechanger'],
       page: 206,
       alignment: 'chaotic evil',

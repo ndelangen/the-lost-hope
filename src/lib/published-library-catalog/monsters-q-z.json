@@ -9130,107 +9130,17 @@
       {
         "id": "printing-954b89cdaa90dfe6e3fba62d",
         "label": "Rise of Tiamat",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 40",
-              "Hit dice · 9d8",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Strength · 9",
-              "Dexterity · 14",
-              "Constitution · 11",
-              "Intelligence · 17",
-              "Wisdom · 12",
-              "Charisma · 11",
-              "Creature tags · any race",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#red%20wizard_rot",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mage"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 6. Named abilities include Dagger."]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +6", "Wis +4", "Intelligence +6, Wisdom +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Alternate armor classes",
-            "lines": ["15 · with mage armor"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Dagger · melee or ranged · +5 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +6, History +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any four languages"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Dagger · Melee or ranged attack · +5 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Intelligence · DC 14 · +6 to hit · Fire bolt · Light · Mage hand · Prestidigitation · Detect magic · Mage armor · Magic missile · Shield · Misty step · Suggestion · Counterspell · Fireball · Fly · Greater invisibility · Ice storm · Cone of cold",
-              "Cantrips · fire bolt, light, mage hand, prestidigitation",
-              "Level 1 (4 slots) · detect magic, mage armor, magic missile, shield",
-              "Level 2 (3 slots) · misty step, suggestion",
-              "Level 3 (3 slots) · counterspell, fireball, fly",
-              "Level 4 (3 slots) · greater invisibility, ice storm",
-              "Level 5 (1 slots) · cone of cold"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Mage"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "The Rise of Tiamat, p. 76 · https://5e.tools/bestiary.html#red%20wizard_rot",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Fire bolt (spell) · https://5e.tools/spells.html#fire%20bolt_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Counterspell (spell) · https://5e.tools/spells.html#counterspell_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Greater invisibility (spell) · https://5e.tools/spells.html#greater%20invisibility_phb",
-              "Ice storm (spell) · https://5e.tools/spells.html#ice%20storm_phb",
-              "Cone of cold (spell) · https://5e.tools/spells.html#cone%20of%20cold_phb",
-              "Mage (creature) · https://5e.tools/bestiary.html#mage_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#red%20wizard_rot"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -19275,84 +19185,17 @@
       {
         "id": "printing-b31a62eccd4d8b7d4853652d",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 15",
-              "Hit dice · 2d8 + 6",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 16",
-              "Dexterity · 12",
-              "Constitution · 16",
-              "Intelligence · 7",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · orc",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#ront_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/2. Named abilities include Aggressive, Greataxe, Javelin."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark", "mountain", "grassland", "forest", "swamp", "hill", "arctic"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greataxe · melee · +5 to hit · reach 5 ft. · 1d12 + 3 slashing",
-              "Javelin · melee or ranged · +5 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 3 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Intimidation +2"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Orc"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Aggressive"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Greataxe · Melee attack · +5 to hit · 1d12 + 3 slashing damage · reach 5 ft.",
-              "Javelin · Melee or ranged attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft. · range 30/120 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Orc"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 7 · https://5e.tools/bestiary.html#ront_oota",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Orc (creature) · https://5e.tools/bestiary.html#orc_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ront_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -21571,71 +21414,17 @@
       {
         "id": "printing-77b3f461a741e0709a6a67df",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 0",
-              "Size · Small",
-              "Type · Plant",
-              "Speed · walk 10 ft.",
-              "Passive Perception · 10",
-              "Strength · 8",
-              "Dexterity · 10",
-              "Constitution · 10",
-              "Intelligence · 8",
-              "Wisdom · 11",
-              "Charisma · 5",
-              "Alignment · lawful neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#rumpadump_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "myconid_sprout"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small plant with challenge rating 0. Named abilities include Distress Spores, Sun Sickness, Fist."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Fist · melee · +1 to hit · reach 5 ft. · 1d4 - 1 bludgeoning · 1d4 poison"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Distress Spores · within 240 feet", "Sun Sickness · 1 hour"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Fist · Melee attack · +1 to hit · 1d4 - 1 bludgeoning damage · 1d4 poison damage · reach 5 ft.",
-              "Rapport Spores (3/Day) · 10-foot radius · 1 hour · within 30 feet"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Myconid Sprout"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 72 · https://5e.tools/bestiary.html#rumpadump_oota",
-              "Myconid Sprout (creature) · https://5e.tools/bestiary.html#myconid%20sprout_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#rumpadump_oota"
+        }
       }
     ],
     "groups": ["Plant"]
@@ -27086,96 +26875,17 @@
       {
         "id": "printing-c44066fcf11073cb5f9d4ebf",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 13",
-              "Hit dice · 3d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Strength · 10",
-              "Dexterity · 14",
-              "Constitution · 10",
-              "Intelligence · 11",
-              "Wisdom · 11",
-              "Charisma · 12",
-              "Creature tags · tag elf, prefix Drow",
-              "Alignment · neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#sarith%20kzekarit_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drow"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/4. Named abilities include Fey Ancestry, Sunlight Sensitivity, Shortsword."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Shortsword · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2, Stealth +4"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Elvish, Undercommon"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Fey Ancestry · Charmed", "Sunlight Sensitivity · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Shortsword · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft.",
-              "Hand Crossbow · Ranged attack · +4 to hit · 1d6 + 2 piercing damage · DC 13 Constitution save · range 30/120 ft. · 1 hour · Poisoned · Unconscious"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 11 · Dancing lights · Darkness · Faerie fire",
-              "At will · dancing lights",
-              "1/day each · darkness, faerie fire"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Drow"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 7 · https://5e.tools/bestiary.html#sarith%20kzekarit_oota",
-              "Chain shirt (item) · https://5e.tools/items.html#chain%20shirt_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Faerie fire (spell) · https://5e.tools/spells.html#faerie%20fire_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb",
-              "Drow (creature) · https://5e.tools/bestiary.html#drow_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#sarith%20kzekarit_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -28147,89 +27857,17 @@
       {
         "id": "printing-f6a39ec8026be4052258c81c",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 16",
-              "Hit dice · 3d8 + 3",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 15",
-              "Strength · 11",
-              "Dexterity · 14",
-              "Constitution · 12",
-              "Intelligence · 11",
-              "Wisdom · 13",
-              "Charisma · 11",
-              "Creature tags · elf",
-              "Alignment · neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#savid_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "scout"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/2. Named abilities include Keen Hearing and Sight, Shortsword, Longbow."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "coastal",
-              "mountain",
-              "grassland",
-              "hill",
-              "arctic",
-              "forest",
-              "swamp",
-              "underdark",
-              "desert"
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Shortsword · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Nature +4, Perception +5, Stealth +6, Survival +5"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Hearing and Sight · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Shortsword · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft.",
-              "Longbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Scout"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 133 · https://5e.tools/bestiary.html#savid_cos",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Scout (creature) · https://5e.tools/bestiary.html#scout_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#savid_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -55654,78 +55292,17 @@
       {
         "id": "printing-0b01df933e1d32d03ebac29d",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 60",
-              "Hit dice · 8d10 + 16",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Strength · 12",
-              "Dexterity · 10",
-              "Constitution · 14",
-              "Intelligence · 13",
-              "Wisdom · 15",
-              "Charisma · 10",
-              "Alignment · lawful neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#sovereign%20basidia_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "myconid_sovereign"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large plant with challenge rating 2. Named abilities include Distress Spores, Sun Sickness, Fist."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Fist · melee · +3 to hit · reach 5 ft. · 3d4 + 1 bludgeoning · 3d4 poison"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Distress Spores · within 240 feet", "Sun Sickness · 1 hour"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Fist · Melee attack · +3 to hit · 3d4 + 1 bludgeoning damage · 3d4 poison damage · reach 5 ft.",
-              "Animating Spores (3/Day) · 1d4 + 1 · 24 hours · within 5 feet",
-              "Hallucination Spores · DC 12 Constitution save · 1 minute · within 5 feet · Repeat the save at the end of each turn · Poisoned · Incapacitated",
-              "Pacifying Spores · DC 12 Constitution save · 1 minute · within 5 feet · Repeat the save at the end of each turn · Stunned",
-              "Rapport Spores · 30-foot radius · 1 hour · within 30 feet"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Myconid Sovereign"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 88 · https://5e.tools/bestiary.html#sovereign%20basidia_oota",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb",
-              "Myconid Sovereign (creature) · https://5e.tools/bestiary.html#myconid%20sovereign_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#sovereign%20basidia_oota"
+        }
       }
     ],
     "groups": ["Plant"]
@@ -63700,63 +63277,17 @@
       {
         "id": "printing-f302e6802b23349155b07323",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 4",
-              "Hit dice · 1d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 10",
-              "Dexterity · 10",
-              "Constitution · 10",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 10",
-              "Creature tags · human",
-              "Alignment · chaotic good"
-            ]
+        "source": "https://5e.tools/bestiary.html#stella%20wachter_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "commoner"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 0. Named abilities include Club."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic", "desert", "coastal", "grassland", "hill", "urban", "forest"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Club · melee · +2 to hit · reach 5 ft. · 1d4 bludgeoning"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Club · Melee attack · +2 to hit · 1d4 bludgeoning damage · reach 5 ft."]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Commoner"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 113 · https://5e.tools/bestiary.html#stella%20wachter_cos",
-              "Commoner (creature) · https://5e.tools/bestiary.html#commoner_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#stella%20wachter_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -66378,71 +65909,17 @@
       {
         "id": "printing-603ac8b0ec2cb332304054fc",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 0",
-              "Size · Small",
-              "Type · Plant",
-              "Speed · walk 10 ft.",
-              "Passive Perception · 10",
-              "Strength · 8",
-              "Dexterity · 10",
-              "Constitution · 10",
-              "Intelligence · 8",
-              "Wisdom · 11",
-              "Charisma · 5",
-              "Alignment · lawful neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#stool_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "myconid_sprout"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Small plant with challenge rating 0. Named abilities include Distress Spores, Sun Sickness, Fist."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Fist · melee · +1 to hit · reach 5 ft. · 1d4 - 1 bludgeoning · 1d4 poison"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Distress Spores · within 240 feet", "Sun Sickness · 1 hour"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Fist · Melee attack · +1 to hit · 1d4 - 1 bludgeoning damage · 1d4 poison damage · reach 5 ft.",
-              "Rapport Spores (3/Day) · 10-foot radius · 1 hour · within 30 feet"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Myconid Sprout"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 7 · https://5e.tools/bestiary.html#stool_oota",
-              "Myconid Sprout (creature) · https://5e.tools/bestiary.html#myconid%20sprout_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#stool_oota"
+        }
       }
     ],
     "groups": ["Plant"]
@@ -73860,89 +73337,17 @@
       {
         "id": "printing-ec02ca3490bee376b1a9435e",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 16",
-              "Hit dice · 3d8 + 3",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 15",
-              "Strength · 11",
-              "Dexterity · 14",
-              "Constitution · 12",
-              "Intelligence · 11",
-              "Wisdom · 13",
-              "Charisma · 11",
-              "Creature tags · human",
-              "Alignment · neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#szoldar%20szoldarovich_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "scout"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/2. Named abilities include Keen Hearing and Sight, Shortsword, Longbow."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "coastal",
-              "mountain",
-              "grassland",
-              "hill",
-              "arctic",
-              "forest",
-              "swamp",
-              "underdark",
-              "desert"
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Shortsword · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Nature +4, Perception +5, Stealth +6, Survival +5"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Hearing and Sight · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Shortsword · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft.",
-              "Longbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Scout"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 100 · https://5e.tools/bestiary.html#szoldar%20szoldarovich_cos",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Scout (creature) · https://5e.tools/bestiary.html#scout_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#szoldar%20szoldarovich_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -81586,112 +80991,17 @@
       {
         "id": "printing-301b18c381113a4873dedd85",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 256",
-              "Hit dice · 19d12 + 133",
-              "Challenge · 17",
-              "Size · Huge",
-              "Type · Dragon",
-              "Speed · walk 40 ft., climb 40 ft., fly 80 ft.",
-              "Passive Perception · 23",
-              "Strength · 27",
-              "Dexterity · 10",
-              "Constitution · 25",
-              "Intelligence · 16",
-              "Wisdom · 13",
-              "Charisma · 21",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#themberchaud_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_red_dragon"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge dragon with challenge rating 17. Named abilities include Legendary Resistance (3/Day), Bite, Claw."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": [
-              "Dex +6",
-              "Con +13",
-              "Wis +7",
-              "Cha +11",
-              "Dexterity +6, Constitution +13, Wisdom +7, Charisma +11"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "hill"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +14 to hit · reach 10 ft. · 2d10 + 8 piercing · 2d6 fire",
-              "Claw · melee · +14 to hit · reach 5 ft. · 2d6 + 8 slashing",
-              "Tail · melee · +14 to hit · reach 15 ft. · 2d8 + 8 bludgeoning"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +13, Stealth +6"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 60 ft., darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Legendary Resistance (3/Day)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite · Melee attack · +14 to hit · 2d10 + 8 piercing damage · 2d6 fire damage · reach 10 ft.",
-              "Claw · Melee attack · +14 to hit · 2d6 + 8 slashing damage · reach 5 ft.",
-              "Tail · Melee attack · +14 to hit · 2d8 + 8 bludgeoning damage · reach 15 ft.",
-              "Frightful Presence · DC 19 Wisdom save · 1 minute · 24 hours · within 120 feet · Repeat the save at the end of each turn · Frightened",
-              "Fire Breath (Recharge 5–6) · DC 21 Dexterity save · 18d6 fire damage · 60-foot cone · Half damage on a successful save"
-            ]
-          },
-          {
-            "title": "Legendary actions reference",
-            "lines": [
-              "Detect · Perception",
-              "Tail Attack",
-              "Wing Attack (Costs 2 Actions) · DC 22 Dexterity save · 2d6 + 8 bludgeoning damage · within 10 feet · Prone"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Adult Red Dragon"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 53 · https://5e.tools/bestiary.html#themberchaud_oota",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Adult Red Dragon (creature) · https://5e.tools/bestiary.html#adult%20red%20dragon_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#themberchaud_oota"
+        }
       }
     ],
     "groups": ["Dragon"]
@@ -111891,107 +111201,17 @@
       {
         "id": "printing-e33f1d9870e15b6c706555ba",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 40",
-              "Hit dice · 9d8",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Strength · 9",
-              "Dexterity · 14",
-              "Constitution · 11",
-              "Intelligence · 17",
-              "Wisdom · 12",
-              "Charisma · 11",
-              "Creature tags · human",
-              "Alignment · neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#victor%20vallakovich_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mage"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 6. Named abilities include Dagger."]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +6", "Wis +4", "Intelligence +6, Wisdom +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Alternate armor classes",
-            "lines": ["15 · with mage armor"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Dagger · melee or ranged · +5 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +6, History +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any four languages"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Dagger · Melee or ranged attack · +5 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Intelligence · DC 14 · +6 to hit · Fire bolt · Light · Mage hand · Prestidigitation · Detect magic · Mage armor · Magic missile · Shield · Misty step · Suggestion · Counterspell · Fireball · Fly · Greater invisibility · Ice storm · Cone of cold",
-              "Cantrips · fire bolt, light, mage hand, prestidigitation",
-              "Level 1 (4 slots) · detect magic, mage armor, magic missile, shield",
-              "Level 2 (3 slots) · misty step, suggestion",
-              "Level 3 (3 slots) · counterspell, fireball, fly",
-              "Level 4 (3 slots) · greater invisibility, ice storm",
-              "Level 5 (1 slots) · cone of cold"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Mage"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 105 · https://5e.tools/bestiary.html#victor%20vallakovich_cos",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Fire bolt (spell) · https://5e.tools/spells.html#fire%20bolt_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Counterspell (spell) · https://5e.tools/spells.html#counterspell_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Greater invisibility (spell) · https://5e.tools/spells.html#greater%20invisibility_phb",
-              "Ice storm (spell) · https://5e.tools/spells.html#ice%20storm_phb",
-              "Cone of cold (spell) · https://5e.tools/spells.html#cone%20of%20cold_phb",
-              "Mage (creature) · https://5e.tools/bestiary.html#mage_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#victor%20vallakovich_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -112759,107 +111979,17 @@
       {
         "id": "printing-13f66e09b8b1909e886ae9fb",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 40",
-              "Hit dice · 9d8",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Strength · 9",
-              "Dexterity · 14",
-              "Constitution · 11",
-              "Intelligence · 17",
-              "Wisdom · 12",
-              "Charisma · 11",
-              "Creature tags · human",
-              "Alignment · neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#vilnius_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mage"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 6. Named abilities include Dagger."]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +6", "Wis +4", "Intelligence +6, Wisdom +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Alternate armor classes",
-            "lines": ["15 · with mage armor"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Dagger · melee or ranged · +5 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +6, History +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any four languages"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Dagger · Melee or ranged attack · +5 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Intelligence · DC 14 · +6 to hit · Fire bolt · Light · Mage hand · Prestidigitation · Detect magic · Mage armor · Magic missile · Shield · Misty step · Suggestion · Counterspell · Fireball · Fly · Greater invisibility · Ice storm · Cone of cold",
-              "Cantrips · fire bolt, light, mage hand, prestidigitation",
-              "Level 1 (4 slots) · detect magic, mage armor, magic missile, shield",
-              "Level 2 (3 slots) · misty step, suggestion",
-              "Level 3 (3 slots) · counterspell, fireball, fly",
-              "Level 4 (3 slots) · greater invisibility, ice storm",
-              "Level 5 (1 slots) · cone of cold"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Mage"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 185 · https://5e.tools/bestiary.html#vilnius_cos",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Fire bolt (spell) · https://5e.tools/spells.html#fire%20bolt_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Counterspell (spell) · https://5e.tools/spells.html#counterspell_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Greater invisibility (spell) · https://5e.tools/spells.html#greater%20invisibility_phb",
-              "Ice storm (spell) · https://5e.tools/spells.html#ice%20storm_phb",
-              "Cone of cold (spell) · https://5e.tools/spells.html#cone%20of%20cold_phb",
-              "Mage (creature) · https://5e.tools/bestiary.html#mage_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#vilnius_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -113896,130 +113026,17 @@
       {
         "id": "printing-54a708319b27f140429b30f0",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 78",
-              "Hit dice · 12d8 + 24",
-              "Challenge · 8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 13",
-              "Initiative · 3",
-              "Strength · 11",
-              "Dexterity · 16",
-              "Constitution · 14",
-              "Intelligence · 13",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · any race",
-              "Alignment · lawful neutral chaotic neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#vistana%20assassin_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "assassin"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 8. Named abilities include Assassinate, Evasion, Sneak Attack (1/Turn)."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6", "Int +4", "Dexterity +6, Intelligence +4"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Thieves' cant plus any two languages"]
-          },
-          {
-            "title": "Skills",
-            "lines": [
-              "Acrobatics +6",
-              "Deception +3",
-              "Perception +3",
-              "Stealth +9",
-              "Acrobatics +6, Deception +3, Perception +3, Stealth +9"
-            ]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Assassin"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Vistana"]
-          },
-          {
-            "title": "Traits mechanics",
-            "lines": [
-              "Assassinate",
-              "Evasion",
-              "Sneak Attack (1/Turn) · 1/Turn · 4d6 damage · incapacitated"
-            ]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Multiattack",
-              "Shortsword · melee · +6 to hit · reach 5 ft. · DC 15 Con · 1d6 + 3 piercing (hit) · 7d6 poison (hit)",
-              "Light Crossbow · ranged · +6 to hit · range 80/320 ft. · DC 15 Con · 1d8 + 3 piercing (hit) · 7d6 poison (hit)",
-              "Curse (Recharges After a Long Rest) · greater restoration · remove curse · DC 11 Wis · 1d6 psychic · 3d6 psychic · 5d6 psychic · blinded · deafened",
-              "Evil Eye (Recharges after a Short or Long Rest) · animal friendship · charm person · hold person · blinded"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Assassinate · Surprised",
-              "Evasion",
-              "Sneak Attack (1/Turn) · 4d6 · within 5 feet · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Shortsword · Melee attack · +6 to hit · 1d6 + 3 piercing damage · DC 15 Constitution save · 7d6 poison damage · reach 5 ft. · Half damage on a successful save",
-              "Light Crossbow · Ranged attack · +6 to hit · 1d8 + 3 piercing damage · DC 15 Constitution save · 7d6 poison damage · range 80/320 ft. · Half damage on a successful save",
-              "Curse (Recharges After a Long Rest) · DC 11 Wisdom save · within 30 feet · 1d6 psychic damage · 3d6 psychic damage · 5d6 psychic damage · Blinded · Deafened · Greater restoration · Remove curse",
-              "Evil Eye (Recharges after a Short or Long Rest) · DC 11 · within 10 feet · 24 hours · Animal friendship · Charm person · Hold person · Blinded"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Assassin"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 28 · https://5e.tools/bestiary.html#vistana%20assassin_cos",
-              "Studded leather armor (item) · https://5e.tools/items.html#studded%20leather%20armor_phb",
-              "Surprised (status) · https://5e.tools/conditionsdiseases.html#surprised_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Assassin (creature) · https://5e.tools/bestiary.html#assassin_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#vistana%20assassin_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -114034,92 +113051,17 @@
       {
         "id": "printing-849dfb1c206984a7d6e9093e",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 1",
-              "Strength · 11",
-              "Dexterity · 12",
-              "Constitution · 12",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 10",
-              "Creature tags · any race",
-              "Alignment · neutral chaotic good neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#vistana%20bandit_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bandit"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/8. Named abilities include Scimitar, Light Crossbow, Curse (Recharges After a Long Rest)."
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Bandit"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Vistana"]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Scimitar · melee · +3 to hit · reach 5 ft. · 1d6 + 1 slashing (hit)",
-              "Light Crossbow · ranged · +3 to hit · range 80/320 ft. · 1d8 + 1 piercing (hit)",
-              "Curse (Recharges After a Long Rest) · greater restoration · remove curse · DC 10 Wis · 1d6 psychic · 3d6 psychic · 5d6 psychic · blinded · deafened",
-              "Evil Eye (Recharges after a Short or Long Rest) · animal friendship · charm person · hold person · blinded"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Scimitar · Melee attack · +3 to hit · 1d6 + 1 slashing damage · reach 5 ft.",
-              "Light Crossbow · Ranged attack · +3 to hit · 1d8 + 1 piercing damage · range 80/320 ft.",
-              "Curse (Recharges After a Long Rest) · DC 10 Wisdom save · within 30 feet · 1d6 psychic damage · 3d6 psychic damage · 5d6 psychic damage · Blinded · Deafened · Greater restoration · Remove curse",
-              "Evil Eye (Recharges after a Short or Long Rest) · DC 10 · within 10 feet · 24 hours · Animal friendship · Charm person · Hold person · Blinded"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Bandit"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 28 · https://5e.tools/bestiary.html#vistana%20bandit_cos",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Bandit (creature) · https://5e.tools/bestiary.html#bandit_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#vistana%20bandit_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -114134,110 +113076,17 @@
       {
         "id": "printing-96e01f1bc080b58b899c14ea",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 65",
-              "Hit dice · 10d8 + 20",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 3",
-              "Strength · 15",
-              "Dexterity · 16",
-              "Constitution · 14",
-              "Intelligence · 14",
-              "Wisdom · 11",
-              "Charisma · 14",
-              "Creature tags · any race",
-              "Alignment · neutral chaotic good neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#vistana%20bandit%20captain_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bandit_captain"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Scimitar, Dagger, Curse (Recharges After a Long Rest)."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +4", "Dex +5", "Wis +2", "Strength +4, Dexterity +5, Wisdom +2"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any two languages"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +4", "Deception +4", "Athletics +4, Deception +4"]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Bandit Captain"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Vistana"]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Multiattack · 3 attacks",
-              "Scimitar · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing (hit)",
-              "Dagger · melee or ranged · +5 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 3 piercing (hit)",
-              "Curse (Recharges After a Long Rest) · greater restoration · remove curse · DC 12 Wis · 1d6 psychic · 3d6 psychic · 5d6 psychic · blinded · deafened",
-              "Evil Eye (Recharges after a Short or Long Rest) · animal friendship · charm person · hold person · blinded"
-            ]
-          },
-          {
-            "title": "Reactions mechanics",
-            "lines": ["Parry"]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Scimitar · Melee attack · +5 to hit · 1d6 + 3 slashing damage · reach 5 ft.",
-              "Dagger · Melee or ranged attack · +5 to hit · 1d4 + 3 piercing damage · reach 5 ft. · range 20/60 ft.",
-              "Curse (Recharges After a Long Rest) · DC 12 Wisdom save · within 30 feet · 1d6 psychic damage · 3d6 psychic damage · 5d6 psychic damage · Blinded · Deafened · Greater restoration · Remove curse",
-              "Evil Eye (Recharges after a Short or Long Rest) · DC 12 · within 10 feet · 24 hours · Animal friendship · Charm person · Hold person · Blinded"
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Parry"]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Bandit Captain"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 28 · https://5e.tools/bestiary.html#vistana%20bandit%20captain_cos",
-              "Studded leather armor (item) · https://5e.tools/items.html#studded%20leather%20armor_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Bandit Captain (creature) · https://5e.tools/bestiary.html#bandit%20captain_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#vistana%20bandit%20captain_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -114252,89 +113101,17 @@
       {
         "id": "printing-3c7fbab305008a3c44d424cd",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 4",
-              "Hit dice · 1d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 0",
-              "Strength · 10",
-              "Dexterity · 10",
-              "Constitution · 10",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 10",
-              "Creature tags · any race",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#vistana%20commoner_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "commoner"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 0. Named abilities include Club, Curse (Recharges After a Long Rest), Evil Eye (Recharges after a Short or Long Rest)."
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Commoner"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Vistana"]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Club · melee · +2 to hit · reach 5 ft. · 1d4 bludgeoning (hit)",
-              "Curse (Recharges After a Long Rest) · greater restoration · remove curse · DC 10 Wis · 1d6 psychic · 3d6 psychic · 5d6 psychic · blinded · deafened",
-              "Evil Eye (Recharges after a Short or Long Rest) · animal friendship · charm person · hold person · blinded"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Club · Melee attack · +2 to hit · 1d4 bludgeoning damage · reach 5 ft.",
-              "Curse (Recharges After a Long Rest) · DC 10 Wisdom save · within 30 feet · 1d6 psychic damage · 3d6 psychic damage · 5d6 psychic damage · Blinded · Deafened · Greater restoration · Remove curse",
-              "Evil Eye (Recharges after a Short or Long Rest) · DC 10 · within 10 feet · 24 hours · Animal friendship · Charm person · Hold person · Blinded"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Commoner"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 28 · https://5e.tools/bestiary.html#vistana%20commoner_cos",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Commoner (creature) · https://5e.tools/bestiary.html#commoner_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#vistana%20commoner_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -114452,124 +113229,17 @@
       {
         "id": "printing-36ce5fe5bee57e302e0cc7a2",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 27",
-              "Hit dice · 6d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 16",
-              "Initiative · 2",
-              "Strength · 10",
-              "Dexterity · 15",
-              "Constitution · 10",
-              "Intelligence · 12",
-              "Wisdom · 14",
-              "Charisma · 16",
-              "Creature tags · any race",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#vistana%20spy_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "spy"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1. Named abilities include Cunning Action, Sneak Attack (1/Turn), Shortsword."
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any two languages"]
-          },
-          {
-            "title": "Skills",
-            "lines": [
-              "Deception +5",
-              "Insight +4",
-              "Investigation +5",
-              "Perception +6",
-              "Persuasion +5",
-              "Sleight Of Hand +4",
-              "Stealth +4",
-              "Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight Of Hand +4, Stealth +4"
-            ]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Spy"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Vistana"]
-          },
-          {
-            "title": "Traits mechanics",
-            "lines": [
-              "Cunning Action",
-              "Sneak Attack (1/Turn) · 1/Turn · 2d6 damage · incapacitated"
-            ]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Multiattack · 2 attacks",
-              "Shortsword · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing (hit)",
-              "Hand Crossbow · ranged · +4 to hit · range 30/120 ft. · 1d6 + 2 piercing (hit)",
-              "Curse (Recharges After a Long Rest) · greater restoration · remove curse · DC 13 Wis · 1d6 psychic · 3d6 psychic · 5d6 psychic · blinded · deafened",
-              "Evil Eye (Recharges after a Short or Long Rest) · animal friendship · charm person · hold person · blinded"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Cunning Action · Dash · Disengage · Hide",
-              "Sneak Attack (1/Turn) · 2d6 · within 5 feet · Incapacitated"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Shortsword · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft.",
-              "Hand Crossbow · Ranged attack · +4 to hit · 1d6 + 2 piercing damage · range 30/120 ft.",
-              "Curse (Recharges After a Long Rest) · DC 13 Wisdom save · within 30 feet · 1d6 psychic damage · 3d6 psychic damage · 5d6 psychic damage · Blinded · Deafened · Greater restoration · Remove curse",
-              "Evil Eye (Recharges after a Short or Long Rest) · DC 13 · within 10 feet · 24 hours · Animal friendship · Charm person · Hold person · Blinded"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Spy"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 28 · https://5e.tools/bestiary.html#vistana%20spy_cos",
-              "Dash (action) · https://5e.tools/actions.html#dash_phb",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb",
-              "Hide (action) · https://5e.tools/actions.html#hide_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Spy (creature) · https://5e.tools/bestiary.html#spy_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#vistana%20spy_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -114584,107 +113254,17 @@
       {
         "id": "printing-370fb5b3251bc1fa60c8892a",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 32",
-              "Hit dice · 5d8 + 10",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 0",
-              "Strength · 15",
-              "Dexterity · 11",
-              "Constitution · 14",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 11",
-              "Creature tags · any race",
-              "Alignment · lawful neutral chaotic neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#vistana%20thug_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "thug"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/2. Named abilities include Pack Tactics, Mace, Heavy Crossbow."
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Intimidation +2"]
-          },
-          {
-            "title": "Base creature",
-            "lines": ["Thug"]
-          },
-          {
-            "title": "Applied templates",
-            "lines": ["Vistana"]
-          },
-          {
-            "title": "Traits mechanics",
-            "lines": ["Pack Tactics · incapacitated"]
-          },
-          {
-            "title": "Actions mechanics",
-            "lines": [
-              "Multiattack · 2 attacks",
-              "Mace · melee · +4 to hit · reach 5 ft. · 1d6 + 2 bludgeoning (hit)",
-              "Heavy Crossbow · ranged · +2 to hit · range 100/400 ft. · 1d10 piercing (hit)",
-              "Curse (Recharges After a Long Rest) · greater restoration · remove curse · DC 10 Wis · 1d6 psychic · 3d6 psychic · 5d6 psychic · blinded · deafened",
-              "Evil Eye (Recharges after a Short or Long Rest) · animal friendship · charm person · hold person · blinded"
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Applied the named source templates to the base creature."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Pack Tactics · within 5 feet · Incapacitated"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Mace · Melee attack · +4 to hit · 1d6 + 2 bludgeoning damage · reach 5 ft.",
-              "Heavy Crossbow · Ranged attack · +2 to hit · 1d10 piercing damage · range 100/400 ft.",
-              "Curse (Recharges After a Long Rest) · DC 10 Wisdom save · within 30 feet · 1d6 psychic damage · 3d6 psychic damage · 5d6 psychic damage · Blinded · Deafened · Greater restoration · Remove curse",
-              "Evil Eye (Recharges after a Short or Long Rest) · DC 10 · within 10 feet · 24 hours · Animal friendship · Charm person · Hold person · Blinded"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Thug"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 28 · https://5e.tools/bestiary.html#vistana%20thug_cos",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Thug (creature) · https://5e.tools/bestiary.html#thug_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#vistana%20thug_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -137384,89 +135964,17 @@
       {
         "id": "printing-e358ea22cecd1c58ba7f3f21",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 16",
-              "Hit dice · 3d8 + 3",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 15",
-              "Strength · 11",
-              "Dexterity · 14",
-              "Constitution · 12",
-              "Intelligence · 11",
-              "Wisdom · 13",
-              "Charisma · 11",
-              "Creature tags · human",
-              "Alignment · neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#yevgeni%20krushkin_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "scout"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/2. Named abilities include Keen Hearing and Sight, Shortsword, Longbow."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "coastal",
-              "mountain",
-              "grassland",
-              "hill",
-              "arctic",
-              "forest",
-              "swamp",
-              "underdark",
-              "desert"
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Shortsword · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Nature +4, Perception +5, Stealth +6, Survival +5"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Hearing and Sight · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Shortsword · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft.",
-              "Longbow · Ranged attack · +4 to hit · 1d8 + 2 piercing damage"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Scout"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 100 · https://5e.tools/bestiary.html#yevgeni%20krushkin_cos",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Scout (creature) · https://5e.tools/bestiary.html#scout_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#yevgeni%20krushkin_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -150945,98 +149453,17 @@
       {
         "id": "printing-992cddfbbe9ebd4e297a6c20",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 58",
-              "Hit dice · 9d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 14",
-              "Armor class notes · in humanoid form",
-              "Strength · 15",
-              "Dexterity · 13",
-              "Constitution · 14",
-              "Intelligence · 10",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · human, shapechanger",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#zuleika%20toranescu_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "werewolf"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 3. Named abilities include Shapechanger, Keen Hearing and Smell, Multiattack (Humanoid or Hybrid Form Only)."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "hill"]
-          },
-          {
-            "title": "Movement notes",
-            "lines": ["walk · (40 ft. in wolf form)"]
-          },
-          {
-            "title": "Alternate armor classes",
-            "lines": ["12 · in wolf or hybrid form"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite (Wolf or Hybrid Form Only) · melee · +4 to hit · reach 5 ft. · 1d8 + 2 piercing",
-              "Claws (Hybrid Form Only) · melee · +4 to hit · reach 5 ft. · 2d4 + 2 slashing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4, Stealth +3"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common (can't speak in wolf form)"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": [
-              "bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered"
-            ]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Shapechanger", "Keen Hearing and Smell · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack (Humanoid or Hybrid Form Only)",
-              "Bite (Wolf or Hybrid Form Only) · Melee attack · +4 to hit · 1d8 + 2 piercing damage · DC 12 Constitution save · reach 5 ft. · Player Characters as Lycanthropes",
-              "Claws (Hybrid Form Only) · Melee attack · +4 to hit · 2d4 + 2 slashing damage · reach 5 ft.",
-              "Spear (Humanoid Form Only) · Melee or ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 + 2 piercing damage · reach 5 ft. · range 20/60 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Werewolf"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 204 · https://5e.tools/bestiary.html#zuleika%20toranescu_cos",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Player Characters as Lycanthropes (rule) · https://5e.tools/variantrules.html#player%20characters%20as%20lycanthropes_mm",
-              "Werewolf (creature) · https://5e.tools/bestiary.html#werewolf_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#zuleika%20toranescu_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]

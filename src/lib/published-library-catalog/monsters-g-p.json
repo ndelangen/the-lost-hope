@@ -5872,74 +5872,17 @@
       {
         "id": "printing-b0368a2fda5bfb36be51f8f9",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Strength · 11",
-              "Dexterity · 12",
-              "Constitution · 11",
-              "Intelligence · 12",
-              "Wisdom · 14",
-              "Charisma · 16",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#ghazrim%20duloc_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "noble"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/8. Named abilities include Rapier, Parry."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Rapier · melee · +3 to hit · reach 5 ft. · 1d8 + 1 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +5, Insight +4, Persuasion +5"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any two languages"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Rapier · Melee attack · +3 to hit · 1d8 + 1 piercing damage · reach 5 ft."]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Parry"]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Noble"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 141 · https://5e.tools/bestiary.html#ghazrim%20duloc_oota",
-              "Breastplate (item) · https://5e.tools/items.html#breastplate_phb",
-              "Noble (creature) · https://5e.tools/bestiary.html#noble_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ghazrim%20duloc_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -58053,132 +57996,17 @@
       {
         "id": "printing-794b65594e7448cdc79e1c69",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 71",
-              "Hit dice · 13d8 + 13",
-              "Challenge · 8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 16",
-              "Strength · 10",
-              "Dexterity · 14",
-              "Constitution · 12",
-              "Intelligence · 13",
-              "Wisdom · 17",
-              "Charisma · 18",
-              "Creature tags · tag elf, prefix Drow",
-              "Alignment · neutral evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#ilvara%20mizzrym_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drow_priestess_of_lolth"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 8. Named abilities include Special Equipment, Fey Ancestry, Sunlight Sensitivity."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +4", "Wis +6", "Cha +7", "Constitution +4, Wisdom +6, Charisma +7"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Scourge · melee · +5 to hit · reach 5 ft. · 1d6 + 2 piercing · 5d6 poison"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Insight +6, Perception +6, Religion +4, Stealth +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Elvish, Undercommon"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": [
-              "Special Equipment · Tentacle rod",
-              "Fey Ancestry · Charmed",
-              "Sunlight Sensitivity · Perception"
-            ]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Scourge · Melee attack · +5 to hit · 1d6 + 2 piercing damage · 5d6 poison damage · reach 5 ft.",
-              "Summon Demon (1/Day) · 30 · 1d10 psychic damage · 10 minutes · within 60 feet · Yochlol"
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Innate Spellcasting · Charisma · DC 15 · Dancing lights · Darkness · Faerie fire · Levitate",
-              "At will · dancing lights",
-              "1/day each · darkness, faerie fire, levitate (self only)",
-              "Spellcasting · Wisdom · DC 14 · +6 to hit · Guidance · Poison spray · Resistance · Spare the dying · Thaumaturgy · Animal friendship · Cure wounds · Detect poison and disease · Ray of sickness · Lesser restoration · Protection from poison · Web · Conjure animals · Giant spider · Dispel magic · Divination · Freedom of movement · Insect plague · Mass cure wounds",
-              "Cantrips · guidance, poison spray, resistance, spare the dying, thaumaturgy",
-              "Level 1 (4 slots) · animal friendship, cure wounds, detect poison and disease, ray of sickness",
-              "Level 2 (3 slots) · lesser restoration, protection from poison, web",
-              "Level 3 (3 slots) · conjure animals (2 giant spiders), dispel magic",
-              "Level 4 (3 slots) · divination, freedom of movement",
-              "Level 5 (2 slots) · insect plague, mass cure wounds"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Drow Priestess of Lolth"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 9 · https://5e.tools/bestiary.html#ilvara%20mizzrym_oota",
-              "Scale mail (item) · https://5e.tools/items.html#scale%20mail_phb",
-              "Dancing lights (spell) · https://5e.tools/spells.html#dancing%20lights_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Faerie fire (spell) · https://5e.tools/spells.html#faerie%20fire_phb",
-              "Levitate (spell) · https://5e.tools/spells.html#levitate_phb",
-              "Guidance (spell) · https://5e.tools/spells.html#guidance_phb",
-              "Poison spray (spell) · https://5e.tools/spells.html#poison%20spray_phb",
-              "Resistance (spell) · https://5e.tools/spells.html#resistance_phb",
-              "Spare the dying (spell) · https://5e.tools/spells.html#spare%20the%20dying_phb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_phb",
-              "Animal friendship (spell) · https://5e.tools/spells.html#animal%20friendship_phb",
-              "Cure wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
-              "Detect poison and disease (spell) · https://5e.tools/spells.html#detect%20poison%20and%20disease_phb",
-              "Ray of sickness (spell) · https://5e.tools/spells.html#ray%20of%20sickness_phb",
-              "Lesser restoration (spell) · https://5e.tools/spells.html#lesser%20restoration_phb",
-              "Protection from poison (spell) · https://5e.tools/spells.html#protection%20from%20poison_phb",
-              "Web (spell) · https://5e.tools/spells.html#web_phb",
-              "Conjure animals (spell) · https://5e.tools/spells.html#conjure%20animals_phb",
-              "Giant spider (creature) · https://5e.tools/bestiary.html#giant%20spider_mm",
-              "Dispel magic (spell) · https://5e.tools/spells.html#dispel%20magic_phb",
-              "Divination (spell) · https://5e.tools/spells.html#divination_phb",
-              "Freedom of movement (spell) · https://5e.tools/spells.html#freedom%20of%20movement_phb",
-              "Insect plague (spell) · https://5e.tools/spells.html#insect%20plague_phb",
-              "Mass cure wounds (spell) · https://5e.tools/spells.html#mass%20cure%20wounds_phb",
-              "Tentacle rod (item) · https://5e.tools/items.html#tentacle%20rod_dmg",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Yochlol (creature) · https://5e.tools/bestiary.html#yochlol_mm",
-              "Drow Priestess of Lolth (creature) · https://5e.tools/bestiary.html#drow%20priestess%20of%20lolth_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ilvara%20mizzrym_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -65624,87 +65452,17 @@
       {
         "id": "printing-9fda1eb8bcf12fc75e1521f0",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 58",
-              "Hit dice · 9d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Strength · 16",
-              "Dexterity · 13",
-              "Constitution · 14",
-              "Intelligence · 10",
-              "Wisdom · 11",
-              "Charisma · 10",
-              "Creature tags · human",
-              "Alignment · lawful good"
-            ]
+        "source": "https://5e.tools/bestiary.html#ismark%20kolyanovich_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "veteran"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 3. Named abilities include Longsword, Shortsword, Heavy Crossbow."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": [
-              "coastal",
-              "mountain",
-              "grassland",
-              "hill",
-              "arctic",
-              "urban",
-              "forest",
-              "underdark"
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Shortsword · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing",
-              "Heavy Crossbow · ranged · +3 to hit · range 100/400 ft. · 1d10 + 1 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +5, Perception +2"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Longsword · Melee attack · +5 to hit · 1d8 + 3 slashing damage · 1d10 + 3 slashing damage · reach 5 ft.",
-              "Shortsword · Melee attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft.",
-              "Heavy Crossbow · Ranged attack · +3 to hit · 1d10 + 1 piercing damage · range 100/400 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Veteran"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 43 · https://5e.tools/bestiary.html#ismark%20kolyanovich_cos",
-              "Splint armor (item) · https://5e.tools/items.html#splint%20armor_phb",
-              "Veteran (creature) · https://5e.tools/bestiary.html#veteran_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ismark%20kolyanovich_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -87603,82 +87361,17 @@
       {
         "id": "printing-a2bbcf46ca2cf61d0492bece",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 65",
-              "Hit dice · 10d8 + 20",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 17",
-              "Dexterity · 15",
-              "Constitution · 15",
-              "Intelligence · 10",
-              "Wisdom · 11",
-              "Charisma · 13",
-              "Creature tags · gnoll",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#kurr_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gnoll_fang_of_yeenoghu"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium fiend with challenge rating 4. Named abilities include Rampage, Bite, Claw."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +4", "Wis +2", "Cha +3", "Constitution +4, Wisdom +2, Charisma +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "forest", "hill", "desert"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claw · melee · +5 to hit · reach 5 ft. · 1d8 + 3 slashing"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Gnoll"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Rampage · 0 hit points"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite · Melee attack · +5 to hit · 1d6 + 3 piercing damage · DC 12 Constitution save · 2d6 poison damage · reach 5 ft.",
-              "Claw · Melee attack · +5 to hit · 1d8 + 3 slashing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Gnoll Fang of Yeenoghu"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 179 · https://5e.tools/bestiary.html#kurr_oota",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Gnoll Fang of Yeenoghu (creature) · https://5e.tools/bestiary.html#gnoll%20fang%20of%20yeenoghu_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#kurr_oota"
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -88855,63 +88548,17 @@
       {
         "id": "printing-d3426b21103dbd47af431e3c",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 4",
-              "Hit dice · 1d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 10",
-              "Dexterity · 10",
-              "Constitution · 10",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 10",
-              "Creature tags · human",
-              "Alignment · lawful good"
-            ]
+        "source": "https://5e.tools/bestiary.html#lady%20lydia%20petrovna_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "commoner"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 0. Named abilities include Club."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic", "desert", "coastal", "grassland", "hill", "urban", "forest"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Club · melee · +2 to hit · reach 5 ft. · 1d4 bludgeoning"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Club · Melee attack · +2 to hit · 1d4 bludgeoning damage · reach 5 ft."]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Commoner"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 105 · https://5e.tools/bestiary.html#lady%20lydia%20petrovna_cos",
-              "Commoner (creature) · https://5e.tools/bestiary.html#commoner_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#lady%20lydia%20petrovna_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -95567,63 +95214,17 @@
       {
         "id": "printing-2d6657786c2eb5246f99fa0f",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 4",
-              "Hit dice · 1d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 10",
-              "Dexterity · 10",
-              "Constitution · 10",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 10",
-              "Creature tags · human",
-              "Alignment · chaotic evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#lief%20lipsiege_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "commoner"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 0. Named abilities include Club."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic", "desert", "coastal", "grassland", "hill", "urban", "forest"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Club · melee · +2 to hit · reach 5 ft. · 1d4 bludgeoning"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Club · Melee attack · +2 to hit · 1d4 bludgeoning damage · reach 5 ft."]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Commoner"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 62 · https://5e.tools/bestiary.html#lief%20lipsiege_cos",
-              "Commoner (creature) · https://5e.tools/bestiary.html#commoner_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#lief%20lipsiege_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -105651,63 +105252,17 @@
       {
         "id": "printing-6e5275ede20c32d7efe68a13",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 4",
-              "Hit dice · 1d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 10",
-              "Dexterity · 10",
-              "Constitution · 10",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 10",
-              "Creature tags · human",
-              "Alignment · chaotic neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#mad%20mary_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "commoner"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 0. Named abilities include Club."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic", "desert", "coastal", "grassland", "hill", "urban", "forest"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Club · melee · +2 to hit · reach 5 ft. · 1d4 bludgeoning"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Club · Melee attack · +2 to hit · 1d4 bludgeoning damage · reach 5 ft."]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Commoner"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 44 · https://5e.tools/bestiary.html#mad%20mary_cos",
-              "Commoner (creature) · https://5e.tools/bestiary.html#commoner_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#mad%20mary_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -108318,88 +107873,17 @@
       {
         "id": "printing-e00402ccfad2d818a57e99c5",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 10",
-              "Hit dice · 3d4 + 3",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fiend",
-              "Speed · walk 20 ft., fly 40 ft.",
-              "Passive Perception · 11",
-              "Strength · 6",
-              "Dexterity · 17",
-              "Constitution · 13",
-              "Intelligence · 11",
-              "Wisdom · 12",
-              "Charisma · 14",
-              "Creature tags · devil",
-              "Alignment · lawful evil"
-            ]
+        "source": "https://5e.tools/bestiary.html#majesto_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "imp"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny fiend with challenge rating 1. Named abilities include Shapechanger, Devil's Sight, Magic Resistance."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +4, Insight +3, Persuasion +4, Stealth +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Infernal, Common"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "cold, bludgeoning, piercing, slashing from nonmagical attacks not made with silvered weapons"
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Shapechanger", "Devil's Sight", "Magic Resistance"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Sting (Bite in Beast Form) · Melee attack · +5 to hit · 1d4 + 3 piercing damage · DC 11 Constitution save · 3d6 poison damage · reach 5 ft. · Half damage on a successful save",
-              "Invisibility · Invisible · Concentration"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Imp"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 115 · https://5e.tools/bestiary.html#majesto_cos",
-              "Invisible (condition) · https://5e.tools/conditionsdiseases.html#invisible_phb",
-              "Concentration (status) · https://5e.tools/conditionsdiseases.html#concentration_phb",
-              "Imp (creature) · https://5e.tools/bestiary.html#imp_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#majesto_cos"
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -140263,74 +139747,17 @@
       {
         "id": "printing-79af7103aa7052a0eab45c46",
         "label": "Curse of Strahd",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 12",
-              "Strength · 11",
-              "Dexterity · 12",
-              "Constitution · 11",
-              "Intelligence · 12",
-              "Wisdom · 14",
-              "Charisma · 16",
-              "Creature tags · human",
-              "Alignment · lawful neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#nikolai%20wachter_cos",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "noble"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 1/8. Named abilities include Rapier, Parry."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Rapier · melee · +3 to hit · reach 5 ft. · 1d8 + 1 piercing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Deception +5, Insight +4, Persuasion +5"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any two languages"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Rapier · Melee attack · +3 to hit · 1d8 + 1 piercing damage · reach 5 ft."]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Parry"]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Noble"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Curse of Strahd, p. 110 · https://5e.tools/bestiary.html#nikolai%20wachter_cos",
-              "Breastplate (item) · https://5e.tools/items.html#breastplate_phb",
-              "Noble (creature) · https://5e.tools/bestiary.html#noble_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "curse_of_strahd"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#nikolai%20wachter_cos"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -167039,88 +166466,17 @@
       {
         "id": "printing-0583ae8e75cc862b4c0a29de",
         "label": "Out of the Abyss",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Passive Perception · 11",
-              "Strength · 17",
-              "Dexterity · 12",
-              "Constitution · 16",
-              "Intelligence · 6",
-              "Wisdom · 12",
-              "Charisma · 7",
-              "Creature tags · quaggoth",
-              "Alignment · chaotic neutral"
-            ]
+        "source": "https://5e.tools/bestiary.html#prince%20derendil_oota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quaggoth"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 2. Named abilities include Wounded Fury, Claw."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Attacks",
-            "lines": ["Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +5"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Elvish, Undercommon"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["poison"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["poisoned"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Wounded Fury · 2d6 · 10 hit points"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Claw · Melee attack · +5 to hit · 1d6 + 3 slashing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Quaggoth"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Out of the Abyss, p. 6 · https://5e.tools/bestiary.html#prince%20derendil_oota",
-              "Quaggoth (creature) · https://5e.tools/bestiary.html#quaggoth_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "out_of_the_abyss"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#prince%20derendil_oota"
+        }
       }
     ],
     "groups": ["Humanoid"]

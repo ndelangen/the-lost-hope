@@ -4885,6 +4885,7 @@ export default createPublicationMonsters({
     },
     bandit_captain: {
       name: 'Bandit Captain',
+      reprintedIn: [refs.publications.curse_of_strahd],
       tags: ['any race'],
       alignment: 'any non-­‐lawful alignment',
       languages: ['any two languages'],

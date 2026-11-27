@@ -76143,107 +76143,17 @@
       {
         "id": "printing-7186de78191f2a05fca851e1",
         "label": "Princes of the Apocalypse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 40",
-              "Hit dice · 9d8",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 11",
-              "Strength · 9",
-              "Dexterity · 14",
-              "Constitution · 11",
-              "Intelligence · 17",
-              "Wisdom · 12",
-              "Charisma · 11",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#cavil%20zaltobar_pota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mage"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 6. Named abilities include Dagger."]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +6", "Wis +4", "Intelligence +6, Wisdom +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Alternate armor classes",
-            "lines": ["15 · with mage armor"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Dagger · melee or ranged · +5 to hit · reach 5 ft. · range 20/60 ft. · 1d4 + 2 piercing"
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +6, History +6"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any four languages"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Dagger · Melee or ranged attack · +5 to hit · 1d4 + 2 piercing damage · reach 5 ft. · range 20/60 ft."
-            ]
-          },
-          {
-            "title": "Spellcasting reference",
-            "lines": [
-              "Spellcasting · Intelligence · DC 14 · +6 to hit · Fire bolt · Light · Mage hand · Prestidigitation · Detect magic · Mage armor · Magic missile · Shield · Misty step · Suggestion · Counterspell · Fireball · Fly · Greater invisibility · Ice storm · Cone of cold",
-              "Cantrips · fire bolt, light, mage hand, prestidigitation",
-              "Level 1 (4 slots) · detect magic, mage armor, magic missile, shield",
-              "Level 2 (3 slots) · misty step, suggestion",
-              "Level 3 (3 slots) · counterspell, fireball, fly",
-              "Level 4 (3 slots) · greater invisibility, ice storm",
-              "Level 5 (1 slots) · cone of cold"
-            ]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Mage"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Princes of the Apocalypse, p. 182 · https://5e.tools/bestiary.html#cavil%20zaltobar_pota",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Fire bolt (spell) · https://5e.tools/spells.html#fire%20bolt_phb",
-              "Light (spell) · https://5e.tools/spells.html#light_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Magic missile (spell) · https://5e.tools/spells.html#magic%20missile_phb",
-              "Shield (spell) · https://5e.tools/spells.html#shield_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Suggestion (spell) · https://5e.tools/spells.html#suggestion_phb",
-              "Counterspell (spell) · https://5e.tools/spells.html#counterspell_phb",
-              "Fireball (spell) · https://5e.tools/spells.html#fireball_phb",
-              "Fly (spell) · https://5e.tools/spells.html#fly_phb",
-              "Greater invisibility (spell) · https://5e.tools/spells.html#greater%20invisibility_phb",
-              "Ice storm (spell) · https://5e.tools/spells.html#ice%20storm_phb",
-              "Cone of cold (spell) · https://5e.tools/spells.html#cone%20of%20cold_phb",
-              "Mage (creature) · https://5e.tools/bestiary.html#mage_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#cavil%20zaltobar_pota"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -98554,88 +98464,17 @@
       {
         "id": "printing-d261f282fa048519aea4e4bc",
         "label": "Princes of the Apocalypse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 16",
-              "Dexterity · 11",
-              "Constitution · 14",
-              "Intelligence · 11",
-              "Wisdom · 11",
-              "Charisma · 15",
-              "Creature tags · human",
-              "Alignment · any alignment"
-            ]
+        "source": "https://5e.tools/bestiary.html#darathra%20shendrel_pota",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "knight"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium humanoid with challenge rating 3. Named abilities include Brave, Greatsword, Heavy Crossbow."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +4", "Wis +2", "Constitution +4, Wisdom +2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Greatsword · melee · +5 to hit · reach 5 ft. · 2d6 + 3 slashing",
-              "Heavy Crossbow · ranged · +2 to hit · range 100/400 ft. · 1d10 piercing"
-            ]
-          },
-          {
-            "title": "Languages",
-            "lines": ["any one language (usually Common)"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Brave · Frightened"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Greatsword · Melee attack · +5 to hit · 2d6 + 3 slashing damage · reach 5 ft.",
-              "Heavy Crossbow · Ranged attack · +2 to hit · 1d10 piercing damage · range 100/400 ft.",
-              "Leadership (Recharges after a Short or Long Rest) · d4 · 1 minute · within 30 feet · Incapacitated"
-            ]
-          },
-          {
-            "title": "Reactions reference",
-            "lines": ["Parry"]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Knight"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Princes of the Apocalypse, p. 37 · https://5e.tools/bestiary.html#darathra%20shendrel_pota",
-              "Plate armor (item) · https://5e.tools/items.html#plate%20armor_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Knight (creature) · https://5e.tools/bestiary.html#knight_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#darathra%20shendrel_pota"
+        }
       },
       {
         "id": "printing-8e54dac72a90d37cb71438b8",
