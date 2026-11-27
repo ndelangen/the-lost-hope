@@ -9,9 +9,11 @@ export default createLocation({
   at: [525, 620],
   notes: [
     [
-      'A great hole at the bottom of ',
+      'A great shaft that runs the length of ',
       refs.locations.the_caves_of_steel,
-      ', dropping into the dark deep. The people show it to visitors with pride: this is where the master comes in.',
+      ', from the open sea below up into the pool of ',
+      refs.locations.the_grand_hall,
+      '. Every subship enters and leaves through it, and the docks branch off it. The people show it to visitors with pride: this is where the master comes in.',
     ],
   ],
   background: [

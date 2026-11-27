@@ -214,7 +214,7 @@ export default createScene({
         {
           do: [
             [
-              'Inside the cave of steel, people crowd in to see the strangers. There is a feast, and everyone wants a story: who are they, where are they from, what is happening in the world?',
+              'Inside the cave of steel, people crowd in to see the strangers. There is a feast in the Grand Hall, and it is very unappetizing: fish, mold and seaweed. Everyone wants a story: who are they, where are they from, what is happening in the world?',
             ],
           ],
         },

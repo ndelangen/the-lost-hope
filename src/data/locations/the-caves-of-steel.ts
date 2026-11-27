@@ -17,9 +17,11 @@ export default createLocation({
       'It is a huge steel sphere, held under the water by great chains to five anchor points. All of its light is artificial. Everything is ancient but well kept: clean, and repaired many times over. It is damp and humid, and everything smells of fish.',
     ],
     [
-      'Inside are large docks with room for the whole subship fleet, mold farms, private dwellings and common rooms. Everyone eats together in the ',
+      'Ships come in from below, up ',
+      refs.locations.the_abyss,
+      ', the shaft that runs the length of the sphere. The lower levels hold industry, storage, power and large docks with room for the whole subship fleet. Above them are rings of private dwellings and common rooms. At the top, mold farms flank the ',
       refs.locations.the_grand_hall,
-      '.',
+      ', where everyone eats together. They live on fish, mold and seaweed.',
     ],
     [
       'Its people look human, but not quite: pale skin, large dark eyes, faint gill slits at the neck and webbing between the fingers. They call the Marshal their master.',
