@@ -13,12 +13,7 @@ import { refLink, reverseLinks } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { resolveSourceRef } from '#/lib/dm-campaign'
 import { ItemIcon } from '#/lib/item-icons'
-import {
-  formatItemPrice,
-  itemCategoryTone,
-  loadItemFacts,
-  scenesMentioningItem,
-} from '#/lib/item-view'
+import { formatItemPrice, itemCategoryTone, scenesMentioningItem } from '#/lib/item-view'
 import { cn } from '#/lib/utils'
 
 const items: Readonly<
@@ -30,6 +25,8 @@ export const Route = createFileRoute('/dm/items/$slug')({
   loader: async ({ params }) => {
     const key = Object.keys(items).find((candidate) => items[candidate]?.slug === params.slug)
     if (!key) throw notFound()
+    // Imported here so the library catalog it reads stays out of the route tree every page carries.
+    const { loadItemFacts } = await import('#/lib/item-view')
     return { key, facts: await loadItemFacts(items[key]!) }
   },
   head: ({ loaderData }) => ({

@@ -12,13 +12,15 @@ import { VESSEL_CLASS_LABELS } from '#/definitions/item'
 import { getEntity, refLink } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { ItemIcon } from '#/lib/item-icons'
-import { formatItemPrice, loadItemFacts } from '#/lib/item-view'
+import { formatItemPrice } from '#/lib/item-view'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/items/detail/$slug')({
   loader: async ({ params }) => {
     const entity = getEntity('item', params.slug)
     if (!entity) throw notFound()
+    // Imported here so the library catalog it reads stays out of the route tree every page carries.
+    const { loadItemFacts } = await import('#/lib/item-view')
     return { entity, facts: await loadItemFacts(entity.data) }
   },
   head: ({ params }) => publicEntityPageHead('item', params.slug),

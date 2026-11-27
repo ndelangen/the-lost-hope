@@ -10,14 +10,16 @@ import { resolveRef } from '#/lib/campaign'
 import { arcs, plotCast, resolveScene, sessionsForArc } from '#/lib/dm-campaign'
 
 export const Route = createFileRoute('/dm/arcs/$slug')({
-  loader: ({ params }) => {
-    const entry = Object.entries(arcs).find(([, arc]) => arc.slug === params.slug)
+  loader: async ({ params }) => {
+    // Imported here so DM data stays out of the route tree every page carries.
+    const { arcs: arcRecords } = await import('#/lib/dm-campaign')
+    const entry = Object.entries(arcRecords).find(([, arc]) => arc.slug === params.slug)
     if (!entry) throw notFound()
-    return { key: entry[0] }
+    return { key: entry[0], name: entry[1].name }
   },
   head: ({ loaderData }) => ({
     meta: [
-      { title: `${loaderData ? arcs[loaderData.key]?.name : 'Arc'} | DM` },
+      { title: `${loaderData?.name ?? 'Arc'} | DM` },
       { name: 'robots', content: 'noindex, nofollow' },
     ],
   }),

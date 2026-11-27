@@ -42,7 +42,6 @@ import { refs } from '#/data/generated/refs'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import { ABILITY_ICONS } from '#/lib/ability-icons'
 import { abilityIndex } from '#/lib/ability-index'
-import { sourceRecordBySlug } from '#/lib/dm-campaign'
 import { combatantView } from '#/lib/dm-encounter'
 import {
   abilityKey,
@@ -85,7 +84,9 @@ import { cn } from '#/lib/utils'
  * between fights: Spell Slots, Hit Point Dice and rests.
  */
 export const Route = createFileRoute('/pcs/detail/$slug_/play')({
-  loader: ({ params }) => {
+  loader: async ({ params }) => {
+    // Imported here so DM data stays out of the route tree every page carries.
+    const { sourceRecordBySlug } = await import('#/lib/dm-campaign')
     const found = sourceRecordBySlug('pc', params.slug)
     const pc = found?.record as { name: string; level?: number; stats?: unknown } | undefined
     if (!found || !pc?.stats || !pc.level) throw notFound()

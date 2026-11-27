@@ -25,14 +25,16 @@ const locationRecords: Readonly<Partial<Record<string, Location>>> = SOURCE_REGI
 const itemRecords: Readonly<Partial<Record<string, Item>>> = SOURCE_REGISTRIES.item
 
 export const Route = createFileRoute('/dm/scenes/$slug')({
-  loader: ({ params }) => {
-    const entry = Object.entries(scenes).find(([, scene]) => scene.slug === params.slug)
+  loader: async ({ params }) => {
+    // Imported here so DM data stays out of the route tree every page carries.
+    const { scenes: sceneRecords } = await import('#/lib/dm-campaign')
+    const entry = Object.entries(sceneRecords).find(([, scene]) => scene.slug === params.slug)
     if (!entry) throw notFound()
-    return { key: entry[0] }
+    return { key: entry[0], name: entry[1].name }
   },
   head: ({ loaderData }) => ({
     meta: [
-      { title: `${loaderData ? scenes[loaderData.key]?.name : 'Scene'} | DM` },
+      { title: `${loaderData?.name ?? 'Scene'} | DM` },
       { name: 'robots', content: 'noindex, nofollow' },
     ],
   }),
