@@ -103,6 +103,7 @@ import tempest_sky_bridge_landing from './tempest-sky-bridge-landing.ts'
 import tempest from './tempest.ts'
 import temple_of_the_serpent_eclipse from './temple-of-the-serpent-eclipse.ts'
 import temple_of_the_watchers from './temple-of-the-watchers.ts'
+import the_abyss from './the-abyss.ts'
 import the_blackstone from './the-blackstone.ts'
 import the_boat_to_fairhaven from './the-boat-to-fairhaven.ts'
 import the_boat_to_fajanet_celesta from './the-boat-to-fajanet-celesta.ts'
@@ -254,4 +255,5 @@ export default {
   the_caves_of_steel,
   the_marshal_s_deep,
   the_caves_of_steel_holding_area,
+  the_abyss,
 }

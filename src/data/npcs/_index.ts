@@ -51,8 +51,10 @@ import mayor_of_fairhaven from './mayor-of-fairhaven.ts'
 import misha from './misha.ts'
 import mortimer_mafioso from './mortimer-mafioso.ts'
 import mr_bumblefoot from './mr-bumblefoot.ts'
+import old_murl from './old-murl.ts'
 import old_pell from './old-pell.ts'
 import onana_tempest from './onana-tempest.ts'
+import pell from './pell.ts'
 import penelope from './penelope.ts'
 import rare_animal_dealer from './rare-animal-dealer.ts'
 import rhys_s_parents from './rhys-s-parents.ts'
@@ -177,4 +179,6 @@ export default {
   tobin_reedwhistle,
   the_11th_marshal,
   caves_of_steel_fisher,
+  pell,
+  old_murl,
 }

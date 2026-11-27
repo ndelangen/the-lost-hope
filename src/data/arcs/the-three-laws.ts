@@ -92,7 +92,7 @@ export default createArc({
       hook: [
         [
           refs.npcs.the_11th_marshal,
-          ' never comes itself. It sends a mind-controlled minion. Who speaks for it when the party draws its attention?',
+          ' sends a mind-controlled minion everywhere except the Caves, where it comes itself at full moon. Who speaks for it when the party draws its attention elsewhere?',
         ],
       ],
     },

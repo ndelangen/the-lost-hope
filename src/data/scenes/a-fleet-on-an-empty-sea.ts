@@ -173,6 +173,10 @@ export default createScene({
           ],
         },
         {
+          speaker: refs.npcs.pell,
+          say: [['Think you can beat me? Nobody beats Pell. I’ll keep count!']],
+        },
+        {
           note: [
             ['Each player who wants to takes a turn, in three checks. The DCs are proposals.'],
             [
@@ -232,6 +236,24 @@ export default createScene({
         },
         {
           note: [['They tell this with great pride. The last line is a Pokémon nod, for fun.']],
+        },
+        {
+          speaker: refs.npcs.old_murl,
+          say: [
+            ['We’re all caught in the great net of life and connectedness, you know.'],
+            [
+              'Every person is a knot in it. Pull one knot hard enough and it slips loose. And a knot that slips loose isn’t a knot any more, just a bit of string, drifting.',
+            ],
+            [
+              'But there are those who would see the net destroyed and us all released into infinity.',
+            ],
+            [
+              'We’re fishers, ourselves, so we’re pretty comfortable with nets. Infinity seems like it might be a lonely place.',
+            ],
+          ],
+        },
+        {
+          note: [['Murl’s hint about Arcane Dust, from a proven unreliable source.']],
         },
       ],
       outcomes: [

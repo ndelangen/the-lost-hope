@@ -336,6 +336,8 @@ export const refs = {
     tobin_reedwhistle: ref('npc', 'tobin_reedwhistle'),
     the_11th_marshal: ref('npc', 'the_11th_marshal'),
     caves_of_steel_fisher: ref('npc', 'caves_of_steel_fisher'),
+    pell: ref('npc', 'pell'),
+    old_murl: ref('npc', 'old_murl'),
   },
   pcs: {
     cassian_veyl: ref('pc', 'cassian_veyl'),
@@ -487,6 +489,7 @@ export const refs = {
     the_caves_of_steel: ref('location', 'the_caves_of_steel'),
     the_marshal_s_deep: ref('location', 'the_marshal_s_deep'),
     the_caves_of_steel_holding_area: ref('location', 'the_caves_of_steel_holding_area'),
+    the_abyss: ref('location', 'the_abyss'),
   },
   quests: {
     recover_ride_the_lightning: ref('quest', 'recover_ride_the_lightning'),

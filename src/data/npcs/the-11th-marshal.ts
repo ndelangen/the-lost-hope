@@ -52,12 +52,14 @@ export default createNPC({
       'Doing nothing is no way out: being carried off while passive counts as leaving through inaction, and asking someone else to carry you is an action. Judge each case by what the person does and what they know.',
     ],
     [
-      'The laws rule in its place, so it does not have to govern. It rests on the seabed and can go years without speaking to its people. It never goes anywhere itself: it always sends a mind-controlled minion.',
+      'The laws rule in its place, so it does not have to govern. It rests on the seabed and can go years without speaking to its people. Beyond the Caves it never goes anywhere itself: it always sends a mind-controlled minion.',
     ],
     [
-      'Every full moon the master pays the Caves a visit, and the people try to have as many different kinds of sentient sea creature as they can waiting in the ',
+      'Every full moon it rises in person through ',
+      refs.locations.the_abyss,
+      ' into the Caves to eat, and the people try to have as many different kinds of sentient sea creature as they can waiting in the ',
       refs.locations.the_caves_of_steel_holding_area,
-      '.',
+      '. Visitors still there at full moon are detected and eaten, so the people strongly advise them to leave before.',
     ],
     [
       'It is the marshal least affected if ',
