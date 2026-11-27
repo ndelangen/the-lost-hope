@@ -95,11 +95,14 @@ export default createScene({
             [
               '“It’s the fuel for the machines, the subships and the powerplant. Otherwise we’d be without heat, light and fish!”',
             ],
-            [
-              '“We get a delivery every two weeks or so.” Where it comes from they do not know or care: it comes, every time.',
-            ],
+            ['“We get a delivery every two weeks or so.”'],
           ],
           followUps: [
+            {
+              icon: 'gi/GiPointing',
+              when: [['They ask where it comes from.']],
+              response: [['“We don’t know, the master arranged this.”']],
+            },
             {
               icon: 'gi/GiStandingPotion',
               when: [['They ask whether the people ever use it as a drug.']],
