@@ -79,6 +79,7 @@ import flee_mortals_public_preview from './flee-mortals-public-preview.ts'
 import flee_mortals from './flee-mortals.ts'
 import forgotten_realms_adventures_in_faer_n from './forgotten-realms-adventures-in-faer-n.ts'
 import ghosts_of_saltmarsh from './ghosts-of-saltmarsh.ts'
+import giants_of_the_star_forge from './giants-of-the-star-forge.ts'
 import guildmasters_guide_to_ravnica from './guildmasters-guide-to-ravnica.ts'
 import heroes_of_the_borderlands from './heroes-of-the-borderlands.ts'
 import hoard_of_the_dragon_queen_d_d_encounters from './hoard-of-the-dragon-queen-d-d-encounters.ts'
@@ -253,6 +254,7 @@ export default [
   flee_mortals_public_preview,
   forgotten_realms_adventures_in_faer_n,
   ghosts_of_saltmarsh,
+  giants_of_the_star_forge,
   guildmasters_guide_to_ravnica,
   heroes_of_the_borderlands,
   hoard_of_the_dragon_queen,

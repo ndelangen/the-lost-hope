@@ -418,6 +418,10 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
   },
+  giants_of_the_star_forge: {
+    name: 'Giants of the Star Forge',
+    ruleset: '5e-2014',
+  },
   guildmasters_guide_to_ravnica: {
     name: 'Guildmasters’ Guide to Ravnica',
     ruleset: '5e-2014',

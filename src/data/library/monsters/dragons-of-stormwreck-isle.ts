@@ -7,6 +7,80 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.dragons_of_stormwreck_isle,
   monsters: {
+    fume_drake: {
+      name: 'Fume Drake',
+      alignment: 'neutral',
+      languages: ['Draconic', 'Ignan'],
+      stats: {
+        size: 'small',
+        type: 'elemental',
+        cr: '1/4',
+        ac: 12,
+        hitDice: '5d6',
+        speed: { walk: 30, fly: 30 },
+        scores: { str: 6, dex: 14, con: 12, int: 6, wis: 10, cha: 11 },
+        senses: { darkvision: 60 },
+        damageImmunities: [rules.fire, rules.poison],
+        conditionImmunities: [rules.poisoned],
+        abilities: [
+          {
+            key: 'death-burst',
+            name: 'Death Burst',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            intent: 'damage',
+            save: {
+              ability: 'con',
+              dc: 'con',
+              target: { area: { shape: rules.emanation, size: 5 } },
+              onFail: {
+                damage: [{ dice: '1d8', type: rules.poison }],
+              },
+            },
+            text: ['When the fume drake dies, it explodes in a cloud of noxious fumes.'],
+          },
+          {
+            key: 'unusual-nature',
+            name: 'Unusual Nature',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ["The fume drake doesn't require food, drink, or sleep."],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.fire, addModifier: true }],
+            },
+          },
+          {
+            key: 'scalding-breath',
+            name: 'Scalding Breath',
+            timing: 'action',
+            icon: 'gi/GiDragonBreath',
+            intent: 'damage',
+            save: {
+              ability: 'dex',
+              dc: 'con',
+              target: { area: { shape: rules.cone, size: 15 } },
+              onFail: {
+                damage: [{ dice: '1d8', type: rules.fire }],
+              },
+              onSuccess: 'half',
+            },
+            text: ['The fume drake exhales scalding steam in a 15-foot cone.'],
+            uses: 1,
+            recharge: 'Recharge 6',
+          },
+        ],
+      },
+    },
     kobold_tinkerer: {
       name: 'Kobold Tinkerer',
       alignment: 'any alignment',
