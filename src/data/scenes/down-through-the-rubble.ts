@@ -103,23 +103,13 @@ export default createScene({
         {
           do: [
             [
-              'A scavenger crew has camped at the hull of the crashed warship: four of them around a fire, and two more sitting apart, staring at nothing.',
+              'A scavenger crew has camped at the hull of the crashed warship: four of them around a fire.',
             ],
           ],
         },
         {
           speaker: refs.npcs.rustmoor_scavenger,
-          say: [
-            ['Wreck’s ours. Claimed and marked.'],
-            ['But we are not going back in. Not after what it did to them.'],
-          ],
-        },
-        {
-          note: [
-            [
-              'The two went into the engine spaces without covering their faces. Old Arcane Dust still hangs in there, and they came out not knowing their own names. This is what the Dust takes.',
-            ],
-          ],
+          say: [['Wreck’s ours. Claimed and marked.']],
         },
       ],
       fight: {
@@ -134,11 +124,7 @@ export default createScene({
         {
           icon: 'gi/GiConversation',
           when: [['They talk to the crew.']],
-          response: [
-            [
-              'The crew lets them in for a share of the salvage, or for nothing if the party promises to look for something that could bring their two back.',
-            ],
-          ],
+          response: [['The crew lets them in for a share of the salvage.']],
         },
         {
           icon: 'gi/GiPointing',
@@ -187,13 +173,6 @@ export default createScene({
               refs.rules.bludgeoning,
               ' damage and ends in the engine spaces.',
             ],
-            [
-              'The engine spaces hold the old Dust. Whoever breathes there without a covered face makes the save below. On a failure the player names one small memory the character has lost. Do not say whether it comes back.',
-            ],
-            [
-              refs.pcs.auren,
-              ' does not eat or sleep. Whether he breathes is for his player to say.',
-            ],
           ],
         },
         {
@@ -204,14 +183,6 @@ export default createScene({
           ],
         },
       ],
-      groupSave: {
-        title: [['Old Dust in the air']],
-        ability: 'con',
-        dc: 13,
-        rollers: party,
-        passed: 'Clear-headed',
-        failed: 'Something is missing',
-      },
     },
     {
       title: 'The bottom layer: the guardian',
