@@ -93,10 +93,27 @@ export default createScene({
           when: [['They ask the fishers about the barrels.']],
           response: [
             [
-              '“Dust, for the ships and the machines.” Nobody here takes it as a drug: ',
-              refs.npcs.the_11th_marshal,
-              ' forbids it, and they say so. Where it comes from they do not know or care: it comes, every time.',
+              '“It’s the fuel for the machines, the subships and the powerplant. Otherwise we’d be without heat, light and fish!”',
             ],
+            ['Where it comes from they do not know or care: it comes, every time.'],
+          ],
+          followUps: [
+            {
+              icon: 'gi/GiStandingPotion',
+              when: [['They ask whether the people ever use it as a drug.']],
+              response: [['“No, that’s forbidden by the Marshal.”']],
+              followUps: [
+                {
+                  icon: 'gi/GiConversation',
+                  when: [['They press the point.']],
+                  response: [
+                    [
+                      '“Of course some have tried it, but we actually like being connected. People who take it retreat from society, and sometimes lose their memories, or have them twisted.”',
+                    ],
+                  ],
+                },
+              ],
+            },
           ],
         },
         {

@@ -64,7 +64,7 @@ export default createNPC({
     [
       'It is the marshal least affected if ',
       refs.npcs.light_13th_marshal,
-      ' suddenly stops writing. Its people have never taken Arcane Dust as a drug, so the loss does not fall on them. The power imbalance could let it take huge stretches of ocean and land. It would be a worthy enemy even if Light’s plan works exactly as intended, and it is among the most evil of the marshals.',
+      ' suddenly stops writing. Its people are forbidden to take Arcane Dust as a drug, and only a few ever have, so the loss hardly falls on them. The power imbalance could let it take huge stretches of ocean and land. It would be a worthy enemy even if Light’s plan works exactly as intended, and it is among the most evil of the marshals.',
     ],
     [
       'The laws are a deliberate echo of Asimov’s Three Laws of Robotics, turned around: the people must protect their master. As in Asimov’s stories, the puzzle is what the laws actually say, which one takes precedence, and the gap between that and what the Marshal meant.',

@@ -49,9 +49,9 @@ export default createLocation({
       refs.items.caves_of_steel_subship,
       ' fleet, the power from its ',
       refs.locations.the_caves_of_steel_generator_room,
-      ' and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly. It arrives in barrels dropped into the sea, and the fishers bring them inside. Nobody here has ever taken it as a drug: ',
+      ' and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly. It arrives in barrels dropped into the sea, and the fishers bring them inside. Taking it as a drug is forbidden by ',
       refs.npcs.the_11th_marshal,
-      ' forbids it. They say so if the party asks.',
+      '. Some have tried it anyway, but the people like being connected: those who take it retreat from society, and sometimes lose their memories or have them twisted.',
     ],
     [
       'The name is a nod to Asimov’s novel The Caves of Steel, as the laws are to his Three Laws of Robotics.',
