@@ -1,7 +1,7 @@
 import type { Ability, PrintedStatBlock, Scaling } from '#/definitions/stat-block'
 
 import type { AbilityId } from './rules'
-import { proficiencyForLevel } from './stat-block'
+import { proficiencyForLevel, withOptions } from './stat-block'
 
 /** What a creature borrows from whoever summons or keeps it: a level, and the owner's numbers. */
 export type Owner = {
@@ -73,6 +73,21 @@ const OWNER_NUMBERS: readonly OwnerNumber[] = [
   'wis',
   'cha',
 ]
+
+/**
+ * A creature at its owner: its function run at the owner's level, kept inside the levels it has,
+ * with the options picked joined after. The library page and a PC's companion both use this.
+ */
+export function ownedStats(
+  creature: OwnedCreature,
+  printed: PrintedStatBlock,
+  owner: Owner,
+  picked: readonly string[],
+): PrintedStatBlock {
+  const scaling = printed.scaling
+  const level = scaling ? Math.min(scaling.max, Math.max(scaling.min, owner.level)) : owner.level
+  return withOptions(creature.stats(printed, { ...owner, level }, picked), picked)
+}
 
 /** Declares a creature's owner function, checked against the shape every page runs. */
 export function ownedCreature(creature: OwnedCreature) {

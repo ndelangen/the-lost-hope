@@ -1,33 +1,17 @@
-import { use, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 
 import type { PrintedStatBlock } from '#/definitions/stat-block'
-import { loadOwnedCreature } from '#/lib/load-owned-creature'
 import type { MonsterOwner } from '#/lib/monster-printing'
 import {
+  ownedStats,
   ownerNumbersRead,
   typicalOwner,
   type Owner,
-  type OwnedCreature,
   type OwnerNumber,
 } from '#/lib/owned-creature'
+import { ownedCreatureOf } from '#/lib/owned-creatures'
 import type { DerivedStats } from '#/lib/stat-block'
 import { deriveStatBlock, withOptions } from '#/lib/stat-block'
-
-const loading = new Map<string, Promise<OwnedCreature | undefined>>()
-
-/** The owner function a creature follows, loaded once and shared by every page that shows it. */
-function ownedFunction({ publication, monster }: MonsterOwner) {
-  const key = `${publication}/${monster}`
-  const known = loading.get(key)
-  if (known) return known
-  // A failed load (a chunk gone after a deploy) is forgotten, so the next visit tries again.
-  const load = loadOwnedCreature(publication, monster).catch((error: unknown) => {
-    loading.delete(key)
-    throw error
-  })
-  loading.set(key, load)
-  return load
-}
 
 /**
  * The stat block a library page shows: the printed block at the level and owner the DM chose for
@@ -54,7 +38,7 @@ export function useCreatureBlock(
   }, [chosen, options, firstForm])
 
   const scaling = printed.scaling
-  const creature = owned ? use(ownedFunction(owned)) : undefined
+  const creature = owned ? ownedCreatureOf(owned.publication, owned.monster) : undefined
   const [level, setLevel] = useState<number | undefined>(undefined)
   const [overrides, setOverrides] = useState<Partial<Record<OwnerNumber, number>>>({})
   const owner = useMemo((): Owner | undefined => {
@@ -75,7 +59,10 @@ export function useCreatureBlock(
 
   // The creature works itself out from its owner first; the options it prints join after.
   const stats = useMemo(
-    () => withOptions(creature && owner ? creature.stats(printed, owner, picked) : printed, picked),
+    () =>
+      creature && owner
+        ? ownedStats(creature, printed, owner, picked)
+        : withOptions(printed, picked),
     [printed, creature, owner, picked],
   )
   const reads = useMemo(

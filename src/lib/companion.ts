@@ -2,7 +2,9 @@ import type { Companion, PC } from '#/definitions/pc'
 import type { PrintedStatBlock } from '#/definitions/stat-block'
 import type { AbilityId } from '#/lib/rules'
 
-import { typicalOwner, type OwnedCreature, type Owner } from './owned-creature'
+import type { MonsterOwner } from './monster-printing'
+import { ownedStats, typicalOwner, type Owner } from './owned-creature'
+import { ownedCreatureOf } from './owned-creatures'
 import { modifier, proficiencyForLevel, withOptions } from './stat-block'
 
 /** The ability each class casts with, for a companion that uses its owner's spell attack. */
@@ -79,9 +81,10 @@ export function companionStats(
   pc: PC,
   companion: Companion,
   stats: PrintedStatBlock,
-  creature: OwnedCreature | undefined,
+  owned: MonsterOwner | undefined,
 ) {
   const picked = companion.options ?? []
+  const creature = owned && ownedCreatureOf(owned.publication, owned.monster)
   const owner = companionOwner(pc, companion, stats)
-  return withOptions(creature && owner ? creature.stats(stats, owner, picked) : stats, picked)
+  return creature && owner ? ownedStats(creature, stats, owner, picked) : withOptions(stats, picked)
 }

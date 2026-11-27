@@ -1390,7 +1390,7 @@ export default createPublicationMonsters({
       alignment: 'unaligned',
       languages: ["understands one of your languages but can't speak"],
       stats: {
-        scaling: { by: 'class', of: 'Level', min: 1, max: 20 },
+        scaling: { by: 'class', of: 'Character', min: 1, max: 20 },
         options: [
           {
             key: 'acrobat',

@@ -11,13 +11,11 @@ export default ownedCreature({
         printed: {
           ...printed.printed,
           proficiencyBonus: owner.proficiencyBonus,
-          hitPoints: picked.includes('demon')
-            ? 50 + 15 * (level - 6)
-            : picked.includes('devil')
-              ? 40 + 15 * (level - 6)
-              : picked.includes('yugoloth')
-                ? 60 + 15 * (level - 6)
-                : 50 + 15 * (level - 6),
+          hitPoints: picked.includes('devil')
+            ? 40 + 15 * (level - 6)
+            : picked.includes('yugoloth')
+              ? 60 + 15 * (level - 6)
+              : 50 + 15 * (level - 6),
           hitPointsOnly: true,
         },
       },

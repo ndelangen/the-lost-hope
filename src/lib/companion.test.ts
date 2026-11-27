@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest'
 
-import steelDefender from '#/data/library/owned/tasha-s-cauldron-of-everything/steel-defender'
 import pcs from '#/data/pcs/_index'
 import { PC } from '#/definitions/pc'
 
@@ -34,12 +33,10 @@ const artificer = PC.parse({
 })
 
 describe('a PC’s companion', () => {
-  const printing = monsterPrinting(defender.creature, defender.publication)!.printing
+  const { printing, owned } = monsterPrinting(defender.creature, defender.publication)!
 
   it('takes its level, proficiency and Intelligence from its PC', () => {
-    const block = deriveStatBlock(
-      companionStats(artificer, defender, printing.stats, steelDefender),
-    )
+    const block = deriveStatBlock(companionStats(artificer, defender, printing.stats, owned))
     // 2 + Intelligence modifier (4) + 5 × artificer level (9)
     expect(block.maxHp).toBe(51)
     expect(block.proficiencyBonus).toBe(4)
@@ -47,7 +44,7 @@ describe('a PC’s companion', () => {
   })
 
   it('attacks with its PC’s spell attack and adds their proficiency bonus to damage', () => {
-    const stats = companionStats(artificer, defender, printing.stats, steelDefender)
+    const stats = companionStats(artificer, defender, printing.stats, owned)
     const rend = stats.abilities.find(({ key }) => key === 'force-empowered-rend')!
     // Spell attack: proficiency (4) + Intelligence modifier (4)
     expect(rend.attack?.printedBonus).toBe(8)
