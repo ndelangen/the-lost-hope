@@ -15,7 +15,7 @@ export default createItem({
       ' that sails on the surface and under it: a large, mixed-use vessel built for fishing, utility, repair and war alike. It has an open deck where the fishing happens, and a cargo hold.',
     ],
     [
-      'They carry no ordinary cannons. Harpoon stations and strange machines stand plainly on deck.',
+      'They carry no ordinary cannons. Their harpoons and strange machines sit inside the hull, firing out through dome-shaped blisters on its outside.',
     ],
   ],
   background: [
