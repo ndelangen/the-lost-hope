@@ -1067,12 +1067,21 @@ export default createPublicationMonsters({
               ' that turn. The target makes a ',
               { dc: 'str', printed: 13 },
               ' Strength save or falls ',
-              rules.prone,
+              { effect: 'trample-prone' },
               '. If the target is ',
               rules.prone,
               ', the baloth may make one ',
               { ability: 'stomp' },
               ' against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'trample-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 13 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

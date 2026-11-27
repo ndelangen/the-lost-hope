@@ -54,15 +54,16 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              { dc: 'con' },
-              ' Constitution save or ',
-              rules.poisoned,
-              ' for 1 minute and ',
-              rules.paralyzed,
-              ' while ',
-              rules.poisoned,
-              ' this way. The target can repeat the save at each turn end to recover.',
+            text: [{ dc: 'con' }, ' Constitution save or ', { effect: 'bug-poisoned' }, '.'],
+            effects: [
+              {
+                key: 'bug-poisoned',
+                name: 'Poisoned and paralyzed, can recover on a save',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {

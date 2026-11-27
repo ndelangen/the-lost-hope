@@ -241,7 +241,18 @@ export default createPublicationMonsters({
             text: [
               'A Large or smaller creature hit by the bite must make a ',
               { dc: 'con', save: 'dex' },
-              ' Dexterity save or be swallowed.',
+              ' Dexterity save or be ',
+              { effect: 'leviathan-swallowed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'leviathan-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                text: ['swallowed'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -312,8 +323,17 @@ export default createPublicationMonsters({
               'If it is a creature, it must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'flipper-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'flipper-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

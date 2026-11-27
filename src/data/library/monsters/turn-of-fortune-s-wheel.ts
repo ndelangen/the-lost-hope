@@ -305,9 +305,20 @@ export default createPublicationMonsters({
               damage: [{ dice: '3d10', type: rules.piercing, addModifier: true }],
             },
             text: [
-              'Grapples it (escape DC 16). That target is ',
-              rules.restrained,
+              'Grapples it',
+              '. That target is ',
+              { effect: 'eel-grapple' },
               ' during the grapple, and the eel cannot Bite another target until it ends.',
+            ],
+            effects: [
+              {
+                key: 'eel-grapple',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -326,8 +337,17 @@ export default createPublicationMonsters({
               'A creature hit also makes a ',
               { dc: 'str' },
               ' Strength save and falls ',
-              rules.prone,
+              { effect: 'tail-prone' },
               ' on a failure.',
+            ],
+            effects: [
+              {
+                key: 'tail-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],

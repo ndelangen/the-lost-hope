@@ -35,6 +35,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Alagarthas has advantage on saves against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -46,6 +47,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic cannot put him to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -77,6 +79,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -201,6 +204,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'amphibious',
@@ -226,6 +230,7 @@ export default createPublicationMonsters({
               rules.prone,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -254,10 +259,18 @@ export default createPublicationMonsters({
             },
             text: [
               'On a hit. A Medium or smaller target is also ',
-              rules.grappled,
-              ' (escape DC 16) and ',
-              rules.restrained,
-              ' until the grapple ends. Bavlorna cannot Bite another target while holding this one.',
+              { effect: 'bavlorna-grab' },
+              '. Bavlorna cannot Bite another target while holding this one.',
+            ],
+            effects: [
+              {
+                key: 'bavlorna-grab',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -290,17 +303,28 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiSlime',
             text: [
-              'Swallow a Small or smaller creature that Bavlorna is grappling, ending that grapple. A swallowed creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', has total cover against attacks and effects from outside her, and takes ',
-              { roll: '3d6' },
-              ' acid damage at the start of each of its turns. If this damage reduces a lornling to 0 HP, Bavlorna gains its memories. Only one creature can be swallowed at a time. If she dies, the swallowed creature is no longer ',
+              'Swallow a Small or smaller creature that Bavlorna is grappling, ending that grapple. A swallowed creature ',
+              'is ',
+              { effect: 'bavlorna-swallowed' },
+              '. If this damage reduces a lornling to 0 HP, Bavlorna gains its memories. Only one creature can be swallowed at a time. If she dies, the swallowed creature is no longer ',
               rules.restrained,
               ' and can spend 5 ft. of movement to leave her corpse, emerging ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'bavlorna-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'has total cover against attacks and effects from outside her, and takes ',
+                  { roll: '3d6' },
+                  ' acid damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -349,6 +373,7 @@ export default createPublicationMonsters({
               refs.spells.silence_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -360,6 +385,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ', and magic cannot put it to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'soul-light',
@@ -549,8 +575,19 @@ export default createPublicationMonsters({
               'Release spores in a 5-ft. radius around the campestri. They spread around corners and do not affect Constructs, Elementals, Plants, or Undead. Every other creature in the area makes a ',
               { dc: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.incapacitated,
-              ' and its speed halves for 1 minute. It can repeat the save at the end of each of its turns, ending both effects on a success.',
+              { effect: 'spores' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spores',
+                name: 'Spores (both effects end together)',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.incapacitated],
+                text: ['its speed halves'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -629,8 +666,17 @@ export default createPublicationMonsters({
               'Choose one visible creature within 15 ft. It must pass a ',
               { dc: 'dex', save: 'wis' },
               ' Wisdom save or become magically ',
-              rules.frightened,
-              ' until the end of Clapperclaw’s next turn.',
+              { effect: 'presence-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'presence-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'dex' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -722,10 +768,24 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d6', type: rules.necrotic, addModifier: true }],
             },
-            text: [
-              'Reduces the target’s Strength score by 1d4. If the score reaches 0, the target falls ',
-              rules.unconscious,
-              '. A short or long rest restores the lost Strength and ends unconsciousness caused by this drain.',
+            text: [{ effect: 'strength-drain' }],
+            effects: [
+              {
+                key: 'strength-drain',
+                name: 'Strength drain',
+                lands: { on: 'hit' },
+                text: [
+                  'Reduces the target’s Strength score by 1d4. If the score reaches 0, the target falls ',
+                  rules.unconscious,
+                  '.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'A short or long rest restores the lost Strength and ends unconsciousness caused by this drain.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -761,6 +821,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or its speed is 0.',
             ],
+            effects: [],
           },
           {
             key: 'tentacles',
@@ -934,6 +995,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'boon-of-immortality',
@@ -1022,12 +1084,21 @@ export default createPublicationMonsters({
               ' on the same turn, that creature must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '. If the target is ',
               rules.prone,
               ', Envy can make one ',
               { ability: 'claws' },
               ' attack against it as a bonus action.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1065,10 +1136,28 @@ export default createPublicationMonsters({
               'Each creature in a 30-ft. cone makes a ',
               { dc: 'con', printed: 13 },
               ' Constitution save. On a failure, it begins turning to stone and is ',
-              rules.restrained,
-              '. It repeats the save at the end of its next turn. Success ends the effect. Failure leaves it ',
-              rules.petrified,
-              ' until Greater Restoration or other magic frees it.',
+              { effect: 'breath-restrained' },
+              '. Failure leaves it ',
+              { effect: 'breath-petrified' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'breath-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'con', dc: 'con', printed: 13 },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'breath-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  ends: { cure: ['Greater Restoration or other magic frees it'] },
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1378,8 +1467,18 @@ export default createPublicationMonsters({
               'Magical colored light fills a 15-ft. cone. Creatures in it must pass a ',
               { dc: 'con' },
               ' Constitution save or be ',
-              rules.blinded,
-              ' for 1 minute. Each affected creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'dazzle' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'dazzle',
+                name: 'Blinded (each affected creature)',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'recharge 5–6',
@@ -1482,6 +1581,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'standing-leap',
@@ -1854,6 +1954,7 @@ export default createPublicationMonsters({
               refs.spells.speak_with_animals_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'mimicry',
@@ -1894,8 +1995,17 @@ export default createPublicationMonsters({
               'Choose one creature she can see within 10 ft. Magical gas forces a ',
               { dc: 'cha', save: 'con' },
               ' Constitution saving throw. On a failure, the creature is ',
-              rules.unconscious,
-              ' for 1 minute. Damage wakes it immediately, as does another creature using an action to shake or slap it awake.',
+              { effect: 'twilight-sleep' },
+              '. Damage wakes it immediately, as does another creature using an action to shake or slap it awake.',
+            ],
+            effects: [
+              {
+                key: 'twilight-sleep',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'cha' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 2,
             recharge: 'Long rest',
@@ -2057,6 +2167,7 @@ export default createPublicationMonsters({
               refs.spells.polymorph_srd_5_1,
               ' until the next dawn.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2068,6 +2179,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put him to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2163,6 +2275,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' until the next dawn.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -2174,6 +2287,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put him to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -2510,6 +2624,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' with advantage, and magic cannot put her to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sneak-attack-once-per-turn',
@@ -2523,6 +2638,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', provided she did not roll with disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -2600,6 +2716,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' with advantage, and magic cannot put her to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -2648,7 +2765,19 @@ export default createPublicationMonsters({
             text: [
               'The target makes a ',
               { dc: 'cha', save: 'wis' },
-              ' Wisdom save or becomes a Bat as with Polymorph for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.',
+              ' Wisdom save or ',
+              { effect: 'bat-form' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'bat-form',
+                name: 'Bat form',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                text: ['becomes a Bat as with Polymorph'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2667,8 +2796,18 @@ export default createPublicationMonsters({
               'The target makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or is ',
-              rules.blinded,
-              ' for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'sun-blind' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sun-blind',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -2772,10 +2911,24 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '2d6', type: rules.necrotic, addModifier: true }],
             },
-            text: [
-              "Reduce the target's Strength score by 1d4. At Strength 0, the target falls ",
-              rules.unconscious,
-              '. After a short or long rest, the target recovers the lost Strength and any consciousness lost this way.',
+            text: [{ effect: 'strength-drain' }],
+            effects: [
+              {
+                key: 'strength-drain',
+                name: 'Strength drain',
+                lands: { on: 'hit' },
+                text: [
+                  "Reduce the target's Strength score by 1d4. At Strength 0, the target falls ",
+                  rules.unconscious,
+                  '.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'After a short or long rest, the target recovers the lost Strength and any consciousness lost this way.',
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -2830,6 +2983,7 @@ export default createPublicationMonsters({
               refs.spells.polymorph_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -2880,9 +3034,23 @@ export default createPublicationMonsters({
             text: [
               'Choose one creature within 5 ft. It must pass a ',
               { dc: 'wis' },
-              ' Wisdom save or lose its reactions for 1 minute. At the start of each of its turns, roll a d6. On 1–4, it takes no action or bonus action and spends all movement going in a random direction. On 5–6, it stays put and can only attempt the ',
-              { dc: 'wis' },
-              ' Wisdom save, which ends the effect on success.',
+              ' Wisdom save or ',
+              { effect: 'euphoria' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  'lose its reactions',
+                  '. At the start of each of its turns, roll a d6. On 1–4, it takes no action or bonus action and spends all movement going in a random direction. On 5–6, it stays put and can only attempt the ',
+                  { dc: 'wis' },
+                  ' Wisdom save, which ends the effect on success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'recharge 5–6',
@@ -2897,6 +3065,7 @@ export default createPublicationMonsters({
               rules.invisible,
               '. This lasts until his concentration ends, as if concentrating on a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -2959,6 +3128,7 @@ export default createPublicationMonsters({
               refs.spells.plane_shift_srd_5_1,
               ' (self only).',
             ],
+            effects: [],
           },
           {
             key: 'boon-of-immortality',
@@ -2977,6 +3147,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' to her. She cannot recall seeing it, and even her truesight cannot reveal it to her. This lasts until the end of her next long rest.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3065,6 +3236,7 @@ export default createPublicationMonsters({
               refs.spells.mage_armor_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'special-equipment',
@@ -3120,6 +3292,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' and teleports with her equipment to a visible unoccupied space within 60 ft. The invisibility ends at the start of her next turn or earlier if she attacks, casts a spell, or deals damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3186,8 +3359,17 @@ export default createPublicationMonsters({
               'Spend one application to spill a 10-ft. square of slippery, nonflammable oil on the ground within 5 ft. The oil is difficult terrain and lasts 1 hour. A creature that enters it or starts its turn there makes a ',
               { dc: 'dex', printed: 11 },
               ' Dexterity save or falls ',
-              rules.prone,
+              { effect: 'oil-prone' },
               '. Boggles are unaffected.',
+            ],
+            effects: [
+              {
+                key: 'oil-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 11 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -3325,6 +3507,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', and the attack does not have disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -3425,6 +3608,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               ' for 1 minute.',
             ],
+            effects: [],
           },
           {
             key: 'false-appearance',
@@ -3718,6 +3902,7 @@ export default createPublicationMonsters({
               { ability: 'consume-life' },
               ', or stops concentrating as if on a spell.',
             ],
+            effects: [],
           },
           {
             key: 'magic-boon-recharges-after-a-long-rest',
@@ -3740,6 +3925,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' HP.',
             ],
+            effects: [],
           },
         ],
       },
@@ -3838,6 +4024,7 @@ export default createPublicationMonsters({
               { ability: 'consume-life' },
               ', or loses Concentration as though concentrating on a spell.',
             ],
+            effects: [],
           },
           {
             key: 'magic-boon-recharges-after-a-long-rest',
@@ -3860,6 +4047,7 @@ export default createPublicationMonsters({
               { roll: '3d6' },
               ' HP.',
             ],
+            effects: [],
           },
         ],
       },
@@ -4172,12 +4360,25 @@ export default createPublicationMonsters({
             },
             text: [
               'Leaves the target ',
-              rules.grappled,
-              ' (escape DC 11). Until the grapple ends, the target takes ',
-              { roll: '2d4', mod: 'dex' },
-              ' slashing damage at the start of each of its turns. During that time, Zarak cannot grapple another creature or use ',
+              { effect: 'garrote-grab' },
+              '. During that time, Zarak cannot grapple another creature or use ',
               { ability: 'assassin-s-whim' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'garrote-grab',
+                name: 'Grappled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: [
+                  'Until the grapple ends, the target takes ',
+                  { roll: '2d4', mod: 'dex' },
+                  ' slashing damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 11 } },
+              },
             ],
           },
           {
@@ -4243,6 +4444,7 @@ export default createPublicationMonsters({
               refs.spells.speak_with_dead_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'cling-to-life-recharges-after-a-long-rest',

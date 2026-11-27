@@ -117,10 +117,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: 'standing on loose boards' },
               onFail: {
                 damage: [{ dice: '1d6', type: rules.bludgeoning }],
-                also: ['The creature falls ', rules.prone, '.'],
+
+                also: ['The creature falls ', { effect: 'heave-prone' }, '.'],
               },
             },
             text: ['Targets a creature standing on loose boards within 5 feet of the sentinel.'],
+            effects: [
+              {
+                key: 'heave-prone',
+                name: 'Prone',
+                lands: { on: 'failed-save' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },

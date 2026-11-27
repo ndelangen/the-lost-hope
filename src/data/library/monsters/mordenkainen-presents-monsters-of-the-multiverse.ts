@@ -26605,6 +26605,7 @@ export default createPublicationMonsters({
                 { dc: 'con', save: 'dex' },
                 ' Dexterity save, or half as much on a success.',
               ],
+              effects: [],
             },
             {
               key: 'one-with-the-storm',
@@ -26626,8 +26627,17 @@ export default createPublicationMonsters({
               'Choose a point in the lair. Each creature within 20 ft. of it must succeed on a ',
               { dc: 'con' },
               ' Constitution save or become ',
-              rules.deafened,
-              ' until the end of its next turn.',
+              { effect: 'boom-deafened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'boom-deafened',
+                name: 'Deafened',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.deafened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -26647,6 +26657,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength save or be pushed 15 ft. in its direction. The gale clears gas and vapor and extinguishes exposed flames. Each protected flame has a 50 percent chance of going out.',
             ],
+            effects: [],
           },
         ],
       },
@@ -26685,8 +26696,20 @@ export default createPublicationMonsters({
               'A creature other than an eladrin that starts its turn within 60 ft. must make a ',
               { dc: 'str', save: 'wis' },
               ' Wisdom save. On a failure, it is ',
-              rules.frightened,
-              " of this eladrin for 1 minute. It can repeat the save at the end of each of its turns, ending the fear on a success. A successful save or the end of the effect gives it immunity to every eladrin's Fearsome Presence for 24 hours.",
+              { effect: 'fearsome-frightened' },
+              ' of this eladrin',
+              '.',
+              " A successful save or the end of the effect gives it immunity to every eladrin's Fearsome Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fearsome-frightened',
+                name: 'Frightened of the eladrin',
+                lands: { on: 'save', save: 'wis', dc: 'str' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -27867,6 +27890,7 @@ export default createPublicationMonsters({
               refs.spells.telekinesis_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'transmuter-s-stone',
@@ -28410,12 +28434,25 @@ export default createPublicationMonsters({
               'A cloud extends 15 ft. from the chief and spreads around corners. Each creature in the area other than a Plant must succeed on a Constitution saving throw (',
               { dc: 'con' },
               ') or be ',
-              rules.poisoned,
-              '. While ',
-              rules.poisoned,
-              ' this way, the target takes ',
-              { roll: '2d8' },
-              ' poison damage at the start of each of its turns. It repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'spores-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spores-poisoned',
+                name: 'Spore poison',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  ' this way, the target takes ',
+                  { roll: '2d8' },
+                  ' poison damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -28695,6 +28732,7 @@ export default createPublicationMonsters({
               refs.spells.revivify_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -28737,14 +28775,24 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.radiant, addModifier: true }],
+
                 also: [
                   'Is ',
-                  rules.blinded,
-                  ' until the start of the priest’s next turn. On a success, it takes half the damage and avoids blindness.',
+                  { effect: 'holy-fire-blinded' },
+                  '. On a success, it takes half the damage and avoids blindness.',
                 ],
               },
               onSuccess: 'half',
             },
+            effects: [
+              {
+                key: 'holy-fire-blinded',
+                name: 'Blinded',
+                lands: { on: 'failed-save' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'healing-light',
@@ -28816,6 +28864,7 @@ export default createPublicationMonsters({
               refs.spells.hold_monster_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -28858,12 +28907,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.psychic }],
-                also: [
-                  'Have disadvantage on attack rolls until the end of the warlock’s next turn.',
-                ],
+
+                also: [{ effect: 'bewildered' }, '.'],
               },
             },
             text: ['The warlock speaks a magical word at one creature it can see within 60 ft.'],
+            effects: [
+              {
+                key: 'bewildered',
+                name: 'Bewildered',
+                lands: { on: 'failed-save' },
+                text: ['Have disadvantage on attack rolls'],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
+            ],
           },
           {
             key: 'misty-escape-recharges-after-a-short-or-long-rest',
@@ -28875,6 +28932,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' and teleports up to 60 ft. to an unoccupied spot it can see, taking anything it wears or carries. Invisibility ends at the start of its next turn or when it attacks, rolls damage, or casts a spell.',
             ],
+            effects: [],
           },
         ],
       },
@@ -28929,6 +28987,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'dark-one-s-own-luck-recharges-after-a-short-or-long-rest',
@@ -28983,6 +29042,7 @@ export default createPublicationMonsters({
             text: [
               'Green flames erupt in a sphere with a 10-ft. radius centered on a point within 120 ft.',
             ],
+            effects: [],
           },
           {
             key: 'fiendish-rebuke',
@@ -29004,6 +29064,7 @@ export default createPublicationMonsters({
             ],
             uses: 3,
             recharge: 'Long rest',
+            effects: [],
           },
         ],
       },
@@ -29058,6 +29119,7 @@ export default createPublicationMonsters({
               refs.spells.true_seeing_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'whispering-aura',
@@ -29075,6 +29137,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['At the start of the warlock’s turn, the following applies.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -29112,15 +29175,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cube, size: 20 } },
               onFail: {
                 damage: [{ dice: '2d8', type: rules.psychic }],
+
                 also: [
                   'The creature is ',
-                  rules.frightened,
-                  ' of the warlock until the start of the warlock’s next turn (a creature that succeeds avoids the fear).',
+                  { effect: 'void-frightened' },
+                  ' of the warlock',
+                  ' (a creature that succeeds avoids the fear).',
                 ],
               },
               onSuccess: 'half',
             },
             text: ['Open a momentary rift within 60 ft., filling a 20-ft. cube with screams.'],
+            effects: [
+              {
+                key: 'void-frightened',
+                name: 'Frightened of the warlock',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
+            ],
           },
         ],
       },
@@ -29170,14 +29244,30 @@ export default createPublicationMonsters({
               '). On a success, it is immune to the foul water for 24 hours. On a failure, it takes ',
               { roll: '4d6' },
               ' poison damage and is ',
-              rules.poisoned,
-              ' for 1 minute. At the end of the minute, it repeats the save. On a failure, it takes ',
+              { effect: 'corrupt-poisoned' },
+              '. At the end of the minute, it repeats the save. On a failure, it takes ',
               { roll: '4d8' },
               ' poison damage and remains ',
-              rules.poisoned,
-              ' until it finishes a long rest. Another demon that uses an action to drink the water gains ',
+              { effect: 'corrupt-poisoned-long' },
+              '. Another demon that uses an action to drink the water gains ',
               { roll: '2d10' },
               ' temporary hit points.',
+            ],
+            effects: [
+              {
+                key: 'corrupt-poisoned',
+                name: 'Poisoned by foul water',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
+              {
+                key: 'corrupt-poisoned-long',
+                name: 'Poisoned until a long rest',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until', text: ['it finishes a long rest'] },
+              },
             ],
           },
           {
@@ -29246,6 +29336,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['On a success, it takes half the damage and stays in place.'],
+            effects: [],
           },
           {
             key: 'undertow',
@@ -29554,6 +29645,7 @@ export default createPublicationMonsters({
               refs.spells.sleet_storm_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -29573,10 +29665,25 @@ export default createPublicationMonsters({
               'A non-eladrin creature starting its turn within 60 ft. makes a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save. On failure it is ',
-              rules.charmed,
-              ' by the eladrin for 1 minute, with disadvantage on ability checks and saving throws while ',
-              rules.charmed,
-              " this way. The creature can repeat the save at the end of each of its turns and whenever this eladrin damages it, ending the effect on a success. When the creature succeeds or the effect ends, it gains immunity to any eladrin's Sorrowful Presence for 24 hours.",
+              { effect: 'sorrow-charmed' },
+              ' by the eladrin',
+              '.',
+              " When the creature succeeds or the effect ends, it gains immunity to any eladrin's Sorrowful Presence for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'sorrow-charmed',
+                name: 'Charmed (save again whenever the eladrin damages it)',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                text: [
+                  'with disadvantage on ability checks and saving throws while ',
+                  rules.charmed,
+                  ' this way.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn', 'damaged'] },
+              },
             ],
           },
           {
@@ -29651,6 +29758,7 @@ export default createPublicationMonsters({
               { roll: '2d10' },
               ' cold damage.',
             ],
+            effects: [],
           },
         ],
       },
@@ -29772,6 +29880,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' is within 5 ft. of that creature. Otherwise, its attack rolls have disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'bite',
@@ -30301,6 +30410,7 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' psychic damage.',
             ],
+            effects: [],
           },
           {
             key: 'baleful-baying',
@@ -30311,12 +30421,30 @@ export default createPublicationMonsters({
               'The hound bays magically. Each enemy within 300 ft. that hears it must pass a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom save or be ',
-              rules.frightened,
-              " of the hound until the end of the hound's next turn or until the hound is ",
-              rules.incapacitated,
-              '. A creature ',
-              rules.frightened,
-              " this way that starts its turn within 30 ft. of the hound must use all its movement before acting, taking the most direct route to get as far away as possible even through hazards. A creature that succeeds on the save is immune to every yeth hound's baying for 24 hours.",
+              { effect: 'baying-frightened' },
+              ' of the hound',
+              '.',
+              " A creature that succeeds on the save is immune to every yeth hound's baying for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'baying-frightened',
+                name: 'Frightened of the hound',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                text: [
+                  'A creature ',
+                  rules.frightened,
+                  ' this way that starts its turn within 30 ft. of the hound must use all its movement before acting, taking the most direct route to get as far away as possible even through hazards.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the end of the hound's next turn or until the hound is ",
+                    rules.incapacitated,
+                  ],
+                },
+              },
             ],
           },
         ],
@@ -30431,6 +30559,7 @@ export default createPublicationMonsters({
               refs.spells.suggestion_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -30448,10 +30577,20 @@ export default createPublicationMonsters({
               'Choose creatures other than snakes or yuan-ti that start their turns within 30 ft. Each must pass a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or become ',
-              rules.frightened,
-              ' of snakes and yuan-ti. A ',
-              rules.frightened,
-              " target repeats the save at the end of each of its turns, ending the effect on a success. A successful save or the end of the effect grants immunity to this anathema's aura for 24 hours.",
+              { effect: 'aura-frightened' },
+              ' of snakes and yuan-ti',
+              '.',
+              " A successful save or the end of the effect grants immunity to this anathema's aura for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'aura-frightened',
+                name: 'Frightened of snakes and yuan-ti',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -30474,6 +30613,7 @@ export default createPublicationMonsters({
               rules.unconscious,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack-anathema-form-only',
@@ -30527,9 +30667,19 @@ export default createPublicationMonsters({
               ],
             },
             text: [
-              'Grapples the target (escape DC 16). The creature is ',
-              rules.restrained,
-              ' and takes the same damage at the start of each of its turns until the grapple ends. The anathema can constrict only one creature at a time.',
+              { effect: 'anathema-constricted' },
+              '. The anathema can constrict only one creature at a time.',
+            ],
+            effects: [
+              {
+                key: 'anathema-constricted',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ['takes the same damage at the start of each of its turns'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -30673,6 +30823,7 @@ export default createPublicationMonsters({
               refs.spells.hypnotic_pattern_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -30808,6 +30959,7 @@ export default createPublicationMonsters({
               refs.spells.fear_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -30850,10 +31002,18 @@ export default createPublicationMonsters({
             },
             text: [
               'A Large or smaller creature is ',
-              rules.grappled,
-              ' (escape DC 14) and ',
-              rules.restrained,
-              ' until the grapple ends. The yuan-ti can constrict only one creature at a time.',
+              { effect: 'nightmare-constricted' },
+              '. The yuan-ti can constrict only one creature at a time.',
+            ],
+            effects: [
+              {
+                key: 'nightmare-constricted',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -30894,13 +31054,27 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d10', type: rules.psychic }],
-                also: ['Is ', rules.frightened, ' of the illusion, believing it is real.'],
+
+                also: [
+                  'Is ',
+                  { effect: 'nightmare-frightened' },
+                  ' of the illusion, believing it is real.',
+                ],
               },
             },
             text: [
               'Choose one visible creature within 60 ft. Create an immobile illusion of its deepest fear that only it can see. The yuan-ti concentrates as if on a spell for up to 1 minute, and the illusion cannot be damaged. At the end of each of its turns, the target repeats the save, ending the illusion on a success or taking ',
               { roll: '2d10' },
               ' psychic damage on a failure.',
+            ],
+            effects: [
+              {
+                key: 'nightmare-frightened',
+                name: 'Frightened of the illusion',
+                lands: { on: 'failed-save' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -30961,6 +31135,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -31027,10 +31202,21 @@ export default createPublicationMonsters({
               'Choose up to five visible creatures within 60 ft. Each must pass a ',
               { dc: 'dex', save: 'con' },
               ' Constitution save or fall ',
-              rules.unconscious,
-              ' in magical sleep for 10 minutes. Damage or another creature spending an action to shake or slap it awakens the target. Creatures immune to being ',
+              { effect: 'slumber-unconscious' },
+              ' in magical sleep',
+              '.',
+              ' Damage or another creature spending an action to shake or slap it awakens the target. Creatures immune to being ',
               rules.charmed,
               ' are unaffected.',
+            ],
+            effects: [
+              {
+                key: 'slumber-unconscious',
+                name: 'Magical sleep',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -31096,6 +31282,7 @@ export default createPublicationMonsters({
               refs.spells.finger_of_death_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'devil-s-sight',
@@ -31192,17 +31379,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 10 },
               onFail: {
                 damage: [{ dice: '8d10', type: rules.necrotic }],
-                also: ['Is ', rules.poisoned, ' for 1 minute.'],
+
+                also: ['Is ', { effect: 'touch-poisoned' }, '.'],
               },
             },
-            text: [
-              'While ',
-              rules.poisoned,
-              ' this way, it is also ',
-              rules.blinded,
-              ' and ',
-              rules.deafened,
-              '. It repeats the save at the end of each of its turns, ending the effect on a success.',
+            text: [],
+            effects: [
+              {
+                key: 'touch-poisoned',
+                name: 'Poisoned, blinded and deafened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned, rules.blinded, rules.deafened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -31245,6 +31435,7 @@ export default createPublicationMonsters({
                 },
               },
               text: ['Choose one visible creature within 120 ft.'],
+              effects: [],
             },
           ],
         },
@@ -31267,10 +31458,19 @@ export default createPublicationMonsters({
               'Cast Major Image four times in different areas without concentration. All four illusions end at initiative count 20 of the next round. Each creature that can see these illusions must pass a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or be ',
-              rules.frightened,
-              ' of the illusion for 1 minute. A ',
-              rules.frightened,
-              ' creature repeats the save at the end of each of its turns, ending the effect on a success.',
+              { effect: 'illusion-frightened' },
+              ' of the illusion',
+              '.',
+            ],
+            effects: [
+              {
+                key: 'illusion-frightened',
+                name: 'Frightened of the illusion',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -31327,6 +31527,7 @@ export default createPublicationMonsters({
               refs.spells.teleport_srd_5_1,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -31375,7 +31576,22 @@ export default createPublicationMonsters({
             text: [
               'Create a 20-ft.-radius spherical cloud centered on Zuggtmoy for 1 minute. Any creature inside when it appears or entering afterward makes a ',
               { dc: 'con' },
-              ' Constitution save. Success grants immunity to these spores for 24 hours. Failure causes the spores of Zuggtmoy disease until cured or the creature dies. While infected, the creature cannot be reinfected and repeats the save at the end of every 24 hours. A success ends the infection. After three failed repeat saves, fungal growth kills the host and reanimates it as a spore servant if that creature can become one.',
+              ' Constitution save. Success grants immunity to these spores for 24 hours. Failure causes ',
+              { effect: 'spores-disease' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spores-disease',
+                name: 'Zuggtmoy disease infection',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'While infected, the creature cannot be reinfected',
+                  ' After three failed repeat saves, fungal growth kills the host and reanimates it as a spore servant if that creature can become one.',
+                ],
+                lasts: { kind: 'until', text: ['cured or the creature dies'] },
+                ends: { repeatSave: ['every-24-hours'] },
+              },
             ],
             uses: 3,
             recharge: 'Long rest',
@@ -31388,9 +31604,19 @@ export default createPublicationMonsters({
             text: [
               'Create a 20-ft.-radius spherical cloud centered on Zuggtmoy for 1 minute. Humanoids and Beasts inside when it appears or entering afterward make a ',
               { dc: 'wis' },
-              ' Wisdom save. Success grants immunity to those spores for 24 hours. Failure causes the influence of Zuggtmoy disease for 24 hours. During that time the creature is ',
-              rules.charmed,
-              ' by Zuggtmoy and cannot be reinfected by these spores.',
+              ' Wisdom save. Success grants immunity to those spores for 24 hours. Failure causes ',
+              { effect: 'influence-charmed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'influence-charmed',
+                name: 'Influence of Zuggtmoy disease during that time',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.charmed],
+                text: ['cannot be reinfected by these spores'],
+                lasts: { kind: 'time', amount: '24', unit: 'hour' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -31405,6 +31631,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ' by her.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -31425,6 +31652,7 @@ export default createPublicationMonsters({
                 rules.charmed,
                 ' by Zuggtmoy. It uses its reaction if available, either to move up to its speed as directed or make one weapon attack against a target she designates.',
               ],
+              effects: [],
             },
           ],
         },

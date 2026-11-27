@@ -84,15 +84,25 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '8d8', type: rules.force }],
-                also: [
-                  'The creature is weakened. Attacks against a weakened creature have Advantage, and it is ',
-                  rules.poisoned,
-                  '. A weakened target may repeat the save at each turn end. Its third successful repeat ends the effect.',
-                ],
+
+                also: [{ effect: 'time-weakened' }],
               },
               onSuccess: 'half',
             },
             text: ['A 60-ft. cone turns nonmagical unattended objects and vegetation to dust.'],
+            effects: [
+              {
+                key: 'time-weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                text: [
+                  'The creature is weakened. Attacks against a weakened creature have Advantage.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'], successes: 3 },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -142,12 +152,22 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.psychic }],
-                also: [
-                  'Disappears for one round, then returns to its space or the nearest available space.',
-                ],
+
+                also: [{ effect: 'adult-fling' }],
               },
               printedDc: 18,
             },
+            effects: [
+              {
+                key: 'adult-fling',
+                name: 'Out of time',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Disappears for one round, then returns to its space or the nearest available space.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'round' },
+              },
+            ],
           },
           {
             key: 'temporal-lag',
@@ -254,15 +274,26 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 90 } },
               onFail: {
                 damage: [{ dice: '8d12', type: rules.force }],
-                also: [
-                  'The creature is weakened. Attacks against a weakened creature have Advantage, and it is ',
-                  rules.poisoned,
-                  '. Other creatures also resist all damage it deals. A weakened target may repeat the save at each turn end. Its third successful repeat ends the effect.',
-                ],
+
+                also: [{ effect: 'ancient-weakened' }],
               },
               onSuccess: 'half',
             },
             text: ['A 90-ft. cone turns nonmagical unattended objects and vegetation to dust.'],
+            effects: [
+              {
+                key: 'ancient-weakened',
+                name: 'Weakened',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                text: [
+                  'The creature is weakened. Attacks against a weakened creature have Advantage.',
+                  ' Other creatures also resist all damage it deals.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'], successes: 3 },
+              },
+            ],
             uses: 1,
             recharge: 'Recharge 5–6',
           },
@@ -323,11 +354,21 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 60 },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.psychic }],
-                also: [
-                  'Disappears for one round, then returns to its space or the nearest available space.',
-                ],
+
+                also: [{ effect: 'ancient-fling' }],
               },
             },
+            effects: [
+              {
+                key: 'ancient-fling',
+                name: 'Out of time',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Disappears for one round, then returns to its space or the nearest available space.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'round' },
+              },
+            ],
           },
           {
             key: 'temporal-lag',
@@ -781,12 +822,8 @@ export default createPublicationMonsters({
               'A Large or smaller creature must pass a Dexterity saving throw (',
               { dc: 'con' },
               ') or be swallowed. Inside, it is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ' and has Total Cover against attacks and effects from outside. At the start of each eyestalk turn it takes ',
-              { roll: '6d6' },
-              ' acid damage. When one creature inside deals at least 30 damage on a turn, the eyestalk must pass a Constitution saving throw (',
+              { effect: 'eyestalk-swallowed' },
+              '. When one creature inside deals at least 30 damage on a turn, the eyestalk must pass a Constitution saving throw (',
               { dc: 'con', printed: 21 },
               ") at that turn's end or vomit all swallowed creatures out ",
               rules.prone,
@@ -795,6 +832,20 @@ export default createPublicationMonsters({
               ' by it and can spend 20 ft. of movement to exit ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'eyestalk-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'and has Total Cover against attacks and effects from outside. At the start of each eyestalk turn it takes ',
+                  { roll: '6d6' },
+                  ' acid damage.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -815,6 +866,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -1046,10 +1098,19 @@ export default createPublicationMonsters({
               'Choose an option or roll a d4. 1–2 · Chains. A visible target within 30 ft. makes a ',
               { dc: 'cha', save: 'dex' },
               ' Dexterity save or becomes ',
-              rules.restrained,
-              " until the end of its next turn. 3–4 · Magic Shield. Add 5 to AC until the start of the matter smith's next turn. The first creature that misses it with a melee attack while the shield is present takes ",
+              { effect: 'smith-chains' },
+              ". 3–4 · Magic Shield. Add 5 to AC until the start of the matter smith's next turn. The first creature that misses it with a melee attack while the shield is present takes ",
               { roll: '2d6' },
               ' force.',
+            ],
+            effects: [
+              {
+                key: 'smith-chains',
+                name: 'Restrained by chains',
+                lands: { on: 'save', save: 'dex', dc: 'cha' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -1275,8 +1336,17 @@ export default createPublicationMonsters({
               ' Constitution save. On failure, take ',
               { roll: '8d12' },
               ' radiant and become ',
-              rules.blinded,
-              " until the end of the incarnate's next turn. Success halves the damage and prevents Blindness.",
+              { effect: 'exhalation-blind' },
+              '. Success halves the damage and prevents Blindness.',
+            ],
+            effects: [
+              {
+                key: 'exhalation-blind',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1293,6 +1363,7 @@ export default createPublicationMonsters({
               { roll: '3d10' },
               ' fire damage.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -1428,8 +1499,17 @@ export default createPublicationMonsters({
               ' Constitution save. On failure, take ',
               { roll: '8d12' },
               ' necrotic and become ',
-              rules.blinded,
-              " until the end of the incarnate's next turn. Success halves the damage and prevents Blindness.",
+              { effect: 'fiend-exhalation-blind' },
+              '. Success halves the damage and prevents Blindness.',
+            ],
+            effects: [
+              {
+                key: 'fiend-exhalation-blind',
+                name: 'Blinded',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.blinded],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1446,6 +1526,7 @@ export default createPublicationMonsters({
               { roll: '3d10' },
               ' fire damage.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',

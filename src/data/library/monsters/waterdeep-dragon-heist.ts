@@ -378,8 +378,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'Anything touching the mimic sticks to it. A Huge or smaller creature that sticks is ',
-              rules.grappled,
-              ' (escape DC 13), with Disadvantage on escape checks.',
+              { effect: 'stuck' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stuck',
+                name: 'Stuck to the mimic',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['with Disadvantage on escape checks.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -395,6 +406,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Gain Advantage on attacks against a creature it has ', rules.grappled, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -492,6 +504,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -522,7 +535,18 @@ export default createPublicationMonsters({
             text: [
               'A humanoid target must succeed on a ',
               { dc: 'con' },
-              ' Constitution save or contract wererat lycanthropy.',
+              ' Constitution save or ',
+              { effect: 'wererat-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-lycanthropy',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['contract wererat lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -597,6 +621,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Advantage on saves against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -630,12 +655,28 @@ export default createPublicationMonsters({
               ' Strength save or drop one held item chosen by the adept, ',
               { dc: 'dex' },
               ' Dexterity save or fall ',
-              rules.prone,
+              { effect: 'strike-prone' },
               ', or ',
               { dc: 'dex', save: 'con' },
               ' Constitution save or become ',
-              rules.stunned,
-              " until the end of the adept's next turn.",
+              { effect: 'strike-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'strike-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'strike-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -691,7 +732,20 @@ export default createPublicationMonsters({
             text: [
               'Toss the stuffed owlbear into an unoccupied space within 15 ft. Choose a creature that sees it land. That creature makes a ',
               { dc: 'wis' },
-              ' Wisdom save. On a failure, the next Dexterity (Stealth) check made to hide from it before the start of Jenks’s next turn has advantage. Retrieve the toy before using this action again.',
+              ' Wisdom save. On a failure, ',
+              { effect: 'decoy-advantage' },
+              ' Retrieve the toy before using this action again.',
+            ],
+            effects: [
+              {
+                key: 'decoy-advantage',
+                name: 'Owlbear decoy',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  'the next Dexterity (Stealth) check made to hide from it before the start of Jenks’s next turn has advantage.',
+                ],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
         ],
@@ -779,6 +833,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Advantage on saves against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -812,12 +867,28 @@ export default createPublicationMonsters({
               ' Strength save or drop one held item chosen by the adept, ',
               { dc: 'dex' },
               ' Dexterity save or fall ',
-              rules.prone,
+              { effect: 'mookie-prone' },
               ', or ',
               { dc: 'dex', save: 'con' },
               ' Constitution save or become ',
-              rules.stunned,
-              " until the end of the adept's next turn.",
+              { effect: 'mookie-stunned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'mookie-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'mookie-stunned',
+                name: 'Stunned',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -984,6 +1055,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks. Cantrips (at will) · Fire Bolt, Light, Mage Hand, Prestidigitation. 1st level (4 slots) · Detect Magic, Mage Armor, Magic Missile, Shield. 2nd level (3 slots) · Misty Step, Suggestion. 3rd level (3 slots) · Counterspell, Fireball, Fly. 4th level (3 slots) · Greater Invisibility, Ice Storm. 5th level (1 slot) · Cone of Cold.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1014,6 +1086,7 @@ export default createPublicationMonsters({
               },
             },
             text: ['Exhale fire in a 15-ft. cone. on failure or half on success.'],
+            effects: [],
           },
         ],
       },
@@ -1070,6 +1143,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Advantage on saving throws against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'halfling-nimbleness',
@@ -1100,7 +1174,18 @@ export default createPublicationMonsters({
             text: [
               'A humanoid target must succeed on a ',
               { dc: 'con' },
-              ' Constitution save or contract wererat lycanthropy.',
+              ' Constitution save or ',
+              { effect: 'wererat-lycanthropy' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wererat-lycanthropy',
+                name: 'Wererat lycanthropy',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: ['contract wererat lycanthropy'],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1271,7 +1356,19 @@ export default createPublicationMonsters({
             text: [
               'Fire a blunt toy arrow at a visible, unattended object within 20 ft. It deals no damage. One creature within 5 ft. of the object that can hear the impact makes a ',
               { dc: 'con', save: 'wis' },
-              ' Wisdom save. On a failure, it cannot make opportunity attacks against Squiddly until the end of his turn.',
+              ' Wisdom save. On a failure, ',
+              { effect: 'no-opportunity-attacks' },
+            ],
+            effects: [
+              {
+                key: 'no-opportunity-attacks',
+                name: 'No opportunity attacks',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  'it cannot make opportunity attacks against Squiddly until the end of his turn.',
+                ],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
         ],
@@ -1354,6 +1451,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -1394,6 +1492,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 ft. of the target.',
             ],
+            effects: [],
           },
           {
             key: 'relentless-endurance-recharges-after-a-long-rest',

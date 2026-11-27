@@ -119,8 +119,18 @@ export default createPublicationMonsters({
               'Chosen creatures within 120 ft. aware of the dragon make a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom save or become ',
-              rules.frightened,
-              ' for 1 minute. Repeat the save at turn end. A successful save or the effect ending grants immunity to this presence for 24 hours.',
+              { effect: 'presence-fear' },
+              '. A successful save or the effect ending grants immunity to this presence for 24 hours.',
+            ],
+            effects: [
+              {
+                key: 'presence-fear',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -140,6 +150,7 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
         legendary: {
@@ -168,8 +179,17 @@ export default createPublicationMonsters({
                 ') or take ',
                 { roll: '2d6', mod: 'str' },
                 ' bludgeoning damage and fall ',
-                rules.prone,
+                { effect: 'wing-prone' },
                 '. She can then fly up to half her flying speed.',
+              ],
+              effects: [
+                {
+                  key: 'wing-prone',
+                  name: 'Prone',
+                  lands: { on: 'save', save: 'dex', dc: 'str' },
+                  conditions: [rules.prone],
+                  lasts: { kind: 'until-removed' },
+                },
               ],
             },
           ],
@@ -344,12 +364,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the poison damage reduces the target to 0 hit points, the target is stable but ',
-              rules.poisoned,
-              ' for 1 hour, even after regaining hit points, and is ',
-              rules.paralyzed,
-              ' while ',
-              rules.poisoned,
-              ' in this way.',
+              { effect: 'wasp-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'wasp-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                text: ['even after regaining hit points'],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
         ],
@@ -526,6 +552,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks. Cantrips (at will) · Fire Bolt, Light, Mage Hand, Prestidigitation. 1st level (4 slots) · Detect Magic, Mage Armor, Magic Missile, Shield. 2nd level (3 slots) · Darkvision, Misty Step. 3rd level (3 slots) · Counterspell, Fireball, Fly. 4th level (3 slots) · Greater Invisibility, Ice Storm. 5th level (1 slot) · Cone of Cold.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -673,6 +700,7 @@ export default createPublicationMonsters({
               { dc: 'str' },
               '. At will · Dancing Lights. 1/day each · Darkness, Faerie Fire, Levitate (self only).',
             ],
+            effects: [],
           },
           {
             key: 'assassinate',
@@ -704,6 +732,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' ally is within 5 ft. of the target and the assassin has no Disadvantage.',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -715,6 +744,7 @@ export default createPublicationMonsters({
               rules.charmed,
               '. Magic cannot put him to sleep.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -754,6 +784,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -777,6 +808,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -965,12 +997,18 @@ export default createPublicationMonsters({
             },
             text: [
               'If the poison drops it to 0 HP, it is stable and ',
-              rules.poisoned,
-              ' for 1 hour even if it regains HP. It is ',
-              rules.paralyzed,
-              ' while ',
-              rules.poisoned,
-              ' this way.',
+              { effect: 'spider-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spider-poison',
+                name: 'Poisoned and paralyzed',
+                lands: { on: 'use' },
+                conditions: [rules.poisoned, rules.paralyzed],
+                text: ['even if it regains HP'],
+                lasts: { kind: 'time', amount: '1', unit: 'hour' },
+              },
             ],
           },
           {
@@ -1095,8 +1133,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'Anything touching the mimic sticks to it. A Huge or smaller creature that sticks is ',
-              rules.grappled,
-              ' (escape DC 13), with Disadvantage on escape checks.',
+              { effect: 'stuck' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'stuck',
+                name: 'Stuck to the mimic',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['with Disadvantage on escape checks.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -1112,6 +1161,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Gain Advantage on attacks against a creature it has ', rules.grappled, '.'],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -1191,6 +1241,7 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiPaw',
             text: ['Advantage on saves against being ', rules.frightened, '.'],
+            effects: [],
           },
           {
             key: 'strongheart-resilience',
@@ -1647,7 +1698,21 @@ export default createPublicationMonsters({
             text: [
               'Choose visible creatures within 10 ft. Each makes a ',
               { dc: 'con', save: 'wis' },
-              ' Wisdom save. Failure halves speed, prevents reactions, caps attacks at one per turn and restricts the creature to either an action or a bonus action for 1 minute. Repeat the save at each turn end. Victims appear wrapped in webs until the effect ends.',
+              ' Wisdom save. Failure ',
+              { effect: 'lolth-slow' },
+              '. Victims appear wrapped in webs until the effect ends.',
+            ],
+            effects: [
+              {
+                key: 'lolth-slow',
+                name: 'Slowed by webs',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  'halves speed, prevents reactions, caps attacks at one per turn and restricts the creature to either an action or a bonus action',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -1695,6 +1760,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks. Cantrips (at will) · Fire Bolt, Light, Mage Hand, Prestidigitation. 1st level (4 slots) · Detect Magic, Mage Armor, Magic Missile, Shield. 2nd level (3 slots) · Misty Step, Suggestion. 3rd level (3 slots) · Counterspell, Fireball, Fly. 4th level (3 slots) · Greater Invisibility, Ice Storm. 5th level (1 slot) · Cone of Cold.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',
@@ -1834,6 +1900,7 @@ export default createPublicationMonsters({
               { toHit: 'int' },
               ' to hit with spell attacks. Cantrips (at will) · Fire Bolt, Light, Mage Hand, Prestidigitation. 1st level (4 slots) · Detect Magic, Mage Armor, Magic Missile, Shield. 2nd level (3 slots) · Misty Step, Suggestion. 3rd level (3 slots) · Counterspell, Fireball, Fly. 4th level (3 slots) · Greater Invisibility, Ice Storm. 5th level (1 slot) · Cone of Cold.',
             ],
+            effects: [],
           },
           {
             key: 'dagger',

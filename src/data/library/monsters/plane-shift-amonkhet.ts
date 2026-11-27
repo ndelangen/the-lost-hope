@@ -424,9 +424,18 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'Grapple the target (escape DC 16). The target is ',
-              rules.restrained,
-              ' until the grapple ends. The serpent cannot constrict another target during that grapple.',
+              { effect: 'serpent-grapple' },
+              '. The serpent cannot constrict another target during that grapple.',
+            ],
+            effects: [
+              {
+                key: 'serpent-grapple',
+                name: 'Grappled and restrained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
         ],
