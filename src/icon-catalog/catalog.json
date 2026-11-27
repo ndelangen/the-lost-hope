@@ -173384,7 +173384,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/lit-candelabra.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-grand-hall.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiLiver",
@@ -199927,7 +199930,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/power-generator.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-caves-of-steel-generator-room.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPowerLightning",

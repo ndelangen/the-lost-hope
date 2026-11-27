@@ -14,6 +14,14 @@ export default createLocation({
       '. The only way in is underwater, aboard its subships. An airship cannot follow.',
     ],
     [
+      'It is a huge steel sphere, held under the water by great chains to five anchor points. All of its light is artificial. Everything is ancient but well kept: clean, and repaired many times over. It is damp and humid, and everything smells of fish.',
+    ],
+    [
+      'Inside are large docks with room for the whole subship fleet, mold farms, private dwellings and common rooms. Everyone eats together in the ',
+      refs.locations.the_grand_hall,
+      '.',
+    ],
+    [
       'Its people look human, but not quite: pale skin, large dark eyes, faint gill slits at the neck and webbing between the fingers. They call the Marshal their master.',
     ],
     [
@@ -27,7 +35,7 @@ export default createLocation({
       refs.npcs.the_11th_marshal,
       ', on their way to becoming skum, the fish-like servants aboleths make of humanoids. The look is a deliberate hint at the aboleth.',
     ],
-    ['Giant chains hold it to the seabed. Without them it would float away.'],
+    ['Without its five chains the sphere would float away.'],
     [
       'Everyone born here is bound by the three laws of ',
       refs.npcs.the_11th_marshal,
@@ -36,7 +44,9 @@ export default createLocation({
     [
       'Its ',
       refs.items.caves_of_steel_subship,
-      ' fleet and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly. It arrives in barrels dropped into the sea, and the fishers bring them inside. Nobody here has ever taken it as a drug: ',
+      ' fleet, the power from its ',
+      refs.locations.the_caves_of_steel_generator_room,
+      ' and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly. It arrives in barrels dropped into the sea, and the fishers bring them inside. Nobody here has ever taken it as a drug: ',
       refs.npcs.the_11th_marshal,
       ' forbids it. They say so if the party asks.',
     ],

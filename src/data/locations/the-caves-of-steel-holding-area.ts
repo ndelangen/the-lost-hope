@@ -9,8 +9,16 @@ export default createLocation({
   at: [300, 450],
   notes: [
     [
-      'Where the fleet keeps its sentient catch alive: creatures of the sea, penned in water and waiting.',
+      'Holding rooms where the fleet keeps its sentient catch alive: creatures of the sea, caged in water and waiting.',
     ],
   ],
-  background: [['They are kept for the table of ', refs.npcs.the_11th_marshal, '.']],
+  background: [
+    [
+      'They are kept for the table of ',
+      refs.npcs.the_11th_marshal,
+      '. Large steel doors near the pool in the ',
+      refs.locations.the_grand_hall,
+      ' open onto tracks that carry the caged captives to the aboleth.',
+    ],
+  ],
 })
