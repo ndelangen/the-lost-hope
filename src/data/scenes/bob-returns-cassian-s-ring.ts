@@ -331,4 +331,11 @@ export default createScene({
       ],
     },
   ],
+  outcomes: [
+    {
+      icon: 'gi/GiWalk',
+      when: [['They go on to the guildhall.']],
+      response: [[refs.npcs.hex, ' is waiting there: run ', refs.scenes.hex_loses_patience, '.']],
+    },
+  ],
 })

@@ -25,14 +25,14 @@ export default createTable({
   ],
   ready: [
     refs.scenes.a_fleet_on_an_empty_sea,
+    refs.scenes.bob_returns_cassian_s_ring,
     refs.scenes.hex_loses_patience,
     refs.scenes.swift_s_silver_container_opens,
+    refs.scenes.four_stomps_under_the_moon,
     refs.scenes.down_through_the_rubble,
     refs.scenes.light_walks_auren_through_fajanet,
     refs.scenes.fix_s_last_delivery,
     refs.scenes.questions_for_light,
     refs.scenes.the_bard_s_new_song,
-    refs.scenes.bob_returns_cassian_s_ring,
-    refs.scenes.four_stomps_under_the_moon,
   ],
 })
