@@ -1,3 +1,4 @@
+import { refs as libraryRefs } from '#/data/generated/library-refs.ts'
 import { refs } from '#/data/generated/refs.ts'
 import { create as createScene } from '#/definitions/scene.ts'
 
@@ -357,7 +358,9 @@ export default createScene({
         {
           do: [
             [
-              'Each party member gets a sack of pearls, as thanks for their wonderful story. The better the story, the more pearls: up to 20 for a perfect one. A pearl is the Pearl in the library.',
+              'Each party member gets a sack of pearls, as thanks for their wonderful story. The better the story, the more pearls: up to 20 for a perfect one. Each is a ',
+              libraryRefs.equipment.pearl,
+              '.',
             ],
           ],
         },

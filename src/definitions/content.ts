@@ -1,7 +1,7 @@
 import { z } from 'zod'
 
 import { EntityRefSchema, entityRefOf } from './kind'
-import type { EntityRef } from './kind'
+import type { EntityRef, LinkedLibraryKind } from './kind'
 
 /**
  * A piece of renderable content. Arrays are interpreted by their elements:
@@ -22,9 +22,10 @@ type ContentAtom = Content[number][number]
 
 /**
  * Prose on DM-only records such as scenes. It is {@link Content} that can also point at prepared
- * scenes (`refs.scenes.*`), which only exist on the DM side and so never appear in player content.
+ * scenes (`refs.scenes.*`), which only exist on the DM side and so never appear in player content,
+ * and at library entries (`refs.equipment.pearl` from the library refs), which link to the library.
  */
-export type DmContent = (ContentAtom | EntityRef<'scene'>)[][]
+export type DmContent = (ContentAtom | EntityRef<'scene'> | EntityRef<LinkedLibraryKind>)[][]
 
 const contentAtoms = () =>
   [
@@ -45,7 +46,18 @@ const contentAtoms = () =>
 export const Content = z.lazy(() => z.array(z.array(z.union(contentAtoms()))))
 
 export const DmContent = z.lazy(() =>
-  z.array(z.array(z.union([...contentAtoms(), entityRefOf('scene')]))),
+  z.array(
+    z.array(
+      z.union([
+        ...contentAtoms(),
+        entityRefOf('scene'),
+        entityRefOf('monster'),
+        entityRefOf('spell'),
+        entityRefOf('magicItem'),
+        entityRefOf('equipment'),
+      ]),
+    ),
+  ),
 )
 
 /**

@@ -3,9 +3,11 @@ import { EyeOff, Swords } from 'lucide-react'
 
 import type { DmReferenceTarget } from '#/components/dm-reference-context'
 import { DmCreatureGlance } from '#/components/dm/dm-creature-glance'
+import { DmLibraryReference } from '#/components/dm/dm-library-reference'
 import { ReferenceAvatar } from '#/components/entity-reference'
 import { HoverPreview } from '#/components/ui/hover-preview'
 import type { Content } from '#/definitions/content'
+import { isLibraryRef } from '#/definitions/kind'
 import type { OwnOrSharedStatBlock } from '#/definitions/stat-block'
 import { contentToText, refLink } from '#/lib/campaign'
 import { creatureGlance } from '#/lib/creature-glance'
@@ -22,6 +24,7 @@ const unmetNote = <span className="sr-only"> (players have not met yet)</span>
  * players have not met is named, marked as hidden, and linked to its DM view where one exists.
  */
 export function DmReference({ reference }: { reference: DmReferenceTarget }) {
+  if (isLibraryRef(reference)) return <DmLibraryReference reference={reference} />
   if (reference.ref === 'scene') {
     const scene = resolveScene({ ref: 'scene', key: reference.key })
     if (!scene) return null

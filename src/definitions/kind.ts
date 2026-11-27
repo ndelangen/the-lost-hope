@@ -30,6 +30,11 @@ export const LIBRARY_KINDS = ['publication', 'monster', 'spell', 'magicItem', 'e
 
 export type LibraryKind = (typeof LIBRARY_KINDS)[number]
 
+/** Library entries DM prose can link to: what the books print, not the books themselves. */
+export const LINKED_LIBRARY_KINDS = ['monster', 'spell', 'magicItem', 'equipment'] as const
+
+export type LinkedLibraryKind = (typeof LINKED_LIBRARY_KINDS)[number]
+
 export type AnyKind = EntityKind | DmEntityKind | GlossaryKind | LibraryKind
 
 export type EntityRef<K extends AnyKind = EntityKind> = {
@@ -64,5 +69,15 @@ export function isSceneRef(value: unknown): value is EntityRef<'scene'> {
     typeof value === 'object' &&
     (value as EntityRef<'scene'>).ref === 'scene' &&
     typeof (value as EntityRef<'scene'>).key === 'string'
+  )
+}
+
+/** A pointer to a library entry (a creature, spell, magic item or piece of equipment) in DM prose. */
+export function isLibraryRef(value: unknown): value is EntityRef<LinkedLibraryKind> {
+  return (
+    !!value &&
+    typeof value === 'object' &&
+    typeof (value as EntityRef<LinkedLibraryKind>).key === 'string' &&
+    (LINKED_LIBRARY_KINDS as readonly string[]).includes((value as EntityRef).ref)
   )
 }

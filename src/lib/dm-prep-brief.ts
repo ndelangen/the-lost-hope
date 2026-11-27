@@ -3,7 +3,9 @@ import {
   type EntityKind,
   type EntityRef,
   isEntityRef,
+  isLibraryRef,
   isSceneRef,
+  type LinkedLibraryKind,
 } from '#/definitions/kind'
 import { campaignToday, effectEntry, getEntity } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
@@ -41,17 +43,28 @@ export function refText(ref: EntityRef<EntityKind | DmEntityKind>): string {
   return `${name ?? ref.key} (refs.${ref.ref}s.${ref.key})`
 }
 
+/** A library entry in DM prose: `refs.equipment.pearl (library)`, which the library tools read. */
+function libraryRefText(ref: EntityRef<LinkedLibraryKind>): string {
+  const plural = ref.ref === 'equipment' ? 'equipment' : `${ref.ref}s`
+  return `refs.${plural}.${ref.key} (library)`
+}
+
 /** Campaign `Content` as plain text, naming every reference with its ref, DM-only records included. */
 export function sourceText(content: unknown): string {
   if (content === undefined || content === null) return ''
   if (typeof content === 'string') return content
   if (isEntityRef(content) || isSceneRef(content)) return refText(content)
+  if (isLibraryRef(content)) return libraryRefText(content)
   if (isRuleRef(content)) return `${ruleOf(content).name} (refs.rules.${content.key})`
   if (Array.isArray(content)) {
     // A paragraph is an array of strings and refs; a Content value is an array of paragraphs.
     return content.every(
       (part) =>
-        typeof part === 'string' || isEntityRef(part) || isSceneRef(part) || isRuleRef(part),
+        typeof part === 'string' ||
+        isEntityRef(part) ||
+        isSceneRef(part) ||
+        isLibraryRef(part) ||
+        isRuleRef(part),
     )
       ? content.map(sourceText).join('')
       : content.map(sourceText).filter(Boolean).join('\n')

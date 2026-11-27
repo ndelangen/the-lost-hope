@@ -6,7 +6,13 @@ import { ResponsiveImage } from '#/components/responsive-image'
 import { RuleTerm } from '#/components/rule-term'
 import { Stack } from '#/components/ui/layout'
 import type { Content, DmContent } from '#/definitions/content.ts'
-import { isEntityRef, isSceneRef, type EntityRef } from '#/definitions/kind.ts'
+import {
+  isEntityRef,
+  isLibraryRef,
+  isSceneRef,
+  type EntityRef,
+  type LinkedLibraryKind,
+} from '#/definitions/kind.ts'
 import type { Reference } from '#/definitions/reference.ts'
 import { refLink } from '#/lib/campaign'
 import { isRuleRef, ruleOf, termLabel } from '#/lib/rules'
@@ -86,7 +92,11 @@ function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
   }
 
   if (isSceneRef(part)) {
-    return <SceneReference reference={part} />
+    return <DmOnlyReference reference={part} />
+  }
+
+  if (isLibraryRef(part)) {
+    return <DmOnlyReference reference={part} />
   }
 
   if (isRuleRef(part)) {
@@ -129,7 +139,13 @@ function InlineRun({ items }: { items: ContentParagraph }) {
         if (isSceneRef(item)) {
           return (
             // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
-            <SceneReference key={index} reference={item} />
+            <DmOnlyReference key={index} reference={item} />
+          )
+        }
+        if (isLibraryRef(item)) {
+          return (
+            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
+            <DmOnlyReference key={index} reference={item} />
           )
         }
         if (isExternalLink(item)) {
@@ -167,8 +183,12 @@ function ContentReference({ reference }: { reference: Reference }) {
   return <EntityReference kind={link.kind} slug={link.slug} label={link.name} />
 }
 
-/** Scenes are DM-only, so only a DM page's reference renderer can show them. */
-function SceneReference({ reference }: { reference: EntityRef<'scene'> }) {
+/** Scenes and library links live only in DM prose, so only a DM page's renderer can show them. */
+function DmOnlyReference({
+  reference,
+}: {
+  reference: EntityRef<'scene'> | EntityRef<LinkedLibraryKind>
+}) {
   const Dm = useContext(DmReferenceContext)
   return Dm ? <Dm reference={reference} /> : null
 }
@@ -184,6 +204,7 @@ function isInlineRun(items: ContentParagraph): boolean {
       typeof item === 'string' ||
       isReference(item) ||
       isSceneRef(item) ||
+      isLibraryRef(item) ||
       isRuleRef(item) ||
       isExternalLink(item),
   )
