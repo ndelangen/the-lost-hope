@@ -7,16 +7,18 @@ import { makeLibraryItem } from '#/lib/dev-records'
 import { useHoldReloadWhile } from '#/lib/dev-reload-guard'
 
 /**
- * Asks an agent for a new item in the DM's own words. The agent adds it to the campaign's own
- * library book; the shop then puts it on the shelf.
+ * Asks an agent for a new item in the DM's own words. It goes into the campaign's own library book
+ * and straight onto this shop's saved stock.
  */
 export function NewItemPrompt({
   locationKey,
+  shopType,
   initialRequest,
   onCreated,
   onCancel,
 }: {
   locationKey: string
+  shopType: string
   initialRequest: string
   onCreated: (item: StockItem) => void
   onCancel: () => void
@@ -35,7 +37,7 @@ export function NewItemPrompt({
     if (!request.trim() || working) return
     setWorking(true)
     setError(undefined)
-    makeLibraryItem(request, locationKey)
+    makeLibraryItem(request, locationKey, shopType)
       .then(({ ref, key }) => onCreated({ ref, key }))
       .catch((failure: unknown) => {
         setWorking(false)

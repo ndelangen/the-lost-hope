@@ -63,20 +63,22 @@ export async function createRecord(
 }
 
 /**
- * Makes up a library item from the DM's own words: an agent on the dev server drafts it and the
- * server writes it into the campaign's own book. Resolves with its library ref. The refs
+ * Makes up a library item from the DM's own words: an agent on the dev server drafts it, and the
+ * server writes it into the campaign's own book and onto the location's shop in its data file.
+ * Resolves with its library ref. The refs
  * regenerate, which may want a full reload; that is held while the request runs, so the page keeps
  * the shop it was asked from.
  */
 export async function makeLibraryItem(
   request: string,
   location: string,
+  shopType: string,
 ): Promise<{ ref: 'equipment' | 'magicItem'; key: string; name: string }> {
   const release = holdReload()
   const response = await fetch('/__dev/records', {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ make: { request, location } }),
+    body: JSON.stringify({ make: { request, location, shopType } }),
   }).catch(() => undefined)
   const body = (await response?.json().catch(() => undefined)) as
     | { ref?: 'equipment' | 'magicItem'; key?: string; name?: string; error?: string }

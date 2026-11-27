@@ -412,7 +412,11 @@ async function shopContext(server: ViteDevServer, location: unknown) {
  * agent gets one go at fixing what fails) and writes it into the campaign's own book.
  */
 async function makeLibraryItem(server: ViteDevServer, input: unknown): Promise<Outcome> {
-  const { request, location } = (input ?? {}) as { request?: unknown; location?: unknown }
+  const { request, location, shopType } = (input ?? {}) as {
+    request?: unknown
+    location?: unknown
+    shopType?: unknown
+  }
   if (typeof request !== 'string' || !request.trim())
     return { status: 422, body: { error: 'Describe the item first' } }
   const shop = await shopContext(server, location)
@@ -426,6 +430,32 @@ async function makeLibraryItem(server: ViteDevServer, input: unknown): Promise<O
     const checked = await checkLibraryEntry(server, draft)
     if (checked.problem !== undefined) return { status: 409, body: { error: checked.problem } }
     await writeLibraryEntry(draft.kind, checked.key, checked.entry)
-    return { status: 201, body: { ref: draft.kind, key: checked.key, name: checked.entry.name } }
+    const item = { ref: draft.kind, key: checked.key }
+    if (typeof location === 'string') await shelve(location, item, shopType)
+    return { status: 201, body: { ...item, name: checked.entry.name } }
   })
+}
+
+/**
+ * Puts a new library item on a location's shop in its data file, so it stays there without a
+ * separate save. A place that is not a shop yet becomes one of `shopType`.
+ */
+async function shelve(
+  location: string,
+  item: { ref: LibraryItemKind; key: string },
+  shopType: unknown,
+) {
+  const file = await recordFile('location', location)
+  if (!file) throw new NotEditable(`No location called ${location}`)
+  const source = await readFile(file, 'utf8')
+  const shop = readRecord(source).shop as { stock: unknown[] } | undefined
+  const line = item.ref === 'magicItem' ? { item, quantity: 1 } : { item }
+  const edit: RecordEdit = shop
+    ? { op: 'set', path: ['shop', 'stock', shop.stock.length], value: line }
+    : { op: 'set', path: ['shop'], value: { type: shopType, stock: [line] } }
+  const next = applyRecordEdits(source, [edit])
+  const temporary = file.replace(/\.ts$/u, `.${process.pid}.tmp.ts`)
+  await writeFile(temporary, next)
+  await oxfmt(temporary)
+  await rename(temporary, file)
 }

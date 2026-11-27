@@ -393,14 +393,21 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
             <div className="basis-full">
               <NewItemPrompt
                 locationKey={locationKey}
+                shopType={shown.type}
                 initialRequest={makingUp}
                 onCancel={() => setMakingUp(undefined)}
                 onCreated={(item) => {
                   setMakingUp(undefined)
-                  setStock([
-                    ...shown.stock,
-                    item.ref === 'magicItem' ? { item, quantity: 1 } : { item },
-                  ])
+                  // The server already saved it onto the shop; an open draft gets it too, so saving
+                  // the draft keeps it.
+                  if (draft)
+                    edit({
+                      ...draft,
+                      stock: [
+                        ...draft.stock,
+                        item.ref === 'magicItem' ? { item, quantity: 1 } : { item },
+                      ],
+                    })
                 }}
               />
             </div>
