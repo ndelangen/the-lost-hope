@@ -36,6 +36,9 @@ export default createNPC({
       ' closed so it stops taking people, and then, finally, rest, and to enjoy the world again.',
     ],
     [
+      'He also wants to break the world out of its stagnation. Since the Second Great War the world has been stuck: the twelve marshals hold it, and everything runs on Arcane Dust, so nobody needs to invent anything new. Freed from the twelve and from the Dust, the world can enter a new era of innovation.',
+    ],
+    [
       'He cannot tell adventurers to stay away from the fuel and the drug, because the warning would raise suspicion. He accepts that some of them will be lost too.',
     ],
   ],
