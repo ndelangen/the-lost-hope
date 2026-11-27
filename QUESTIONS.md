@@ -245,6 +245,11 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ This is tracked as the open mystery [What Did Devan Lose to the Fiddler?](/quests/detail/what-did-devan-lose-to-the-fiddler). Still open: when and how the party finds out, and whether anything else of Devan's went with it.
   - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
 
+- **Which card gave Cassian his unidentified curse?**
+  - _Context:_ In the Fiddler's first game, [Cassian](/pcs/detail/cassian-veyl) left with [Cassian's Unidentified Curse](/effects/detail/cassian-s-unidentified-curse): +1 to spell attack rolls, but every opponent had advantage on attack rolls against him. The [Gruumsh high priest](/npcs/detail/gruumsh-high-priest) lifted it on day 21. His other day 20 draws are recorded (Fool, Bargain, Library, Donjon). No card in the 55-card deck matches the curse exactly; The Champion (+1 to attacks and damage, enemies spot you more easily) is the closest. It is not The Hunger, which he drew on day 24 and which gave him a life drain.
+  - _Why asking:_ The effect still names only the deck as its cause. Ask the players which card it was.
+  - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
+
 - **Which NPC became permanently hostile to Swift?**
   - _Context:_ One of [Swift Starblade](/pcs/detail/swift-starblade)’s cards made an NPC chosen by the DM permanently hostile to him. The identity will remain hidden until revealed in play.
   - _Why asking:_ This is tracked as [Who Became Swift Starblade’s Enemy?](/quests/detail/who-became-swift-starblade-s-enemy), including how and when the hostility will manifest.
