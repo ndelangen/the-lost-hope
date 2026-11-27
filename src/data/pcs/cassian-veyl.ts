@@ -456,9 +456,9 @@ export default createPC({
       refs.pcs.jim,
       ' is the only one the pulse did not break, and it may be how ',
       refs.pcs.jim,
-      ' can be saved: see “Still connected” in ',
-      refs.scenes.questions_for_light,
-      '.',
+      ' can be saved. ',
+      refs.npcs.light_13th_marshal,
+      ' puts this to him when the party comes with its questions.',
     ],
   ],
 })
