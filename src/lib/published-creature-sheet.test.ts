@@ -107,10 +107,10 @@ test('separates named non-attack actions and traits in compact printings', () =>
 
 test('keeps prose before a saving throw beside the structured save', async () => {
   const ape = getLibraryEntry('monsters', 'giant-ape', true, 'srd-5-2-1')!
-  const { monsterPrinting } = await import('./library-monsters')
+  const { loadMonsterPrinting } = await import('./load-monster')
   const ref = ape.selected.typed
   if (!ref || !('monster' in ref)) throw new Error('the ape is typed')
-  const typed = monsterPrinting(ref.monster, ref.publication)!
+  const typed = (await loadMonsterPrinting(ref.monster, ref.publication))!
   const toss = typed.printing.stats.abilities.find(({ key }) => key === 'boulder-toss')!
   expect(toss.text[0]).toMatch(/^The ape hurls/u)
   expect(toss.save).toMatchObject({ ability: 'dex', onSuccess: 'half' })

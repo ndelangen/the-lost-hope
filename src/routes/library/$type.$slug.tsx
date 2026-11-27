@@ -50,7 +50,9 @@ export const Route = createFileRoute('/library/$type/$slug')({
       : undefined
     const typed =
       ref && 'monster' in ref
-        ? (await import('#/lib/library-monsters')).monsterPrinting(ref.monster, ref.publication)
+        ? await (
+            await import('#/lib/load-monster')
+          ).loadMonsterPrinting(ref.monster, ref.publication)
         : undefined
     const magicItem =
       ref && 'magicItem' in ref

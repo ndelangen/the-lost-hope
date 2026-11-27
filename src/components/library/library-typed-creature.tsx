@@ -3,12 +3,10 @@ import type { ReactNode } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { StatBlockSheet } from '#/components/dm/stat-block-sheet'
-import type { monsterPrinting } from '#/lib/library-monsters'
+import type { TypedMonsterPrinting } from '#/lib/monster-printing'
 import type { getLibraryEntry } from '#/lib/published-library'
 
 import { LibraryGallery } from './library-gallery'
-
-type Typed = NonNullable<ReturnType<typeof monsterPrinting>>
 
 /** A library monster whose printing is typed data: the same stat block the encounter runs. */
 export function LibraryTypedCreature({
@@ -19,7 +17,7 @@ export function LibraryTypedCreature({
   printings,
 }: {
   entry: NonNullable<ReturnType<typeof getLibraryEntry>>
-  typed: Typed
+  typed: TypedMonsterPrinting
   category: string
   dm: boolean
   printings: ReactNode

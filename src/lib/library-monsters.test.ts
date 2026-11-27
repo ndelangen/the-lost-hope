@@ -9,6 +9,7 @@ import publications from '#/data/library/publications'
 import { publishedLibrary } from '#/lib/published-library-data'
 
 import { monsterPrinting, printingsByMonster } from './library-monsters'
+import { loadMonsterPrinting } from './load-monster'
 
 const wolf = refs.monsters.wolf
 const mm2014 = refs.publications.monster_manual_2014
@@ -53,5 +54,22 @@ describe('library monsters', () => {
     expect(
       converted.filter(({ monster, publication }) => !monsterPrinting(monster, publication)),
     ).toEqual([])
+  })
+
+  it('loads the same printing from its one book as from every book', async () => {
+    expect((await loadMonsterPrinting(wolf, refs.publications.basic_rules_2018))?.printing).toBe(
+      monsterPrinting(wolf, mm2014)?.printing,
+    )
+    for (const [key, printings] of printingsByMonster)
+      for (const holder of printings.keys()) {
+        const monster = { ref: 'monster', key } as const
+        const publication = { ref: 'publication', key: holder } as const
+        const loaded = await loadMonsterPrinting(monster, publication)
+        expect(loaded?.printing).toBe(monsterPrinting(monster, publication)?.printing)
+        for (const reprint of printings.get(holder)!.reprintedIn ?? [])
+          expect((await loadMonsterPrinting(monster, reprint))?.heldBy).toEqual(
+            monsterPrinting(monster, reprint)?.heldBy,
+          )
+      }
   })
 })
