@@ -3719,16 +3719,32 @@ export default createPublicationMonsters({
               ' Strength saving throw. On a failure, a target takes ',
               { roll: '3d8', mod: 'str' },
               ' bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked ',
-              rules.prone,
+              { effect: 'whirlwind-prone' },
               '. If a thrown target strikes an object, such as a wall or floor, the target takes ',
               { roll: '1d6' },
               ' bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity saving throw or take the same damage and be knocked ',
-              rules.prone,
+              { effect: 'whirlwind-thrown-prone' },
               ". If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked ",
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'whirlwind-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'whirlwind-thrown-prone',
+                name: 'Knocked prone by a thrown creature',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
@@ -6518,6 +6534,7 @@ export default createPublicationMonsters({
               '; 6th level (1 slot): ',
               refs.spells.heroes_feast_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'inscrutable',
@@ -6575,10 +6592,18 @@ export default createPublicationMonsters({
               'Each creature that fails a ',
               { dc: 'wis' },
               ' Wisdom saving throw is ',
-              rules.frightened,
-              ' for 1 minute. A ',
-              rules.frightened,
-              ' creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'first-roar-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'first-roar-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -6590,14 +6615,18 @@ export default createPublicationMonsters({
               'Each creature that fails a ',
               { dc: 'wis' },
               ' Wisdom saving throw is ',
-              rules.deafened,
-              ' and ',
-              rules.frightened,
-              ' for 1 minute. A ',
-              rules.frightened,
-              ' creature is ',
-              rules.paralyzed,
-              ' and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'second-roar-fear' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'second-roar-fear',
+                name: 'Deafened and frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.deafened, rules.frightened, rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -6611,10 +6640,19 @@ export default createPublicationMonsters({
               ' Constitution saving throw. On a failed save, a creature takes ',
               { roll: '8d10' },
               ' thunder damage and is knocked ',
-              rules.prone,
+              { effect: 'third-roar-prone' },
               ". On a successful save, the creature takes half as much damage and isn't knocked ",
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'third-roar-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -7250,6 +7288,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the assassin doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -7280,6 +7319,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
           {
             key: 'light-crossbow',
@@ -7303,6 +7343,7 @@ export default createPublicationMonsters({
               onSuccess: 'half',
               printedDc: 15,
             },
+            effects: [],
           },
         ],
       },
@@ -7669,6 +7710,7 @@ export default createPublicationMonsters({
             text: [
               "When the balor dies, it explodes, and The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the balor's weapons.",
             ],
+            effects: [],
           },
           {
             key: 'fire-aura',
@@ -7745,6 +7787,7 @@ export default createPublicationMonsters({
               { dc: 'con', save: 'str' },
               ' Strength saving throw or be pulled up to 25 feet toward the balor.',
             ],
+            effects: [],
           },
           {
             key: 'teleport',
@@ -8359,8 +8402,21 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by the beholder for 1 hour, or until the beholder harms the creature. 2.',
+              { effect: 'charm-ray-charmed' },
+              ' by the beholder',
+              '. 2.',
+            ],
+            effects: [
+              {
+                key: 'charm-ray-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.charmed],
+                lasts: {
+                  kind: 'until',
+                  text: ['1 hour, or until the beholder harms the creature'],
+                },
+              },
             ],
           },
           {
@@ -8372,8 +8428,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 3.',
+              { effect: 'paralyzing-ray-paralyzed' },
+              '. 3.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-ray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8385,8 +8451,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 4.',
+              { effect: 'fear-ray-frightened' },
+              '. 4.',
+            ],
+            effects: [
+              {
+                key: 'fear-ray-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8397,7 +8473,22 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'dex' },
-              " Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 5.",
+              ' Dexterity saving throw. On a failed save, ',
+              { effect: 'slowing-ray-slowed' },
+              '. 5.',
+            ],
+            effects: [
+              {
+                key: 'slowing-ray-slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                text: [
+                  "The target's speed is halved.",
+                  " In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8412,6 +8503,7 @@ export default createPublicationMonsters({
               { roll: '8d8' },
               ' necrotic damage on a failed save, or half as much damage on a successful one. 6.',
             ],
+            effects: [],
           },
           {
             key: 'telekinetic-ray',
@@ -8422,10 +8514,24 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'str' },
               ' Strength saving throw or the beholder moves it up to 30 feet in any direction. It is ',
-              rules.restrained,
-              " by the ray's telekinetic grip until the start of the beholder's next turn or until the beholder is ",
-              rules.incapacitated,
+              { effect: 'telekinetic-ray-restrained' },
+              " by the ray's telekinetic grip",
               ". If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The beholder can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container. 7.",
+            ],
+            effects: [
+              {
+                key: 'telekinetic-ray-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'int' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the start of the beholder's next turn or until the beholder is ",
+                    rules.incapacitated,
+                  ],
+                },
+              },
             ],
           },
           {
@@ -8437,8 +8543,17 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or fall asleep and remain ',
-              rules.unconscious,
-              ' for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead. 8.',
+              { effect: 'sleep-ray-unconscious' },
+              '. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead. 8.',
+            ],
+            effects: [
+              {
+                key: 'sleep-ray-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -8450,10 +8565,28 @@ export default createPublicationMonsters({
               'The targeted creature must make a ',
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw. On a failed save, the creature begins to turn to stone and is ',
-              rules.restrained,
+              { effect: 'petrification-ray-restrained' },
               '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
-              rules.petrified,
-              ' until freed by the greater restoration spell or other magic. 9.',
+              { effect: 'petrification-ray-petrified' },
+              '. 9.',
+            ],
+            effects: [
+              {
+                key: 'petrification-ray-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrification-ray-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  ends: { cure: ['freed by the greater restoration spell or other magic'] },
+                },
+              },
             ],
           },
           {
@@ -8468,6 +8601,7 @@ export default createPublicationMonsters({
               { roll: '10d8' },
               ' force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it. 10.',
             ],
+            effects: [],
           },
           {
             key: 'death-ray',
@@ -8481,6 +8615,7 @@ export default createPublicationMonsters({
               { roll: '10d10' },
               ' necrotic damage. The target dies if the ray reduces it to 0 hit points.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -8565,8 +8700,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 2.',
+              { effect: 'paralyzing-ray-paralyzed' },
+              '. 2.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-ray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8578,8 +8723,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 3.',
+              { effect: 'fear-ray-frightened' },
+              '. 3.',
+            ],
+            effects: [
+              {
+                key: 'fear-ray-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -8594,6 +8749,7 @@ export default createPublicationMonsters({
               { roll: '8d8' },
               ' necrotic damage on a failed save, or half as much damage on a successful one. 4.',
             ],
+            effects: [],
           },
           {
             key: 'disintegration-ray',
@@ -8607,6 +8763,7 @@ export default createPublicationMonsters({
               { roll: '10d8' },
               ' force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger nonmagical object or creation of magical force, this ray disintegrates a 10-foot cube of it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -9232,8 +9389,17 @@ export default createPublicationMonsters({
               ' slashing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -9360,8 +9526,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'sting-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'sting-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -10273,6 +10449,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.detect_magic_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fiendish-blessing',
@@ -10333,10 +10510,19 @@ export default createPublicationMonsters({
               'One humanoid the cambion can see within 30 feet of it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be magically ',
-              rules.charmed,
-              ' for 1 day. The ',
+              { effect: 'fiendish-charm-charmed' },
+              '. The ',
               rules.charmed,
               " target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, the target can repeat the saving throw, ending the effect on itself on a success. If a target's saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fiendish-charm-charmed',
+                name: 'Fiendish charm',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed],
+                lasts: { kind: 'time', amount: '1', unit: 'day' },
+              },
             ],
           },
         ],
@@ -10769,12 +10955,23 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              " (escape DC 14) if the devil isn't already grappling a creature. Until this grapple ends, the target is ",
-              rules.restrained,
-              ' and takes ',
-              { roll: '2d6' },
-              ' piercing damage at the start of each of its turns.',
+              { effect: 'chain-grappled' },
+              " if the devil isn't already grappling a creature.",
+            ],
+            effects: [
+              {
+                key: 'chain-grappled',
+                name: 'Chained',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'Takes ',
+                  { roll: '2d6' },
+                  ' piercing damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -10787,6 +10984,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' or dies.',
             ],
+            effects: [],
           },
           {
             key: 'unnerving-mask',
@@ -10797,8 +10995,17 @@ export default createPublicationMonsters({
               "When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a ",
               { dc: 'wis', printed: 14 },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' until the end of its turn.',
+              { effect: 'unnerving-mask-frightened' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'unnerving-mask-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'wis', printed: 14 },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
         ],
@@ -10872,8 +11079,17 @@ export default createPublicationMonsters({
               'The chasme produces a horrid droning sound to which demons are immune. Any other creature that starts its turn within 30 feet of the chasme must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or fall ',
-              rules.unconscious,
-              " for 10 minutes. A creature that can't hear the drone automatically succeeds on the save. The effect on the creature ends if it takes damage or if another creature takes an action to splash it with holy water. If a creature's saving throw is successful or the effect ends for it, it is immune to the drone for the next 24 hours.",
+              { effect: 'drone-unconscious' },
+              ". A creature that can't hear the drone automatically succeeds on the save. The effect on the creature ends if it takes damage or if another creature takes an action to splash it with holy water. If a creature's saving throw is successful or the effect ends for it, it is immune to the drone for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'drone-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
           },
           {
@@ -11775,6 +11991,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.scrying_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -11809,10 +12026,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' for 24 hours. Until this poison ends, the target is ',
-              rules.unconscious,
+              { effect: 'bite-poisoned' },
               '. Another creature can use an action to shake the target awake.',
+            ],
+            effects: [
+              {
+                key: 'bite-poisoned',
+                name: 'Poisoned and unconscious',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned, rules.unconscious],
+                lasts: { kind: 'time', amount: '24', unit: 'hour' },
+              },
             ],
           },
           {
@@ -11828,12 +12052,17 @@ export default createPublicationMonsters({
               printedBonus: 6,
               damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'The target is ',
-              rules.grappled,
-              ' (escape DC 15). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and the couatl can't constrict another target.",
+            text: ['The target is ', { effect: 'constrict-grappled' }, '.'],
+            effects: [
+              {
+                key: 'constrict-grappled',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["The couatl can't constrict another target."],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 15 } },
+              },
             ],
           },
           {
@@ -12662,6 +12891,7 @@ export default createPublicationMonsters({
               refs.spells.banishment_srd_5_1,
               ', staggering smite; 5th level (2 slots): destructive wave (necrotic)',
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -12682,6 +12912,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ', it and undead creatures of its choice within 60 feet of it have advantage on saving throws against features that turn undead.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -12724,6 +12955,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Long rest',
+            effects: [],
           },
           {
             key: 'parry',
@@ -12829,6 +13061,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -12979,7 +13212,18 @@ export default createPublicationMonsters({
             text: [
               "The death tyrant's central eye emits an ",
               rules.invisible,
-              ", magical 150-foot cone of negative energy. At the start of each of its turns, the tyrant decides which way the cone faces and whether the cone is active. Any creature in that area can't regain hit points. Any humanoid that dies there becomes a zombie under the tyrant's command. The dead humanoid retains its place in the initiative order and animates at the start of its next turn, provided that its body hasn't been completely destroyed.",
+              ', magical 150-foot cone of negative energy. At the start of each of its turns, the tyrant decides which way the cone faces and whether the cone is active. ',
+              { effect: 'negative-energy-cone-no-healing' },
+              " Any humanoid that dies there becomes a zombie under the tyrant's command. The dead humanoid retains its place in the initiative order and animates at the start of its next turn, provided that its body hasn't been completely destroyed.",
+            ],
+            effects: [
+              {
+                key: 'negative-energy-cone-no-healing',
+                name: 'Negative energy cone',
+                lands: { on: 'use' },
+                text: ["Any creature in that area can't regain hit points."],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -13013,8 +13257,21 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.charmed,
-              ' by the death tyrant for 1 hour, or until the death tyrant harms the creature. 2.',
+              { effect: 'charm-ray-charmed' },
+              ' by the death tyrant',
+              '. 2.',
+            ],
+            effects: [
+              {
+                key: 'charm-ray-charmed',
+                name: 'Charmed',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.charmed],
+                lasts: {
+                  kind: 'until',
+                  text: ['1 hour, or until the death tyrant harms the creature'],
+                },
+              },
             ],
           },
           {
@@ -13026,8 +13283,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 3.',
+              { effect: 'paralyzing-ray-paralyzed' },
+              '. 3.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-ray-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'int' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -13039,8 +13306,18 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 4.',
+              { effect: 'fear-ray-frightened' },
+              '. 4.',
+            ],
+            effects: [
+              {
+                key: 'fear-ray-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -13051,7 +13328,22 @@ export default createPublicationMonsters({
             text: [
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'dex' },
-              " Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 5.",
+              ' Dexterity saving throw. On a failed save, ',
+              { effect: 'slowing-ray-slowed' },
+              '. 5.',
+            ],
+            effects: [
+              {
+                key: 'slowing-ray-slowed',
+                name: 'Slowed',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                text: [
+                  "The target's speed is halved.",
+                  " In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -13066,6 +13358,7 @@ export default createPublicationMonsters({
               { roll: '8d8' },
               ' necrotic damage on a failed save, or half as much damage on a successful one. 6.',
             ],
+            effects: [],
           },
           {
             key: 'telekinetic-ray',
@@ -13076,10 +13369,24 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'int', save: 'str' },
               ' Strength saving throw or the death tyrant moves it up to 30 feet in any direction. It is ',
-              rules.restrained,
-              " by the ray's telekinetic grip until the start of the death tyrant's next turn or until the death tyrant is ",
-              rules.incapacitated,
+              { effect: 'telekinetic-ray-restrained' },
+              " by the ray's telekinetic grip",
               ". If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The death tyrant can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container. 7.",
+            ],
+            effects: [
+              {
+                key: 'telekinetic-ray-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'int' },
+                conditions: [rules.restrained],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the start of the death tyrant's next turn or until the death tyrant is ",
+                    rules.incapacitated,
+                  ],
+                },
+              },
             ],
           },
           {
@@ -13091,8 +13398,17 @@ export default createPublicationMonsters({
               'The targeted creature must succeed on a ',
               { dc: 'int', save: 'wis' },
               ' Wisdom saving throw or fall asleep and remain ',
-              rules.unconscious,
-              ' for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead. 8.',
+              { effect: 'sleep-ray-unconscious' },
+              '. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead. 8.',
+            ],
+            effects: [
+              {
+                key: 'sleep-ray-unconscious',
+                name: 'Unconscious',
+                lands: { on: 'save', save: 'wis', dc: 'int' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
           {
@@ -13104,10 +13420,28 @@ export default createPublicationMonsters({
               'The targeted creature must make a ',
               { dc: 'int', save: 'dex' },
               ' Dexterity saving throw. On a failed save, the creature begins to turn to stone and is ',
-              rules.restrained,
+              { effect: 'petrification-ray-restrained' },
               '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
-              rules.petrified,
-              ' until freed by the greater restoration spell or other magic. 9.',
+              { effect: 'petrification-ray-petrified' },
+              '. 9.',
+            ],
+            effects: [
+              {
+                key: 'petrification-ray-restrained',
+                name: 'Turning to stone',
+                lands: { on: 'save', save: 'dex', dc: 'int' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'petrification-ray-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  ends: { cure: ['freed by the greater restoration spell or other magic'] },
+                },
+              },
             ],
           },
           {
@@ -13122,6 +13456,7 @@ export default createPublicationMonsters({
               { roll: '10d8' },
               ' force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it. 10.',
             ],
+            effects: [],
           },
           {
             key: 'death-ray',
@@ -13135,6 +13470,7 @@ export default createPublicationMonsters({
               { roll: '10d10' },
               ' necrotic damage. The target dies if the ray reduces it to 0 hit points.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -14902,6 +15238,7 @@ export default createPublicationMonsters({
               '; 5th level (2 slots): ',
               refs.spells.cloudkill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'innate-spellcasting',
@@ -14921,6 +15258,7 @@ export default createPublicationMonsters({
               refs.spells.levitate_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'fey-ancestry',
@@ -14932,6 +15270,7 @@ export default createPublicationMonsters({
               rules.charmed,
               ", and magic can't put the drow to sleep.",
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -15565,6 +15904,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-sensitivity',
@@ -15625,6 +15965,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
         ],
       },
@@ -16734,8 +17075,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'wis', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              '. The poison lasts until it is removed by the lesser restoration spell or similar magic.',
+              { effect: 'longbow-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'longbow-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'wis' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until-removed' },
+                ends: { cure: ['the lesser restoration spell or similar magic'] },
+              },
             ],
           },
           {
@@ -17370,6 +17721,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'the-colors-of-age',
@@ -17392,6 +17744,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -17432,9 +17785,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
-              { dc: 'wis' },
-              ' Wisdom saving throw, ending the effect on itself on a success.',
+              ' Wisdom saving throw, or ',
+              { effect: 'euphoria-breath-euphoric' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria-breath-euphoric',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  "The target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
+                  { dc: 'wis' },
+                  ' Wisdom saving throw, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -17504,6 +17870,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'the-colors-of-age',
@@ -17526,6 +17893,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -17566,9 +17934,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
-              { dc: 'wis' },
-              ' Wisdom saving throw, ending the effect on itself on a success.',
+              ' Wisdom saving throw, or ',
+              { effect: 'euphoria-breath-euphoric' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria-breath-euphoric',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  "The target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
+                  { dc: 'wis' },
+                  ' Wisdom saving throw, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -17642,6 +18023,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'the-colors-of-age',
@@ -17664,6 +18046,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -17704,9 +18087,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
-              { dc: 'wis' },
-              ' Wisdom saving throw, ending the effect on itself on a success.',
+              ' Wisdom saving throw, or ',
+              { effect: 'euphoria-breath-euphoric' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria-breath-euphoric',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  "The target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
+                  { dc: 'wis' },
+                  ' Wisdom saving throw, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -17919,6 +18315,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.minor_illusion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'the-colors-of-age',
@@ -17941,6 +18338,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -17981,9 +18379,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
-              { dc: 'wis' },
-              ' Wisdom saving throw, ending the effect on itself on a success.',
+              ' Wisdom saving throw, or ',
+              { effect: 'euphoria-breath-euphoric' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria-breath-euphoric',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  "The target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
+                  { dc: 'wis' },
+                  ' Wisdom saving throw, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -18047,6 +18458,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.minor_illusion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'the-colors-of-age',
@@ -18069,6 +18481,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -18109,9 +18522,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
-              { dc: 'wis' },
-              ' Wisdom saving throw, ending the effect on itself on a success.',
+              ' Wisdom saving throw, or ',
+              { effect: 'euphoria-breath-euphoric' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria-breath-euphoric',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  "The target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
+                  { dc: 'wis' },
+                  ' Wisdom saving throw, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -18187,6 +18613,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'the-colors-of-age',
@@ -18209,6 +18636,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -18249,9 +18677,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
-              { dc: 'wis' },
-              ' Wisdom saving throw, ending the effect on itself on a success.',
+              ' Wisdom saving throw, or ',
+              { effect: 'euphoria-breath-euphoric' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria-breath-euphoric',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  "The target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
+                  { dc: 'wis' },
+                  ' Wisdom saving throw, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -18319,6 +18760,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mirror_image_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'the-colors-of-age',
@@ -18341,6 +18783,7 @@ export default createPublicationMonsters({
               rules.invisible,
               ' with it.',
             ],
+            effects: [],
           },
           {
             key: 'limited-telepathy',
@@ -18381,9 +18824,22 @@ export default createPublicationMonsters({
             text: [
               'The dragon exhales a puff of euphoria gas at one creature within 5 feet of it. The target must succeed on a ',
               { dc: 'wis' },
-              " Wisdom saving throw, or for 1 minute, the target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
-              { dc: 'wis' },
-              ' Wisdom saving throw, ending the effect on itself on a success.',
+              ' Wisdom saving throw, or ',
+              { effect: 'euphoria-breath-euphoric' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'euphoria-breath-euphoric',
+                name: 'Euphoria',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: [
+                  "The target can't take reactions and must roll a d6 at the start of each of its turns to determine its behavior during the turn: 1–4. The target takes no action or bonus action and uses all of its movement to move in a random direction. 5–6. The target doesn't move, and the only thing it can do on its turn is make a ",
+                  { dc: 'wis' },
+                  ' Wisdom saving throw, ending the effect on itself on a success.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -19058,6 +19514,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' condition if it succeeds.',
             ],
+            effects: [],
           },
           {
             key: 'telepathic-shroud',
@@ -19089,10 +19546,25 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: 'it hits' },
               onFail: {
                 damage: [{ dice: '1d4', type: rules.acid }],
+                also: [{ effect: 'tendrils-acid' }],
               },
             },
-            text: [
-              'At the end of each of its turns, or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage.',
+            text: [],
+            effects: [
+              {
+                key: 'tendrils-acid',
+                name: 'Recurring acid',
+                lands: { on: 'failed-save' },
+                text: [
+                  'At the end of each of its turns, or ending the recurring acid damage on a success.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'A lesser restoration spell cast on the target also ends the recurring acid damage.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -19103,11 +19575,28 @@ export default createPublicationMonsters({
             text: [
               'Each creature in a 15-foot cone originating from the flumph must succeed on a ',
               { dc: 'con', save: 'dex' },
-              ' Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for 1d4 hours. The coated creature is ',
-              rules.poisoned,
-              ' as long as the stench lasts, and other creatures are ',
-              rules.poisoned,
-              ' while with in 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar.',
+              ' Dexterity saving throw or be coated in a foul-smelling liquid. ',
+              { effect: 'stench-spray-coated' },
+            ],
+            effects: [
+              {
+                key: 'stench-spray-coated',
+                name: 'Foul-smelling coating',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'A coated creature exudes a horrible stench.',
+                  ' Other creatures are ',
+                  rules.poisoned,
+                  ' while with in 5 feet of the coated creature.',
+                ],
+                lasts: { kind: 'time', amount: '1d4', unit: 'hour' },
+                ends: {
+                  cure: [
+                    'A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar.',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',
@@ -19322,6 +19811,7 @@ export default createPublicationMonsters({
               { roll: '6d8' },
               ' psychic damage on a failed save, or half as much damage on a successful one.',
             ],
+            effects: [],
           },
           {
             key: 'curse-of-the-evil-eye-recharges-after-a-short-or-long-rest',
@@ -19760,8 +20250,17 @@ export default createPublicationMonsters({
               'Any creature that starts its turn within 5 feet of the ghast must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the start of its next turn. On a successful saving throw, the creature is immune to the ghast's Stench for 24 hours.",
+              { effect: 'stench-poisoned' },
+              ". On a successful saving throw, the creature is immune to the ghast's Stench for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -19803,8 +20302,18 @@ export default createPublicationMonsters({
               'If the target is a creature other than an undead, it must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'claws-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'claws-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -19895,12 +20404,19 @@ export default createPublicationMonsters({
               'Each non-undead creature within 60 feet of the ghost that can see it must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              ' for 1 minute. If the save fails by 5 or more, the target also ages 1d4 × 10 years. A ',
-              rules.frightened,
-              ' target can repeat the saving throw at the end of each of its turns, ending the ',
-              rules.frightened,
-              " condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+              { effect: 'horrifying-visage-frightened' },
+              '. If the save fails by 5 or more, the target also ages 1d4 × 10 years. ',
+              "If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.",
+            ],
+            effects: [
+              {
+                key: 'horrifying-visage-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -19911,13 +20427,33 @@ export default createPublicationMonsters({
             text: [
               'One humanoid that the ghost can see within 5 feet of it must succeed on a ',
               { dc: 'cha' },
-              ' Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is ',
-              rules.incapacitated,
-              " and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
+              ' Charisma saving throw or be ',
+              { effect: 'possession-possessed' },
+              ". The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being ",
               rules.charmed,
               ' and ',
               rules.frightened,
-              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+              ". It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. ",
+              "When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
+            ],
+            effects: [
+              {
+                key: 'possession-possessed',
+                name: 'Possessed',
+                lands: { on: 'save', save: 'cha', dc: 'cha' },
+                conditions: [rules.incapacitated],
+                text: [
+                  'Possessed by the ghost; the ghost then disappears, and the target is ',
+                  rules.incapacitated,
+                  ' and loses control of its body.',
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    'the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell',
+                  ],
+                },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 6',
@@ -20231,8 +20767,17 @@ export default createPublicationMonsters({
               ' slashing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -21072,12 +21617,17 @@ export default createPublicationMonsters({
               reach: 15,
               damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
             },
-            text: [
-              'If the target is a creature, it is ',
-              rules.grappled,
-              ' (escape DC 16). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and the octopus can't use its tentacles on another target.",
+            text: ['If the target is a creature, it is ', { effect: 'tentacles-grappled' }, '.'],
+            effects: [
+              {
+                key: 'tentacles-grappled',
+                name: 'Tentacled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["The octopus can't use its tentacles on another target."],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 16 } },
+              },
             ],
           },
           {
@@ -22124,6 +22674,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.telekinesis_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -22191,6 +22742,7 @@ export default createPublicationMonsters({
               refs.spells.nondetection_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -22345,6 +22897,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.plane_shift_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'psychic-defense',
@@ -23176,8 +23729,17 @@ export default createPublicationMonsters({
               ' piercing damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be pushed up to 20 feet away and knocked ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -23239,8 +23801,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'hoof-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'hoof-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -23540,6 +24111,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.tongues_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -23886,6 +24458,7 @@ export default createPublicationMonsters({
               refs.spells.invisibility_srd_5_1,
               ' (self only)',
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -24956,6 +25529,7 @@ export default createPublicationMonsters({
             text: ['The veteran exhales fire in a 15-foot cone.'],
             uses: 1,
             recharge: 'Recharge 5–6',
+            effects: [],
           },
         ],
       },
@@ -25241,8 +25815,17 @@ export default createPublicationMonsters({
               'Any creature that starts its turn within 10 feet of the hezrou must succeed on a ',
               { dc: 'dex', save: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              " until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours.",
+              { effect: 'stench-poisoned' },
+              ". On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'stench-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -25572,6 +26155,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -25617,6 +26201,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
         ],
       },
@@ -25665,6 +26250,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -25707,8 +26293,17 @@ export default createPublicationMonsters({
               'If the target is Large or smaller, it must succeed on a ',
               { dc: 'str' },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'shield-bash-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'shield-bash-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -25736,6 +26331,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -26390,6 +26986,7 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 6',
+            effects: [],
           },
         ],
       },
@@ -27465,6 +28062,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'bite-jackal-or-hybrid-form-only',
@@ -27501,10 +28099,19 @@ export default createPublicationMonsters({
               'The jackalwere gazes at one creature it can see within 30 feet of it. The target must make a ',
               { dc: 'wis' },
               ' Wisdom saving throw. On a failed save, the target succumbs to a magical slumber, falling ',
-              rules.unconscious,
-              " for 10 minutes or until someone uses an action to shake the target awake. A creature that successfully saves against the effect is immune to this jackalwere's gaze for the next 24 hours. Undead and creatures immune to being ",
+              { effect: 'sleep-gaze-unconscious' },
+              " or until someone uses an action to shake the target awake. A creature that successfully saves against the effect is immune to this jackalwere's gaze for the next 24 hours. Undead and creatures immune to being ",
               rules.charmed,
               " aren't affected by it.",
+            ],
+            effects: [
+              {
+                key: 'sleep-gaze-unconscious',
+                name: 'Magical slumber',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.unconscious],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -27695,6 +28302,7 @@ export default createPublicationMonsters({
               rules.frightened,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -27739,6 +28347,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'parry',
@@ -27904,6 +28513,7 @@ export default createPublicationMonsters({
               rules.grappled,
               '.',
             ],
+            effects: [],
           },
           {
             key: 'siege-monster',
@@ -27938,13 +28548,10 @@ export default createPublicationMonsters({
             text: [
               'If the target is a Large or smaller creature ',
               rules.grappled,
-              ' by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is ',
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the kraken, and it takes ',
-              { roll: '12d6' },
-              " acid damage at the start of each of the kraken's turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a ",
+              ' by the kraken, that creature is ',
+              { effect: 'bite-swallowed' },
+              ', and the grapple ends.',
+              ' If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a ',
               { dc: 'str', save: 'con' },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -27953,6 +28560,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse using 15 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'bite-swallowed',
+                name: 'Swallowed',
+                lands: { on: 'hit' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'It has 3 against attacks and other effects outside the kraken, and it takes ',
+                  { roll: '12d6' },
+                  " acid damage at the start of each of the kraken's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -27969,10 +28590,19 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 18). Until this grapple ends, the target is ',
-              rules.restrained,
-              '. The kraken has ten tentacles, each of which can grapple one target.',
+              { effect: 'tentacle-grappled' },
+              '.',
+              ' The kraken has ten tentacles, each of which can grapple one target.',
+            ],
+            effects: [
+              {
+                key: 'tentacle-grappled',
+                name: 'Tentacled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 18 } },
+              },
             ],
           },
           {
@@ -27984,14 +28614,30 @@ export default createPublicationMonsters({
               'One Large or smaller object held or creature ',
               rules.grappled,
               ' by the kraken is thrown up to 60 feet in a random direction and knocked ',
-              rules.prone,
+              { effect: 'fling-prone' },
               '. If a thrown target strikes a solid surface, the target takes ',
               { roll: '1d6' },
               ' bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a ',
               { dc: 'dex', printed: 18 },
               ' Dexterity saving throw or take the same damage and be knocked ',
-              rules.prone,
+              { effect: 'fling-struck-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'fling-prone',
+                name: 'Knocked prone',
+                lands: { on: 'use' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
+              {
+                key: 'fling-struck-prone',
+                name: 'Knocked prone by a thrown creature',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 18 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -28013,6 +28659,7 @@ export default createPublicationMonsters({
             text: [
               'The kraken magically creates three bolts of lightning, each of which can strike a target the kraken can see within 120 feet of it.',
             ],
+            effects: [],
           },
         ],
         legendary: {
@@ -28044,6 +28691,7 @@ export default createPublicationMonsters({
               text: [
                 "While underwater, the kraken expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is 2 to creatures other than the kraken. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn.",
               ],
+              effects: [],
             },
           ],
         },
@@ -28600,6 +29248,7 @@ export default createPublicationMonsters({
               '; 9th level (1 slot): ',
               refs.spells.power_word_kill_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'legendary-resistance',
@@ -28642,8 +29291,18 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.paralyzed,
-              ' for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'paralyzing-touch-paralyzed' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'paralyzing-touch-paralyzed',
+                name: 'Paralyzed',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -28672,10 +29331,19 @@ export default createPublicationMonsters({
                 'The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a ',
                 { dc: 'con', save: 'wis' },
                 ' Wisdom saving throw against this magic or become ',
-                rules.frightened,
-                ' for 1 minute. The ',
-                rules.frightened,
-                " target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.",
+                { effect: 'frightening-gaze-frightened' },
+                '.',
+                " If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.",
+              ],
+              effects: [
+                {
+                  key: 'frightening-gaze-frightened',
+                  name: 'Frightened',
+                  lands: { on: 'save', save: 'wis', dc: 'con' },
+                  conditions: [rules.frightened],
+                  lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                  ends: { repeatSave: ['end-of-turn'] },
+                },
               ],
             },
             {
@@ -28690,6 +29358,7 @@ export default createPublicationMonsters({
                 { roll: '6d6' },
                 ' necrotic damage on a failed save, or half as much damage on a successful one.',
               ],
+              effects: [],
             },
           ],
         },
@@ -29316,6 +29985,7 @@ export default createPublicationMonsters({
               ' (reptiles only), ',
               refs.spells.plant_growth_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'hold-breath',
@@ -29347,10 +30017,20 @@ export default createPublicationMonsters({
               'Or ',
               { roll: '1d10', mod: 'str' },
               ' piercing damage in crocodile form. If the lizardfolk is in crocodile form and the target is a Large or smaller creature, the target is ',
-              rules.grappled,
-              ' (escape DC 12). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and the lizardfolk can't bite another target. If the lizardfolk reverts to its true form, the grapple ends.",
+              { effect: 'bite-grappled' },
+              '.',
+              ' If the lizardfolk reverts to its true form, the grapple ends.',
+            ],
+            effects: [
+              {
+                key: 'bite-grappled',
+                name: 'Crocodile grapple',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["The lizardfolk can't bite another target."],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 12 } },
+              },
             ],
           },
           {
@@ -30530,6 +31210,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.dispel_magic_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -30645,8 +31326,19 @@ export default createPublicationMonsters({
             icon: 'gi/GiPaw',
             text: [
               'The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also ',
-              rules.grappled,
-              ' by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.',
+              { effect: 'adhesive-grappled' },
+              ' by it.',
+            ],
+            effects: [
+              {
+                key: 'adhesive-grappled',
+                name: 'Stuck to the mimic',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                text: ['Ability checks made to escape this grapple have disadvantage.'],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 13 } },
+              },
             ],
           },
           {
@@ -30668,6 +31360,7 @@ export default createPublicationMonsters({
               rules.grappled,
               ' by it.',
             ],
+            effects: [],
           },
           {
             key: 'pseudopod',
@@ -32261,8 +32954,19 @@ export default createPublicationMonsters({
               'The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a ',
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw or be ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours.",
+              { effect: 'horror-nimbus-frightened' },
+              '.',
+              " If a creature's saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee's Horror Nimbus for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'horror-nimbus-frightened',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -32390,6 +33094,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -32737,12 +33442,30 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 5, which: 'it hits' },
               onFail: {
                 damage: [{ dice: '2d4', type: rules.slashing }],
+                also: [{ effect: 'claw-fiendish-wound' }],
               },
             },
             text: [
-              'If the target is a creature, at the start of each of its turns due to a fiendish wound. Each time the nycaloth hits the wounded target with this attack, the damage dealt by the wound increases by ',
-              { roll: '2d4' },
-              '. Any creature can take an action to stanch the wound with a successful DC 13 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+              'If the target is a creature, at the start of each of its turns due to a fiendish wound.',
+            ],
+            effects: [
+              {
+                key: 'claw-fiendish-wound',
+                name: 'Fiendish wound',
+                lands: { on: 'failed-save' },
+                text: [
+                  'Each time the nycaloth hits the wounded target with this attack, the damage dealt by the wound increases by ',
+                  { roll: '2d4' },
+                  '.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: {
+                  cure: [
+                    'Any creature can take an action to stanch the wound with a successful DC 13 Wisdom (Medicine) check.',
+                    ' The wound also closes if the target receives magical healing.',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -32908,10 +33631,17 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1', type: rules.bludgeoning }],
             },
-            text: [
-              'The target is ',
-              rules.grappled,
-              " (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.",
+            text: ['The target is ', { effect: 'tentacles-grappled' }, '.'],
+            effects: [
+              {
+                key: 'tentacles-grappled',
+                name: 'Tentacled',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled],
+                text: ["The octopus can't use its tentacles on another target."],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 10 } },
+              },
             ],
           },
           {
@@ -33091,6 +33821,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.sleep_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-weapons',
@@ -33284,6 +34015,7 @@ export default createPublicationMonsters({
               refs.spells.spiritual_weapon_srd_5_1,
               ' (spear)',
             ],
+            effects: [],
           },
           {
             key: 'aggressive',
@@ -34267,6 +34999,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.wall_of_fire_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'fear-aura',
@@ -34279,8 +35012,17 @@ export default createPublicationMonsters({
               ' Wisdom saving throw, unless the pit fiend is ',
               rules.incapacitated,
               '. On a failed save, the creature is ',
-              rules.frightened,
-              " until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the pit fiend's Fear Aura for the next 24 hours.",
+              { effect: 'fear-aura-frightened' },
+              ". If a creature's saving throw is successful, the creature is immune to the pit fiend's Fear Aura for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'fear-aura-frightened',
+                name: 'Fear Aura',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -34324,14 +35066,25 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or become ',
-              rules.poisoned,
-              '. While ',
-              rules.poisoned,
-              " in this way, the target can't regain hit points, and it takes ",
-              { roll: '6d6' },
-              ' poison damage at the start of each of its turns. The ',
-              rules.poisoned,
-              ' target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              { effect: 'pit-fiend-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'pit-fiend-poison',
+                name: 'Pit fiend poison',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  " in this way, the target can't regain hit points, and it takes ",
+                  { roll: '6d6' },
+                  ' poison damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -34427,6 +35180,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.insect_plague_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'angelic-weapons',
@@ -36436,14 +37190,33 @@ export default createPublicationMonsters({
               'The revenant targets one creature it can see within 30 feet of it and against which it has sworn vengeance. The target must make a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw. On a failure, the target is ',
-              rules.paralyzed,
-              " until the revenant deals damage to it, or until the end of the revenant's next turn. When the paralysis ends, the target is ",
-              rules.frightened,
-              ' of the revenant for 1 minute. The ',
-              rules.frightened,
-              ' target can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the revenant, ending the ',
-              rules.frightened,
-              ' condition on itself on a success.',
+              { effect: 'vengeful-paralysis' },
+              '. When the paralysis ends, the target is ',
+              { effect: 'vengeful-fear' },
+              ' of the revenant for 1 minute.',
+            ],
+            effects: [
+              {
+                key: 'vengeful-paralysis',
+                name: 'Vengeful glare paralysis',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.paralyzed],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    "the revenant deals damage to it, or until the end of the revenant's next turn",
+                  ],
+                },
+              },
+              {
+                key: 'vengeful-fear',
+                name: 'Vengeful glare fear',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if it can see the revenant'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
         ],
@@ -37366,12 +38139,19 @@ export default createPublicationMonsters({
                 { dice: '2d6', type: rules.fire },
               ],
             },
-            text: [
-              'The target is ',
-              rules.grappled,
-              ' (escape DC 14). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets.",
+            text: ['The target is ', { effect: 'salamander-grapple' }, '.'],
+            effects: [
+              {
+                key: 'salamander-grapple',
+                name: 'Grabbed by the tail',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  "The salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets.",
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
         ],
@@ -39126,7 +39906,20 @@ export default createPublicationMonsters({
             text: [
               'The target must succeed on a ',
               { dc: 'con' },
-              ' Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.',
+              ' Constitution saving throw or ',
+              { effect: 'life-drain-max' },
+              '. The target dies if this effect reduces its hit point maximum to 0.',
+            ],
+            effects: [
+              {
+                key: 'life-drain-max',
+                name: 'Life drain',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                text: [
+                  'Its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest.',
+                ],
+                lasts: { kind: 'until', text: ['the creature finishes a long rest'] },
+              },
             ],
           },
         ],
@@ -39581,6 +40374,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               " and the spy doesn't have disadvantage on the attack roll.",
             ],
+            effects: [],
           },
           {
             key: 'multiattack',
@@ -40050,7 +40844,21 @@ export default createPublicationMonsters({
             text: [
               'The golem targets one or more creatures it can see within 10 feet of it. Each target must make a ',
               { dc: 'con', save: 'wis' },
-              " Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+              ' Wisdom saving throw against this magic. On a failed save, ',
+              { effect: 'golem-slow' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'golem-slow',
+                name: 'Slow',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                text: [
+                  "A target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute.",
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -41311,12 +42119,17 @@ export default createPublicationMonsters({
               reach: 10,
               damage: [{ dice: '4d12', type: rules.piercing, addModifier: true }],
             },
-            text: [
-              'If the target is a creature, it is ',
-              rules.grappled,
-              ' (escape DC 20). Until this grapple ends, the target is ',
-              rules.restrained,
-              ", and the tarrasque can't bite another target.",
+            text: ['If the target is a creature, it is ', { effect: 'tarrasque-grapple' }, '.'],
+            effects: [
+              {
+                key: 'tarrasque-grapple',
+                name: 'Grabbed by the tarrasque',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: ["The tarrasque can't bite another target."],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 20 } },
+              },
             ],
           },
           {
@@ -41361,8 +42174,17 @@ export default createPublicationMonsters({
               'If the target is a creature, it must succeed on a ',
               { dc: 'str', printed: 20 },
               ' Strength saving throw or be knocked ',
-              rules.prone,
+              { effect: 'tarrasque-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'tarrasque-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str', printed: 20 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -41374,8 +42196,19 @@ export default createPublicationMonsters({
               "Each creature of the tarrasque's choice within 120 feet of it and aware of it must succeed on a ",
               { dc: 'wis' },
               ' Wisdom saving throw or become ',
-              rules.frightened,
-              " for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the tarrasque is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the tarrasque's Frightful Presence for the next 24 hours.",
+              { effect: 'tarrasque-fear' },
+              ". If a creature's saving throw is successful or the effect ends for it, the creature is immune to the tarrasque's Frightful Presence for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'tarrasque-fear',
+                name: 'Frightful Presence',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                conditions: [rules.frightened],
+                text: ['with disadvantage if the tarrasque is within line of sight'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {
@@ -41385,12 +42218,8 @@ export default createPublicationMonsters({
             icon: 'gi/GiSlime',
             text: [
               "The tarrasque makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is ",
-              rules.blinded,
-              ' and ',
-              rules.restrained,
-              ', it has 3 against attacks and other effects outside the tarrasque, and it takes ',
-              { roll: '16d6' },
-              " acid damage at the start of each of the tarrasque's turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a ",
+              { effect: 'tarrasque-swallowed' },
+              '. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a ',
               { dc: 'con', printed: 20 },
               ' Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall ',
               rules.prone,
@@ -41399,6 +42228,20 @@ export default createPublicationMonsters({
               ' by it and can escape from the corpse by using 30 feet of movement, exiting ',
               rules.prone,
               '.',
+            ],
+            effects: [
+              {
+                key: 'tarrasque-swallowed',
+                name: 'Swallowed by the tarrasque',
+                lands: { on: 'use' },
+                conditions: [rules.blinded, rules.restrained],
+                text: [
+                  'It has 3 against attacks and other effects outside the tarrasque, and it takes ',
+                  { roll: '16d6' },
+                  " acid damage at the start of each of the tarrasque's turns.",
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -43048,6 +43891,7 @@ export default createPublicationMonsters({
               ', ',
               refs.spells.mass_suggestion_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'magic-resistance',
@@ -43099,12 +43943,17 @@ export default createPublicationMonsters({
               "The ultroloth's eyes sparkle with opalescent light as it targets one creature it can see within 30 feet of it. If the target can see the ultroloth, the target must succeed on a ",
               { dc: 'cha', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              " until the end of the ultroloth's next turn. The ",
-              rules.charmed,
-              ' target is ',
-              rules.stunned,
+              { effect: 'hypnotic-gaze-charm' },
               ". If the target's saving throw is successful, the target is immune to the ultroloth's gaze for the next 24 hours.",
+            ],
+            effects: [
+              {
+                key: 'hypnotic-gaze-charm',
+                name: 'Hypnotic gaze',
+                lands: { on: 'save', save: 'wis', dc: 'cha' },
+                conditions: [rules.charmed, rules.stunned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+              },
             ],
           },
           {
@@ -43496,6 +44345,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -43536,6 +44386,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -43595,10 +44446,25 @@ export default createPublicationMonsters({
               'The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              ' by the vampire. The ',
-              rules.charmed,
-              " target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'vampire-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'vampire-charm',
+                name: 'Vampire charm',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  "The target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {
@@ -43711,6 +44577,7 @@ export default createPublicationMonsters({
               rules.incapacitated,
               ' in its resting place.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -43848,6 +44715,7 @@ export default createPublicationMonsters({
               '; 5th level (1 slot): ',
               refs.spells.dominate_person_srd_5_1,
             ],
+            effects: [],
           },
           {
             key: 'shapechanger',
@@ -43881,6 +44749,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point.',
             ],
+            effects: [],
           },
           {
             key: 'regeneration',
@@ -43921,6 +44790,7 @@ export default createPublicationMonsters({
               rules.paralyzed,
               ' until the stake is removed.',
             ],
+            effects: [],
           },
           {
             key: 'sunlight-hypersensitivity',
@@ -43980,10 +44850,25 @@ export default createPublicationMonsters({
               'The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saving throw against this magic or be ',
-              rules.charmed,
-              ' by the vampire. The ',
-              rules.charmed,
-              " target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+              { effect: 'vampire-charm' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'vampire-charm',
+                name: 'Vampire charm',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.charmed],
+                text: [
+                  "The target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success.",
+                ],
+                lasts: {
+                  kind: 'until',
+                  text: [
+                    '24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect',
+                  ],
+                },
+              },
             ],
           },
           {
