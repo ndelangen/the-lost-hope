@@ -11,6 +11,8 @@ export default createPublicationMonsters({
       name: 'Drow Elite Warrior',
       reprintedIn: [
         refs.publications.critical_role_call_of_the_netherdeep,
+        refs.publications.ddex3_08_the_malady_of_elventree,
+        refs.publications.ddex3_15_szith_morcane_unbound,
         refs.publications.icewind_dale_rime_of_the_frostmaiden,
         refs.publications.monster_manual_2014,
         refs.publications.phandelver_and_below_the_shattered_obelisk,

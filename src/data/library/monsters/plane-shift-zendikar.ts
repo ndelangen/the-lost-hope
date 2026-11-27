@@ -470,133 +470,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    drake_large: {
-      name: 'Drake (Large)',
-      page: 324,
-      alignment: 'neutral good',
-      habitats: ['mountain', 'grassland', 'hill', 'coastal'],
-      appearance: [
-        [
-          'A slate-blue reptile with two legs, a long tail and two large leathery wings. The same silhouette represents both Zendikar drake sizes.',
-        ],
-      ],
-      tableNotes: [
-        [
-          'Zendikar gives no alignment or language override. Neutral good and the Giant Eagle language line are inherited from the suggested base.',
-        ],
-      ],
-      languages: ['Giant Eagle', "understands Common and Auran but can't speak them"],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1',
-        ac: 13,
-        hitDice: '4d10',
-        speed: { walk: 10, fly: 80 },
-        scores: { str: 16, dex: 17, con: 13, int: 8, wis: 14, cha: 10 },
-        skills: { perception: 'proficient' },
-        abilities: [
-          {
-            key: 'keen-sight',
-            name: 'Keen Sight',
-            timing: 'trait',
-            icon: 'lucide/Eye',
-            text: ['Gain advantage on Wisdom (Perception) checks based on sight.'],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'Make one ',
-              { ability: 'beak' },
-              ' and one ',
-              { ability: 'talons' },
-              ' attack.',
-            ],
-          },
-          {
-            key: 'beak',
-            name: 'Beak',
-            timing: 'action',
-            icon: 'gi/GiRaven',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'talons',
-            name: 'Talons',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
-    drake_small: {
-      name: 'Drake (Small)',
-      page: 80,
-      alignment: 'unaligned',
-      languages: [],
-      habitats: ['mountain', 'grassland', 'coastal'],
-      appearance: [
-        [
-          'A reptile with two legs, a long tail and broad leathery wings, smaller than the large drake. It shares the same portrait.',
-        ],
-      ],
-      tableNotes: [
-        [
-          'Small in the catalog refers to the smaller kind of drake. The suggested Pteranodon base is mechanically Medium.',
-        ],
-      ],
-      stats: {
-        size: 'medium',
-        type: 'beast',
-        cr: '1/4',
-        ac: 13,
-        armor: 'natural armor',
-        hitDice: '3d8',
-        speed: { walk: 10, fly: 60 },
-        scores: { str: 12, dex: 15, con: 10, int: 2, wis: 9, cha: 5 },
-        skills: { perception: 'proficient' },
-        abilities: [
-          {
-            key: 'flyby',
-            name: 'Flyby',
-            timing: 'trait',
-            icon: 'gi/GiFeather',
-            text: [
-              'When it flies out of a foe’s reach, that movement gives the foe no opportunity attack.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d4', type: rules.piercing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
     emrakul: {
       name: 'Emrakul',
       alignment: 'unaligned',
@@ -3420,6 +3293,7 @@ export default createPublicationMonsters({
     },
     wurm: {
       name: 'Wurm',
+      reprintedIn: [refs.publications.plane_shift_kaladesh],
       alignment: 'unaligned',
       languages: [],
       habitats: ['underdark', 'desert'],

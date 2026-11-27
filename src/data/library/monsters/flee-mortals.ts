@@ -1454,6 +1454,7 @@ export default createPublicationMonsters({
     },
     ashyra: {
       name: 'Ashyra',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'lawful evil',
       languages: ['Speaks Common and has telepathy 60 ft.'],
       tableNotes: [
@@ -1797,6 +1798,7 @@ export default createPublicationMonsters({
     },
     atshia: {
       name: 'Atæshia',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Air', 'Earth', 'Fire'],
       page: 100,
       alignment: 'neutral',
@@ -2214,123 +2216,9 @@ export default createPublicationMonsters({
         ],
       },
     },
-    basalt_stone_giant: {
-      name: 'Basalt Stone Giant',
-      alignment: 'any alignment',
-      languages: ['Speaks Giant'],
-      tableNotes: [['Role: Controller']],
-      lore: [
-        [
-          'The book describes giants as a family. They suit harsh places, and stone giant villages sit on the highest mountains, often unnoticed by nearby humanoids. Giants resemble their surroundings. Stone giants rarely get on with hill giants, who dislike stone craftsmanship. The supplied text is general and says nothing specific about basalt stone giants.',
-        ],
-        ['Sources: ', 'Flee, Mortals!'],
-      ],
-      habitats: ['Mountain'],
-      stats: {
-        size: 'huge',
-        type: 'giant',
-        cr: '8',
-        ac: 16,
-        armor: 'natural armor',
-        hitDice: '12d12',
-        speed: { walk: 40 },
-        scores: { str: 24, dex: 15, con: 22, int: 13, wis: 15, cha: 12 },
-        skills: { athletics: 'proficient', perception: 'proficient' },
-        senses: { darkvision: 60 },
-        nonmagicalExcept: 'adamantine',
-        nonmagicalResistances: [rules.bludgeoning, rules.piercing, rules.slashing],
-        abilities: [
-          {
-            key: 'false-appearance',
-            name: 'False Appearance',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: ['A motionless giant looks like a statue.'],
-          },
-          {
-            key: 'stone-flesh',
-            name: 'Stone Flesh',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'When an attacker rolls a natural 1 against the giant with a nonadamantine melee weapon, a mundane weapon breaks. A supernatural weapon loses its supernatural properties for 1 hour.',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'Make two ',
-              { ability: 'rune-signed-blade' },
-              ' attacks. One can be replaced with a ',
-              { ability: 'forked-knives' },
-              ' attack.',
-            ],
-          },
-          {
-            key: 'rune-signed-blade',
-            name: 'Rune-Signed Blade',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 10,
-              damage: [{ dice: '4d8', type: rules.slashing, addModifier: true }],
-            },
-            text: [
-              'Each hit against a creature reduces its speed by a cumulative 10 ft., to a minimum of 5 ft., until it regains at least 1 HP.',
-            ],
-          },
-          {
-            key: 'forked-knives',
-            name: 'Forked Knives',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 10,
-              thrown: [60, 240],
-              damage: [{ dice: '3d6', type: rules.piercing, addModifier: true }],
-            },
-            text: [
-              'If the target is a Medium or smaller creature on the ground, it falls ',
-              { effect: 'forked-knives-pinned' },
-              ' by the knife. The target or a creature that can reach the knife can spend an action and succeed on a DC 18 Strength (Athletics) check to pull it free and end the restraint.',
-            ],
-            effects: [
-              {
-                key: 'forked-knives-pinned',
-                name: 'Pinned by the knife',
-                lands: { on: 'hit' },
-                conditions: [rules.prone, rules.restrained],
-                lasts: { kind: 'until-removed' },
-                ends: { escape: { dc: 'str', printed: 18 } },
-              },
-            ],
-          },
-          {
-            key: 'resonate-rune',
-            name: 'Resonate Rune',
-            timing: 'reaction',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'When a melee attack hits the giant, each creature within 10 ft. makes a ',
-              { dc: 'con', save: 'str' },
-              ' Strength save. On a failure, the giant pushes it up to 10 ft. away.',
-            ],
-            effects: [],
-          },
-        ],
-      },
-    },
     basilisk_mcdm: {
       name: 'Basilisk (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Damp caves', 'Rocky dens'],
@@ -3569,6 +3457,7 @@ export default createPublicationMonsters({
     },
     bugbear_channeler: {
       name: 'Bugbear Channeler',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Bugbear'],
       alignment: 'any alignment',
       languages: ['Speaks Common and Goblin'],
@@ -4146,6 +4035,7 @@ export default createPublicationMonsters({
     },
     camel_mcdm: {
       name: 'Camel (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Controller']],
@@ -4511,6 +4401,7 @@ export default createPublicationMonsters({
     },
     chimera_mcdm: {
       name: 'Chimera (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically neutral',
       languages: ['Understands one language'],
       habitats: ['Guarded territories', 'Sites of magical power'],
@@ -4664,6 +4555,7 @@ export default createPublicationMonsters({
     },
     chimeron: {
       name: 'Chimeron',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Demon', 'Category 5'],
       alignment: 'typically chaotic evil',
       habitats: ['Abyssal Wasteland'],
@@ -5006,6 +4898,7 @@ export default createPublicationMonsters({
     },
     count_rhodar_von_glauer: {
       name: 'Count Rhodar von Glauer',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 269,
       alignment: 'neutral evil',
       tableNotes: [
@@ -5346,6 +5239,7 @@ export default createPublicationMonsters({
     },
     crux_of_frost: {
       name: 'Crux of Frost',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Water'],
       alignment: 'any alignment',
       languages: ['Speaks Aquan, Common, and languages gained from Frosted Reflection'],
@@ -5784,6 +5678,7 @@ export default createPublicationMonsters({
     },
     deep_dreamer: {
       name: 'Deep Dreamer',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Fungus'],
       alignment: 'typically neutral',
       languages: ['Speaks Deep Speech and Undercommon'],
@@ -5906,6 +5801,7 @@ export default createPublicationMonsters({
     },
     devil_adjudicator: {
       name: 'Devil Adjudicator',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Devil'],
       alignment: 'typically lawful evil',
       habitats: ['Hell', 'Seven Cities of Hell'],
@@ -6079,6 +5975,7 @@ export default createPublicationMonsters({
     },
     devil_jurist: {
       name: 'Devil Jurist',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Devil'],
       alignment: 'typically lawful evil',
       habitats: ['Hell', 'Seven Cities of Hell'],
@@ -6226,6 +6123,7 @@ export default createPublicationMonsters({
     },
     devil_legate: {
       name: 'Devil Legate',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Devil'],
       alignment: 'typically lawful evil',
       habitats: ['Hell', 'Seven Cities of Hell'],
@@ -6353,6 +6251,7 @@ export default createPublicationMonsters({
     },
     devil_magistrate: {
       name: 'Devil Magistrate',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Devil'],
       alignment: 'typically lawful evil',
       habitats: ['Hell', 'Seven Cities of Hell'],
@@ -6751,6 +6650,7 @@ export default createPublicationMonsters({
     },
     dirt_mournling: {
       name: 'Dirt Mournling',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: ["Understands its creator's languages and cannot speak"],
       tableNotes: [['Role: Controller']],
@@ -7375,6 +7275,7 @@ export default createPublicationMonsters({
     },
     durixaviinox: {
       name: 'Durixaviinox',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'lawful evil',
       habitats: ['Arctic wastes', 'Frozen ruins', 'Vexinoth'],
       appearance: [
@@ -7683,6 +7584,7 @@ export default createPublicationMonsters({
     },
     essence_of_mist: {
       name: 'Essence of Mist',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Air', 'Water'],
       alignment: 'any alignment',
       languages: ['Speaks Aquan, Auran, and Common'],
@@ -7823,6 +7725,7 @@ export default createPublicationMonsters({
     },
     essence_of_tides: {
       name: 'Essence of Tides',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Water'],
       alignment: 'any alignment',
       languages: ['Speaks Aquan and Common'],
@@ -9367,6 +9270,7 @@ export default createPublicationMonsters({
     },
     frost_giant_wind_sprinter: {
       name: 'Frost Giant Wind Sprinter',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'any alignment',
       habitats: ['Frozen mountains', 'Glaciers', 'Arctic wastes'],
       appearance: [
@@ -9662,6 +9566,7 @@ export default createPublicationMonsters({
     },
     giant_zombie: {
       name: 'Giant Zombie',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically neutral evil',
       languages: ['Understands the languages it knew in life, but cannot speak'],
       tableNotes: [['Role: Brute']],
@@ -9952,6 +9857,7 @@ export default createPublicationMonsters({
     },
     gnoll_bonesplitter: {
       name: 'Gnoll Bonesplitter',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Gnoll'],
       alignment: 'typically chaotic evil',
       tableNotes: [['Role: Brute']],
@@ -10366,6 +10272,7 @@ export default createPublicationMonsters({
     },
     goblin_cursespitter: {
       name: 'Goblin Cursespitter',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Goblin'],
       alignment: 'any alignment',
       languages: ['Common and Goblin'],
@@ -11332,6 +11239,7 @@ export default createPublicationMonsters({
     },
     griffon_mcdm: {
       name: 'Griffon (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Controller']],
@@ -11471,6 +11379,7 @@ export default createPublicationMonsters({
     },
     grilp: {
       name: 'Grilp',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Devil'],
       alignment: 'typically lawful evil',
       habitats: ['Hobgoblin camps', 'Wooded approaches'],
@@ -11953,6 +11862,7 @@ export default createPublicationMonsters({
     },
     hellhound_mcdm: {
       name: 'Hellhound (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically neutral evil',
       languages: ['Understands Common and Infernal and cannot speak'],
       tableNotes: [['Role: Soldier']],
@@ -12529,6 +12439,7 @@ export default createPublicationMonsters({
     },
     hobgoblin_death_captain: {
       name: 'Hobgoblin Death Captain',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Hobgoblin'],
       alignment: 'any alignment',
       habitats: ['Camp Firefield', 'War camps', 'Desert and tropical settlements'],
@@ -12767,6 +12678,7 @@ export default createPublicationMonsters({
     },
     hobgoblin_incendiarist: {
       name: 'Hobgoblin Incendiarist',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Hobgoblin'],
       alignment: 'any alignment',
       habitats: ['Camp Firefield', 'War camps', 'Siege lines'],
@@ -12872,6 +12784,7 @@ export default createPublicationMonsters({
     },
     hobgoblin_smokebinder: {
       name: 'Hobgoblin Smokebinder',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Hobgoblin'],
       alignment: 'any alignment',
       habitats: ['Camp Firefield', 'Fortified settlements', 'Foggy approaches'],
@@ -13179,6 +13092,7 @@ export default createPublicationMonsters({
     },
     hulking_brain: {
       name: 'Hulking Brain',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically lawful evil',
       habitats: ['Underground', 'Psionic lairs', 'Terminal Excrescence'],
       appearance: [['A long-armed psionic brute with an enlarged brain and a lumbering build.']],
@@ -13295,6 +13209,7 @@ export default createPublicationMonsters({
     },
     human_brawler: {
       name: 'Human Brawler',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Human'],
       alignment: 'any alignment',
       habitats: ['Settlements', 'Taverns', 'Fighting pits'],
@@ -13549,6 +13464,7 @@ export default createPublicationMonsters({
     },
     human_knave: {
       name: 'Human Knave',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Human'],
       alignment: 'any alignment',
       habitats: ['Settlements', 'Fortified bridges', 'Bandit camps'],
@@ -14064,6 +13980,7 @@ export default createPublicationMonsters({
     },
     infernal_chancellor_lazivos: {
       name: 'Infernal Chancellor Lazivos',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Devil'],
       alignment: 'lawful evil',
       habitats: ['Hell', 'Seven Cities of Hell'],
@@ -14289,6 +14206,7 @@ export default createPublicationMonsters({
     },
     ithurath: {
       name: 'Ithu’rath',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 200,
       alignment: 'chaotic evil',
       tableNotes: [
@@ -14880,6 +14798,7 @@ export default createPublicationMonsters({
     },
     kiona_the_dread_lord: {
       name: 'Kiona the Dread Lord',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Incorporeal'],
       page: 249,
       alignment: 'chaotic evil',
@@ -16245,6 +16164,7 @@ export default createPublicationMonsters({
     },
     lacuna: {
       name: 'Lacuna',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically chaotic evil',
       languages: ['Speaks Abyssal, Common, and Infernal'],
       tableNotes: [['Role: Skirmisher'], ['Also immune to the Dazed condition.']],
@@ -16582,6 +16502,7 @@ export default createPublicationMonsters({
     },
     lady_emer: {
       name: 'Lady Emer',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 190,
       alignment: 'lawful evil',
       tableNotes: [
@@ -17247,6 +17168,7 @@ export default createPublicationMonsters({
     },
     lightthief: {
       name: 'Lightthief',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically chaotic evil',
       languages: ['Understands Abyssal, Common, and Infernal but cannot speak'],
       tableNotes: [['Role: Ambusher']],
@@ -18440,6 +18362,7 @@ export default createPublicationMonsters({
     },
     lord_syuul: {
       name: 'Lord Syuul',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'lawful evil',
       habitats: ['Underground', 'Psionic lairs', 'Terminal Excrescence'],
       appearance: [['A regal, tentacled Voiceless Talker who carries a psionic repeater.']],
@@ -19486,6 +19409,7 @@ export default createPublicationMonsters({
     },
     mimic_mcdm: {
       name: 'Mimic (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Shapechanger'],
       alignment: 'typically neutral',
       languages: [],
@@ -19640,135 +19564,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    mindkiller: {
-      name: 'Mindkiller',
-      alignment: 'typically lawful evil',
-      habitats: ['Underground', 'Psionic lairs', 'Terminal Excrescence'],
-      appearance: [
-        [
-          'A small floating aberration with grasping claws and a body that squeezes through minute gaps.',
-        ],
-      ],
-      tableNotes: [
-        [
-          'Uses the verified Where Evil Lives stat block for this creature. Check this publication for encounter-specific changes.',
-        ],
-        ['Ambusher. Terminal Excrescence, Where Evil Lives.'],
-        [
-          'Psionics: Concealing Strike is psionic. Counterspell, Dispel Magic and Antimagic Field do not stop it.',
-        ],
-        ['Concealing Strike is a psionic power attack.'],
-      ],
-      languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
-      stats: {
-        size: 'small',
-        type: 'aberration',
-        cr: '2',
-        ac: 12,
-        hitDice: '10d6',
-        speed: { walk: 10, fly: 30 },
-        scores: { str: 14, dex: 15, con: 12, int: 16, wis: 15, cha: 14 },
-        skills: { deception: 'proficient', stealth: 'proficient' },
-        senses: { darkvision: 120 },
-        abilities: [
-          {
-            key: 'amorphous',
-            name: 'Amorphous',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: ['Fit through a gap 1 inch wide without squeezing.'],
-          },
-          {
-            key: 'psionic-immunity',
-            name: 'Psionic Immunity',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'Voiceless Talker powers affect this creature only if it chooses to allow them.',
-            ],
-          },
-          {
-            key: 'claws',
-            name: 'Claws',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d4', type: rules.slashing, addModifier: true }],
-            },
-            text: [
-              { roll: '2d6' },
-              ' psychic. Targets no larger than Medium are ',
-              { effect: 'mind-grabbed' },
-              '.',
-            ],
-            effects: [
-              {
-                key: 'mind-grabbed',
-                name: 'Grabbed',
-                lands: { on: 'hit' },
-                conditions: [rules.grappled],
-                lasts: { kind: 'until-removed' },
-                ends: { escape: { dc: 'str', printed: 12 } },
-              },
-            ],
-          },
-          {
-            key: 'concealing-strike',
-            name: 'Concealing Strike',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'ranged',
-              ability: 'int',
-              range: [30, 30],
-              damage: [{ dice: '3d6', type: rules.psychic, addModifier: true }],
-            },
-            text: ['On a hit. ', { effect: 'concealed' }],
-            effects: [
-              {
-                key: 'concealed',
-                name: 'Concealed',
-                lands: { on: 'hit' },
-                text: ['The mindkiller is ', rules.invisible, ' to it.'],
-                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
-              },
-            ],
-          },
-          {
-            key: 'mindwipe',
-            name: 'Mindwipe',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'A Humanoid it has ',
-              rules.grappled,
-              ' makes a ',
-              { dc: 'str' },
-              ' Strength save. On failure the mindkiller enters the host. It has total cover from effects outside the host. Its only action while inside is to leave into an unoccupied space within 5 ft. Host damage. At the end of each host turn, the host makes a ',
-              { dc: 'int', save: 'con' },
-              ' Constitution save, taking 10 necrotic on failure. At 0 HP the host dies and the mindkiller takes over a body restored to full HP. It retains its Intelligence, Wisdom, Charisma, telepathy and understanding of Deep Speech and Undercommon. It inherits the host’s other statistics, actions and knowledge. If the controlled body drops to 0 HP, it must leave.',
-            ],
-            effects: [],
-          },
-          {
-            key: 'removal',
-            name: 'Removal',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'Within reach of the host, spend an action with a sharp weapon or tool. Against an unwilling host, roll against its AC. A hit, or a willing host, takes ',
-              { roll: '2d10' },
-              ' slashing. A DC 15 Wisdom (Medicine) check then extracts the mindkiller on success. On failure it kills the host if the cut reduced the host to 0 HP, and otherwise remains inside.',
-            ],
-          },
-        ],
-      },
-    },
     minotaur_mcdm: {
       name: 'Minotaur (MCDM)',
       alignment: 'typically chaotic neutral',
@@ -19876,6 +19671,7 @@ export default createPublicationMonsters({
     },
     mohler: {
       name: 'Mohler',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Controller']],
@@ -20194,6 +19990,7 @@ export default createPublicationMonsters({
     },
     mummy_mcdm: {
       name: 'Mummy (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically lawful evil',
       languages: ['Speaks the languages it knew in life'],
       tableNotes: [['Role: Brute']],
@@ -20430,6 +20227,7 @@ export default createPublicationMonsters({
     },
     night_hag_mcdm: {
       name: 'Night Hag (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 138,
       alignment: 'typically neutral evil',
       tableNotes: [
@@ -20955,6 +20753,7 @@ export default createPublicationMonsters({
     },
     oracle_of_storms: {
       name: 'Oracle of Storms',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Air', 'Water'],
       alignment: 'any alignment',
       languages: ['Speaks Aquan, Auran, and Common'],
@@ -21245,6 +21044,7 @@ export default createPublicationMonsters({
     },
     orc_fury: {
       name: 'Orc Fury',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Orc'],
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
@@ -21343,6 +21143,7 @@ export default createPublicationMonsters({
     },
     orc_garroter: {
       name: 'Orc Garroter',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Orc'],
       alignment: 'any alignment',
       languages: ['Speaks Common and Orc'],
@@ -22237,6 +22038,7 @@ export default createPublicationMonsters({
     },
     owlbear_mcdm: {
       name: 'Owlbear (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Forests', 'Woodlands'],
@@ -22827,6 +22629,7 @@ export default createPublicationMonsters({
     },
     qazyldrath: {
       name: 'Qazyldrath',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 80,
       alignment: 'chaotic evil',
       languages: ['Speaks Common and Draconic'],
@@ -23251,6 +23054,7 @@ export default createPublicationMonsters({
     },
     rot_angel: {
       name: 'Rot Angel',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically lawful neutral',
       languages: ['Understands Celestial without speaking it and has telepathy 120 ft.'],
       tableNotes: [['Role: Skirmisher'], ['Also immune to Flanked.']],
@@ -24716,6 +24520,7 @@ export default createPublicationMonsters({
     },
     shadow_mcdm: {
       name: 'Shadow (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Incorporeal'],
       alignment: 'typically chaotic evil',
       languages: ['Speaks the languages it knew in life'],
@@ -25088,179 +24893,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    shtriga_nonna: {
-      name: 'Shtriga Nonna',
-      page: 140,
-      alignment: 'neutral evil',
-      tableNotes: [
-        [
-          "The printed Corrosive Claw calls for a 'Dexterity throw.' Use a Dexterity saving throw, as the DC and attack context indicate.",
-        ],
-        ['Role: Solo'],
-        [
-          "Villain Actions: Use each villain action once per encounter after an enemy's turn. Use at most one per round, in any order.\nAction 1, Snackies for Sweeties. Each other creature within 30 ft. makes a DC 15 Wisdom save or is Poisoned for 1 minute, repeating the save at the end of its turns. Holding its breath or needing no air gives no protection.\nAction 2, Feline Felicity. Each creature within 5 ft. makes a DC 15 Dexterity save. On failure it takes 10 (4d4) force damage and is pushed 10 ft. away. A success halves damage and prevents the push. Nonna can then move up to twice her speed.\nAction 3, Open the Oven. Each creature in a 30-ft. cone makes a DC 15 Dexterity save. It takes 13 (3d8) fire plus 13 (3d8) thunder damage on failure or half on success.",
-        ],
-        [
-          'Utility Spells: Charisma, save DC 15. At will, 1 action each: Alter Self, Detect Thoughts, Thaumaturgy. 3/day each, longer casting times: Fabricate, Legend Lore. 1/day: Scrying using its longer casting time.',
-        ],
-        ['Mundane Attacks (MCDM): A mundane attack is one that uses neither magic nor psionics.'],
-        ['Also resistant to bludgeoning, piercing, and slashing from mundane attacks.'],
-      ],
-      languages: ['Common', 'Giant', 'Infernal', 'Sylvan'],
-      appearance: [
-        [
-          'She can look like anyone. Some say she is a huge woman with rusty iron claws, others a soul-stealing cat or a beautiful woman cooking meat pies. Her hut walks on giant cat paws.',
-        ],
-      ],
-      lore: [
-        [
-          "Shtriga Nonna is an ancient hag high on a snowy mountain, unlike other hags in belonging to no forest, night or sea, and claiming to need no sisters. Rumour says she ate her old coven. She loves cats and cooking, eats any flesh, and prizes meat flavoured by the fear of those who made bad bargains with a hag. Desperate seekers climb to the hut's porch for tea and a deal.",
-        ],
-        ['Sources: ', 'Flee, Mortals!'],
-      ],
-      habitats: ['Snowy mountains'],
-      stats: {
-        size: 'medium',
-        type: 'fey',
-        cr: '6',
-        ac: 17,
-        armor: 'natural armor',
-        hitDice: '14d8',
-        speed: { walk: 30, fly: 30 },
-        scores: { str: 18, dex: 16, con: 18, int: 14, wis: 15, cha: 19 },
-        skills: {
-          deception: 'proficient',
-          perception: 'proficient',
-          stealth: 'proficient',
-          survival: 'proficient',
-        },
-        senses: { darkvision: 60 },
-        damageResistances: [rules.thunder],
-        damageImmunities: [rules.cold, rules.fire],
-        conditionImmunities: [rules.charmed, rules.frightened],
-        abilities: [
-          {
-            key: 'feline-resilience',
-            name: 'Feline Resilience',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'When Nonna fails a save, she can turn into a cat and succeed instead. The cat is Medium, or Large during ',
-              { ability: 'grow' },
-              '. She keeps her statistics and can speak, but cannot cast spells or use ',
-              { ability: 'soul-steal' },
-              '. She returns to her previous form at the end of her next turn.',
-            ],
-            uses: 3,
-            recharge: 'Long rest',
-          },
-          {
-            key: 'supernatural-resistance',
-            name: 'Supernatural Resistance',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: ['Advantage on saves against spells, powers, and other supernatural effects.'],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'Make two ',
-              { ability: 'corrosive-claw' },
-              ' attacks. One can be replaced with ',
-              { ability: 'soul-steal' },
-              ' if available.',
-            ],
-          },
-          {
-            key: 'corrosive-claw',
-            name: 'Corrosive Claw',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
-            },
-            text: [
-              'Or ',
-              { roll: '3d6', mod: 'str' },
-              ' with ',
-              { ability: 'grow' },
-              '. If the target wears mundane metal armor it makes a ',
-              { dc: 'con', save: 'dex' },
-              ' Dexterity save. On a failure the armor permanently loses 1 AC, cumulative across hits. The armor is destroyed if its AC falls to 10.',
-            ],
-            effects: [],
-          },
-          {
-            key: 'soul-steal',
-            name: 'Soul Steal',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            intent: 'damage',
-            save: {
-              ability: 'con',
-              dc: 'con',
-              target: { area: { shape: rules.cone, size: 30 } },
-              onFail: {
-                damage: [{ dice: '3d10', type: rules.necrotic }],
-              },
-              onSuccess: 'half',
-            },
-            text: ['Nonna regains 10 HP per failed save.'],
-            uses: 1,
-            recharge: 'Recharge 5–6',
-            effects: [],
-          },
-          {
-            key: 'grow',
-            name: 'Grow',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'For 1 minute Nonna and her gear grow to Large or the largest size the space permits. Her reach becomes 10 ft., her Strength-based weapon attacks deal an extra ',
-              { roll: '1d6' },
-              ' damage already included above, and she has advantage on Strength checks and saves.',
-            ],
-            uses: 2,
-            recharge: 'Long rest',
-          },
-          {
-            key: 'gobble-you-up',
-            name: 'Gobble You Up',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'An ',
-              rules.unconscious,
-              ' creature within 5 ft. takes ',
-              { roll: '3d6' },
-              ' piercing damage and ',
-              { ability: 'soul-steal' },
-              ' recharges.',
-            ],
-            effects: [],
-          },
-          {
-            key: 'turned-upside-down',
-            name: 'Turned Upside Down',
-            timing: 'reaction',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'When a creature hits Nonna with a melee attack, each creature within 5 ft. of her makes a ',
-              { dc: 'str' },
-              ' Strength save. On failure it rises vertically 10 ft. and hangs there until the end of its next turn. It then falls unless it can stay aloft.',
-            ],
-            effects: [],
-          },
-        ],
-      },
-    },
     skeleton_mcdm: {
       name: 'Skeleton (MCDM)',
       alignment: 'typically lawful evil',
@@ -25333,9 +24965,14 @@ export default createPublicationMonsters({
     },
     skitterling: {
       name: 'Skitterling',
+      reprintedIn: [refs.publications.flee_mortals_public_preview],
       alignment: 'unaligned',
       languages: [],
       tableNotes: [['Role: Skirmisher']],
+      habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],
+      appearance: [
+        ['A housecat-sized, six-legged rodent with broad bat wings and grasping claws.'],
+      ],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -25389,6 +25026,7 @@ export default createPublicationMonsters({
     },
     slaughter_demon: {
       name: 'Slaughter Demon',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Demon', 'Category 3'],
       alignment: 'typically chaotic evil',
       habitats: ['Seven Cities of Hell', 'Battlefields where hobgoblins summon it'],
@@ -25991,6 +25629,7 @@ export default createPublicationMonsters({
     },
     sunlight_nexus: {
       name: 'Sunlight Nexus',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Air', 'Fire'],
       page: 99,
       alignment: 'any alignment',
@@ -26151,6 +25790,7 @@ export default createPublicationMonsters({
     },
     swamp_dryad: {
       name: 'Swamp Dryad',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 336,
       alignment: 'typically chaotic neutral',
       tableNotes: [
@@ -26492,6 +26132,7 @@ export default createPublicationMonsters({
     },
     swarm_of_skitterlings: {
       name: 'Swarm of Skitterlings',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],
@@ -27260,6 +26901,7 @@ export default createPublicationMonsters({
     },
     time_raider_nemesis: {
       name: 'Time Raider Nemesis',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Time Raider'],
       alignment: 'any alignment',
       tableNotes: [
@@ -27508,6 +27150,7 @@ export default createPublicationMonsters({
     },
     tormenauk: {
       name: 'Tormenauk',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Demon', 'Category 3'],
       alignment: 'typically chaotic evil',
       habitats: ['Abyssal Wasteland'],
@@ -28855,6 +28498,7 @@ export default createPublicationMonsters({
     },
     vampire_spawn_mcdm: {
       name: 'Vampire Spawn (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 271,
       alignment: 'typically neutral evil',
       languages: ['known in life'],
@@ -29287,6 +28931,7 @@ export default createPublicationMonsters({
     },
     voiceless_talker: {
       name: 'Voiceless Talker',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'typically lawful evil',
       habitats: ['Underground', 'Psionic lairs', 'Terminal Excrescence'],
       appearance: [['A cephalopod-faced aberration who floats and attacks with psionic powers.']],
@@ -29437,165 +29082,12 @@ export default createPublicationMonsters({
         ],
       },
     },
-    voiceless_talker_artillerist: {
-      name: 'Voiceless Talker Artillerist',
-      alignment: 'typically lawful evil',
-      habitats: ['Underground', 'Psionic lairs', 'Terminal Excrescence'],
-      appearance: [
-        ['A tentacled psionic marksman equipped with a rifle that displaces its targets.'],
-      ],
-      tableNotes: [
-        [
-          'Uses the verified Where Evil Lives stat block for this creature. Check this publication for encounter-specific changes.',
-        ],
-        ['Artillery. Terminal Excrescence, Where Evil Lives.'],
-        [
-          'Psionics: It can use a bonus-action power and another power as an action on the same turn. Its powers work through Antimagic Field and are unaffected by Counterspell and Dispel Magic. Concentrating on Vanish for One precludes concentrating on another effect, and it cannot keep more than one manifestation of the same power active.',
-        ],
-        ["The bonus action is printed as 'Vanish for One'."],
-      ],
-      languages: ['Deep Speech', 'Undercommon', 'telepathy 120 ft.'],
-      stats: {
-        size: 'medium',
-        type: 'aberration',
-        cr: '10',
-        ac: 16,
-        armor: 'natural armor',
-        hitDice: '20d8',
-        speed: { walk: 30, fly: 30 },
-        scores: { str: 12, dex: 16, con: 16, int: 21, wis: 17, cha: 16 },
-        skills: {
-          arcana: 'proficient',
-          deception: 'proficient',
-          insight: 'proficient',
-          perception: 'proficient',
-          persuasion: 'proficient',
-          stealth: 'proficient',
-        },
-        senses: { darkvision: 120 },
-        damageResistances: [rules.bludgeoning],
-        abilities: [
-          {
-            key: 'phasing-rifle-once-per-turn',
-            name: 'Phasing Rifle (once per turn)',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'After a rifle hit, the artillerist can force a ',
-              { dc: 'int', save: 'wis' },
-              ' Wisdom save without spending an action. Failure teleports the target into an unoccupied space the artillerist can see within 60 ft. of the artillerist.',
-            ],
-            effects: [],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'Fire ',
-              { ability: 'psionic-rifle' },
-              ' twice, or use a power and one ',
-              { ability: 'phasing-tentacles' },
-              ' attack.',
-            ],
-          },
-          {
-            key: 'psionic-rifle',
-            name: 'Psionic Rifle',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'ranged',
-              ability: 'int',
-              range: [150, 600],
-              damage: [{ dice: '3d10', type: rules.force, addModifier: true }],
-            },
-          },
-          {
-            key: 'phasing-tentacles',
-            name: 'Phasing Tentacles',
-            timing: 'action',
-            icon: 'gi/GiTentacleStrike',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'int',
-              reach: 10,
-              damage: [{ dice: '3d10', type: rules.psychic, addModifier: true }],
-            },
-            text: [
-              'A target no larger than Large is either ',
-              { effect: 'artillerist-grab' },
-              ' or teleported up to 15 ft. into an unoccupied space the artillerist can see, at the artillerist’s choice.',
-            ],
-            effects: [
-              {
-                key: 'artillerist-grab',
-                name: 'Tentacle grab',
-                lands: { on: 'hit' },
-                conditions: [rules.grappled],
-                lasts: { kind: 'until-removed' },
-                ends: { escape: { dc: 'str', printed: 17 } },
-              },
-            ],
-          },
-          {
-            key: 'memory-thief-5th-order-power',
-            name: 'Memory Thief (5th-order power)',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'A visible target within 30 ft. makes an Intelligence save (',
-              { dc: 'int' },
-              '). Failure deals ',
-              { roll: '6d10' },
-              ' psychic damage, ',
-              { effect: 'memory-thief-5' },
-              ', and gives the artillerist a cumulative bonus of 2 to damage rolls for the same duration. Success halves damage and avoids the penalty. A target whose proficiency bonus reaches 0 cannot speak or form new thoughts and has disadvantage on checks, attacks and saves.',
-            ],
-            effects: [
-              {
-                key: 'memory-thief-5',
-                name: 'Memory thief',
-                lands: { on: 'save', save: 'int', dc: 'int' },
-                text: ['lowers its proficiency bonus by 1'],
-                lasts: { kind: 'until', text: ['until it finishes a long rest or dies'] },
-              },
-            ],
-          },
-          {
-            key: 'guise-3rd-order-power',
-            name: 'Guise (3rd-order power)',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'For 1 hour, project the appearance of a Medium creature previously seen, including alterations to carried gear. Physical contact reveals discrepancies. A creature can use an action and pass a DC 17 Intelligence (Investigation) check to detect the projection.',
-            ],
-          },
-          {
-            key: 'vanish-for-one',
-            name: 'Vanish For One',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'One visible creature within 60 ft. makes a ',
-              { dc: 'int', save: 'wis' },
-              ' Wisdom save. On failure, the artillerist is ',
-              rules.invisible,
-              ' to it for up to 1 minute, with a new save at the end of each of its turns. The effect also ends if the artillerist attacks it, damages it, or creates an effect that forces it to make a save.',
-            ],
-            uses: 3,
-            recharge: 'Long rest',
-            effects: [],
-          },
-        ],
-      },
-    },
     war_spider: {
       name: 'War Spider',
-      reprintedIn: [refs.publications.flee_mortals_public_preview],
+      reprintedIn: [
+        refs.publications.flee_mortals_public_preview,
+        refs.publications.where_evil_lives,
+      ],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],
@@ -30203,6 +29695,7 @@ export default createPublicationMonsters({
     },
     wobalas: {
       name: 'Wobalas',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Demon', 'Category 4'],
       alignment: 'typically chaotic evil',
       habitats: ['Abyssal Wasteland'],
@@ -30305,6 +29798,7 @@ export default createPublicationMonsters({
     },
     wraith_mcdm: {
       name: 'Wraith (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       tags: ['Incorporeal'],
       alignment: 'typically chaotic evil',
       languages: ['Speaks the languages it knew in life'],
@@ -30466,6 +29960,7 @@ export default createPublicationMonsters({
     },
     wyvern_mcdm: {
       name: 'Wyvern (MCDM)',
+      reprintedIn: [refs.publications.where_evil_lives],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Mountains', 'Badlands', 'Rocky spires'],
@@ -30611,6 +30106,7 @@ export default createPublicationMonsters({
     },
     xaantikorijek: {
       name: 'Xaantikorijek',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 82,
       alignment: 'neutral',
       languages: ['Speaks all languages'],
@@ -31290,6 +30786,7 @@ export default createPublicationMonsters({
     },
     yserthrax: {
       name: 'Yserthrax',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 84,
       alignment: 'neutral evil',
       languages: ['Speaks Common, Deep Speech, and Draconic'],
@@ -31489,6 +30986,7 @@ export default createPublicationMonsters({
     },
     zenith_aastrika: {
       name: 'Zenith Aastrika',
+      reprintedIn: [refs.publications.where_evil_lives],
       page: 107,
       alignment: 'lawful neutral',
       languages: ['Speaks Giant and Primordial'],

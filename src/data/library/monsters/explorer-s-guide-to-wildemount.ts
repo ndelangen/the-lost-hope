@@ -3214,6 +3214,7 @@ export default createPublicationMonsters({
     },
     lacedon: {
       name: 'Lacedon',
+      reprintedIn: [refs.publications.tales_from_the_yawning_portal],
       alignment: 'chaotic evil',
       languages: ['Common'],
       habitats: ['Brokenveil Marsh', 'Fort Venture'],

@@ -294,6 +294,7 @@ export default createPublicationMonsters({
     },
     black_earth_priest: {
       name: 'Black Earth Priest',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_d_d_encounters],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Common', 'Terran'],
@@ -561,6 +562,7 @@ export default createPublicationMonsters({
     },
     crushing_wave_priest: {
       name: 'Crushing Wave Priest',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_d_d_encounters],
       tags: ['human'],
       alignment: 'neutral evil',
       languages: ['Aquan', 'Common'],
@@ -1339,6 +1341,7 @@ export default createPublicationMonsters({
     },
     feathergale_knight: {
       name: 'Feathergale Knight',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_d_d_encounters],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Auran', 'Common'],
@@ -2177,9 +2180,24 @@ export default createPublicationMonsters({
     },
     hurricane: {
       name: 'Hurricane',
+      reprintedIn: [
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.princes_of_the_apocalypse_d_d_encounters,
+      ],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Auran', 'Common'],
+      appearance: [
+        [
+          'A Howling Hatred ascetic who moves as if the world crawls past while it stays calm at the centre of a storm.',
+        ],
+      ],
+      lore: [
+        [
+          'Hurricanes are skilled initiates who mimic storm cycles through breathing and ascetic philosophy. They hate decadence and want the physical world shattered so beings can live free of material things. They see the world in slow motion, call up fierce gusts, snatch projectiles from the air and drift down from heights like feathers.',
+        ],
+        ['Sources: ', 'DDEP2 - Mulmaster Undone V2'],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -4089,6 +4107,7 @@ export default createPublicationMonsters({
     },
     shoalar_quanderil: {
       name: 'Shoalar Quanderil',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_d_d_encounters],
       tags: ['water genasi'],
       alignment: 'lawful evil',
       languages: ['Aquan', 'Common'],

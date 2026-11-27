@@ -38220,7 +38220,13 @@ export default createPublicationMonsters({
     },
     myconid_sovereign: {
       name: 'Myconid Sovereign',
-      reprintedIn: [refs.publications.out_of_the_abyss],
+      reprintedIn: [
+        refs.publications.ddex3_03_the_occupation_of_szith_morcane,
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.out_of_the_abyss,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 230,
       alignment: 'lawful neutral',
       languages: ['None. Rapport Spores allow telepathic communication'],
@@ -45964,7 +45970,12 @@ export default createPublicationMonsters({
     },
     sea_hag_coven_variant: {
       name: 'Sea Hag (Coven Variant)',
-      reprintedIn: [refs.publications.ghosts_of_saltmarsh],
+      reprintedIn: [
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.icewind_dale_rime_of_the_frostmaiden,
+        refs.publications.tomb_of_annihilation,
+        refs.publications.waterdeep_dungeon_of_the_mad_mage,
+      ],
       page: 176,
       alignment: 'chaotic evil',
       languages: ['Aquan', 'Common', 'Giant'],
@@ -55561,6 +55572,10 @@ export default createPublicationMonsters({
     },
     yeti: {
       name: 'Yeti',
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex2_04_mayhem_in_the_earthspur_mines,
+      ],
       page: 305,
       alignment: 'chaotic evil',
       languages: ['Yeti'],

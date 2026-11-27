@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     pech: {
       name: 'Pech',
+      reprintedIn: [refs.publications.quests_from_the_infinite_staircase],
       alignment: 'neutral good',
       languages: ['Common', 'Terran'],
       stats: {

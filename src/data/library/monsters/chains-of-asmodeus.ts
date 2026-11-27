@@ -5660,6 +5660,7 @@ export default createPublicationMonsters({
     },
     mephistopheles: {
       name: 'Mephistopheles',
+      reprintedIn: [refs.publications.minsc_and_boo_s_journal_of_villainy],
       tags: ['devil'],
       alignment: 'lawful evil',
       languages: ['all', 'telepathy 120 ft'],

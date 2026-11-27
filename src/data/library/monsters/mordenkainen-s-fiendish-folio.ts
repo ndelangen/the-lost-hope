@@ -9,6 +9,7 @@ export default createPublicationMonsters({
   monsters: {
     assassin_bug: {
       name: 'Assassin Bug',
+      reprintedIn: [refs.publications.mordenkainen_s_fiendish_folio_volume_1],
       alignment: 'neutral',
       languages: ["understands Druidic but can't speak"],
       habitats: ['Frontiers', 'Wilderness'],

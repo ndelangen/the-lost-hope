@@ -310,7 +310,11 @@ export default createPublicationMonsters({
     },
     jackalwere: {
       name: 'Jackalwere',
-      reprintedIn: [refs.publications.ghosts_of_saltmarsh, refs.publications.monster_manual_2024],
+      reprintedIn: [
+        refs.publications.ghosts_of_saltmarsh,
+        refs.publications.monster_manual_2024,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['shapechanger'],
       alignment: 'chaotic evil',
       languages: ['Common (can’t speak in jackal form)'],

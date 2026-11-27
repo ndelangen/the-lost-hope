@@ -6072,6 +6072,7 @@ export default createPublicationMonsters({
     },
     bugbear: {
       name: 'Bugbear',
+      reprintedIn: [refs.publications.basic_rules_2018],
       tags: ['goblinoid'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Goblin'],
@@ -8384,8 +8385,15 @@ export default createPublicationMonsters({
     },
     frog: {
       name: 'Frog',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.monster_manual_2014],
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Near water', 'Trees', 'Underground', 'Freshwater ponds', 'Marshes'],
+      appearance: [
+        [
+          'A compact frog with a blunt head, amber eyes, olive-brown skin and powerful folded hind legs.',
+        ],
+      ],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -8631,6 +8639,7 @@ export default createPublicationMonsters({
     ghost: {
       name: 'Ghost',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddal04_06_the_ghost,
         refs.publications.ddal04_10_the_artifact,
         refs.publications.ddep1_corruption_in_kryptgarden,
@@ -8831,9 +8840,19 @@ export default createPublicationMonsters({
     },
     giant_eagle: {
       name: 'Giant Eagle',
-      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep1_corruption_in_kryptgarden,
+        refs.publications.monster_manual_2014,
+      ],
       alignment: 'neutral good',
       languages: ['Giant Eagle', 'understands Common and Auran but can’t speak them'],
+      habitats: ['Mountains', 'Cliffs', 'Open skies'],
+      appearance: [
+        [
+          'A golden-brown raptor with tawny neck feathers, a hooked beak, broad dark wings and powerful talons.',
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -8937,12 +8956,24 @@ export default createPublicationMonsters({
     giant_octopus: {
       name: 'Giant Octopus',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddex1_11_dark_pyramid_of_sorcerer_s_isle,
         refs.publications.ddex3_09_the_waydown,
         refs.publications.rise_of_tiamat_online_supplement,
       ],
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Underwater', 'Rocky reefs', 'Kelp forests'],
+      appearance: [
+        [
+          'A massive octopus with a mottled burgundy mantle and eight muscular arms lined with pale suction cups.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'The Tentacles hit applies the grapple and restraint. The DC is for an escape attempt. The grappled target can use its action to escape with a successful DC 16 Strength (Athletics) or Dexterity (Acrobatics) check. Ink Cloud obscures vision in its area.',
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -9022,9 +9053,19 @@ export default createPublicationMonsters({
     },
     giant_rat: {
       name: 'Giant Rat',
-      reprintedIn: [refs.publications.ddex3_06_no_foolish_matter],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex3_06_no_foolish_matter,
+        refs.publications.monster_manual_2014,
+      ],
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Settlements', 'Sewers', 'Cellars'],
+      appearance: [
+        [
+          'A stocky brown-gray rat with rounded ears, a pointed whiskered snout, and a long bare ringed tail.',
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'beast',
@@ -12129,107 +12170,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    mummy: {
-      name: 'Mummy',
-      alignment: 'lawful evil',
-      languages: ['the languages it knew in life'],
-      stats: {
-        size: 'medium',
-        type: 'undead',
-        cr: '3',
-        ac: 11,
-        armor: 'natural armor',
-        hitDice: '9d8',
-        speed: { walk: 20 },
-        scores: { str: 16, dex: 8, con: 15, int: 6, wis: 10, cha: 12 },
-        saves: { wis: 'proficient' },
-        senses: { darkvision: 60 },
-        damageImmunities: [rules.necrotic, rules.poison],
-        damageVulnerabilities: [rules.fire],
-        conditionImmunities: [
-          rules.charmed,
-          rules.exhaustion,
-          rules.frightened,
-          rules.paralyzed,
-          rules.poisoned,
-        ],
-        nonmagicalResistances: [rules.bludgeoning, rules.piercing, rules.slashing],
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'The mummy can use its ',
-              { ability: 'dreadful-glare' },
-              ' and makes one attack with its rotting fist.',
-            ],
-          },
-          {
-            key: 'rotting-fist',
-            name: 'Rotting Fist',
-            timing: 'action',
-            icon: 'gi/GiFist',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [
-                { dice: '2d6', type: rules.bludgeoning, addModifier: true },
-                { dice: '3d6', type: rules.necrotic },
-              ],
-            },
-            text: [
-              'If the target is a creature, it must succeed on a ',
-              { dc: 'con' },
-              ' Constitution saving throw or be ',
-              { effect: 'mummy-rot' },
-              '.',
-            ],
-            effects: [
-              {
-                key: 'mummy-rot',
-                name: 'Mummy rot',
-                lands: { on: 'save', save: 'con', dc: 'con' },
-                text: [
-                  'The cursed target can’t regain hit points, and its hit point maximum decreases by ',
-                  { roll: '3d6' },
-                  ' for every 24 hours that elapse. If the curse reduces the target’s hit point maximum to 0, the target dies, and its body turns to dust.',
-                ],
-                lasts: { kind: 'until-removed' },
-                ends: { cure: ['the remove curse spell or other magic'] },
-              },
-            ],
-          },
-          {
-            key: 'dreadful-glare',
-            name: 'Dreadful Glare',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'The mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, it must succeed on a ',
-              { dc: 'cha', save: 'wis' },
-              ' Wisdom saving throw against this magic or become ',
-              { effect: 'dreadful-glare' },
-              '. If the target fails the saving throw by 5 or more, it is also ',
-              rules.paralyzed,
-              ' for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.',
-            ],
-            effects: [
-              {
-                key: 'dreadful-glare',
-                name: 'Dreadful glare',
-                lands: { on: 'save', save: 'wis', dc: 'cha' },
-                conditions: [rules.frightened],
-                lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
-              },
-            ],
-          },
-        ],
-      },
-    },
     mummy_lord: {
       name: 'Mummy Lord',
       alignment: 'lawful evil',
@@ -12710,8 +12650,20 @@ export default createPublicationMonsters({
     },
     octopus: {
       name: 'Octopus',
+      reprintedIn: [refs.publications.basic_rules_2018],
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Underwater', 'Coastal waters', 'Reefs'],
+      appearance: [
+        [
+          'A russet octopus with a rounded mantle, horizontal pupils, and eight tapering arms with pale suckers.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Apply the grapple on a hit. The target can spend an action to attempt a DC 10 Strength (Athletics) or Dexterity (Acrobatics) check to escape. A creature trying to see something in the ink is effectively blinded for that purpose.',
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'beast',
@@ -12788,6 +12740,7 @@ export default createPublicationMonsters({
     ogre: {
       name: 'Ogre',
       reprintedIn: [
+        refs.publications.basic_rules_2018,
         refs.publications.ddal04_06_the_ghost,
         refs.publications.ddep1_corruption_in_kryptgarden,
         refs.publications.ddex3_04_it_s_all_in_the_blood,
@@ -13053,6 +13006,7 @@ export default createPublicationMonsters({
     },
     otyugh: {
       name: 'Otyugh',
+      reprintedIn: [refs.publications.rise_of_tiamat_online_supplement],
       alignment: 'neutral',
       languages: ['Otyugh'],
       stats: {
@@ -13539,9 +13493,19 @@ export default createPublicationMonsters({
     },
     polar_bear: {
       name: 'Polar Bear',
-      reprintedIn: [refs.publications.rise_of_tiamat_online_supplement],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.monster_manual_2014,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Arctic coasts', 'Sea ice', 'Tundra'],
+      appearance: [
+        [
+          'A heavy white-furred bear with a long neck, a tapering head, rounded ears, a black nose and broad paws.',
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -13598,6 +13562,7 @@ export default createPublicationMonsters({
     },
     purple_worm: {
       name: 'Purple Worm',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       alignment: 'unaligned',
       languages: [],
       stats: {
@@ -16645,6 +16610,7 @@ export default createPublicationMonsters({
     },
     vrock: {
       name: 'Vrock',
+      reprintedIn: [refs.publications.princes_of_the_apocalypse_online_supplement],
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft.'],
@@ -16769,8 +16735,20 @@ export default createPublicationMonsters({
     },
     warhorse: {
       name: 'Warhorse',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.monster_manual_2014],
       alignment: 'unaligned',
       languages: [],
+      habitats: ['Stables', 'Training grounds', 'Military camps', 'Battlefields'],
+      appearance: [
+        [
+          'A mature light-bay horse with a sturdy build, black mane and tail, dark lower legs and a small pale forehead star.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'A rider controlling the mount limits its action options to Dash, Disengage and Dodge. An independent mount acts on its own initiative and can use its listed attacks.',
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -16856,6 +16834,7 @@ export default createPublicationMonsters({
     },
     water_elemental: {
       name: 'Water Elemental',
+      reprintedIn: [refs.publications.basic_rules_2018],
       alignment: 'neutral',
       languages: ['Aquan'],
       stats: {
@@ -17304,6 +17283,7 @@ export default createPublicationMonsters({
     },
     werewolf: {
       name: 'Werewolf',
+      reprintedIn: [refs.publications.basic_rules_2018],
       tags: ['human', 'shapechanger'],
       alignment: 'chaotic evil',
       languages: ['Common (can’t speak in wolf form)'],
@@ -17670,6 +17650,7 @@ export default createPublicationMonsters({
     },
     winter_wolf: {
       name: 'Winter Wolf',
+      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.monster_manual_2014],
       alignment: 'neutral evil',
       languages: ['Common', 'Giant', 'Winter Wolf'],
       stats: {

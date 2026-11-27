@@ -175,6 +175,7 @@ export default createPublicationMonsters({
     },
     assassin_vine: {
       name: 'Assassin Vine',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       alignment: 'unaligned',
       languages: [],
       habitats: ["Chult's jungle. A subterranean form grows near hot springs or volcanic vents"],
@@ -868,6 +869,7 @@ export default createPublicationMonsters({
     },
     dolphin: {
       name: 'Dolphin',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Coasts and underwater'],
@@ -3443,6 +3445,7 @@ export default createPublicationMonsters({
     },
     maw_demon: {
       name: 'Maw Demon',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       tags: ['demon'],
       alignment: 'chaotic evil',
       languages: ['Understands Abyssal but does not speak'],
@@ -5576,115 +5579,6 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon. Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners. The noble’s statistics can also be used to represent courtiers who aren’t of noble birth.',
-            ],
-          },
-        ],
-      },
-    },
-    sea_hag_coven_variant: {
-      name: 'Sea Hag (Coven Variant)',
-      reprintedIn: [
-        refs.publications.icewind_dale_rime_of_the_frostmaiden,
-        refs.publications.tomb_of_annihilation,
-        refs.publications.waterdeep_dungeon_of_the_mad_mage,
-      ],
-      alignment: 'chaotic evil',
-      habitats: ['Coasts and underwater', 'especially polluted lairs'],
-      appearance: [
-        [
-          'A gaunt sea hag with a hideous true face who can mask herself with an illusory disguise.',
-        ],
-      ],
-      tableNotes: [
-        ['Rules source: Monster Manual (2014), pp. 176 and 179.'],
-        [
-          'This is the standard 2014 coven profile. Consult the Saltmarsh encounter for coven members and any encounter-specific spell substitutions.',
-        ],
-        [
-          'Coven Spellcasting: When all three hags are within 30 ft. of one another, each can use this spell list as a 12th-level Intelligence caster. The coven shares the slots. This sea hag has save DC 13 and +5 to spell attacks.\n1st (4 slots) · Identify, Ray of Sickness.\n2nd (3 slots) · Hold Person, Locate Object.\n3rd (3 slots) · Bestow Curse, Counterspell, Lightning Bolt.\n4th (3 slots) · Phantasmal Killer, Polymorph.\n5th (2 slots) · Contact Other Plane, Scrying.\n6th (1 slot) · Eyebite.',
-        ],
-        [
-          'Coven item: Hag Eye. Each hag can spend an action to look through the coven’s eye while on the same plane. It has AC 10, 1 HP and Darkvision 60 ft. Destroying it deals 3d10 psychic damage to each member and Blinds them for 24 hours.\nCreating an eye takes all three hags one uninterrupted hour. A Blinded hag cannot contribute, and they can keep only one eye at a time.',
-        ],
-      ],
-      stats: {
-        size: 'medium',
-        type: 'fey',
-        cr: '4',
-        ac: 14,
-        armor: 'natural armor',
-        hitDice: '7d8',
-        speed: { walk: 30, swim: 40 },
-        scores: { str: 16, dex: 13, con: 16, int: 12, wis: 12, cha: 13 },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'amphibious',
-            name: 'Amphibious',
-            timing: 'trait',
-            icon: 'gi/GiWaterSplash',
-            text: ['She can breathe air and water.'],
-          },
-          {
-            key: 'horrific-appearance',
-            name: 'Horrific Appearance',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'A humanoid starting its turn within 30 ft. that sees her true form makes a ',
-              { dc: 'wis' },
-              ' Wisdom save. Failure leaves it ',
-              { effect: 'hag-fear' },
-              '. Success or the effect ending grants 24 hours of immunity to this feature. If the humanoid is not Surprised and the reveal is not sudden, it may avert its eyes to skip the initial save. Its attacks against the hag have Disadvantage until its next turn.',
-            ],
-            effects: [
-              {
-                key: 'hag-fear',
-                name: 'Frightened of the hag',
-                lands: { on: 'save', save: 'wis', dc: 'wis' },
-                conditions: [rules.frightened],
-                text: [
-                  'It can repeat the save at the end of each turn, with Disadvantage if the hag is in sight.',
-                ],
-                lasts: { kind: 'time', amount: '1', unit: 'minute' },
-                ends: { repeatSave: ['end-of-turn'] },
-              },
-            ],
-          },
-          {
-            key: 'claws',
-            name: 'Claws',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
-            },
-          },
-          {
-            key: 'death-glare',
-            name: 'Death Glare',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'Target one ',
-              rules.frightened,
-              ' creature within 30 ft. that she can see. If it sees her, it must succeed on a ',
-              { dc: 'wis' },
-              ' Wisdom save or drop to 0 HP.',
-            ],
-            effects: [],
-          },
-          {
-            key: 'illusory-appearance',
-            name: 'Illusory Appearance',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'She disguises herself and her gear as an ugly humanoid-shaped creature of similar size. The disguise ends when she dies or dismisses it as a bonus action. Touch exposes inconsistencies. Visual scrutiny takes an action and a successful DC 16 Intelligence (Investigation) check.',
             ],
           },
         ],

@@ -100,6 +100,7 @@ export default createPublicationMonsters({
     },
     evil_mage: {
       name: 'Evil Mage',
+      reprintedIn: [refs.publications.lost_mine_of_phandelver],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic', 'Dwarvish', 'Elvish'],

@@ -66,6 +66,7 @@ export default createPublicationMonsters({
         refs.publications.curse_of_strahd,
         refs.publications.ddep2_mulmaster_undone_v2,
         refs.publications.planescape_adventures_in_the_multiverse,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
         refs.publications.tomb_of_annihilation,
         refs.publications.waterdeep_dungeon_of_the_mad_mage,
       ],

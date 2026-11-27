@@ -9,7 +9,10 @@ export default createPublicationMonsters({
   monsters: {
     cambion: {
       name: 'Cambion',
-      reprintedIn: [refs.publications.ddex3_09_the_waydown],
+      reprintedIn: [
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.ddex3_09_the_waydown,
+      ],
       alignment: 'lawful evil',
       languages: ['Abyssal', 'Common', 'Infernal'],
       stats: {

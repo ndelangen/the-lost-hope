@@ -84,7 +84,13 @@ export default createPublicationMonsters({
     },
     bandit_captain: {
       name: 'Bandit Captain',
-      reprintedIn: [refs.publications.ddal04_02_the_beast, refs.publications.monster_manual_2014],
+      reprintedIn: [
+        refs.publications.ddal04_02_the_beast,
+        refs.publications.ddex2_03_the_drowned_tower,
+        refs.publications.ddex3_05_bane_of_the_tradeways,
+        refs.publications.monster_manual_2014,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
@@ -685,107 +691,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    hurricane: {
-      name: 'Hurricane',
-      tags: ['human'],
-      alignment: 'lawful evil',
-      languages: ['Auran', 'Common'],
-      appearance: [
-        [
-          'A Howling Hatred ascetic who moves as if the world crawls past while it stays calm at the centre of a storm.',
-        ],
-      ],
-      lore: [
-        [
-          'Hurricanes are skilled initiates who mimic storm cycles through breathing and ascetic philosophy. They hate decadence and want the physical world shattered so beings can live free of material things. They see the world in slow motion, call up fierce gusts, snatch projectiles from the air and drift down from heights like feathers.',
-        ],
-        ['Sources: ', 'DDEP2 - Mulmaster Undone V2'],
-      ],
-      stats: {
-        size: 'medium',
-        type: 'humanoid',
-        cr: '2',
-        ac: 14,
-        hitDice: '6d8',
-        speed: { walk: 45 },
-        scores: { str: 12, dex: 16, con: 13, int: 10, wis: 12, cha: 10 },
-        skills: { acrobatics: 'proficient' },
-        abilities: [
-          {
-            key: 'spellcasting',
-            name: 'Spellcasting',
-            timing: 'trait',
-            icon: 'gi/GiWizardStaff',
-            text: [
-              'Spellcasting. The hurricane is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save ',
-              { dc: 'wis' },
-              ', ',
-              { toHit: 'wis' },
-              ' to hit with spell attacks). It knows the following sorcerer spells (an asterisked spell is from Princes of the Apocalypse): Cantrips (at will): blade ward, gust*, ',
-              refs.spells.light_srd_5_1,
-              ', ',
-              refs.spells.prestidigitation_srd_5_1,
-              '; 1st level (4 slots): ',
-              refs.spells.feather_fall_srd_5_1,
-              ', ',
-              refs.spells.jump_srd_5_1,
-              ', ',
-              refs.spells.thunderwave_srd_5_1,
-              '; 2nd level (2 slots): ',
-              refs.spells.gust_of_wind_srd_5_1,
-            ],
-            effects: [],
-          },
-          {
-            key: 'unarmored-defense',
-            name: 'Unarmored Defense',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'While the hurricane is wearing no armor and wielding no shield, it’s AC includes its Wisdom modifier.',
-            ],
-          },
-          {
-            key: 'unarmored-movement',
-            name: 'Unarmored Movement',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'While the hurricane is wearing no armor and wielding no shield, it’s walking speed increases by 15 feet (included in its speed).',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['The hurricane makes two melee attacks.'],
-          },
-          {
-            key: 'unarmed-strike',
-            name: 'Unarmed Strike',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
-            },
-          },
-          {
-            key: 'deflect-missiles',
-            name: 'Deflect Missiles',
-            timing: 'reaction',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'When the hurricane is hit by a ranged weapon attack, it reduces the damage from the attack by 1d10 + 9. If the damage is reduced to 0, the hurricane can catch the missile if it is small enough to hold in one hand and the hurricane has at least one hand free.',
-            ],
-          },
-        ],
-      },
-    },
     one_eyed_shiver: {
       name: 'One-Eyed Shiver',
       tags: ['human'],
@@ -891,7 +796,10 @@ export default createPublicationMonsters({
     },
     sacred_stone_monk: {
       name: 'Sacred Stone Monk',
-      reprintedIn: [refs.publications.princes_of_the_apocalypse],
+      reprintedIn: [
+        refs.publications.ddex2_07_bounty_in_the_bog,
+        refs.publications.princes_of_the_apocalypse,
+      ],
       tags: ['human'],
       alignment: 'lawful evil',
       languages: ['Common'],
@@ -1102,10 +1010,13 @@ export default createPublicationMonsters({
     water_weird: {
       name: 'Water Weird',
       reprintedIn: [
+        refs.publications.ddex2_03_the_drowned_tower,
         refs.publications.dragonlance_shadow_of_the_dragon_queen,
         refs.publications.icewind_dale_rime_of_the_frostmaiden,
         refs.publications.journeys_through_the_radiant_citadel,
+        refs.publications.monster_manual_2014,
         refs.publications.phandelver_and_below_the_shattered_obelisk,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
       ],
       alignment: 'neutral',
       languages: ['understands Aquan but doesn’t speak'],

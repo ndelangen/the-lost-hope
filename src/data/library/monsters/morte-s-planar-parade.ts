@@ -652,12 +652,18 @@ export default createPublicationMonsters({
     },
     baernaloth: {
       name: 'Baernaloth',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       tags: ['yugoloth'],
       page: 19,
       alignment: 'neutral evil',
       languages: ['all', 'telepathy 120 ft'],
       habitats: ['Gray Waste of Hades'],
       appearance: [['A gaunt gray yugoloth with a horned, horse-skull head and eyes like embers.']],
+      tableNotes: [
+        [
+          "This is the base Morte's Planar Parade creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -1923,6 +1929,7 @@ export default createPublicationMonsters({
     },
     equinal_guardinal: {
       name: 'Equinal Guardinal',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 33,
       alignment: 'typically neutral good',
       languages: ['Celestial', 'Common'],
@@ -2054,6 +2061,7 @@ export default createPublicationMonsters({
     },
     farastu_demodand: {
       name: 'Farastu Demodand',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 26,
       alignment: 'typically neutral evil',
       languages: ['Abyssal', 'Demodand', 'telepathy 120 ft.'],
@@ -2319,6 +2327,7 @@ export default createPublicationMonsters({
     },
     ferrumach_rilmani: {
       name: 'Ferrumach Rilmani',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 44,
       alignment: 'typically neutral',
       languages: ['Telepathy 120 ft.', 'any two languages'],
@@ -2450,6 +2459,7 @@ export default createPublicationMonsters({
     },
     fraternity_of_order_law_bender: {
       name: 'Fraternity of Order Law Bender',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 57,
       alignment: 'any alignment',
       languages: ['Common plus three more languages'],
@@ -3162,6 +3172,7 @@ export default createPublicationMonsters({
     },
     heralds_of_dust_remnant: {
       name: 'Heralds of Dust Remnant',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 59,
       alignment: 'any alignment',
       languages: ['Common and three other languages'],
@@ -3717,6 +3728,7 @@ export default createPublicationMonsters({
     },
     kolyarut: {
       name: 'Kolyarut',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       tags: ['inevitable'],
       page: 34,
       alignment: 'typically lawful neutral',
@@ -4640,6 +4652,7 @@ export default createPublicationMonsters({
     },
     septon_modron: {
       name: 'Septon Modron',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 40,
       alignment: 'typically lawful neutral',
       languages: ['All languages', 'telepathy 120 ft.'],
@@ -4784,12 +4797,18 @@ export default createPublicationMonsters({
     },
     shator_demodand: {
       name: 'Shator Demodand',
+      reprintedIn: [refs.publications.planescape_adventures_in_the_multiverse],
       page: 28,
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Demodand', 'Infernal', 'telepathy 120 ft'],
       habitats: ['Carceri', 'Planar portals'],
       appearance: [
         ['A winged jailer fiend with a heavy body, wet hide, and an enervating trident.'],
+      ],
+      tableNotes: [
+        [
+          "This is the base Morte's Planar Parade creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
+        ],
       ],
       stats: {
         size: 'large',

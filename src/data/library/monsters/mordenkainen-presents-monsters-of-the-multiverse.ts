@@ -1613,6 +1613,7 @@ export default createPublicationMonsters({
     },
     archer: {
       name: 'Archer',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 49,
       alignment: 'any alignment',
       languages: ['Any one language (usually Common)'],
@@ -3572,6 +3573,7 @@ export default createPublicationMonsters({
     },
     black_guard_drake: {
       name: 'Black Guard Drake',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       alignment: 'unaligned',
       languages: ["understands Draconic but can't speak"],
       habitats: ['Swamps', 'Aquatic approaches', 'Guard posts'],
@@ -3767,6 +3769,7 @@ export default createPublicationMonsters({
     },
     blue_guard_drake: {
       name: 'Blue Guard Drake',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       alignment: 'unaligned',
       languages: ["understands Draconic but can't speak"],
       habitats: ['Deserts', 'Burrows', 'Guard posts'],
@@ -4854,6 +4857,7 @@ export default createPublicationMonsters({
     },
     chitine: {
       name: 'Chitine',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 75,
       alignment: 'typically chaotic evil',
       languages: ['Undercommon'],
@@ -12204,6 +12208,7 @@ export default createPublicationMonsters({
     },
     frost_giant_everlasting_one: {
       name: 'Frost Giant Everlasting One',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 131,
       alignment: 'typically chaotic evil',
       languages: ['Giant'],
@@ -15115,6 +15120,7 @@ export default createPublicationMonsters({
     },
     green_guard_drake: {
       name: 'Green Guard Drake',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       alignment: 'unaligned',
       languages: ["understands Draconic but can't speak"],
       habitats: ['Forests', 'Waterways', 'Guard posts'],
@@ -15182,7 +15188,10 @@ export default createPublicationMonsters({
     },
     grung: {
       name: 'Grung',
-      reprintedIn: [refs.publications.tomb_of_annihilation],
+      reprintedIn: [
+        refs.publications.tomb_of_annihilation,
+        refs.publications.volo_s_guide_to_monsters,
+      ],
       page: 149,
       alignment: 'any alignment',
       languages: ['Grung'],
@@ -15292,6 +15301,7 @@ export default createPublicationMonsters({
     },
     grung_blue: {
       name: 'Grung (Blue)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 149,
       alignment: 'any alignment',
       languages: ['Grung'],
@@ -15400,6 +15410,7 @@ export default createPublicationMonsters({
     },
     grung_elite_warrior: {
       name: 'Grung Elite Warrior',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 150,
       alignment: 'any alignment',
       languages: ['Grung'],
@@ -15408,6 +15419,9 @@ export default createPublicationMonsters({
         [
           'Optional Grung poison mechanics: A creature poisoned by the grung can suffer the effect associated with its color. The effect ends when that poisoning ends.\nBlue grung. The target makes a loud noise at the start and end of each of its turns.\nGold grung. The target is charmed by the grung and can speak Grung.\nGreen grung. The target can move only by climbing or making standing jumps. If flying, it cannot take actions or reactions until it lands.\nOrange grung. The target is frightened of its allies.\nPurple grung. The target can move and take actions only to reach liquid or mud or to soak itself in it.\nRed grung. The target must spend its action eating whenever food is within reach.',
         ],
+      ],
+      appearance: [
+        ['A small frog-like humanoid with bright golden skin, a bow and a poisoned dagger.'],
       ],
       stats: {
         size: 'small',
@@ -16426,6 +16440,7 @@ export default createPublicationMonsters({
     },
     grung_gold: {
       name: 'Grung (Gold)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 149,
       alignment: 'any alignment',
       languages: ['Grung'],
@@ -16534,6 +16549,7 @@ export default createPublicationMonsters({
     },
     grung_green: {
       name: 'Grung (Green)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 149,
       alignment: 'any alignment',
       languages: ['Grung'],
@@ -16642,6 +16658,7 @@ export default createPublicationMonsters({
     },
     grung_orange: {
       name: 'Grung (Orange)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 149,
       alignment: 'any alignment',
       languages: ['Grung'],
@@ -16750,6 +16767,7 @@ export default createPublicationMonsters({
     },
     grung_purple: {
       name: 'Grung (Purple)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 149,
       alignment: 'any alignment',
       languages: ['Grung'],
@@ -16858,6 +16876,7 @@ export default createPublicationMonsters({
     },
     grung_red: {
       name: 'Grung (Red)',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 149,
       alignment: 'any alignment',
       languages: ['Grung'],
@@ -18006,6 +18025,7 @@ export default createPublicationMonsters({
     },
     guard_drake: {
       name: 'Guard Drake',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 151,
       alignment: 'unaligned',
       languages: ['Understands Draconic and cannot speak'],
@@ -18017,6 +18037,9 @@ export default createPublicationMonsters({
         [
           'Creation and training: A chromatic dragon donates 10 pounds of fresh scales. The ritual also needs a large supply of fresh meat and an iron cauldron. After several days, a Small egg emerges and hatches within a few hours. A hatchling bonds to its first feeder. It reaches full size and can finish training in two to three weeks. Guard drakes cannot reproduce, and their scales cannot make another drake.',
         ],
+      ],
+      appearance: [
+        ['A muscular, wingless dragon with armored scales, a blunt head, and a heavy tail.'],
       ],
       stats: {
         size: 'medium',
@@ -25492,6 +25515,7 @@ export default createPublicationMonsters({
     },
     quickling: {
       name: 'Quickling',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 207,
       alignment: 'typically chaotic evil',
       languages: ['Common', 'Sylvan'],
@@ -25745,6 +25769,7 @@ export default createPublicationMonsters({
     },
     red_guard_drake: {
       name: 'Red Guard Drake',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       alignment: 'unaligned',
       languages: ["understands Draconic but can't speak"],
       habitats: ['Mountains', 'Caverns', 'Guard posts'],
@@ -29800,6 +29825,7 @@ export default createPublicationMonsters({
     },
     tanarukk: {
       name: 'Tanarukk',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       tags: ['demon'],
       page: 240,
       alignment: 'typically chaotic evil',
@@ -30216,6 +30242,7 @@ export default createPublicationMonsters({
     },
     tlincalli: {
       name: 'Tlincalli',
+      reprintedIn: [refs.publications.volo_s_guide_to_monsters],
       page: 242,
       alignment: 'typically neutral',
       languages: ['Tlincalli'],
@@ -30230,6 +30257,11 @@ export default createPublicationMonsters({
           'Tlincallis, or scorpion folk, hunt in deserts at dawn and dusk and bury themselves in sand or hide in ruins to sit out the heat or cold. They move on when hunting goes poorly and settle only to lay eggs, often among cacti, in poison-coated shells. They paralyse and bind prey, keep some alive as food for newly hatched young, and see themselves as great hunters. They respect stronger hunters and may serve, avoid or fight one.',
         ],
         ['Sources: ', 'Mordenkainen Presents: Monsters of the Multiverse'],
+      ],
+      tableNotes: [
+        [
+          'The printed stat block lists passive Perception 13 and a Perception modifier of +4, which would normally give a passive score of 14.',
+        ],
       ],
       stats: {
         size: 'large',
@@ -31188,7 +31220,10 @@ export default createPublicationMonsters({
     },
     vegepygmy_chief: {
       name: 'Vegepygmy Chief',
-      reprintedIn: [refs.publications.tomb_of_annihilation],
+      reprintedIn: [
+        refs.publications.tomb_of_annihilation,
+        refs.publications.volo_s_guide_to_monsters,
+      ],
       page: 253,
       alignment: 'typically neutral',
       languages: ['Vegepygmy'],
@@ -32092,6 +32127,7 @@ export default createPublicationMonsters({
     },
     wastrilith: {
       name: 'Wastrilith',
+      reprintedIn: [refs.publications.mordenkainen_s_tome_of_foes],
       tags: ['demon'],
       page: 258,
       alignment: 'typically chaotic evil',

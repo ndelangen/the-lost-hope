@@ -156,6 +156,11 @@ export default createPublicationMonsters({
     },
     lizardfolk_shaman: {
       name: 'Lizardfolk Shaman',
+      reprintedIn: [
+        refs.publications.ddex1_07_drums_in_the_marsh,
+        refs.publications.ddex1_12_raiders_of_the_twilight_marsh,
+        refs.publications.princes_of_the_apocalypse_online_supplement,
+      ],
       tags: ['lizardfolk'],
       alignment: 'neutral',
       languages: ['Draconic'],

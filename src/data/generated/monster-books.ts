@@ -339,9 +339,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   adult_black_dragon: {
     monster_manual_2014: [],
-    monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: ['princes_of_the_apocalypse_online_supplement'],
-    srd_5_2_1: [],
+    srd_5_2_1: ['monster_manual_2024'],
   },
   adult_blue_dracolich: {
     monster_manual_2014: ['waterdeep_dungeon_of_the_mad_mage'],
@@ -360,9 +359,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   adult_bronze_dragon: {
     monster_manual_2014: [],
-    monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: ['princes_of_the_apocalypse_online_supplement'],
-    srd_5_2_1: [],
+    srd_5_2_1: ['monster_manual_2024'],
   },
   adult_copper_dragon: {
     monster_manual_2014: [],
@@ -384,9 +382,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   adult_gold_dragon: {
     monster_manual_2014: [],
-    monster_manual_2024: [],
     srd_5_1: [],
-    srd_5_2_1: [],
+    srd_5_2_1: ['monster_manual_2024'],
   },
   adult_green_dragon: {
     monster_manual_2014: [],
@@ -420,9 +417,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   adult_red_dragon: {
     basic_rules_2018: [],
     monster_manual_2014: ['out_of_the_abyss'],
-    monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: [],
-    srd_5_2_1: [],
+    srd_5_2_1: ['monster_manual_2024'],
   },
   adult_sapphire_dragon: {
     fizban_s_treasury_of_dragons: [],
@@ -434,7 +430,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2014: [],
     monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: [],
-    srd_5_2_1: [],
   },
   adult_solar_dragon: {
     spelljammer_adventures_in_space: [],
@@ -518,7 +513,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'hoard_of_the_dragon_queen_online_supplement',
       'rise_of_tiamat_online_supplement',
     ],
-    monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: ['rise_of_tiamat_online_supplement'],
     srd_5_2_1: ['monster_manual_2024'],
   },
@@ -787,9 +781,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   ancient_black_dragon: {
     monster_manual_2014: [],
-    monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: [],
-    srd_5_2_1: [],
+    srd_5_2_1: ['monster_manual_2024'],
   },
   ancient_blue_dragon: {
     monster_manual_2014: [],
@@ -806,9 +799,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   ancient_bronze_dragon: {
     monster_manual_2014: [],
-    monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: [],
-    srd_5_2_1: [],
+    srd_5_2_1: ['monster_manual_2024'],
   },
   ancient_copper_dragon: {
     monster_manual_2014: [],
@@ -834,9 +826,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   ancient_gold_dragon: {
     monster_manual_2014: [],
-    monster_manual_2024: [],
     srd_5_1: [],
-    srd_5_2_1: [],
+    srd_5_2_1: ['monster_manual_2024'],
   },
   ancient_green_dragon: {
     monster_manual_2014: [],
@@ -866,9 +857,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   ancient_red_dragon: {
     monster_manual_2014: [],
-    monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: [],
-    srd_5_2_1: [],
+    srd_5_2_1: ['monster_manual_2024'],
   },
   ancient_sapphire_dragon: {
     fizban_s_treasury_of_dragons: [],
@@ -883,7 +873,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2014: [],
     monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: [],
-    srd_5_2_1: [],
   },
   ancient_solar_dragon: {
     spelljammer_adventures_in_space: [],
@@ -1206,8 +1195,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2024: ['monster_manual_2025', 'srd_5_2_1'],
   },
   archer: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   archmage: {
     monster_manual_2014: [],
@@ -1376,8 +1364,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_2023: [],
   },
   ashyra: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   asmodeus: {
     chains_of_asmodeus: [],
@@ -1411,12 +1398,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: ['monster_manual_2024'],
   },
   assassin_bug: {
-    mordenkainen_s_fiendish_folio_volume_1: [],
-    mordenkainen_s_fiendish_folio: [],
+    mordenkainen_s_fiendish_folio: ['mordenkainen_s_fiendish_folio_volume_1'],
   },
   assassin_vine: {
-    ghosts_of_saltmarsh: [],
-    tomb_of_annihilation: [],
+    ghosts_of_saltmarsh: ['tomb_of_annihilation'],
   },
   aster_the_thorn: {
     humblewood_tales: [],
@@ -1465,8 +1450,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tomb_of_annihilation: [],
   },
   atshia: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   attercroppe: {
     tome_of_beasts_2: [],
@@ -1682,8 +1666,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     arcana_unleashed: [],
   },
   baernaloth: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   bag_jelly: {
     bigby_presents_glory_of_the_giants: [],
@@ -1748,9 +1731,11 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   bandit_captain: {
-    ddep2_mulmaster_undone_v2: ['ddal04_02_the_beast', 'monster_manual_2014'],
-    ddex2_03_the_drowned_tower: [
+    ddep2_mulmaster_undone_v2: [
+      'ddal04_02_the_beast',
+      'ddex2_03_the_drowned_tower',
       'ddex3_05_bane_of_the_tradeways',
+      'monster_manual_2014',
       'princes_of_the_apocalypse_online_supplement',
     ],
     srd_5_1: ['curse_of_strahd'],
@@ -1858,18 +1843,15 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     bigby_presents_glory_of_the_giants: [],
   },
   basalt_stone_giant: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    where_evil_lives: ['flee_mortals'],
   },
   basilisk: {
-    basic_rules_2018: [],
     monster_manual_2024: [],
     srd_5_1: ['basic_rules_2018', 'ddex1_10_tyranny_in_phlan', 'monster_manual_2014'],
     srd_5_2_1: [],
   },
   basilisk_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   bastian_thermandar: {
     princes_of_the_apocalypse: [],
@@ -2107,8 +2089,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   black_earth_priest: {
     ddep2_mulmaster_undone_v2: [],
-    princes_of_the_apocalypse_d_d_encounters: [],
-    princes_of_the_apocalypse: [],
+    princes_of_the_apocalypse: ['princes_of_the_apocalypse_d_d_encounters'],
   },
   black_gauntlet_of_bane: {
     baldur_s_gate_descent_into_avernus: [],
@@ -2117,8 +2098,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     fizban_s_treasury_of_dragons: [],
   },
   black_guard_drake: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   black_patch: {
     tome_of_beasts_3: [],
@@ -2284,8 +2264,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     fizban_s_treasury_of_dragons: [],
   },
   blue_guard_drake: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   blue_slaad: {
     monster_manual_2014: [
@@ -2607,13 +2586,11 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     chains_of_asmodeus: [],
   },
   bugbear: {
-    basic_rules_2018: [],
     monster_manual_2014: [],
-    srd_5_1: [],
+    srd_5_1: ['basic_rules_2018'],
   },
   bugbear_channeler: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   bugbear_chief: {
     monster_manual_2014: ['critical_role_call_of_the_netherdeep'],
@@ -2753,8 +2730,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     netheril_s_fall: [],
   },
   cambion: {
-    ddex1_10_tyranny_in_phlan: ['ddex3_09_the_waydown'],
-    ddex3_04_it_s_all_in_the_blood: [],
+    ddex1_10_tyranny_in_phlan: ['ddex3_04_it_s_all_in_the_blood', 'ddex3_09_the_waydown'],
     monster_manual_2014: [],
   },
   camel: {
@@ -2762,8 +2738,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2024: ['srd_5_2_1'],
   },
   camel_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   camlash: {
     vecna_eve_of_ruin: [],
@@ -3005,9 +2980,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   chasme: {
     ddex3_03_the_occupation_of_szith_morcane: [
       'critical_role_call_of_the_netherdeep',
+      'ddex3_04_it_s_all_in_the_blood',
       'waterdeep_dungeon_of_the_mad_mage',
     ],
-    ddex3_04_it_s_all_in_the_blood: [],
     monster_manual_2014: [],
     monster_manual_2024: [],
   },
@@ -3061,8 +3036,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   chimera_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   chimeric_baboon: {
     icewind_dale_rime_of_the_frostmaiden: [],
@@ -3084,8 +3058,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     icewind_dale_rime_of_the_frostmaiden: [],
   },
   chimeron: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   chishinix: {
     phandelver_and_below_the_shattered_obelisk: [],
@@ -3094,8 +3067,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     phandelver_and_below_the_shattered_obelisk: [],
   },
   chitine: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   chitinous_dreg: {
     dungeons_of_drakkenheim: [],
@@ -3523,8 +3495,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   count_rhodar_von_glauer: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   count_thullen: {
     storm_king_s_thunder: [],
@@ -3649,8 +3620,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     ddep2_mulmaster_undone_v2: [],
   },
   crushing_wave_priest: {
-    princes_of_the_apocalypse_d_d_encounters: [],
-    princes_of_the_apocalypse: [],
+    princes_of_the_apocalypse: ['princes_of_the_apocalypse_d_d_encounters'],
   },
   crushing_wave_reaver: {
     ddex2_03_the_drowned_tower: [
@@ -3662,8 +3632,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: [],
   },
   crux_of_frost: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   cryoceros: {
     tome_of_beasts_2: [],
@@ -4082,8 +4051,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts: [],
   },
   deep_dreamer: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   deep_dreg_warrior: {
     monsters_of_drakkenheim: [],
@@ -4263,8 +4231,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: ['monster_manual_2024'],
   },
   devil_adjudicator: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   devil_bough: {
     creature_codex: [],
@@ -4273,16 +4240,13 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     the_orrery_of_the_wanderer: [],
   },
   devil_jurist: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   devil_legate: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   devil_magistrate: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   devil_moldering: {
     tome_of_beasts_3: [],
@@ -4365,8 +4329,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2024: [],
   },
   dirt_mournling: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   diseased_giant_rat: {
     monster_manual_2014: [],
@@ -4455,9 +4418,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     eberron_rising_from_the_last_war: [],
   },
   dolphin: {
-    ghosts_of_saltmarsh: [],
+    ghosts_of_saltmarsh: ['volo_s_guide_to_monsters'],
     mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
   },
   dolphin_delighter: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -4648,8 +4610,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_3: [],
   },
   drake_large: {
-    plane_shift_kaladesh: [],
-    plane_shift_zendikar: [],
+    plane_shift_kaladesh: ['plane_shift_zendikar'],
   },
   drake_reef: {
     tome_of_beasts_3: [],
@@ -4658,8 +4619,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_3: [],
   },
   drake_small: {
-    plane_shift_kaladesh: [],
-    plane_shift_zendikar: [],
+    plane_shift_kaladesh: ['plane_shift_zendikar'],
   },
   drakkenheim_sewer_gator: {
     monsters_of_drakkenheim: [],
@@ -4734,8 +4694,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     creature_codex: [],
   },
   drow: {
-    ddex3_03_the_occupation_of_szith_morcane: ['ddex3_07_herald_of_the_moon'],
-    ddex3_15_szith_morcane_unbound: [],
+    ddex3_03_the_occupation_of_szith_morcane: [
+      'ddex3_07_herald_of_the_moon',
+      'ddex3_15_szith_morcane_unbound',
+    ],
     monster_manual_2014: ['out_of_the_abyss'],
   },
   drow_acolyte: {
@@ -4761,13 +4723,14 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   drow_elite_warrior: {
     ddex3_07_herald_of_the_moon: [
       'critical_role_call_of_the_netherdeep',
+      'ddex3_08_the_malady_of_elventree',
+      'ddex3_15_szith_morcane_unbound',
       'icewind_dale_rime_of_the_frostmaiden',
       'monster_manual_2014',
       'phandelver_and_below_the_shattered_obelisk',
       'waterdeep_dragon_heist',
       'waterdeep_dungeon_of_the_mad_mage',
     ],
-    ddex3_08_the_malady_of_elventree: ['ddex3_15_szith_morcane_unbound'],
     ddex3_16_assault_on_maerimydra: [],
   },
   drow_favored_consort: {
@@ -4979,8 +4942,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2014: [],
   },
   durixaviinox: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   durnan: {
     waterdeep_dragon_heist: [],
@@ -5402,8 +5364,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts: [],
   },
   equinal_guardinal: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   eriflamme: {
     chains_of_asmodeus: [],
@@ -5442,12 +5403,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     ddal04_14_the_darklord: [],
   },
   essence_of_mist: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   essence_of_tides: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   esthetic: {
     spelljammer_adventures_in_space: [],
@@ -5492,8 +5451,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     the_book_of_many_things: [],
   },
   evil_mage: {
-    hunt_for_the_thessalhydra: [],
-    lost_mine_of_phandelver: [],
+    hunt_for_the_thessalhydra: ['lost_mine_of_phandelver'],
   },
   evil_sorcerer: {
     ddep2_mulmaster_undone_v2: [],
@@ -5637,8 +5595,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monsters_of_drakkenheim: [],
   },
   farastu_demodand: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   farastu_stalker: {
     minsc_and_boo_s_journal_of_villainy: [],
@@ -5663,7 +5620,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   fated_shaker: {
     morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
-    planescape_adventures_in_the_multiverse: [],
   },
   fathomer: {
     ghosts_of_saltmarsh: [],
@@ -5679,8 +5635,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     creature_codex: [],
   },
   feathergale_knight: {
-    princes_of_the_apocalypse_d_d_encounters: [],
-    princes_of_the_apocalypse: [],
+    princes_of_the_apocalypse: ['princes_of_the_apocalypse_d_d_encounters'],
   },
   fel_ardra: {
     spelljammer_adventures_in_space: [],
@@ -5711,10 +5666,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     d_d_world_of_warcraft: [],
   },
   female_steeder: {
-    ddex3_16_assault_on_maerimydra: ['out_of_the_abyss'],
+    ddex3_16_assault_on_maerimydra: ['out_of_the_abyss', 'out_of_the_abyss_d_d_encounters'],
     mordenkainen_presents_monsters_of_the_multiverse: [],
     mordenkainen_s_tome_of_foes: [],
-    out_of_the_abyss_d_d_encounters: [],
   },
   fennec_fox: {
     tome_of_beasts_2: [],
@@ -5744,8 +5698,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     explorer_s_guide_to_wildemount: [],
   },
   ferrumach_rilmani: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   festergut: {
     world_of_warcraft_icecrown_citadel: [],
@@ -5899,8 +5852,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   firenewt_warrior: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
-    tomb_of_annihilation: [],
-    volo_s_guide_to_monsters: [],
+    tomb_of_annihilation: ['volo_s_guide_to_monsters'],
   },
   first_year_student: {
     strixhaven_a_curriculum_of_chaos: [],
@@ -6184,8 +6136,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     creature_codex: [],
   },
   fraternity_of_order_law_bender: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   fraughashar: {
     tome_of_beasts: [],
@@ -6204,14 +6155,12 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     keys_from_the_golden_vault: [],
   },
   frog: {
-    basic_rules_2018: ['monster_manual_2014'],
     monster_manual_2024: ['srd_5_2_1'],
-    srd_5_1: [],
+    srd_5_1: ['basic_rules_2018', 'monster_manual_2014'],
   },
   froghemoth: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
-    tomb_of_annihilation: [],
-    volo_s_guide_to_monsters: [],
+    tomb_of_annihilation: ['volo_s_guide_to_monsters'],
   },
   froghemoth_elder: {
     quests_from_the_infinite_staircase: [],
@@ -6232,8 +6181,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   frost_giant_everlasting_one: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   frost_giant_ice_shaper: {
     bigby_presents_glory_of_the_giants: [],
@@ -6251,8 +6199,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: [],
   },
   frost_giant_wind_sprinter: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   frost_giant_zombie: {
     explorer_s_guide_to_wildemount: [],
@@ -6540,10 +6487,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_2: [],
   },
   ghost: {
-    basic_rules_2018: [],
     monster_manual_2014: [],
     monster_manual_2024: [],
     srd_5_1: [
+      'basic_rules_2018',
       'ddal04_06_the_ghost',
       'ddal04_10_the_artifact',
       'ddep1_corruption_in_kryptgarden',
@@ -6672,9 +6619,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     the_wild_beyond_the_witchlight: [],
   },
   giant_eagle: {
-    basic_rules_2018: ['monster_manual_2014'],
     monster_manual_2024: [],
-    srd_5_1: ['ddep1_corruption_in_kryptgarden'],
+    srd_5_1: ['basic_rules_2018', 'ddep1_corruption_in_kryptgarden', 'monster_manual_2014'],
     srd_5_2_1: [],
   },
   giant_elk: {
@@ -6764,10 +6710,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     creature_codex: [],
   },
   giant_octopus: {
-    basic_rules_2018: [],
     monster_manual_2014: [],
     monster_manual_2024: ['srd_5_2_1'],
     srd_5_1: [
+      'basic_rules_2018',
       'ddex1_11_dark_pyramid_of_sorcerer_s_isle',
       'ddex3_09_the_waydown',
       'rise_of_tiamat_online_supplement',
@@ -6785,9 +6731,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     bigby_presents_glory_of_the_giants: [],
   },
   giant_rat: {
-    basic_rules_2018: ['monster_manual_2014'],
     monster_manual_2024: ['srd_5_2_1'],
-    srd_5_1: ['ddex3_06_no_foolish_matter'],
+    srd_5_1: ['basic_rules_2018', 'ddex3_06_no_foolish_matter', 'monster_manual_2014'],
   },
   giant_ratling: {
     monsters_of_drakkenheim: [],
@@ -6918,8 +6863,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   giant_zombie: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   giant_zombie_constrictor_snake: {
     adventures_in_the_forgotten_realms_deepest_night: [],
@@ -7127,8 +7071,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: [],
   },
   gnoll_bonesplitter: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   gnoll_cackler: {
     flee_mortals: [],
@@ -7223,8 +7166,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tales_from_the_yawning_portal: [],
   },
   goblin_cursespitter: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   goblin_gang_member: {
     krenko_s_way: [],
@@ -7468,8 +7410,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     fizban_s_treasury_of_dragons: [],
   },
   green_guard_drake: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   green_hag: {
     monster_manual_2014: [],
@@ -7570,12 +7511,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2024: ['srd_5_2_1'],
   },
   griffon_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   grilp: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   grim_champion_of_bloodshed: {
     the_book_of_many_things: [],
@@ -7648,17 +7587,17 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     waterdeep_dragon_heist: [],
   },
   grung: {
-    mordenkainen_presents_monsters_of_the_multiverse: ['tomb_of_annihilation'],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: [
+      'tomb_of_annihilation',
+      'volo_s_guide_to_monsters',
+    ],
   },
   grung_blue: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   grung_elite_warrior: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
     tomb_of_annihilation: [],
-    volo_s_guide_to_monsters: [],
   },
   grung_elite_warrior_blue: {
     mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
@@ -7679,24 +7618,19 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   grung_gold: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   grung_green: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   grung_orange: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   grung_purple: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   grung_red: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   grung_wildling: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -7736,9 +7670,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     critical_role_call_of_the_netherdeep: [],
   },
   guard: {
-    ddal04_01_the_suits_of_the_mists: [],
-    ddep2_mulmaster_undone_v2: [],
-    ddex1_01_defiance_in_phlan: [
+    ddal04_01_the_suits_of_the_mists: [
+      'ddex1_01_defiance_in_phlan',
       'ddex1_03_shadows_over_the_moonsea',
       'ddex1_06_the_scroll_thief',
       'ddex1_09_outlaws_of_the_iron_route',
@@ -7754,6 +7687,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'rise_of_tiamat_online_supplement',
       'stranger_things_welcome_to_the_hellfire_club',
     ],
+    ddep2_mulmaster_undone_v2: [],
     ddex3_01_harried_in_hillsfar: ['monster_manual_2024'],
     monster_manual_2014: ['waterdeep_dragon_heist'],
     srd_5_1: ['basic_rules_2018'],
@@ -7772,8 +7706,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'hoard_of_the_dragon_queen_d_d_encounters',
       'rise_of_tiamat',
     ],
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   guard_drake_black: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -8140,8 +8073,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     mordenkainen_s_tome_of_foes: [],
   },
   hellhound_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   hellion: {
     plane_shift_zendikar: [],
@@ -8200,8 +8132,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     adventure_atlas_the_mortuary: [],
   },
   heralds_of_dust_remnant: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   hertilod: {
     vecna_eve_of_ruin: [],
@@ -8329,8 +8260,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: ['monster_manual_2024'],
   },
   hobgoblin_death_captain: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   hobgoblin_devastator: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -8340,16 +8270,14 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: ['where_evil_lives'],
   },
   hobgoblin_incendiarist: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   hobgoblin_iron_shadow: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
     volo_s_guide_to_monsters: [],
   },
   hobgoblin_smokebinder: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   hobgoblin_trooper: {
     flee_mortals: ['where_evil_lives'],
@@ -8506,8 +8434,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     explorer_s_guide_to_wildemount: [],
   },
   hulking_brain: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   hulking_crab: {
     storm_king_s_thunder: [],
@@ -8516,8 +8443,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     dragonlance_shadow_of_the_dragon_queen: [],
   },
   human_brawler: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   human_brawler_slime_servant: {
     where_evil_lives: [],
@@ -8526,8 +8452,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: ['where_evil_lives'],
   },
   human_knave: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   human_raider: {
     flee_mortals: ['where_evil_lives'],
@@ -8570,9 +8495,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     plane_shift_zendikar: [],
   },
   hurricane: {
-    ddep2_mulmaster_undone_v2: [],
-    princes_of_the_apocalypse_d_d_encounters: [],
-    princes_of_the_apocalypse: [],
+    princes_of_the_apocalypse: [
+      'ddep2_mulmaster_undone_v2',
+      'princes_of_the_apocalypse_d_d_encounters',
+    ],
   },
   husk_zombie: {
     explorer_s_guide_to_wildemount: [],
@@ -8836,8 +8762,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_2: [],
   },
   infernal_chancellor_lazivos: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   infernal_knight: {
     creature_codex: [],
@@ -8975,8 +8900,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     waterdeep_dragon_heist: [],
   },
   ithurath: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   ivan_dilisnya: {
     ravenloft_the_horrors_within: [],
@@ -9004,9 +8928,12 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2024: ['srd_5_2_1'],
   },
   jackalwere: {
-    ddex3_01_harried_in_hillsfar: ['ghosts_of_saltmarsh', 'monster_manual_2024'],
+    ddex3_01_harried_in_hillsfar: [
+      'ghosts_of_saltmarsh',
+      'monster_manual_2024',
+      'princes_of_the_apocalypse_online_supplement',
+    ],
     monster_manual_2014: [],
-    princes_of_the_apocalypse_online_supplement: ['monster_manual_2024'],
   },
   jacko: {
     heroes_of_the_borderlands: [],
@@ -9401,8 +9328,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     out_of_the_abyss: [],
   },
   kiona_the_dread_lord: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   kirikari: {
     tome_of_beasts_2: [],
@@ -9546,8 +9472,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     waterdeep_dungeon_of_the_mad_mage: [],
   },
   kolyarut: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   kongamato: {
     tome_of_beasts: [],
@@ -9687,15 +9612,13 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     ghosts_of_saltmarsh: [],
   },
   lacedon: {
-    explorer_s_guide_to_wildemount: [],
-    tales_from_the_yawning_portal: [],
+    explorer_s_guide_to_wildemount: ['tales_from_the_yawning_portal'],
   },
   lacedon_ghoul: {
     monster_manual_2024: [],
   },
   lacuna: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   lady_avalla_deseo: {
     flee_mortals: [],
@@ -9707,8 +9630,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     journeys_through_the_radiant_citadel: [],
   },
   lady_emer: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   lady_fiona_wachter: {
     curse_of_strahd: [],
@@ -9948,8 +9870,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     bigby_presents_glory_of_the_giants: [],
   },
   lightthief: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   linan_swift: {
     hoard_of_the_dragon_queen: [],
@@ -10076,14 +9997,16 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: [],
   },
   lizardfolk_shaman: {
-    ddal04_11_the_donjon: [],
-    ddex1_07_drums_in_the_marsh: ['ddex1_12_raiders_of_the_twilight_marsh'],
+    ddal04_11_the_donjon: [
+      'ddex1_07_drums_in_the_marsh',
+      'ddex1_12_raiders_of_the_twilight_marsh',
+      'princes_of_the_apocalypse_online_supplement',
+    ],
     monster_manual_2014: [
       'explorer_s_guide_to_wildemount',
       'ghosts_of_saltmarsh',
       'tomb_of_annihilation',
     ],
-    princes_of_the_apocalypse_online_supplement: [],
   },
   lizardfolk_sovereign: {
     monster_manual_2024: [],
@@ -10149,8 +10072,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     ravenloft_the_horrors_within: [],
   },
   lord_syuul: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   lords_alliance_guard: {
     out_of_the_abyss: [],
@@ -10609,9 +10531,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     mordenkainen_s_tome_of_foes: [],
   },
   maw_demon: {
-    ghosts_of_saltmarsh: [],
+    ghosts_of_saltmarsh: ['volo_s_guide_to_monsters'],
     mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
   },
   maw_of_sekolah: {
     ghosts_of_saltmarsh: [],
@@ -10695,8 +10616,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tales_from_the_yawning_portal: [],
   },
   mephistopheles: {
-    chains_of_asmodeus: [],
-    minsc_and_boo_s_journal_of_villainy: [],
+    chains_of_asmodeus: ['minsc_and_boo_s_journal_of_villainy'],
   },
   mercane: {
     spelljammer_adventures_in_space: [],
@@ -10811,8 +10731,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     candlekeep_mysteries: [],
   },
   mimic_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   minazorond: {
     dungeons_of_drakkenheim: [],
@@ -10857,8 +10776,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     guildmasters_guide_to_ravnica: [],
   },
   mindkiller: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    where_evil_lives: ['flee_mortals'],
   },
   mindrot_thrall: {
     tome_of_beasts: [],
@@ -10987,8 +10905,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     infernal_machine_rebuild: [],
   },
   mohler: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   mold_zombie: {
     creature_codex: [],
@@ -11183,10 +11100,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: [],
   },
   mummy: {
-    basic_rules_2018: ['rise_of_tiamat_online_supplement'],
+    basic_rules_2018: ['rise_of_tiamat_online_supplement', 'srd_5_1'],
     monster_manual_2014: ['plane_shift_amonkhet'],
     monster_manual_2024: [],
-    srd_5_1: [],
     srd_5_2_1: [],
   },
   mummy_lord: {
@@ -11196,8 +11112,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   mummy_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   murder_comet: {
     spelljammer_adventures_in_space: [],
@@ -11248,12 +11163,13 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2024: ['stranger_things_welcome_to_the_hellfire_club'],
   },
   myconid_sovereign: {
-    ddex3_03_the_occupation_of_szith_morcane: [
+    monster_manual_2014: [
+      'ddex3_03_the_occupation_of_szith_morcane',
       'ghosts_of_saltmarsh',
       'icewind_dale_rime_of_the_frostmaiden',
+      'out_of_the_abyss',
       'waterdeep_dungeon_of_the_mad_mage',
     ],
-    monster_manual_2014: ['out_of_the_abyss'],
     monster_manual_2024: [],
   },
   myconid_spore_servant: {
@@ -11509,8 +11425,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   night_hag_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   night_scavver: {
     spelljammer_adventures_in_space: [],
@@ -11633,7 +11548,6 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   nonaton_modron: {
     morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
-    planescape_adventures_in_the_multiverse: [],
   },
   noori: {
     storm_king_s_thunder: [],
@@ -11782,10 +11696,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     planescape_adventures_in_the_multiverse: [],
   },
   octopus: {
-    basic_rules_2018: [],
     monster_manual_2014: [],
     monster_manual_2024: ['srd_5_2_1'],
-    srd_5_1: [],
+    srd_5_1: ['basic_rules_2018'],
   },
   oculo_swarm: {
     tome_of_beasts: [],
@@ -11797,9 +11710,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     the_book_of_many_things: [],
   },
   ogre: {
-    basic_rules_2018: [],
     monster_manual_2014: ['ddex3_16_assault_on_maerimydra'],
     srd_5_1: [
+      'basic_rules_2018',
       'ddal04_06_the_ghost',
       'ddep1_corruption_in_kryptgarden',
       'ddex3_04_it_s_all_in_the_blood',
@@ -11903,10 +11816,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     chains_of_asmodeus: [],
   },
   oni: {
-    ddal04_14_the_darklord: [],
+    ddal04_14_the_darklord: ['princes_of_the_apocalypse_online_supplement'],
     monster_manual_2014: [],
     monster_manual_2024: [],
-    princes_of_the_apocalypse_online_supplement: [],
     srd_5_1: [],
     srd_5_2_1: [],
   },
@@ -11953,8 +11865,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     mythic_odysseys_of_theros: [],
   },
   oracle_of_storms: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   oracle_of_strixhaven: {
     strixhaven_a_curriculum_of_chaos: [],
@@ -11998,12 +11909,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     ],
   },
   orc_fury: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   orc_garroter: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   orc_godcaller: {
     flee_mortals: ['where_evil_lives'],
@@ -12061,10 +11970,12 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_2: [],
   },
   orog: {
-    ddal04_01_the_suits_of_the_mists: ['ghosts_of_saltmarsh', 'waterdeep_dungeon_of_the_mad_mage'],
-    ddal04_12_the_raven: [
+    ddal04_01_the_suits_of_the_mists: [
+      'ddal04_12_the_raven',
       'ddex3_16_assault_on_maerimydra',
+      'ghosts_of_saltmarsh',
       'princes_of_the_apocalypse_online_supplement',
+      'waterdeep_dungeon_of_the_mad_mage',
     ],
     monster_manual_2014: [],
   },
@@ -12134,8 +12045,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'srd_5_1',
     ],
     monster_manual_2024: ['srd_5_2_1'],
-    rise_of_tiamat_online_supplement: [],
-    srd_5_1: [],
+    srd_5_1: ['rise_of_tiamat_online_supplement'],
   },
   otyugh_mcdm: {
     flee_mortals: [],
@@ -12168,8 +12078,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2024: ['srd_5_2_1'],
   },
   owlbear_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   ox: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -12253,8 +12162,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   pech: {
     creature_codex: [],
-    descent_into_the_lost_caverns_of_tsojcanth: [],
-    quests_from_the_infinite_staircase: [],
+    descent_into_the_lost_caverns_of_tsojcanth: ['quests_from_the_infinite_staircase'],
   },
   pech_lithlord: {
     creature_codex: [],
@@ -12354,8 +12262,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     creature_codex: [],
   },
   phantom_warrior: {
-    curse_of_strahd: ['ddal04_09_the_tempter'],
-    ddal04_14_the_darklord: [],
+    curse_of_strahd: ['ddal04_09_the_tempter', 'ddal04_14_the_darklord'],
   },
   phantom_warrior_archer: {
     curse_of_strahd: [],
@@ -12535,8 +12442,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     waterdeep_dungeon_of_the_mad_mage: [],
   },
   polar_bear: {
-    basic_rules_2018: ['monster_manual_2014'],
-    srd_5_1: ['rise_of_tiamat_online_supplement'],
+    srd_5_1: ['basic_rules_2018', 'monster_manual_2014', 'rise_of_tiamat_online_supplement'],
     srd_5_2_1: ['monster_manual_2024'],
   },
   polar_serpent: {
@@ -12731,8 +12637,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   purple_worm: {
     monster_manual_2014: ['princes_of_the_apocalypse_online_supplement'],
     monster_manual_2024: [],
-    princes_of_the_apocalypse_online_supplement: [],
-    srd_5_1: [],
+    srd_5_1: ['princes_of_the_apocalypse_online_supplement'],
     srd_5_2_1: [],
   },
   purple_wormling: {
@@ -12766,8 +12671,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tomb_of_annihilation: [],
   },
   qazyldrath: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   qiqirn: {
     tome_of_beasts_2: [],
@@ -12858,12 +12762,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   quetzalcoatlus: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
-    tomb_of_annihilation: [],
-    volo_s_guide_to_monsters: [],
+    tomb_of_annihilation: ['volo_s_guide_to_monsters'],
   },
   quickling: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   quickserpent: {
     tome_of_beasts_2: [],
@@ -13093,8 +12995,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     fizban_s_treasury_of_dragons: [],
   },
   red_guard_drake: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   red_plume_cavalry_officer: {
     ddex3_05_bane_of_the_tradeways: [],
@@ -13415,8 +13316,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     humblewood_tales: [],
   },
   rot_angel: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   rot_troll: {
     mordenkainen_presents_monsters_of_the_multiverse: [],
@@ -13522,8 +13422,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     keys_from_the_golden_vault: [],
   },
   sacred_stone_monk: {
-    ddep2_mulmaster_undone_v2: ['princes_of_the_apocalypse'],
-    ddex2_07_bounty_in_the_bog: [],
+    ddep2_mulmaster_undone_v2: ['ddex2_07_bounty_in_the_bog', 'princes_of_the_apocalypse'],
   },
   saemon_havarian: {
     minsc_and_boo_s_journal_of_villainy: [],
@@ -13870,12 +13769,12 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monster_manual_2014: [],
   },
   sea_hag_coven_variant: {
-    ghosts_of_saltmarsh: [
+    monster_manual_2014: [
+      'ghosts_of_saltmarsh',
       'icewind_dale_rime_of_the_frostmaiden',
       'tomb_of_annihilation',
       'waterdeep_dungeon_of_the_mad_mage',
     ],
-    monster_manual_2014: ['ghosts_of_saltmarsh'],
   },
   sea_hag_mcdm: {
     flee_mortals: [],
@@ -13922,8 +13821,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     icewind_dale_rime_of_the_frostmaiden: [],
   },
   septon_modron: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   serapio: {
     journeys_through_the_radiant_citadel: [],
@@ -14076,8 +13974,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     mordenkainen_presents_monsters_of_the_multiverse: [],
   },
   shadow_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   shadow_of_death: {
     tome_of_beasts_2: [],
@@ -14178,8 +14075,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tales_from_the_yawning_portal: [],
   },
   shator_demodand: {
-    morte_s_planar_parade: [],
-    planescape_adventures_in_the_multiverse: [],
+    morte_s_planar_parade: ['planescape_adventures_in_the_multiverse'],
   },
   shator_warden: {
     minsc_and_boo_s_journal_of_villainy: [],
@@ -14248,8 +14144,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   shoalar_quanderil: {
     locathah_rising: [],
-    princes_of_the_apocalypse_d_d_encounters: [],
-    princes_of_the_apocalypse: [],
+    princes_of_the_apocalypse: ['princes_of_the_apocalypse_d_d_encounters'],
   },
   shockwing: {
     creature_codex: [],
@@ -14281,8 +14176,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts_2023: [],
   },
   shtriga_nonna: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    where_evil_lives: ['flee_mortals'],
   },
   shukankor: {
     tome_of_beasts_2: [],
@@ -14455,8 +14349,11 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   skeleton: {
     ddal04_04_the_marionette: [],
-    ddex1_01_defiance_in_phlan: [],
-    ddex1_02_secrets_of_sokol_keep: ['ddex1_04_dues_for_the_dead', 'ddex1_05_the_courting_of_fire'],
+    ddex1_01_defiance_in_phlan: [
+      'ddex1_02_secrets_of_sokol_keep',
+      'ddex1_04_dues_for_the_dead',
+      'ddex1_05_the_courting_of_fire',
+    ],
     monster_manual_2014: [],
     srd_5_1: [
       'basic_rules_2018',
@@ -14501,8 +14398,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     guildmasters_guide_to_ravnica: [],
   },
   skitterling: {
-    flee_mortals_public_preview: [],
-    flee_mortals: [],
+    flee_mortals: ['flee_mortals_public_preview'],
   },
   skitterwidget: {
     candlekeep_mysteries: [],
@@ -14578,8 +14474,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     storm_king_s_thunder: [],
   },
   slaughter_demon: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   slayer: {
     chains_of_asmodeus: [],
@@ -14632,12 +14527,12 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'curse_of_strahd',
       'ddep2_mulmaster_undone_v2',
       'planescape_adventures_in_the_multiverse',
+      'princes_of_the_apocalypse_online_supplement',
       'tomb_of_annihilation',
       'waterdeep_dungeon_of_the_mad_mage',
     ],
     monster_manual_2014: [],
     monster_manual_2024: [],
-    princes_of_the_apocalypse_online_supplement: [],
   },
   smoke_mephit_summoner: {
     monster_manual_2014: [],
@@ -15299,8 +15194,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     planescape_adventures_in_the_multiverse: ['morte_s_planar_parade'],
   },
   sunlight_nexus: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   suppurating_ooze: {
     creature_codex: [],
@@ -15319,8 +15213,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tome_of_beasts: [],
   },
   swamp_dryad: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   swamp_lily: {
     tome_of_beasts_2: [],
@@ -15456,8 +15349,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     van_richten_s_guide_to_ravenloft: [],
   },
   swarm_of_skitterlings: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   swarm_of_sluaghs: {
     tome_of_beasts_2023: [],
@@ -15571,8 +15463,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     the_book_of_many_things: [],
   },
   tanarukk: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   tanazir_quandrix: {
     strixhaven_a_curriculum_of_chaos: [],
@@ -15958,8 +15849,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     flee_mortals: [],
   },
   time_raider_nemesis: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   time_raider_vertex: {
     flee_mortals: [],
@@ -15996,8 +15886,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     journeys_through_the_radiant_citadel: [],
   },
   tlincalli: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['volo_s_guide_to_monsters'],
   },
   tloques_popolocas: {
     tales_from_the_yawning_portal: [],
@@ -16051,8 +15940,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tales_from_the_yawning_portal: [],
   },
   tormenauk: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   tornscale: {
     princes_of_the_apocalypse: [],
@@ -16613,8 +16501,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: ['monster_manual_2024'],
   },
   vampire_spawn_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   vampire_spellcaster: {
     monster_manual_2014: [],
@@ -16691,8 +16578,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     volo_s_guide_to_monsters: [],
   },
   vegepygmy_chief: {
-    mordenkainen_presents_monsters_of_the_multiverse: ['tomb_of_annihilation'],
-    volo_s_guide_to_monsters: [],
+    mordenkainen_presents_monsters_of_the_multiverse: [
+      'tomb_of_annihilation',
+      'volo_s_guide_to_monsters',
+    ],
   },
   vegepygmy_moldmaker: {
     quests_from_the_infinite_staircase: [],
@@ -16897,12 +16786,10 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     phandelver_and_below_the_shattered_obelisk: [],
   },
   voiceless_talker: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   voiceless_talker_artillerist: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    where_evil_lives: ['flee_mortals'],
   },
   void_pirate_captain: {
     monsters_of_drakkenheim: [],
@@ -16958,8 +16845,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
       'princes_of_the_apocalypse_online_supplement',
     ],
     monster_manual_2024: [],
-    princes_of_the_apocalypse_online_supplement: [],
-    srd_5_1: [],
+    srd_5_1: ['princes_of_the_apocalypse_online_supplement'],
     srd_5_2_1: [],
   },
   vrock_summoner_variant: {
@@ -17045,8 +16931,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     volo_s_guide_to_monsters: [],
   },
   war_spider: {
-    flee_mortals: ['flee_mortals_public_preview'],
-    where_evil_lives: [],
+    flee_mortals: ['flee_mortals_public_preview', 'where_evil_lives'],
   },
   war_wyvern: {
     creature_codex: [],
@@ -17071,10 +16956,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     vecna_eve_of_ruin: [],
   },
   warhorse: {
-    basic_rules_2018: ['monster_manual_2014'],
     monster_manual_2024: ['srd_5_2_1'],
     rise_of_tiamat_online_supplement: [],
-    srd_5_1: [],
+    srd_5_1: ['basic_rules_2018', 'monster_manual_2014'],
   },
   warhorse_chain_mail_barding: {
     monster_manual_2014: [],
@@ -17150,15 +17034,13 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     dragonlance_shadow_of_the_dragon_queen: [],
   },
   wastrilith: {
-    mordenkainen_presents_monsters_of_the_multiverse: [],
-    mordenkainen_s_tome_of_foes: [],
+    mordenkainen_presents_monsters_of_the_multiverse: ['mordenkainen_s_tome_of_foes'],
   },
   water_elemental: {
-    basic_rules_2018: [],
     monster_manual_2014: [],
     monster_manual_2024: [],
     rise_of_tiamat_online_supplement: [],
-    srd_5_1: [],
+    srd_5_1: ['basic_rules_2018'],
     srd_5_2_1: [],
   },
   water_elemental_myrmidon: {
@@ -17176,15 +17058,16 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   water_weird: {
     ddep2_mulmaster_undone_v2: [
+      'ddex2_03_the_drowned_tower',
       'dragonlance_shadow_of_the_dragon_queen',
       'icewind_dale_rime_of_the_frostmaiden',
       'journeys_through_the_radiant_citadel',
+      'monster_manual_2014',
       'phandelver_and_below_the_shattered_obelisk',
+      'princes_of_the_apocalypse_online_supplement',
     ],
-    ddex2_03_the_drowned_tower: [],
     monster_manual_2014: [],
     monster_manual_2024: [],
-    princes_of_the_apocalypse_online_supplement: ['monster_manual_2014'],
   },
   waxwork: {
     ravenloft_the_horrors_within: [],
@@ -17243,10 +17126,9 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     the_book_of_many_things: [],
   },
   werewolf: {
-    basic_rules_2018: [],
     monster_manual_2014: ['curse_of_strahd'],
     monster_manual_2024: [],
-    srd_5_1: [],
+    srd_5_1: ['basic_rules_2018'],
     srd_5_2_1: [],
   },
   werewyvern: {
@@ -17412,9 +17294,8 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     monsters_of_drakkenheim: [],
   },
   winter_wolf: {
-    basic_rules_2018: ['monster_manual_2014'],
     ddal04_05_the_seer: [],
-    srd_5_1: [],
+    srd_5_1: ['basic_rules_2018', 'monster_manual_2014'],
     srd_5_2_1: ['ddal04_12_the_raven', 'monster_manual_2014', 'monster_manual_2024'],
   },
   winterghast: {
@@ -17464,8 +17345,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     tomb_of_annihilation: [],
   },
   wobalas: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   woe_strider: {
     mythic_odysseys_of_theros: [],
@@ -17540,8 +17420,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     srd_5_2_1: [],
   },
   wraith_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   wraithroot_tree: {
     tal_dorei_campaign_setting_reborn: [],
@@ -17554,8 +17433,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
   },
   wurm: {
     guildmasters_guide_to_ravnica: [],
-    plane_shift_kaladesh: [],
-    plane_shift_zendikar: [],
+    plane_shift_zendikar: ['plane_shift_kaladesh'],
   },
   wyhan: {
     dragonlance_shadow_of_the_dragon_queen: [],
@@ -17580,15 +17458,13 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     creature_codex: [],
   },
   wyvern_mcdm: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   x01: {
     turn_of_fortune_s_wheel: [],
   },
   xaantikorijek: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   xanathar: {
     waterdeep_dragon_heist: [],
@@ -17751,8 +17627,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     volo_s_guide_to_monsters: [],
   },
   yeti: {
-    basic_rules_2018: ['ddex2_04_mayhem_in_the_earthspur_mines'],
-    monster_manual_2014: [],
+    monster_manual_2014: ['basic_rules_2018', 'ddex2_04_mayhem_in_the_earthspur_mines'],
     monster_manual_2024: [],
   },
   yeti_allowak_variant: {
@@ -17997,8 +17872,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     waterdeep_dungeon_of_the_mad_mage: [],
   },
   yserthrax: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   yuan_ti_abomination: {
     monster_manual_2014: [
@@ -18150,8 +18024,7 @@ export const monsterPrintings: Readonly<Record<string, Reprints>> = {
     plane_shift_zendikar: [],
   },
   zenith_aastrika: {
-    flee_mortals: [],
-    where_evil_lives: [],
+    flee_mortals: ['where_evil_lives'],
   },
   zeond: {
     phandelver_and_below_the_shattered_obelisk: [],
