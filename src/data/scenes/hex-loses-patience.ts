@@ -5,7 +5,7 @@ export default createScene({
   name: 'Hex loses patience',
   location: refs.locations.rustmoor_guildhall,
   illustrations: ['/assets/scenes/hex-loses-patience.png'],
-  npcs: [refs.npcs.hex, refs.npcs.sneeve, refs.npcs.light_13th_marshal],
+  npcs: [refs.npcs.hex, refs.npcs.sneeve],
   setup: [
     [
       refs.npcs.hex,
@@ -18,9 +18,9 @@ export default createScene({
       ' a single hard question.',
     ],
     [
-      'The guildhall will be operational somewhere between tomorrow and the day after. Its booth has no connection to ',
+      'The guildhall is not operational yet. Its booth has no standing connection to ',
       refs.locations.fajanet,
-      ' yet: establishing the portal is something only ',
+      ': establishing the portal is something only ',
       refs.npcs.light_13th_marshal,
       ' can do, and he is a very, very busy person. ',
       refs.locations.the_flying_whale,
@@ -31,20 +31,14 @@ export default createScene({
       ' too.',
     ],
     [
-      'It is the evening of the full moon. The party has just arrived in ',
+      'It is the party’s second day in ',
       refs.locations.rustmoor,
-      ' and met ',
-      refs.npcs.bob_the_merchant,
-      ' in ',
-      refs.scenes.bob_returns_cassian_s_ring,
-      '. The moon matters for ',
-      refs.items.shadow_sword,
-      ' and ',
-      refs.items.swifts_silver_container,
-      ' of ',
-      refs.pcs.swift_starblade,
-      ': ',
-      refs.scenes.swift_s_silver_container_opens,
+      ', the day after the full moon. ',
+      refs.pcs.auren,
+      ' is not with them: ',
+      refs.npcs.hex,
+      ' fetched him in the night for ',
+      refs.scenes.light_walks_auren_through_fajanet,
       '.',
     ],
     [
@@ -125,10 +119,13 @@ export default createScene({
           when: [['They decide to go and ask.']],
           response: [
             [
-              'From this guildhall the way to ask is the booth, and it is not connected yet: somewhere between tomorrow and the day after, once Light has established the portal.',
-            ],
-            [
-              'Let the party find creative ways to speed this up. Once the booth works, play “At the booth”.',
+              'From this guildhall the way to ask is the booth, and it opens only when ',
+              refs.npcs.light_13th_marshal,
+              ' establishes the portal. He does so once he is done with ',
+              refs.pcs.auren,
+              ': run ',
+              refs.scenes.questions_for_light,
+              '.',
             ],
           ],
         },
@@ -144,85 +141,6 @@ export default createScene({
             ],
           ],
         },
-      ],
-    },
-    {
-      title: 'At the booth',
-      onlyIf: [['They decide to go and ask, and the booth is connected.']],
-      lines: [
-        {
-          do: [
-            [
-              'The party steps up to the booth of the guildhall. On the other side ',
-              refs.npcs.light_13th_marshal,
-              ' sits behind stacks of paper, writing.',
-            ],
-          ],
-        },
-        {
-          speaker: refs.npcs.light_13th_marshal,
-          say: [
-            ['You have come to ask me something. Good.'],
-            ['But you have brought someone I have not met.'],
-            [refs.pcs.auren, ', step in. Alone, please.'],
-            ['The rest of you, keep your questions until he and I are done.'],
-          ],
-        },
-        {
-          note: [
-            [
-              'These lines are a draft. To the party this looks like the induction every recruit gets: a tattoo and a favor.',
-            ],
-            [
-              'The booth carries one person. ',
-              refs.pcs.auren,
-              ' arrives in the office of ',
-              refs.npcs.light_13th_marshal,
-              ' in ',
-              refs.locations.fajanet,
-              ', in person and cut off from the party for the night. Nobody can follow him.',
-            ],
-          ],
-        },
-      ],
-      outcomes: [
-        {
-          icon: 'gi/GiPathDistance',
-          when: [[refs.pcs.auren, ' steps in.']],
-          response: [
-            [
-              'Run ',
-              refs.scenes.light_walks_auren_through_fajanet,
-              '. The others stay behind in the guildhall: that evening, run ',
-              refs.scenes.fix_s_last_delivery,
-              ' for them and cut between the two.',
-            ],
-            [
-              'The next morning the booth opens again. Once ',
-              refs.pcs.auren,
-              ' has passed, run ',
-              refs.scenes.questions_for_light,
-              '.',
-            ],
-          ],
-        },
-      ],
-    },
-  ],
-  outcomes: [
-    {
-      icon: 'gi/GiPathDistance',
-      when: [['They have time to kill until midnight.']],
-      response: [
-        [
-          'Some shopping, and a tavern. Lead them to the tavern and run ',
-          refs.scenes.the_bard_s_new_song,
-          '. At midnight they head out for the quest of ',
-          refs.npcs.bob_the_merchant,
-          ': ',
-          refs.scenes.four_stomps_under_the_moon,
-          '.',
-        ],
       ],
     },
   ],

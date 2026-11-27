@@ -12,7 +12,7 @@ export default createScene({
     refs.locations.rare_animal_dealer_s_premises,
     refs.locations.fajanet_guildhall,
   ],
-  npcs: [refs.npcs.light_13th_marshal],
+  npcs: [refs.npcs.light_13th_marshal, refs.npcs.hex],
   setup: [
     [
       'Before he answers anything, ',
@@ -20,17 +20,21 @@ export default createScene({
       ' wishes to speak to ',
       refs.pcs.auren,
       ' alone, and he does the asking. He has ',
+      refs.npcs.hex,
+      ' fetch him in the night after ',
+      refs.scenes.four_stomps_under_the_moon,
+      ', while the others sleep, and opens the booth of the ',
+      refs.locations.rustmoor_guildhall,
+      ' for one person. That puts ',
       refs.pcs.auren,
-      ' step through the guildhall booth alone in ',
-      refs.scenes.hex_loses_patience,
-      ', which puts him in ',
+      ' in ',
       refs.locations.fajanet,
-      ' in person and cuts him off from the party for the night. He takes him out into the city instead of staying in his paper-filled office.',
+      ' in person, where it is afternoon, and cuts him off from the party. He takes him out into the city instead of staying in his paper-filled office.',
     ],
     [
-      'Run it on the same evening as ',
-      refs.scenes.fix_s_last_delivery,
-      ', cutting back and forth: one beat here after each round of drinks there, so neither table waits.',
+      'The rest of the party is asleep in ',
+      refs.locations.rustmoor,
+      ', so this is a scene for one player while the others watch.',
     ],
     [
       'What ',
@@ -86,6 +90,40 @@ export default createScene({
               '. This walk lets him admire his own city. He also remembers what happens there at night (',
               refs.events.n2_e007,
               ').',
+            ],
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Hex comes for Auren',
+      lines: [
+        {
+          do: [
+            [
+              'The others are asleep at the tavern. ',
+              refs.npcs.hex,
+              ' comes for ',
+              refs.pcs.auren,
+              ', who does not sleep, and brings him to the ',
+              refs.locations.rustmoor_guildhall,
+              '.',
+            ],
+            [
+              'The booth is lit: ',
+              refs.npcs.light_13th_marshal,
+              ' has opened it for one person. ',
+              refs.pcs.auren,
+              ' steps through, out of the small hours of the night and into the afternoon of ',
+              refs.locations.fajanet,
+              '.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'The booth carries one person, and nobody can follow him. To him this looks like the induction every recruit gets: a tattoo and a favor.',
             ],
           ],
         },

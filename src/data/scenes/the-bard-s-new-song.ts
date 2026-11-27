@@ -16,7 +16,7 @@ export default createScene({
       'The full-moon evening the party arrives in ',
       refs.locations.rustmoor,
       ', after ',
-      refs.scenes.hex_loses_patience,
+      refs.scenes.bob_returns_cassian_s_ring,
       ', while they kill time before the maze at midnight. They end up in a tavern. ',
       refs.npcs.tobin_reedwhistle,
       ' is by the hearth with a new song called “Still Alive”, written last night.',

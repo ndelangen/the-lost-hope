@@ -333,9 +333,27 @@ export default createScene({
   ],
   outcomes: [
     {
+      icon: 'gi/GiPathDistance',
+      when: [['They have time to kill until midnight.']],
+      response: [
+        [
+          'Some shopping, and a tavern. Lead them to the tavern and run ',
+          refs.scenes.the_bard_s_new_song,
+          '.',
+        ],
+      ],
+    },
+    {
       icon: 'gi/GiWalk',
-      when: [['They go on to the guildhall.']],
-      response: [[refs.npcs.hex, ' is waiting there: run ', refs.scenes.hex_loses_patience, '.']],
+      when: [['They go on to the guildhall tonight.']],
+      response: [
+        [
+          refs.npcs.hex,
+          ' is busy building it and has no time for them tonight. ',
+          refs.scenes.hex_loses_patience,
+          ' is for tomorrow.',
+        ],
+      ],
     },
   ],
 })

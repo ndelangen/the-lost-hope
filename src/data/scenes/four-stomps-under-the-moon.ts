@@ -415,6 +415,20 @@ export default createScene({
         ],
       ],
     },
+    {
+      icon: 'gi/GiNightSleep',
+      when: [['Afterwards the party goes to bed at the tavern.']],
+      response: [
+        [
+          refs.pcs.auren,
+          ' does not sleep. ',
+          refs.npcs.hex,
+          ' comes for him in the night: run ',
+          refs.scenes.light_walks_auren_through_fajanet,
+          '.',
+        ],
+      ],
+    },
   ],
   combat: {
     terrain: [
