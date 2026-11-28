@@ -350,6 +350,7 @@ export const refs = {
     the_11th_marshal: ref('npc', 'the_11th_marshal'),
     caves_of_steel_fisher: ref('npc', 'caves_of_steel_fisher'),
     pell: ref('npc', 'pell'),
+    skipper_gubb: ref('npc', 'skipper_gubb'),
     old_murl: ref('npc', 'old_murl'),
     scrap_thief: ref('npc', 'scrap_thief'),
   },

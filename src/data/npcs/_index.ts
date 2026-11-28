@@ -72,6 +72,7 @@ import sergeant_bruna_kell from './sergeant-bruna-kell.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
 import shipyard_ent from './shipyard-ent.ts'
 import silas_wren from './silas-wren.ts'
+import skipper_gubb from './skipper-gubb.ts'
 import skynet_gang_leader from './skynet-gang-leader.ts'
 import sneeve from './sneeve.ts'
 import stefanio from './stefanio.ts'
@@ -185,6 +186,7 @@ export default {
   the_11th_marshal,
   caves_of_steel_fisher,
   pell,
+  skipper_gubb,
   old_murl,
   scrap_thief,
 }

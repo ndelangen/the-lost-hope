@@ -15,7 +15,7 @@ export default createScene({
     '/assets/scenes/a-fleet-on-an-empty-sea-devan-on-stage.png',
     '/assets/scenes/a-fleet-on-an-empty-sea-pearls.png',
   ],
-  npcs: [refs.npcs.caves_of_steel_fisher],
+  npcs: [refs.npcs.caves_of_steel_fisher, refs.npcs.skipper_gubb],
   setup: [
     [
       'The party is in their airship over a giant ocean with no land in sight. This is their first contact with ',
@@ -163,6 +163,21 @@ export default createScene({
             ['Visitors! From the outside?'],
             [
               'Come down with us, come home with us! There will be a feast. We want to hear everything.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.skipper_gubb,
+          say: [
+            [
+              'Welcome aboard! Finest ship in the fleet. And when the time comes, I’m next in line for the machine!',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'He says it with a big grin and real pride. Never explain it: the crews will not demonstrate the machine.',
             ],
           ],
         },
