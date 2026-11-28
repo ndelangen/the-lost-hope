@@ -347,7 +347,7 @@ export default createScene({
             [
               'The bearers of this letter are the party I observed, as requested. They returned ',
               refs.items.ride_the_lightning,
-              ' to us, as they promised. They have shown courage, strength and a strong mind. Attached you will see their answers to the question you wished me to ask. It is my humble opinion they might be ready to endure your test.',
+              ' to us, as they promised. They have shown courage, strength and a strong mind. Attached you will see their answers to the questions you wished me to ask. It is my humble opinion they might be ready to endure your test.',
             ],
             ['Whilst we rebuild, perhaps we could renegotiate having a guildhall here, again.”'],
             [
