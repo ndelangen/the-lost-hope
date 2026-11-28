@@ -9,7 +9,8 @@
  * `scripts/image-sources.ts` are uploaded; drafts elsewhere are left alone.
  */
 import { execFileSync, spawn } from 'node:child_process'
-import { existsSync } from 'node:fs'
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs'
+import { homedir } from 'node:os'
 import { join } from 'node:path'
 
 import sharp from 'sharp'
@@ -36,7 +37,27 @@ import {
 } from './media/originals.ts'
 
 const adopt = process.argv.includes('--adopt')
-const WRANGLER = (process.env.MEDIA_WRANGLER ?? 'bunx wrangler@4.156.0').split(' ')
+const WRANGLER_VERSION = '4.156.0'
+const WRANGLER_DIR = join(homedir(), '.cache', 'the-lost-hope', `wrangler-${WRANGLER_VERSION}`)
+const WRANGLER_BIN = join(WRANGLER_DIR, 'node_modules', 'wrangler', 'bin', 'wrangler.js')
+
+/*
+ * Not `bunx wrangler`: the package has several bins and bunx runs `cf-wrangler`, which rejects
+ * `r2`, then reinstalls with --force on every call. Install the pinned version once into its own
+ * folder and run its `wrangler` bin directly. MEDIA_WRANGLER overrides the whole command.
+ */
+function wranglerCommand(): string[] {
+  if (process.env.MEDIA_WRANGLER) return process.env.MEDIA_WRANGLER.split(' ')
+  if (!existsSync(WRANGLER_BIN)) {
+    mkdirSync(WRANGLER_DIR, { recursive: true })
+    writeFileSync(join(WRANGLER_DIR, 'package.json'), '{"private":true}\n')
+    execFileSync(process.execPath, ['add', `wrangler@${WRANGLER_VERSION}`, '--no-summary'], {
+      cwd: WRANGLER_DIR,
+      stdio: 'inherit',
+    })
+  }
+  return [process.execPath, WRANGLER_BIN]
+}
 
 if (await resolveConflictedLock()) console.log(`Merged both sides of the conflicted ${LOCK_PATH}`)
 
@@ -89,7 +110,7 @@ async function present(path: string, hash: string, bytes: number): Promise<boole
 }
 
 async function upload(file: string, key: string, type: string): Promise<void> {
-  const [command, ...prefix] = WRANGLER
+  const [command, ...prefix] = WRANGLER ?? wranglerCommand()
   await new Promise<void>((resolve, reject) => {
     const args = [...prefix, 'r2', 'object', 'put', `${MEDIA_BUCKET}/${key}`]
     args.push('--file', file, '--content-type', type, '--remote')
@@ -103,11 +124,8 @@ async function upload(file: string, key: string, type: string): Promise<void> {
   })
 }
 
-/* Resolve wrangler once, so parallel uploads do not race to install it. */
-if (pending.length > 0) {
-  const [command, ...prefix] = WRANGLER
-  execFileSync(command, [...prefix, '--version'], { cwd: ROOT, stdio: 'ignore' })
-}
+/* Install wrangler once, before the parallel uploads, so they do not race to install it. */
+const WRANGLER = pending.length > 0 ? wranglerCommand() : undefined
 
 const failed: string[] = []
 let uploaded = 0
@@ -127,7 +145,7 @@ await eachLimited(pending, async (path) => {
 
 if (failed.length > 0) {
   console.error(
-    `Upload failed, so ${LOCK_PATH} is unchanged. Is wrangler signed in (\`bunx wrangler login\`)?\n${failed.join('\n')}`,
+    `Upload failed, so ${LOCK_PATH} is unchanged. Is wrangler signed in (\`${(WRANGLER ?? wranglerCommand()).join(' ')} login\`)?\n${failed.join('\n')}`,
   )
   process.exit(1)
 }

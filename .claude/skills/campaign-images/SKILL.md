@@ -54,7 +54,9 @@ To change a style, edit its record: references are refs to the record that owns 
 5. Point the campaign record at its `logicalSource` (see `src/data/AGENTS.md` for the record).
 6. Upload it:
    - On the Mac: `bun run media:sync`. It uploads with the Mac's `wrangler` login and rewrites the
-     lock. If wrangler is not signed in, run `bunx wrangler@4.156.0 login` once.
+     lock. If wrangler is not signed in, run
+     `bun ~/.cache/the-lost-hope/wrangler-4.156.0/node_modules/wrangler/bin/wrangler.js login` once
+     (not `bunx wrangler`, which runs the package's `cf-wrangler` bin).
    - In a cloud session (no wrangler login): `git add -f <the file>` and say in the PR that it
      needs `bun run media:sync --adopt` on the Mac before merge. The `media:gate` check stays red
      until then.
