@@ -15,7 +15,7 @@ export default createScene({
     '/assets/scenes/a-fleet-on-an-empty-sea-devan-on-stage.png',
     '/assets/scenes/a-fleet-on-an-empty-sea-pearls.png',
   ],
-  npcs: [refs.npcs.caves_of_steel_fisher, refs.npcs.skipper_gubb],
+  npcs: [refs.npcs.caves_of_steel_fisher, refs.npcs.skipper_gubb, refs.npcs.auntie_sloo],
   setup: [
     [
       'The party is in their airship over a giant ocean with no land in sight. This is their first contact with ',
@@ -285,7 +285,9 @@ export default createScene({
         {
           note: [
             [
-              'The people have no contact with the outside and know nothing of it. They cannot get enough of stories about anything at all, and they pay in valuables for every one. They want to buy books too, any books the party will sell.',
+              'The people have no contact with the outside and know nothing of it. They cannot get enough of stories about anything at all, and they pay in valuables for every one. They want to buy books too, any books the party will sell: ',
+              refs.npcs.auntie_sloo,
+              ' does the buying.',
             ],
             ['Let the meal run, then play the stage: that is the point of the scene.'],
           ],
@@ -299,7 +301,11 @@ export default createScene({
           ],
         },
         {
-          note: [['They tell this with great pride. The last line is a Pokémon nod, for fun.']],
+          note: [
+            [
+              'They say it cheerfully, the way you would talk about the weather: it is just how life is. The last line is a Pokémon nod, for fun.',
+            ],
+          ],
         },
         {
           speaker: refs.npcs.old_murl,
@@ -419,7 +425,8 @@ export default createScene({
         {
           do: [
             [
-              'Each party member gets a sack of pearls, as thanks for their wonderful story. The better the story, the more pearls: up to 20 for a perfect one. Each is a ',
+              refs.npcs.auntie_sloo,
+              ' writes every story into her big book as it is told. Then each party member gets a sack of pearls from her, as thanks for their wonderful story. The better the story, the more pearls: up to 20 for a perfect one. Each is a ',
               libraryRefs.equipment.pearl,
               '.',
             ],

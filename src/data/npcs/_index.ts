@@ -2,6 +2,7 @@ import abraham from './abraham.ts'
 import aeliana from './aeliana.ts'
 import alberto from './alberto.ts'
 import anton_tempest from './anton-tempest.ts'
+import auntie_sloo from './auntie-sloo.ts'
 import barbara from './barbara.ts'
 import bart from './bart.ts'
 import bernard from './bernard.ts'
@@ -188,5 +189,6 @@ export default {
   pell,
   skipper_gubb,
   old_murl,
+  auntie_sloo,
   scrap_thief,
 }

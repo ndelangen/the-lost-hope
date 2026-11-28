@@ -352,6 +352,7 @@ export const refs = {
     pell: ref('npc', 'pell'),
     skipper_gubb: ref('npc', 'skipper_gubb'),
     old_murl: ref('npc', 'old_murl'),
+    auntie_sloo: ref('npc', 'auntie_sloo'),
     scrap_thief: ref('npc', 'scrap_thief'),
   },
   pcs: {
