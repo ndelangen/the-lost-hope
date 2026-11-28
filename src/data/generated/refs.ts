@@ -31,7 +31,8 @@ export const refs = {
     wolfie: ref('beast', 'wolfie'),
     rust_monster: ref('beast', 'rust_monster'),
     otyugh: ref('beast', 'otyugh'),
-    giant_rat: ref('beast', 'giant_rat'),
+    ghoul: ref('beast', 'ghoul'),
+    ghast: ref('beast', 'ghast'),
   },
   events: {
     n2_e222: ref('event', 'n2_e222'),
@@ -776,7 +777,7 @@ export const refs = {
     salvage_escort: ref('scene', 'salvage_escort'),
     the_clogged_mill: ref('scene', 'the_clogged_mill'),
     thieves_on_the_building_site: ref('scene', 'thieves_on_the_building_site'),
-    rats_in_the_hold: ref('scene', 'rats_in_the_hold'),
+    the_crew_that_never_left: ref('scene', 'the_crew_that_never_left'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),

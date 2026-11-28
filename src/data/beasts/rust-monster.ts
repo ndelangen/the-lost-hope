@@ -72,7 +72,9 @@ export default createBeast({
           },
           onSuccess: 'none',
         },
-        text: ['An unattended metal object it touches simply loses a chunk a foot across, no save.'],
+        text: [
+          'An unattended metal object it touches simply loses a chunk a foot across, no save.',
+        ],
       },
     ],
     source: {

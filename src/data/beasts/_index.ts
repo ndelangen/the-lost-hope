@@ -3,7 +3,8 @@ import chimera from './chimera.ts'
 import displacer_beast from './displacer-beast.ts'
 import dragon_children from './dragon-children.ts'
 import ent_guardians from './ent-guardians.ts'
-import giant_rat from './giant-rat.ts'
+import ghast from './ghast.ts'
+import ghoul from './ghoul.ts'
 import giant_spider from './giant-spider.ts'
 import mimic_chest from './mimic-chest.ts'
 import otyugh from './otyugh.ts'
@@ -43,5 +44,6 @@ export default {
   wolfie,
   rust_monster,
   otyugh,
-  giant_rat,
+  ghoul,
+  ghast,
 }

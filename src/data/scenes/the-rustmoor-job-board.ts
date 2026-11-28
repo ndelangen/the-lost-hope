@@ -27,7 +27,9 @@ export default createScene({
             [
               'THIEVES. Building materials going missing from this site at night. Catch them. 40 gp.',
             ],
-            ['RATS. Clear a crashed ship’s hold before my crew goes in. 30 gp and first pick.'],
+            [
+              'HOLD CLEARANCE. Two of my men went into a crashed ship’s hold and did not come out. Clear it. 120 gp and first pick.',
+            ],
           ],
         },
         {
@@ -57,8 +59,8 @@ export default createScene({
         },
         {
           icon: 'gi/GiPathDistance',
-          when: [['They take the rats job.']],
-          response: [['Run ', refs.scenes.rats_in_the_hold, '.']],
+          when: [['They take the hold clearance job.']],
+          response: [['Run ', refs.scenes.the_crew_that_never_left, '.']],
         },
       ],
     },
