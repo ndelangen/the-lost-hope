@@ -36,7 +36,7 @@ export default createScene({
     [
       'What the party does not know: when ',
       refs.pcs.jim,
-      ' came home to the flying fortress, solid again because the beam pulled him back into his body, ',
+      ' came home to the flying fortress as a ghost, they turned him back into physical form, and then ',
       refs.npcs.the_father,
       ' cut out his tongue to rid him of the mark of ',
       refs.npcs.light_13th_marshal,

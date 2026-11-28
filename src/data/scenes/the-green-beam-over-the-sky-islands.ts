@@ -103,16 +103,16 @@ export default createScene({
             [
               'Hidden truth: ',
               refs.npcs.the_father,
-              ' fires the beam from the flying fortress. It captures ',
+              ' fires both beams from the flying fortress. The first was meant to take ',
               refs.pcs.jim,
-              ' and teleports him aboard. Dragging a ghost who carries a guild tattoo through the beam pulls him back into his body: aboard the fortress he is solid again, and his ',
+              ', but it cannot catch a ghost, so it scatters across the harbour instead. The second captures him and teleports him aboard, still a ghost. On the fortress they turn him back into physical form, which ends his ',
               refs.effects.voidwalker,
-              ' is over. The players only see him vanish and his gear fall.',
+              '. The players only see him vanish and his gear fall.',
             ],
             [
               'The destruction is not deliberate. Because ',
               refs.pcs.jim,
-              ' is ethereal and carries the guild tattoo, the weapon needed far more power to take him, and the overflow bounced into the docks.',
+              ' is ethereal and carries the guild tattoo, the second beam needed far more power to take him, and the overflow bounced into the docks.',
             ],
             [
               'Casualties (rolled in prep): the memory pulse kills no one. The bounce kills 27 civilians and injures 76 more. It strikes the ferry mid-crossing, the same ferry whose ferryman refused to take ',

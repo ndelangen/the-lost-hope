@@ -20,11 +20,11 @@ export default createEffect({
   removal: [['A Wish or divine intervention can end it early.']],
   background: [
     [
-      'It ended early, unseen by the party, when the green beam took ',
+      'It ended early, unseen by the party, after the second green beam took ',
       refs.pcs.jim,
       ' aboard the flying fortress (',
       refs.events.n2_e210,
-      '): dragging a ghost who carries a guild tattoo through the beam pulled him back into his body. Aboard he is solid, which is how ',
+      '). The beam carried him there still a ghost; on the fortress he was turned back into physical form, which is how ',
       refs.npcs.the_father,
       ' could cut out his tongue.',
     ],
