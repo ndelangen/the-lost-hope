@@ -170,14 +170,7 @@ export default createScene({
           speaker: refs.npcs.skipper_gubb,
           say: [
             [
-              'Welcome aboard! Finest ship in the fleet. And when the time comes, I’m next in line for the machine!',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'He says it with a big grin and real pride. Never explain it: the crews will not demonstrate the machine.',
+              'Welcome aboard! Finest ship in the fleet, finest crew under the sea. Wait till you see the harpoons!',
             ],
           ],
         },

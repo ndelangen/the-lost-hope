@@ -12,15 +12,6 @@ export default createNPC({
       ' that comes alongside the party. Loud, proud, and dying to show off the harpoons.',
     ],
   ],
-  motivations: [
-    [
-      'To show off his ship and his crew. He is honoured to be next in line for the machine, and says so with a big grin.',
-    ],
-  ],
-  background: [
-    [
-      'The machine is the subship’s mind cannon, which kills the skipper who fires it. His grin is dark comedy and a gentle clue to what it does; he never demonstrates it.',
-    ],
-  ],
+  motivations: [['To show off his ship and his crew to anyone who will look.']],
   stats: refs.creatures.tough,
 })
