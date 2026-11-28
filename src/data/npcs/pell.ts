@@ -9,12 +9,12 @@ export default createNPC({
     [
       'The best harpoon shot in the fleet of ',
       refs.locations.the_caves_of_steel,
-      ', and he knows it. Cocky and competitive.',
+      ', and excited to show it off.',
     ],
   ],
   motivations: [
     [
-      'To win. He challenges every visitor to the harpoons and keeps score out loud. Beat him and he is your friend for life.',
+      'To share it. He is happy to teach anyone the harpoons, cheers every visitor who has a go, and is delighted when someone hits.',
     ],
   ],
   stats: refs.creatures.tough,

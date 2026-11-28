@@ -229,7 +229,11 @@ export default createScene({
         },
         {
           speaker: refs.npcs.pell,
-          say: [['Think you can beat me? Nobody beats Pell. I’ll keep count!']],
+          say: [
+            [
+              'Watch this! Now you try: feet wide, eye on the fish, and let it fly. I’ll show you as many times as you like!',
+            ],
+          ],
         },
         {
           note: [
