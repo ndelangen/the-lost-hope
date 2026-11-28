@@ -26,6 +26,33 @@ export default createNPC({
     ],
     ['Whether he has an agenda of his own is not decided yet.'],
   ],
+  background: [
+    ['How to play him (DM steering):'],
+    [
+      'Relaxed, warm and a little lost. He greets the party as if picking up a conversation from another time, mixes them up with other versions of themselves, and now and then asks what day, or what year, it is. Never menacing: the danger at his table comes from the deck, not from him.',
+    ],
+    [
+      'He deals straight. The cards are never rigged and a draw always stands. Undoing one has a price, and it is steep, like the 10,000 GP to release ',
+      refs.pcs.cassian_veyl,
+      '.',
+    ],
+    [
+      'He never says how he knows things. Answer a question about it with a question of his own, or with a slip into the wrong tense.',
+    ],
+    [
+      'At most one hint per meeting, and keep it ambiguous. What he says may come from a timeline that never happens here, so nothing he says is a promise. Until his agenda is decided, play his hints as a fan calling out to the stage, not as a plan.',
+    ],
+    [
+      'Use him sparingly, and never in the same place twice in a row. Chance brings him, not the plot. ',
+      refs.locations.borris_s_gambling_den,
+      ' is where the party is most likely to look for him, not where he always is.',
+    ],
+    [
+      'He is hard to threaten: he survived the avatar of death at his own table (',
+      refs.events.n2_e195,
+      '). If the party turns on him, he does not fight back for long; he is simply gone, the way he came.',
+    ],
+  ],
   stats: {
     size: 'medium',
     type: 'fey',
