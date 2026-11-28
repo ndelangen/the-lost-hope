@@ -34,6 +34,9 @@ export default createLocation({
   background: [
     ['About 500,000 people live here.'],
     [
+      'Play them upbeat but oppressed. They have very, very little, and they genuinely live their lives as happily as they can. They are welcoming, and should come across as innocent bystanders.',
+    ],
+    [
       'They are humans changed by generations under ',
       refs.npcs.the_11th_marshal,
       ', on their way to becoming skum, the fish-like servants aboleths make of humanoids. The look is a deliberate hint at the aboleth, as is the three-eyes symbol: an aboleth has three eyes stacked one above the other. Keep such hints subtle, never too clear.',

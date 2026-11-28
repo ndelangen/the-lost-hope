@@ -25,6 +25,9 @@ export default createScene({
       '.',
     ],
     [
+      'The tone is upbeat but oppressed. The people have very, very little, but they live as happily as they can, welcome the party warmly, and should come across as innocent bystanders.',
+    ],
+    [
       'Its real job is to get the players telling their characters’ stories, backgrounds included: the people pay for every story they hear.',
     ],
     [
