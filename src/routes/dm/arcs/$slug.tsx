@@ -71,6 +71,12 @@ function ArcRoute() {
                     </div>
                   </div>
                   {plot.hook ? <ContentRenderer content={plot.hook} /> : null}
+                  {plot.notes ? (
+                    <div className="border-border text-muted-foreground grid gap-1 border-l-2 pl-3 text-sm">
+                      <p className="text-xs font-semibold uppercase">Notes</p>
+                      <ContentRenderer content={plot.notes} />
+                    </div>
+                  ) : null}
                   {scene ? (
                     <p className="text-sm">
                       Scene:{' '}
