@@ -89,29 +89,25 @@ export default createScene({
             [
               refs.beasts.wolfie,
               ' and ',
-              refs.beasts.sir_fabulous,
+              refs.npcs.crowy,
               ' are aboard ',
               refs.items.little_purple,
-              ', where the party left them.',
+              ': they slept through the end of the battle somewhere in ',
+              refs.locations.nimbus,
+              ', and the crew of ',
+              refs.npcs.onana_tempest,
+              ' found them and brought them aboard. ',
+              refs.beasts.sir_fabulous,
+              ' is aboard too, where the party left him.',
             ],
           ],
         },
         {
           note: [
             [
-              refs.npcs.crowy,
-              ' is not aboard. He returns once they are under way, without a letter on this road: run ',
-              refs.scenes.crowy_brings_up_onana_s_letter,
-              '.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'His crew got as far as two more cannons, four in all, and one boarding torpedo tube like the one the party rode in ',
+              'His crew got as far as two more cannons, four in all, and one man-cannon: a boarding torpedo tube like the one the party rode in ',
               refs.scenes.boarding_ride_the_lightning,
-              '. The tube came at the cost of cabin space and storage. She has no extra armour.',
+              '. The man-cannon came at the cost of cabin space and storage. She has no extra armour.',
             ],
           ],
         },
@@ -159,9 +155,7 @@ export default createScene({
             [
               'Why he cares is in his motivations: he is an ally of ',
               refs.npcs.light_13th_marshal,
-              ' and thinks the party may be ready for his test. He does not say so. The letter in ',
-              refs.scenes.crowy_brings_up_onana_s_letter,
-              ' lets them work it out.',
+              ' and thinks the party may be ready for his test. He does not say so. The letter he gives them, below, lets them work it out.',
             ],
           ],
         },
@@ -205,10 +199,9 @@ export default createScene({
               '“New. Last I heard they were still building it.” He does not know more, and does not pretend to.',
             ],
             [
+              'If they ask ',
               refs.npcs.crowy,
-              ' can tell them more once he is back: see ',
-              refs.scenes.crowy_brings_up_onana_s_letter,
-              '.',
+              ', he knows a little more: “Still under construction. It will be operational soon, though. Good choice.” That is all he knows.',
             ],
           ],
         },
@@ -230,9 +223,9 @@ export default createScene({
           response: [
             ['“There was one, once. That is a long story, and not one for today.”'],
             [
-              'Leave it there. Why it closed is not settled. His letter in ',
-              refs.scenes.crowy_brings_up_onana_s_letter,
-              ' hints that he wants one back.',
+              'Leave it there. Why it closed is not settled. His letter for ',
+              refs.npcs.light_13th_marshal,
+              ', below, hints that he wants one back.',
             ],
           ],
         },
@@ -269,9 +262,7 @@ export default createScene({
             [
               'The friend is ',
               refs.npcs.light_13th_marshal,
-              '. He does not name him. The letter in ',
-              refs.scenes.crowy_brings_up_onana_s_letter,
-              ' gives it away soon after.',
+              '. He does not name him. The letter he hands them, below, gives it away if they read it.',
             ],
           ],
         },
@@ -315,12 +306,12 @@ export default createScene({
             [
               'This is the one letter of ',
               refs.npcs.onana_tempest,
-              '. On this road it comes by his hand, and ',
-              refs.npcs.crowy,
-              ' does not bring it up later. If they had run with the cruiser, ',
-              refs.npcs.crowy,
-              ' would have delivered it instead, worded a little differently: see ',
-              refs.scenes.crowy_brings_up_onana_s_letter,
+              '. On this road it comes by his hand. If they had run with the cruiser, he would have sent it, worded a little differently, to ',
+              refs.locations.fajanet,
+              ' with ',
+              refs.items.little_purple,
+              ': see ',
+              refs.scenes.garran_comes_for_the_cruiser,
               '.',
             ],
             [
@@ -400,8 +391,6 @@ export default createScene({
       response: [
         [
           'Run ',
-          refs.scenes.crowy_brings_up_onana_s_letter,
-          ' once they are under way, then ',
           refs.scenes.a_fleet_on_an_empty_sea,
           ' on the flight. ',
           refs.npcs.hex,

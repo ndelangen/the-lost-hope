@@ -4,7 +4,6 @@ import boarding_ride_the_lightning from './boarding-ride-the-lightning.ts'
 import bob_returns_cassian_s_ring from './bob-returns-cassian-s-ring.ts'
 import borris_shutters_the_casino from './borris-shutters-the-casino.ts'
 import chaos_on_the_sky_islands from './chaos-on-the-sky-islands.ts'
-import crowy_brings_up_onana_s_letter from './crowy-brings-up-onana-s-letter.ts'
 import fix_s_last_delivery from './fix-s-last-delivery.ts'
 import four_stomps_under_the_moon from './four-stomps-under-the-moon.ts'
 import garran_comes_for_the_cruiser from './garran-comes-for-the-cruiser.ts'
@@ -54,7 +53,6 @@ export default {
   the_bard_s_new_song,
   hex_loses_patience,
   questions_for_light,
-  crowy_brings_up_onana_s_letter,
   a_fleet_on_an_empty_sea,
   bob_returns_cassian_s_ring,
   the_rustmoor_job_board,

@@ -60,6 +60,121 @@ export default createScene({
       ],
     },
     {
+      title: 'Your ship came ahead of you',
+      onlyIf: [['The party ran off with ', refs.items.ride_the_lightning, '.']],
+      lines: [
+        {
+          note: [
+            [
+              'Until now they have no idea where ',
+              refs.items.little_purple,
+              ' went. ',
+              refs.npcs.onana_tempest,
+              ' sent her here to ',
+              refs.locations.fajanet,
+              ' with ',
+              refs.beasts.wolfie,
+              ', ',
+              refs.npcs.crowy,
+              ' and a letter (',
+              refs.scenes.garran_comes_for_the_cruiser,
+              '). She is moored in ',
+              refs.locations.fajanet,
+              ', with ',
+              refs.beasts.wolfie,
+              ' and ',
+              refs.npcs.crowy,
+              ' aboard, and the letter lies on the desk of ',
+              refs.npcs.light_13th_marshal,
+              '.',
+            ],
+          ],
+        },
+        {
+          do: [
+            [
+              'Without looking up, ',
+              refs.npcs.light_13th_marshal,
+              ' slides a folded sheet across the desk to them.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            [
+              'Your ship arrived before you did. Your wolf and your bird are aboard. This came with them.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'His words are a draft. He reads nothing into the letter. Let the players pick it up and react first.',
+            ],
+          ],
+        },
+        {
+          say: [
+            ['To the 13th Marshal Light, from Onana Tempest.'],
+            ['Dear ally,'],
+            [
+              'I regret to inform you our nation has suffered a defeat against ',
+              refs.organizations.the_eyeless_hand,
+              '. And that during this attack one of your guild’s members has been lost.',
+            ],
+            [
+              'I have observed the party as requested, and they have shown courage, strength and a strong mind. Attached you will see their answers to the question you wished me to ask. It is my humble opinion they might be ready to endure your test.',
+            ],
+            ['Whilst we rebuild, perhaps we could renegotiate having a guildhall here, again.'],
+            [
+              'Would you be so kind to tell them I expect my ship returned to me, and that once so, they are welcome again.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Read it evenly, without comment. The party expects fury, and the letter does not read that way. Why is in the motivations of ',
+              refs.npcs.onana_tempest,
+              ' and the background of the ',
+              refs.organizations.tempest_family,
+              '.',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          icon: 'gi/GiShipWheel',
+          when: [['They decide to bring ', refs.items.ride_the_lightning, ' back.']],
+          response: [[refs.npcs.onana_tempest, ' keeps his word: they are welcome again.']],
+        },
+        {
+          icon: 'gi/GiFlyingFlag',
+          when: [['They decide to keep her.']],
+          response: [
+            [
+              'Nobody punishes them and nobody argues. The welcome stays closed, and the fleet of the ',
+              refs.organizations.tempest_family,
+              ' still remembers.',
+            ],
+          ],
+        },
+        {
+          icon: 'gi/GiConversation',
+          when: [['They ask him about the letter, what he thinks, or what he wants them to do.']],
+          response: [
+            [
+              'He answers only what is asked. On ',
+              refs.npcs.onana_tempest,
+              ': “He is a friend. I have few.” On what they should do about the ship: “He wrote that to you, not to me.”',
+            ],
+          ],
+        },
+      ],
+    },
+    {
       title: 'Still connected',
       lines: [
         {

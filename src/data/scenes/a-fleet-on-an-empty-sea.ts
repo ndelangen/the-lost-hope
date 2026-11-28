@@ -30,9 +30,9 @@ export default createScene({
     [
       'This is what happens next once the party leaves the sky islands, however they leave. Usually that is aboard ',
       refs.items.little_purple,
-      ' right after ',
-      refs.scenes.crowy_brings_up_onana_s_letter,
-      ': dusk, bearings lost, and the ship drifts out over open sea. If they leave some other way, they still end up flying over this ocean.',
+      ', or aboard ',
+      refs.items.ride_the_lightning,
+      ' if they ran off with her: dusk, bearings lost, and the ship drifts out over open sea. If they leave some other way, they still end up flying over this ocean.',
     ],
     [
       'Play it as a short visit, about one session: the welcome, the feast, the stories and the catch. The party leaves with the puzzle of the laws unsolved and a reason to come back.',

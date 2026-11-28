@@ -21,7 +21,6 @@ export default createTable({
     refs.scenes.taking_back_a_battle_cruiser,
     refs.scenes.garran_comes_for_the_cruiser,
     refs.scenes.onana_sends_the_party_on,
-    refs.scenes.crowy_brings_up_onana_s_letter,
   ],
   ready: [
     refs.scenes.a_fleet_on_an_empty_sea,
