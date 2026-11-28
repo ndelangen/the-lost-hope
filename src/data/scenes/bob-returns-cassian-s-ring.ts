@@ -298,7 +298,7 @@ export default createScene({
               refs.locations.the_old_battlefield,
               '. If they take the quest, run ',
               refs.scenes.four_stomps_under_the_moon,
-              '. The legendary reward is not decided yet.',
+              '. The “legendary” reward is a plain map of the world, nothing magical. The party has no map yet, and now that they have a ship it is exactly what they need. It is a fair payment for a job, so it is neutral and costs nobody anything.',
             ],
           ],
         },

@@ -359,6 +359,9 @@ export default createScene({
               refs.npcs.bob_the_merchant,
               ' knows it before they tell him.',
             ],
+            [
+              'Their reward is the one he promised as “something legendary”: a plain map of the world, nothing magical. He hands it over as if it were priceless.',
+            ],
           ],
         },
         {
