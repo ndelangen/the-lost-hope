@@ -36,7 +36,7 @@ export default createScene({
     [
       'What the party does not know: when ',
       refs.pcs.jim,
-      ' came home to the flying fortress, ',
+      ' came home to the flying fortress, solid again because the beam pulled him back into his body, ',
       refs.npcs.the_father,
       ' cut out his tongue to rid him of the mark of ',
       refs.npcs.light_13th_marshal,

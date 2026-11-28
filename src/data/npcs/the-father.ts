@@ -20,7 +20,11 @@ export default createNPC({
     [
       'He fires the green beam from the flying fortress to capture ',
       refs.pcs.jim,
-      ' and holds him there. The damage it does is an accident of the power needed to take a ghost who carries a guild tattoo.',
+      ' and holds him there. The damage it does is an accident of the power needed to take a ghost who carries a guild tattoo. Taking him that way pulls him back into his body, so aboard the fortress ',
+      refs.pcs.jim,
+      ' is solid again, and there the Father cuts out his tongue to rid him of the mark of ',
+      refs.npcs.light_13th_marshal,
+      '.',
     ],
     [
       'He cares little about the world. What he cannot afford is for ',

@@ -76,7 +76,7 @@ export default createScene({
         {
           do: [
             [
-              'The beam cuts him off. His body just disappears, and all his gear drops to the ground, along with his tongue, still bearing his guild tattoo.',
+              'The beam cuts him off. His body just disappears, and all his gear drops to the ground.',
             ],
             [
               'The beam also hits ',
@@ -105,7 +105,9 @@ export default createScene({
               refs.npcs.the_father,
               ' fires the beam from the flying fortress. It captures ',
               refs.pcs.jim,
-              ' and teleports him aboard, without his tongue. The players only see him vanish and his gear fall.',
+              ' and teleports him aboard. Dragging a ghost who carries a guild tattoo through the beam pulls him back into his body: aboard the fortress he is solid again, and his ',
+              refs.effects.voidwalker,
+              ' is over. The players only see him vanish and his gear fall.',
             ],
             [
               'The destruction is not deliberate. Because ',
@@ -161,21 +163,6 @@ export default createScene({
             ],
           ],
         },
-        {
-          icon: 'gi/GiChainedHeart',
-          when: [
-            [
-              '',
-              refs.pcs.swift_starblade,
-              ' made the saving throw in ',
-              refs.scenes.the_green_pulse_over_the_sky_islands,
-              ' and still cares about ',
-              refs.pcs.jim,
-              '.',
-            ],
-          ],
-          response: [['He takes the tongue, and with it a clue to what the guild mark really is.']],
-        },
       ],
     },
     {
@@ -215,7 +202,6 @@ export default createScene({
               refs.pcs.jim,
               ', and page 4 of the book, which the one plain line of the letter points at.',
             ],
-            ['Have him find the tongue as well, still bearing the guild tattoo.'],
             [
               'Tell his player that ',
               refs.pcs.swift_starblade,
@@ -298,7 +284,7 @@ export default createScene({
               refs.locations.skynet,
               '. If you do it, give his other moments on the docks more room: what he does about ',
               refs.npcs.crowy,
-              ', the tongue, and what he does with the gear.',
+              ' and what he does with the gear.',
             ],
           ],
         },
