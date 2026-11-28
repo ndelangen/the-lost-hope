@@ -20,6 +20,12 @@ export default createNPC({
       '.',
     ],
   ],
+  motivations: [
+    [
+      'A free agent: neutral chaos embodied. He turns up at random in time and space, and is not always sure himself where or when he is. He belongs to no side.',
+    ],
+    ['Whether he has an agenda of his own is not decided yet.'],
+  ],
   stats: {
     size: 'medium',
     type: 'fey',

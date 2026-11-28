@@ -239,6 +239,11 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ The inn’s response, any repair costs or other consequences, and the exact extent of the room damage may become relevant later.
   - _Session:_ 12 ([n2-e106](/events/detail/jim-s-lightning-curse-reveals-his-human-identity))
 
+- **Does the Fiddler have an agenda?**
+  - _Context:_ The DM settled on 2026-11-28 that [The Fiddler](/npcs/detail/the-fiddler) is a free agent, neutral chaos embodied, who turns up at random in time and space without always knowing where or when he is. His hints to Jim (calling him Jimmy boy, looking forward to his new suit, saying becoming the Father would suit him) are on record, but whether they serve a purpose of his own is not decided.
+  - _Why asking:_ Decides whether his next game in the Nimbus casino pushes the party anywhere, or is pure chance.
+  - _Session:_ 17 ([n2-e198](/events/detail/the-fiddler-leaves-more-hints-about-jim-s-future))
+
 - **What part of Devan went missing or fell asleep during the Fiddler’s game?**
   - _Context:_ [Devan](/pcs/detail/devan) felt that a part of himself was absent and dormant, but the card’s exact target and consequences were not revealed.
   - _DM answer (not yet known to the party):_ he lost his bond with his best mate [Durgan Ashfang](/npcs/detail/durgan-ashfang), who is lost forever. Recorded on Durgan.
