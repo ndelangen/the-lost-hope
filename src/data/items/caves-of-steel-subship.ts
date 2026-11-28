@@ -37,6 +37,9 @@ export default createItem({
       'The crews find the very idea of demonstrating the machine preposterous. They are glad to show anyone how the harpoons work.',
     ],
     [
+      'Every subship is identical, and there is no competition between them. The crews are proud of each other and of the bonds between them, not of their ship.',
+    ],
+    [
       'Nobody is proud of the machine. The people are happy to be alive, and would rip the machines out the second they could.',
     ],
   ],

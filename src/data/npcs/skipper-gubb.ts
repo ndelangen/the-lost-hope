@@ -12,6 +12,10 @@ export default createNPC({
       ' that comes alongside the party. Loud, proud, and dying to show off the harpoons.',
     ],
   ],
-  motivations: [['To show off his ship and his crew to anyone who will look.']],
+  motivations: [
+    [
+      'To show his crew to anyone who will look. He is proud of them and of the bonds between them, not of the ship: every subship is the same.',
+    ],
+  ],
   stats: refs.creatures.tough,
 })

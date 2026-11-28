@@ -173,7 +173,7 @@ export default createScene({
           speaker: refs.npcs.skipper_gubb,
           say: [
             [
-              'Welcome aboard! Finest ship in the fleet, finest crew under the sea. Wait till you see the harpoons!',
+              'Welcome aboard! Meet my crew: every one of them family. Come on, we’ll show you the harpoons!',
             ],
           ],
         },
