@@ -110396,7 +110396,6 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/chained-heart.html",
       "usedIn": [
-        "src/data/scenes/the-green-beam-over-the-sky-islands.ts",
         "src/lib/outcome-icons.tsx"
       ]
     },
@@ -117315,7 +117314,6 @@
         "src/data/scenes/bob-returns-cassian-s-ring.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
-        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/four-stomps-under-the-moon.ts",
         "src/data/scenes/hex-loses-patience.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
@@ -144415,7 +144413,6 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/flying-flag.html",
       "usedIn": [
-        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/running-from-the-battle-cruiser.ts",
         "src/lib/outcome-icons.tsx"
@@ -192298,7 +192295,6 @@
         "src/data/events/n2-e218.ts",
         "src/data/scenes/bob-returns-cassian-s-ring.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
-        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/hex-loses-patience.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
@@ -215411,7 +215407,7 @@
         "src/data/events/n2-e179.ts",
         "src/data/events/n2-e213.ts",
         "src/data/locations/skynet-airship-shipyard.ts",
-        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
@@ -231718,7 +231714,6 @@
       "duplicateOf": "lucide/Sunset",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/sunset.html",
       "usedIn": [
-        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
         "src/lib/outcome-icons.tsx"
       ]
