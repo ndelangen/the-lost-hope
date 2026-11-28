@@ -3,6 +3,7 @@ import { ArrowLeft, Clock3 } from 'lucide-react'
 import type { ComponentType, ReactNode } from 'react'
 
 import { EntityReference } from '#/components/entity-reference'
+import { Avatar } from '#/components/ui/avatar'
 import { Card, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
 import { Grid, Inline, Stack, SwitchLayout } from '#/components/ui/layout'
 import { COLLECTION_LABELS, collectionTo, type EntityKind } from '#/lib/campaign'
@@ -68,9 +69,18 @@ export function EntityCollection({
                   />
                   <CardHeader className="relative z-10 pb-6">
                     <Inline gap="md" align="start">
-                      <Icon
-                        className={cn('size-5 shrink-0 translate-y-0.5', visual.accentClassName)}
-                      />
+                      {item.avatar ? (
+                        <Avatar
+                          src={item.avatar}
+                          sizes="20px"
+                          maxWidth={64}
+                          className="size-5 translate-y-0.5"
+                        />
+                      ) : (
+                        <Icon
+                          className={cn('size-5 shrink-0 translate-y-0.5', visual.accentClassName)}
+                        />
+                      )}
                       <Stack gap="xs" className="min-w-0">
                         <CardTitle className="text-base">{item.name}</CardTitle>
                         {item.meta ? (

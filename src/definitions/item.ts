@@ -5,6 +5,7 @@ import { makeCreate } from './create'
 import { Foretold } from './foretold'
 import { EntityRefSchema, entityRefOf } from './kind'
 import { EQUIPMENT_CATEGORIES, ITEM_CATEGORIES as MAGIC_ITEM_CATEGORIES } from './library'
+import { MediaUrl } from './media'
 import { Price, PriceRange } from './price'
 import { deriveSlug } from './slug'
 
@@ -55,6 +56,7 @@ const Item = deriveSlug(
   z
     .strictObject({
       name: z.string().describe('The canonical name of the item'),
+      avatar: MediaUrl.optional().describe('The square artwork for this item'),
       icon: z
         .string()
         .describe(

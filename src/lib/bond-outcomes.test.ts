@@ -13,7 +13,8 @@ const bonds = pulse.bondOutcomes!
 const connections = () =>
   bondConnections(bonds, (ref) => {
     const entity = resolveRef(ref)
-    if (!entity || !('avatar' in entity.data)) throw new Error('Expected a character')
+    if (entity?.kind !== 'pc' && entity?.kind !== 'npc' && entity?.kind !== 'beast')
+      throw new Error('Expected a character')
     return { ref, name: entity.data.name, slug: entity.slug, avatar: entity.data.avatar }
   })
 

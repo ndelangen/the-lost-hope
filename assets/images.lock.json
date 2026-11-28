@@ -13,6 +13,7 @@
   "assets/images/content/beasts/sir-fabulous-divine-steed-portrait.png": {"sha256":"e63647b48c9ddbf7d4f9461293279e2e020da8221bdadbd63a89317888c87108","bytes":2755138},
   "assets/images/content/beasts/sir-fabulous-portrait.png": {"sha256":"ad16314d051a0cc15a766fee298e958aa44bbed0294c8f579dddb9a8d82dd792","bytes":3246554},
   "assets/images/content/beasts/wolfie-upright.png": {"sha256":"f6dc96eb090172ea55ddf16e8b1c2ca9bdaecbe43b380d8d9c00b230656e55e7","bytes":2566837},
+  "assets/images/content/items/shadow-sword.png": {"sha256":"3aad9430db4be9f95ebce98e01198bd188156779b57971a960bdf4bae8ab2790","bytes":2446763},
   "assets/images/content/library-release/beasts/ape.png": {"sha256":"683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2","bytes":2294430},
   "assets/images/content/library-release/beasts/axe-beak.png": {"sha256":"ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c","bytes":2289893},
   "assets/images/content/library-release/beasts/baboon.png": {"sha256":"5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd","bytes":2498563},

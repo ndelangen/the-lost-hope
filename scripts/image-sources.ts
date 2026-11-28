@@ -34,6 +34,12 @@ export const ORIGINAL_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
       : {}),
   })),
   {
+    id: 'items-shadow-sword',
+    role: 'avatar',
+    logicalSource: '/assets/items/shadow-sword.png',
+    repositoryPath: 'assets/images/content/items/shadow-sword.png',
+  },
+  {
     id: 'npcs-durgan-ashfang-portrait',
     role: 'avatar',
     logicalSource: '/assets/npcs/durgan-ashfang-portrait.png',

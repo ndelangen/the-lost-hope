@@ -39,6 +39,7 @@ try {
       { path: '/beasts/detail/captain-squawk', name: 'Captain Squawk', label: 'portrait' },
       { path: '/pcs/detail/swift-starblade', name: 'Swift Starblade', label: 'portrait' },
       { path: '/pcs/detail/theron', name: 'Theron', label: 'portrait' },
+      { path: '/items/detail/shadow-sword', name: 'Shadow Sword', label: 'image' },
       {
         path: '/locations/detail/serpent-eclipse-flooded-cavern',
         name: 'Serpent Eclipse Flooded Cavern',

@@ -7,6 +7,7 @@ import { EntityCorrectionSubmission } from '#/components/entity-correction-submi
 import { EntityDetail } from '#/components/entity-page'
 import { EntityReference } from '#/components/entity-reference'
 import { ForetoldList } from '#/components/foretold-list'
+import { ImageViewer } from '#/components/image-viewer'
 import { Grid, Stack } from '#/components/ui/layout'
 import { VESSEL_CLASS_LABELS } from '#/definitions/item'
 import { getEntity, refLink } from '#/lib/campaign'
@@ -40,10 +41,25 @@ function ItemPage() {
     <EntityDetail
       kind="item"
       title={item.name}
-      visual={{
-        variant: 'icon',
-        content: <ItemIcon icon={item.icon} className="size-10" />,
-      }}
+      visual={
+        item.avatar
+          ? {
+              variant: 'avatar',
+              content: (
+                <ImageViewer
+                  src={item.avatar}
+                  alt={item.name}
+                  title={item.name}
+                  eyebrow="Item artwork"
+                  accessibleLabel={`image of ${item.name}`}
+                />
+              ),
+            }
+          : {
+              variant: 'icon',
+              content: <ItemIcon icon={item.icon} className="size-10" />,
+            }
+      }
       dm={<DmFields kind="item" slug={entity.slug} />}
       correction={<EntityCorrectionSubmission entity={entity} />}
       context={
